@@ -1,9 +1,9 @@
 import "server-only";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getChapterSummary, getSubject } from "./catalog";
 import { loadChapter } from "./content";
 import { chapterSteps, isChapterOpen } from "./progress";
-import { completionSet, getViewer, hasSubjectAccess } from "./session";
+import { canSeeSubject, completionSet, getViewer, hasSubjectAccess } from "./session";
 
 export type ChapterParams = Promise<{ subjectId: string; grade: string; chapter: string }>;
 
@@ -14,6 +14,7 @@ export async function resolveChapter(params: ChapterParams, withContent = false)
   const summary = getChapterSummary(subjectId, Number(grade), Number(chapter));
   if (!subject || !summary) notFound();
   const viewer = await getViewer();
+  if (!canSeeSubject(viewer, subject)) redirect("/subjects");
   const access = hasSubjectAccess(viewer, subject.id);
   const open = isChapterOpen(summary, access);
   const done = completionSet(viewer);

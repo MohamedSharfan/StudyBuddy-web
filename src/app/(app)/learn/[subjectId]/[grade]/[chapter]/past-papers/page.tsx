@@ -13,12 +13,11 @@ export default async function PastPapersPage({ params }: { params: ChapterParams
   return (
     <div className="space-y-6">
       <div className="grid lg:grid-cols-[1fr_360px] gap-5 items-start">
-        <div className="glass p-5 sm:p-6 bg-gradient-to-br from-gold/15 to-transparent">
-          <p className="eyebrow !text-gold">Exam vault</p>
-          <h2 className="display text-2xl font-bold mt-1">Real O/L questions for this chapter</h2>
+        <div className="glass p-5 sm:p-6">
+          <h2 className="display text-xl font-bold">Past-paper questions for this chapter</h2>
           <p className="text-sm text-muted mt-2">
             From Islam I &amp; II papers 2016–2025 (Tamil medium). Answers are textbook-based suggestions — official marking schemes weren&apos;t
-            available, so check flagged items with your teacher. Score 80% in MCQ practice to light the fourth door.
+            available, so check flagged items with your teacher. Score 80% in the MCQ practice to complete this step.
           </p>
         </div>
         <ExamRadar years={c.years} compact />

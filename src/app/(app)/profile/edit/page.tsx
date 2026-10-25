@@ -23,6 +23,8 @@ export default async function EditProfile() {
           initial={{
             username: p.username,
             display_name: p.display_name,
+            education_level: p.education_level,
+            stream: p.stream,
             grade: p.grade,
             province: p.province,
             medium: p.medium,

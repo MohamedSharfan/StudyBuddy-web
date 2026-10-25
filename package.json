@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "content": "node scripts/build-content.mjs",
-    "dev": "npm run content && next dev",
+    "dev": "npm run content && next dev --turbopack",
     "build": "npm run content && next build",
     "start": "next start",
     "lint": "next lint",

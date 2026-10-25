@@ -44,7 +44,7 @@ export default async function AdminStudents({ searchParams }: { searchParams: Pr
     <div className="space-y-5">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="eyebrow !text-gold">Admin</p>
+          <p className="eyebrow">Admin</p>
           <h1 className="display text-4xl font-bold mt-1">Students</h1>
         </div>
         <p className="text-sm text-muted">{total} found</p>

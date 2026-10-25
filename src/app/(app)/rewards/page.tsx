@@ -10,14 +10,14 @@ export default async function Rewards() {
   const coins = viewer.profile!.coins;
   return (
     <div className="max-w-[900px] mx-auto space-y-6">
-      <div className="glass p-6 sm:p-8 flex flex-wrap items-center gap-6 bg-gradient-to-br from-gold/20 via-electric/20 to-transparent">
-        <Panda size={90} mood="wink" className="float" />
+      <div className="glass p-6 sm:p-8 flex flex-wrap items-center gap-6">
+        <Panda size={72} mood="wink" />
         <div className="flex-1">
-          <p className="eyebrow !text-gold">Reward shop</p>
-          <p className="display text-5xl font-bold flex items-center gap-3 mt-1">
+          <p className="eyebrow">Reward shop</p>
+          <p className="text-4xl font-bold flex items-center gap-3 mt-1">
             <span className="coin" /> {coins.toLocaleString()}
           </p>
-          <p className="text-muted text-sm mt-1">Spend wisely — looks are forever cool.</p>
+          <p className="text-muted text-sm mt-1">Spend coins on profile looks.</p>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ export default async function Rewards() {
           const can = coins >= r.cost;
           return (
             <div key={r.title} className="glass p-5 flex items-center gap-4">
-              <span className="grid place-items-center w-14 h-14 rounded-2xl bg-electric/30 border border-neon/40">
+              <span className="grid place-items-center w-12 h-12 rounded-xl bg-card-2">
                 <Icon name={r.icon} size={24} />
               </span>
               <div className="flex-1">

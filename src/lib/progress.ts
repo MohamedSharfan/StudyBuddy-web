@@ -1,8 +1,8 @@
 import { chapterHref, type ChapterSummary, type SubjectSummary } from "./catalog";
-import type { StarItem, StarState } from "@/components/Constellation";
+import type { StarItem, StarState } from "@/components/ChapterList";
 
 export const STEP_KINDS = ["lesson", "flashcards", "quiz", "pastpaper"] as const;
-export const STEP_LABELS = ["Read", "Recall", "Quiz", "Exam"] as const;
+export const STEP_LABELS = ["Notes", "Flashcards", "Quiz", "Past papers"] as const;
 
 export function chapterSteps(chapter: ChapterSummary, done: Set<string>) {
   return STEP_KINDS.map((k) => done.has(`${chapter.id}:${k}`) || (k === "pastpaper" && chapter.counts.mcq === 0 && done.has(`${chapter.id}:quiz`)));

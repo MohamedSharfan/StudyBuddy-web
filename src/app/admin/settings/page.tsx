@@ -20,7 +20,7 @@ export default async function AdminSettings() {
   return (
     <div className="space-y-6 max-w-[860px]">
       <div>
-        <p className="eyebrow !text-gold">Admin</p>
+        <p className="eyebrow">Admin</p>
         <h1 className="display text-4xl font-bold mt-1">Settings</h1>
       </div>
 

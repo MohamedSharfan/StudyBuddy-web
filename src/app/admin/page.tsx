@@ -38,7 +38,7 @@ export default async function AdminOverview() {
   return (
     <div className="space-y-6">
       <div>
-        <p className="eyebrow !text-gold">Admin</p>
+        <p className="eyebrow">Admin</p>
         <h1 className="display text-4xl font-bold mt-1">Overview</h1>
       </div>
 

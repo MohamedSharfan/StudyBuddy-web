@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Flame } from "lucide-react";
 import { Avatar } from "@/components/ui/Avatar";
 import { PROVINCES, rankFor } from "@/lib/gamification";
+import { gradesFor } from "@/lib/levels";
 import { requireViewer, getDb } from "@/lib/session";
 
 export const metadata = { title: "Ranks" };
@@ -20,26 +21,31 @@ type Row = {
 export default async function Leaderboard({ searchParams }: { searchParams: Promise<{ province?: string; grade?: string }> }) {
   const viewer = await requireViewer("/leaderboard");
   const { province, grade } = await searchParams;
+  const me = viewer.profile!;
+  const levelGrades = gradesFor(me.education_level);
   const supabase = await getDb();
   let q = supabase
     .from("profiles")
     .select("id, username, display_name, avatar_url, province, grade, coins, streak_days")
     .eq("onboarded", true)
+    .eq("education_level", me.education_level)
     .order("coins", { ascending: false })
     .order("created_at", { ascending: true })
     .limit(50);
   if (province && PROVINCES.includes(province as (typeof PROVINCES)[number])) q = q.eq("province", province);
-  if (grade === "10" || grade === "11") q = q.eq("grade", Number(grade));
+  if (levelGrades.includes(Number(grade))) q = q.eq("grade", Number(grade));
   const { data } = await q;
   const rows = (data ?? []) as Row[];
 
-  const me = viewer.profile!;
-  const { count: ahead } = await supabase.from("profiles").select("id", { count: "exact", head: true }).eq("onboarded", true).gt("coins", me.coins);
+  const { count: ahead } = await supabase
+    .from("profiles")
+    .select("id", { count: "exact", head: true })
+    .eq("onboarded", true)
+    .eq("education_level", me.education_level)
+    .gt("coins", me.coins);
   const myPos = (ahead ?? 0) + 1;
 
-  const podium = [rows[1], rows[0], rows[2]];
-  const heights = ["h-28", "h-40", "h-20"];
-  const medals = ["🥈", "🥇", "🥉"];
+  const medals = ["🥇", "🥈", "🥉"];
   const filterHref = (p?: string, g?: string) => {
     const s = new URLSearchParams();
     if (p) s.set("province", p);
@@ -52,11 +58,11 @@ export default async function Leaderboard({ searchParams }: { searchParams: Prom
     <div className="space-y-6 max-w-[900px] mx-auto">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="eyebrow">Leaderboard</p>
-          <h1 className="display text-4xl font-bold mt-1">Brightest stars</h1>
+          <h1 className="display text-3xl font-bold">Leaderboard</h1>
+          <p className="text-muted mt-1">{me.education_level} students ranked by coins</p>
         </div>
-        <div className="glass !rounded-2xl px-4 py-2 text-sm">
-          You&apos;re <b className="text-gold">#{myPos}</b> overall with <b>{me.coins}</b> coins
+        <div className="rounded-xl border border-line px-4 py-2 text-sm">
+          You&apos;re <b className="text-gold">#{myPos}</b> with <b>{me.coins}</b> coins
         </div>
       </div>
 
@@ -71,7 +77,7 @@ export default async function Leaderboard({ searchParams }: { searchParams: Prom
         ))}
       </div>
       <div className="flex gap-2">
-        {[undefined, "10", "11"].map((g) => (
+        {[undefined, ...levelGrades.map(String)].map((g) => (
           <Link key={g ?? "all"} href={filterHref(province, g)} className={`chip ${grade === g ? "chip-active" : ""}`}>
             {g ? `Grade ${g}` : "All grades"}
           </Link>
@@ -79,39 +85,16 @@ export default async function Leaderboard({ searchParams }: { searchParams: Prom
       </div>
 
       {rows.length === 0 ? (
-        <div className="glass p-10 text-center text-muted">No students here yet — be the first star!</div>
+        <div className="glass p-10 text-center text-muted">No students here yet. Be the first!</div>
       ) : (
-        <>
-          <div className="grid grid-cols-3 gap-3 items-end pt-6">
-            {podium.map((r, i) =>
-              r ? (
-                <Link key={r.id} href={r.username ? `/u/${r.username}` : "#"} className="flex flex-col items-center text-center group">
-                  <span className="text-2xl mb-1">{medals[i]}</span>
-                  <Avatar name={r.display_name} url={r.avatar_url} size={i === 1 ? 72 : 58} ring={i === 1} />
-                  <p className="font-bold text-sm mt-2 truncate max-w-full">{r.display_name}</p>
-                  <p className="text-xs text-gold font-bold flex items-center gap-1">
-                    <span className="coin" /> {r.coins}
-                  </p>
-                  <div
-                    className={`arch w-full mt-3 ${heights[i]} bg-gradient-to-b ${i === 1 ? "from-gold/60" : "from-electric/60"} to-transparent border border-line grid place-items-start justify-center pt-4`}
-                  >
-                    <span className="display text-3xl font-bold opacity-80">{i === 1 ? 1 : i === 0 ? 2 : 3}</span>
-                  </div>
-                </Link>
-              ) : (
-                <div key={i} />
-              ),
-            )}
-          </div>
-
-          <ol className="glass divide-y divide-line overflow-hidden">
+        <ol className="glass divide-y divide-line overflow-hidden">
             {rows.map((r, i) => {
               const rank = rankFor(r.coins);
               const isMe = r.id === me.id;
               return (
                 <li key={r.id}>
-                  <Link href={r.username ? `/u/${r.username}` : "#"} className={`flex items-center gap-3 px-4 py-3 hover:bg-white/[.03] ${isMe ? "bg-electric/20" : ""}`}>
-                    <span className={`w-8 text-center display font-bold ${i < 3 ? "text-gold text-xl" : "text-muted"}`}>{i + 1}</span>
+                  <Link href={r.username ? `/u/${r.username}` : "#"} className={`flex items-center gap-3 px-4 py-3 hover:bg-white/[.03] ${isMe ? "bg-card-2" : ""}`}>
+                    <span className="w-8 text-center font-bold text-muted">{i < 3 ? medals[i] : i + 1}</span>
                     <Avatar name={r.display_name} url={r.avatar_url} size={40} />
                     <span className="flex-1 min-w-0">
                       <span className="block font-bold truncate">
@@ -125,9 +108,9 @@ export default async function Leaderboard({ searchParams }: { searchParams: Prom
                       <Flame size={13} /> {r.streak_days}
                     </span>
                     <span className="text-xs font-bold hidden sm:block w-20 text-right" style={{ color: rank.color }}>
-                      ◆ {rank.name}
+                      {rank.name}
                     </span>
-                    <span className="flex items-center gap-1.5 font-extrabold w-20 justify-end">
+                    <span className="flex items-center gap-1.5 font-bold w-20 justify-end">
                       <span className="coin" /> {r.coins}
                     </span>
                   </Link>
@@ -135,7 +118,6 @@ export default async function Leaderboard({ searchParams }: { searchParams: Prom
               );
             })}
           </ol>
-        </>
       )}
     </div>
   );

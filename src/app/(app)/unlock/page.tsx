@@ -2,8 +2,7 @@ import Link from "next/link";
 import { CheckCircle2, Clock, MessageCircle } from "lucide-react";
 import { UnlockRequestForm } from "@/components/UnlockRequestForm";
 import { CopyButton } from "@/components/ui/CopyButton";
-import { Panda } from "@/components/ui/Panda";
-import { catalog, subjectTotals } from "@/lib/catalog";
+import { subjectTotals, subjectsFor } from "@/lib/catalog";
 import { requireViewer, getDb } from "@/lib/session";
 import { getSettings, whatsappLink } from "@/lib/settings";
 
@@ -19,18 +18,31 @@ export default async function UnlockPage() {
     supabase.from("student_private").select("phone").eq("user_id", viewer.userId).maybeSingle(),
   ]);
   const wa = whatsappLink(settings, p.student_code);
+  const subjects = subjectsFor(p);
+
+  if (subjects.length === 0)
+    return (
+      <div className="max-w-[640px] mx-auto glass p-6 sm:p-8">
+        <h1 className="display text-2xl font-bold">Nothing to unlock yet</h1>
+        <p className="text-muted mt-2">
+          Subjects for {p.education_level} students are coming soon. We&apos;ll open them here as soon as they&apos;re ready.
+        </p>
+        <Link href="/home" className="btn btn-ghost mt-5">
+          Back to home
+        </Link>
+      </div>
+    );
 
   return (
     <div className="max-w-[900px] mx-auto space-y-6">
-      <div className="text-center">
-        <Panda size={100} mood="wink" className="mx-auto float" />
-        <h1 className="display text-4xl font-bold mt-4">Unlock your full sky</h1>
-        <p className="text-muted mt-2 max-w-[560px] mx-auto">
+      <div>
+        <h1 className="display text-3xl font-bold">Unlock a subject</h1>
+        <p className="text-muted mt-2 max-w-[560px]">
           Chapter 1 of each grade is free. Unlock a subject to open every chapter, flashcard, quiz and past paper.
         </p>
       </div>
 
-      {catalog.subjects.map((s) => {
+      {subjects.map((s) => {
         const t = subjectTotals(s.id);
         const unlocked = viewer.isAdmin || viewer.unlocked.includes(s.id);
         const pending = requests?.find((r) => r.subject_id === s.id && r.status === "pending");
@@ -38,7 +50,7 @@ export default async function UnlockPage() {
           <div key={s.id} className="glass p-6 sm:p-8 grid md:grid-cols-[1fr_auto] gap-6 items-center">
             <div>
               <p className="eyebrow">{s.level} · {s.medium} medium</p>
-              <h2 className="display text-3xl font-bold mt-1">
+              <h2 className="text-2xl font-bold mt-1">
                 {s.name} <span lang="ta" className="text-muted text-xl">{s.nameLocal}</span>
               </h2>
               <div className="flex flex-wrap gap-2 mt-3">
@@ -61,15 +73,15 @@ export default async function UnlockPage() {
         );
       })}
 
-      {!catalog.subjects.every((s) => viewer.unlocked.includes(s.id)) && !viewer.isAdmin && (
+      {!subjects.every((s) => viewer.unlocked.includes(s.id)) && !viewer.isAdmin && (
         <div className="grid md:grid-cols-2 gap-5">
-          <div className="glass p-6 bg-gradient-to-br from-gold/15 to-transparent">
-            <p className="font-extrabold text-lg">1 · Contact us</p>
+          <div className="glass p-6">
+            <p className="font-bold text-lg">1. Contact us</p>
             <p className="text-sm text-muted mt-1">Tell us your student code. We&apos;ll share the payment details and unlock your subject.</p>
-            <div className="mt-4 rounded-2xl border border-gold/30 bg-bg/50 p-4 flex items-center justify-between gap-3">
+            <div className="mt-4 rounded-xl border border-line bg-bg-2 p-4 flex items-center justify-between gap-3">
               <div>
-                <p className="text-xs text-muted font-bold">YOUR STUDENT CODE</p>
-                <p className="display text-3xl font-bold tracking-wider text-gold">{p.student_code}</p>
+                <p className="text-sm text-muted">Your student code</p>
+                <p className="text-2xl font-bold tracking-wider text-gold font-mono">{p.student_code}</p>
               </div>
               <CopyButton text={p.student_code} />
             </div>
@@ -78,13 +90,13 @@ export default async function UnlockPage() {
                 <MessageCircle size={18} /> Message us on WhatsApp
               </a>
             ) : (
-              <p className="text-xs text-faint mt-4">Our contact number will appear here soon — or send a request using the form.</p>
+              <p className="text-sm text-muted mt-4">Our WhatsApp number will appear here soon. Until then, send a request using the form.</p>
             )}
           </div>
           <div className="glass p-6">
-            <p className="font-extrabold text-lg">2 · Or send a request</p>
+            <p className="font-bold text-lg">2. Or send a request</p>
             <p className="text-sm text-muted mt-1 mb-4">An admin will see it in the panel and contact you.</p>
-            <UnlockRequestForm subjectId={catalog.subjects[0].id} phone={priv?.phone ?? ""} />
+            <UnlockRequestForm subjectId={subjects.find((s) => !viewer.unlocked.includes(s.id))?.id ?? subjects[0].id} phone={priv?.phone ?? ""} />
           </div>
         </div>
       )}

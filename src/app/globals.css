@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
-/* ─────────── StudyBuddy tokens (mirrors the app's AppColors) ─────────── */
+/* ─────────── StudyBuddy tokens (purple + gold, like the app) ─────────── */
 :root {
-  --bg: #0d0221; /* deepSpacePurple */
-  --bg-2: #1a0b2e; /* darkPurple */
-  --card: #1e103f; /* darkCard */
-  --card-2: #2d1b4e; /* mediumPurple */
-  --line: rgba(196, 181, 253, 0.13);
-  --line-strong: rgba(196, 181, 253, 0.28);
-  --text: #f5f3ff;
-  --muted: #a99fd1;
-  --faint: #6f6496;
+  --bg: #120a26;
+  --bg-2: #170e30;
+  --card: #1c1336;
+  --card-2: #251a45;
+  --line: #2e2350;
+  --line-strong: #45386f;
+  --text: #f4f1ff;
+  --muted: #b4abd8;
+  --faint: #8d83b4;
   --violet: #8b5cf6;
   --electric: #7c3aed;
   --royal: #5b21b6;
@@ -22,7 +22,7 @@
   --orange: #fb923c;
   --pink: #ec4899;
   --red: #f87171;
-  --radius: 22px;
+  --radius: 18px;
   color-scheme: dark;
 }
 
@@ -37,6 +37,7 @@
   --color-faint: var(--faint);
   --color-violet: var(--violet);
   --color-electric: var(--electric);
+  --color-royal: var(--royal);
   --color-neon: var(--neon);
   --color-lilac: var(--lilac);
   --color-gold: var(--gold);
@@ -44,17 +45,13 @@
   --color-green: var(--green);
   --color-orange: var(--orange);
   --color-pink: var(--pink);
-  --font-display: var(--font-fredoka), var(--font-tamil), var(--font-amiri), system-ui, sans-serif;
-  --font-sans: var(--font-jakarta), var(--font-tamil), var(--font-arabic), system-ui, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-tamil), system-ui, sans-serif;
+  --font-sans: var(--font-jakarta), var(--font-tamil), system-ui, sans-serif;
   --font-arabic: var(--font-amiri), serif;
 }
 
 * {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -67,200 +64,141 @@ body {
   overflow-x: hidden;
 }
 
-/* Night sky: khatam (8-point star) lattice + soft nebula glows */
-.sky {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(60rem 40rem at 85% -10%, rgba(124, 58, 237, 0.28), transparent 60%),
-    radial-gradient(50rem 35rem at -10% 30%, rgba(91, 33, 182, 0.25), transparent 60%),
-    radial-gradient(40rem 30rem at 60% 110%, rgba(34, 211, 238, 0.08), transparent 60%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='none' stroke='%23C4B5FD' stroke-opacity='0.055' stroke-width='1'%3E%3Crect x='30' y='30' width='36' height='36'/%3E%3Crect x='30' y='30' width='36' height='36' transform='rotate(45 48 48)'/%3E%3Cpath d='M0 0L22.5 22.5M96 0L73.5 22.5M0 96L22.5 73.5M96 96L73.5 73.5M48 0V22.5M48 96V73.5M0 48H22.5M96 48H73.5'/%3E%3C/g%3E%3C/svg%3E"),
-    linear-gradient(180deg, #0d0221 0%, #140630 50%, #0d0221 100%);
-}
-
-.sky::before,
-.sky::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    radial-gradient(1.5px 1.5px at 12% 18%, #fff 50%, transparent 51%),
-    radial-gradient(1px 1px at 28% 72%, #e9d5ff 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 47% 33%, #fff 50%, transparent 51%),
-    radial-gradient(1px 1px at 66% 12%, #c4b5fd 50%, transparent 51%),
-    radial-gradient(1.5px 1.5px at 81% 58%, #fff 50%, transparent 51%),
-    radial-gradient(1px 1px at 92% 86%, #e9d5ff 50%, transparent 51%),
-    radial-gradient(1px 1px at 7% 91%, #fff 50%, transparent 51%),
-    radial-gradient(1px 1px at 38% 95%, #c4b5fd 50%, transparent 51%);
-  animation: twinkle 6s ease-in-out infinite alternate;
-}
-
-.sky::after {
-  transform: translate(13%, 21%) scale(1.2);
-  animation-delay: -3s;
-  opacity: 0.6;
-}
-
-@keyframes twinkle {
-  from {
-    opacity: 0.25;
-  }
-  to {
-    opacity: 0.9;
+/* Grid items may shrink below their content, so long (Tamil) titles truncate instead of overflowing. */
+@layer base {
+  .grid > * {
+    min-width: 0;
   }
 }
 
 /* ─────────── Building blocks ─────────── */
+/* Solid card surface (the class name is historical; there is no blur). */
 .glass {
-  background: linear-gradient(145deg, rgba(45, 27, 78, 0.72), rgba(26, 11, 46, 0.82));
+  background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
 }
 
 .glass-hover {
-  transition:
-    transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1.2),
-    border-color 0.25s,
-    box-shadow 0.25s;
+  transition: border-color 0.15s, background-color 0.15s;
 }
 .glass-hover:hover {
-  transform: translateY(-3px);
   border-color: var(--line-strong);
-  box-shadow: 0 18px 40px -18px rgba(124, 58, 237, 0.55);
+  background-color: var(--card-2);
 }
 
 .eyebrow {
-  font-size: 0.72rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: var(--lilac);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
 }
 
 .display {
   font-family: var(--font-display);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 .text-gradient {
-  background: linear-gradient(100deg, #fff 0%, #e9d5ff 35%, #a855f7 70%, #fbbf24 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--gold);
 }
 
-/* Chunky "game" button — matches the app's BouncyButton */
 .btn {
   --b: var(--electric);
-  --b-dark: #4c1d95;
+  --b-dark: #5b21b6;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  min-height: 46px;
-  padding: 0 1.25rem;
-  border-radius: 16px;
-  font-weight: 800;
+  min-height: 44px;
+  padding: 0 1.15rem;
+  border-radius: 12px;
+  font-weight: 700;
   font-size: 0.95rem;
   color: #fff;
-  background: linear-gradient(180deg, color-mix(in srgb, var(--b) 85%, white) 0%, var(--b) 100%);
-  box-shadow:
-    0 4px 0 var(--b-dark),
-    0 10px 24px -8px color-mix(in srgb, var(--b) 70%, transparent);
-  transition:
-    transform 0.12s,
-    box-shadow 0.12s,
-    filter 0.2s;
+  background: var(--b);
+  box-shadow: 0 2px 0 var(--b-dark);
+  transition: transform 0.08s, filter 0.15s;
   cursor: pointer;
   border: 0;
   white-space: nowrap;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .btn:hover {
-  filter: brightness(1.08);
+  filter: brightness(1.1);
 }
 .btn:active {
-  transform: translateY(3px);
-  box-shadow:
-    0 1px 0 var(--b-dark),
-    0 4px 12px -6px color-mix(in srgb, var(--b) 70%, transparent);
+  transform: translateY(2px);
+  box-shadow: none;
 }
 .btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+  opacity: 0.55;
+  cursor: progress;
   transform: none;
 }
 .btn-gold {
-  --b: #f59e0b;
-  --b-dark: #92400e;
+  --b: #fbbf24;
+  --b-dark: #b45309;
   color: #1a0b2e;
 }
 .btn-green {
   --b: #10b981;
-  --b-dark: #065f46;
+  --b-dark: #047857;
 }
 .btn-ghost {
-  background: rgba(255, 255, 255, 0.04);
+  background: transparent;
   border: 1px solid var(--line-strong);
   box-shadow: none;
   color: var(--text);
 }
-.btn-ghost:active {
-  box-shadow: none;
-  transform: translateY(1px);
+.btn-ghost:hover {
+  filter: none;
+  background: rgba(255, 255, 255, 0.05);
 }
 .btn-danger {
   --b: #ef4444;
-  --b-dark: #7f1d1d;
+  --b-dark: #991b1b;
 }
 .btn-sm {
   min-height: 36px;
-  padding: 0 0.85rem;
-  font-size: 0.82rem;
-  border-radius: 12px;
+  padding: 0 0.8rem;
+  font-size: 0.85rem;
+  border-radius: 10px;
 }
 
 .chip {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.3rem 0.7rem;
+  padding: 0.28rem 0.65rem;
   border-radius: 999px;
-  font-size: 0.78rem;
-  font-weight: 700;
-  border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.04);
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid var(--line-strong);
+  background: transparent;
   color: var(--muted);
   white-space: nowrap;
 }
 .chip-active {
-  background: rgba(139, 92, 246, 0.22);
-  border-color: rgba(168, 85, 247, 0.6);
+  background: var(--electric);
+  border-color: var(--electric);
   color: #fff;
 }
 
 .input {
   width: 100%;
-  min-height: 46px;
-  padding: 0.65rem 0.95rem;
-  border-radius: 14px;
+  min-height: 44px;
+  padding: 0.6rem 0.9rem;
+  border-radius: 12px;
   border: 1px solid var(--line-strong);
-  background: rgba(13, 2, 33, 0.6);
+  background: var(--bg-2);
   color: var(--text);
   font: inherit;
   outline: none;
-  transition:
-    border-color 0.2s,
-    box-shadow 0.2s;
+  transition: border-color 0.15s;
 }
 .input:focus {
-  border-color: var(--neon);
-  box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.18);
+  border-color: var(--violet);
 }
 .input::placeholder {
   color: var(--faint);
@@ -274,25 +212,17 @@ select.input {
 }
 .label {
   display: block;
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 600;
   color: var(--muted);
   margin-bottom: 0.4rem;
 }
 
-/* Mihrab arch — the "doors" of each chapter */
+/* Chapter step cards */
 .arch {
-  border-radius: 999px 999px 24px 24px / 150px 150px 24px 24px;
+  border-radius: var(--radius);
   position: relative;
   overflow: hidden;
-}
-.arch::before {
-  content: "";
-  position: absolute;
-  inset: 8px;
-  border-radius: inherit;
-  border: 1px dashed rgba(255, 255, 255, 0.16);
-  pointer-events: none;
 }
 
 /* Gold coin */
@@ -301,9 +231,7 @@ select.input {
   height: 1.15em;
   border-radius: 50%;
   background: radial-gradient(circle at 35% 30%, #fde68a, #fbbf24 45%, #b45309 100%);
-  box-shadow:
-    inset 0 -2px 0 rgba(0, 0, 0, 0.25),
-    0 0 12px rgba(251, 191, 36, 0.45);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.25);
   display: inline-block;
   flex: none;
 }
@@ -319,66 +247,15 @@ select.input {
   display: block;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--electric), var(--neon), var(--gold));
-  transition: width 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  background: var(--gold);
+  transition: width 0.4s ease-out;
 }
 
-/* Animations */
-@keyframes rise {
-  from {
-    opacity: 0;
-    transform: translateY(14px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-.rise {
-  animation: rise 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
-}
-.rise-1 {
-  animation-delay: 0.06s;
-}
-.rise-2 {
-  animation-delay: 0.12s;
-}
-.rise-3 {
-  animation-delay: 0.18s;
-}
-.rise-4 {
-  animation-delay: 0.24s;
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0) rotate(-1deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(1deg);
-  }
-}
-.float {
-  animation: float 6s ease-in-out infinite;
-}
-
-@keyframes pulse-ring {
-  0% {
-    box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.55);
-  }
-  100% {
-    box-shadow: 0 0 0 18px rgba(251, 191, 36, 0);
-  }
-}
-
-@keyframes spin-slow {
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Animations — kept short and only used for feedback */
+.rise,
+.float,
 .spin-slow {
-  animation: spin-slow 40s linear infinite;
+  animation: none;
 }
 
 @keyframes pop {
@@ -395,7 +272,7 @@ select.input {
   }
 }
 .pop {
-  animation: pop 0.45s cubic-bezier(0.2, 0.8, 0.2, 1.2) both;
+  animation: pop 0.25s ease-out both;
 }
 
 @keyframes shake {
@@ -433,15 +310,6 @@ select.input {
   align-items: baseline;
   gap: 0.5rem;
 }
-.prose-sb h2::before {
-  content: "";
-  width: 0.6em;
-  height: 0.6em;
-  flex: none;
-  transform: rotate(45deg) translateY(-0.1em);
-  background: linear-gradient(135deg, var(--gold), var(--neon));
-  border-radius: 2px;
-}
 .prose-sb h3 {
   font-size: 1.15em;
   margin: 1.6em 0 0.5em;
@@ -454,7 +322,7 @@ select.input {
 .prose-sb strong {
   color: #fff;
   font-weight: 800;
-  background: linear-gradient(transparent 62%, rgba(168, 85, 247, 0.35) 62%);
+  background: linear-gradient(transparent 65%, rgba(168, 85, 247, 0.28) 65%);
 }
 .prose-sb ul,
 .prose-sb ol {
@@ -471,7 +339,7 @@ select.input {
   border: 0;
   height: 1px;
   margin: 2.2em 0;
-  background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+  background: var(--line);
 }
 .prose-sb blockquote {
   margin: 1.2em 0;
@@ -488,23 +356,20 @@ select.input {
 }
 /* Callout variants (detected from the leading emoji) */
 .prose-sb blockquote.callout-remember {
-  background: linear-gradient(135deg, rgba(251, 191, 36, 0.14), rgba(251, 146, 60, 0.06));
-  border-color: rgba(251, 191, 36, 0.45);
-  transform: rotate(-0.3deg);
+  background: rgba(251, 191, 36, 0.09);
+  border-color: rgba(251, 191, 36, 0.4);
 }
 .prose-sb blockquote.callout-quran {
-  background:
-    radial-gradient(circle at 100% 0%, rgba(52, 211, 153, 0.12), transparent 50%),
-    linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(13, 2, 33, 0.3));
-  border-color: rgba(52, 211, 153, 0.4);
+  background: rgba(52, 211, 153, 0.08);
+  border-color: rgba(52, 211, 153, 0.38);
 }
 .prose-sb blockquote.callout-exam {
-  background: linear-gradient(135deg, rgba(236, 72, 153, 0.14), rgba(139, 92, 246, 0.08));
-  border-color: rgba(236, 72, 153, 0.45);
+  background: rgba(236, 72, 153, 0.09);
+  border-color: rgba(236, 72, 153, 0.4);
 }
 .prose-sb blockquote.callout-tip {
-  background: linear-gradient(135deg, rgba(34, 211, 238, 0.12), rgba(139, 92, 246, 0.06));
-  border-color: rgba(34, 211, 238, 0.4);
+  background: rgba(34, 211, 238, 0.08);
+  border-color: rgba(34, 211, 238, 0.38);
 }
 .prose-sb table {
   width: 100%;
@@ -524,7 +389,7 @@ select.input {
   margin: 0;
 }
 .prose-sb th {
-  background: rgba(124, 58, 237, 0.28);
+  background: var(--card-2);
   text-align: left;
   font-weight: 800;
 }
@@ -565,7 +430,7 @@ select.input {
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.7s cubic-bezier(0.3, 1.3, 0.4, 1);
+  transition: transform 0.45s ease;
   transform-style: preserve-3d;
 }
 .flip.is-flipped .flip-inner {
@@ -587,7 +452,7 @@ select.input {
   height: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(139, 92, 246, 0.35);
+  background: var(--line-strong);
   border-radius: 99px;
   border: 2px solid var(--bg);
 }
@@ -604,7 +469,7 @@ select.input {
 
 :focus-visible {
   outline: 2px solid var(--gold);
-  outline-offset: 3px;
+  outline-offset: 2px;
 }
 
 @media (prefers-reduced-motion: reduce) {

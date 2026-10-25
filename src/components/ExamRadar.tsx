@@ -10,18 +10,18 @@ export function ExamRadar({ years, compact = false }: { years: Record<string, nu
   return (
     <div className={`glass ${compact ? "p-4" : "p-6"}`}>
       <div className="flex items-center justify-between gap-2">
-        <h3 className="font-extrabold">📡 Exam radar</h3>
-        <span className={`text-xs font-extrabold ${verdict.c}`}>{verdict.t}</span>
+        <h3 className="font-bold">How often it&apos;s asked</h3>
+        <span className={`text-xs font-bold ${verdict.c}`}>{verdict.t}</span>
       </div>
       <div className={`flex items-end gap-1.5 ${compact ? "h-20" : "h-32"} mt-4`}>
         {YEARS.map((y) => {
           const n = years[String(y)] ?? 0;
           return (
             <div key={y} className="flex-1 flex flex-col items-center gap-1 h-full justify-end" title={`${y}: ${n} question${n === 1 ? "" : "s"}`}>
-              <span className="text-[10px] font-bold text-gold">{n || ""}</span>
+              <span className="text-[10px] font-bold text-muted">{n || ""}</span>
               <div
-                className="w-full rounded-t-md bg-gradient-to-t from-electric to-gold"
-                style={{ height: `${n ? 15 + (n / max) * 85 : 5}%`, opacity: n ? 1 : 0.2 }}
+                className="w-full rounded-t-md bg-violet"
+                style={{ height: `${n ? 15 + (n / max) * 85 : 5}%`, opacity: n ? 1 : 0.25 }}
               />
               <span className="text-[10px] text-muted">&apos;{String(y).slice(2)}</span>
             </div>

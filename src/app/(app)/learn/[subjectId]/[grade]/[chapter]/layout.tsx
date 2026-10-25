@@ -23,7 +23,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
     <div>
       <div className="flex items-center justify-between gap-3 text-sm">
         <Link href={`/subjects/${subject.id}?grade=${c.grade}`} className="flex items-center gap-1 text-muted hover:text-white font-semibold">
-          <ChevronLeft size={16} /> {subject.name} · Grade {c.grade} sky
+          <ChevronLeft size={16} /> {subject.name} · Grade {c.grade}
         </Link>
         <div className="flex gap-1">
           {prev && (
@@ -39,31 +39,25 @@ export default async function ChapterLayout({ params, children }: { params: Chap
         </div>
       </div>
 
-      <header className="mt-4 flex items-start gap-4">
-        <span className="hidden sm:grid flex-none place-items-center w-16 h-16 relative">
-          <span className={`absolute inset-1 rounded-xl rotate-45 ${doneCount === 4 ? "bg-gradient-to-br from-gold to-orange" : "bg-electric/40 border border-neon/50"}`} />
-          <span className={`relative display text-2xl font-bold ${doneCount === 4 ? "text-bg" : ""}`}>{c.number}</span>
-        </span>
-        <div className="min-w-0">
-          <p className="eyebrow">
-            Grade {c.grade} · Chapter {c.number} {c.free && <span className="text-green">· Free</span>}
-            {!open && (
-              <span className="text-gold">
-                {" "}
-                · <Lock size={11} className="inline -mt-0.5" /> Locked
-              </span>
-            )}
-          </p>
-          <h1 lang="ta" className="display text-2xl sm:text-[2rem] font-bold leading-snug mt-1">
-            {c.title}
-          </h1>
-          <p className="text-sm text-muted mt-1">
-            {doneCount}/4 doors complete · {c.minutes} min read · {c.counts.quiz} quiz · {c.counts.mcq + c.counts.structured} past-paper Qs
-          </p>
-        </div>
+      <header className="mt-4">
+        <p className="eyebrow">
+          Grade {c.grade} · Chapter {c.number} {c.free && <span className="text-green">· Free</span>}
+          {!open && (
+            <span className="text-gold">
+              {" "}
+              · <Lock size={11} className="inline -mt-0.5" /> Locked
+            </span>
+          )}
+        </p>
+        <h1 lang="ta" className="display text-2xl sm:text-[1.75rem] font-bold leading-snug mt-1">
+          {c.title}
+        </h1>
+        <p className="text-sm text-muted mt-1">
+          {doneCount}/4 steps done · {c.minutes} min read · {c.counts.quiz} quiz · {c.counts.mcq + c.counts.structured} past-paper questions
+        </p>
       </header>
 
-      <div className="mt-5 mb-6 border-b border-line">
+      <div className="mt-4 mb-6 border-b border-line">
         <DoorTabs base={base} steps={steps} />
       </div>
       {children}

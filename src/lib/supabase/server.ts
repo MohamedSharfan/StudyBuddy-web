@@ -22,3 +22,16 @@ export async function createClient() {
     },
   });
 }
+
+type Client = NonNullable<Awaited<ReturnType<typeof createClient>>>;
+
+/**
+ * Signed-in user id + email from the verified JWT. Verification happens locally against the
+ * project's cached JWKS, so this is much faster than `auth.getUser()` (an Auth server round trip).
+ */
+export async function getAuthUser(supabase: Client): Promise<{ id: string; email: string | null } | null> {
+  const { data } = await supabase.auth.getClaims();
+  const sub = data?.claims?.sub;
+  if (!sub) return null;
+  return { id: sub, email: (data.claims.email as string | undefined) ?? null };
+}

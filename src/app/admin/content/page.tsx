@@ -23,7 +23,7 @@ export default async function AdminContent() {
   return (
     <div className="space-y-6">
       <div>
-        <p className="eyebrow !text-gold">Admin</p>
+        <p className="eyebrow">Admin</p>
         <h1 className="display text-4xl font-bold mt-1">Content</h1>
         <p className="text-sm text-muted mt-1">
           Built from the markdown in <code>content/{subject.id}/</code> · last built {new Date(catalog.generatedAt).toLocaleString("en-GB")}

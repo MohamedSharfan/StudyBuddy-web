@@ -14,12 +14,12 @@ export default async function AdminLayout({ children }: { children: React.ReactN
 
   return (
     <div className="min-h-dvh lg:pl-[250px]">
-      <aside className="lg:fixed lg:inset-y-0 lg:left-0 lg:w-[250px] border-b lg:border-b-0 lg:border-r border-line bg-bg/80 backdrop-blur-xl p-4 lg:p-5 flex flex-col gap-5 z-30">
+      <aside className="lg:fixed lg:inset-y-0 lg:left-0 lg:w-[250px] border-b lg:border-b-0 lg:border-r border-line bg-bg-2 p-4 lg:p-5 flex flex-col gap-5 z-30">
         <div className="flex items-center justify-between">
           <Logo href="/admin" size={36} />
         </div>
-        <p className="hidden lg:flex items-center gap-2 text-xs font-extrabold tracking-widest text-gold">
-          <ShieldCheck size={14} /> ADMIN PANEL
+        <p className="hidden lg:flex items-center gap-2 text-sm font-bold text-gold">
+          <ShieldCheck size={15} /> Admin panel
         </p>
         <AdminNav pending={count ?? 0} />
         <div className="hidden lg:block mt-auto space-y-3">

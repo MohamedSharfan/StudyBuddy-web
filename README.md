@@ -1,14 +1,14 @@
 # StudyBuddy Web
 
-The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L students, starting with **Islam (Tamil medium), Grade 10 & 11**.
+The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L and A/L students. The first live subject is **O/L Islam (Tamil medium), Grade 10 & 11**; more O/L subjects and the A/L streams come next.
 
-- **62 chapters**, each with four "doors": **Read** (notes) → **Recall** (flashcards) → **Quiz** → **Exam vault** (past papers 2016–2025)
-- **Constellation sky map**: every chapter is a star that turns gold when you finish all four doors
-- **Exam radar**: shows how often each chapter came up in O/L papers, so students know what to revise first
+- At sign-up, students choose **O/L or A/L**. A/L students also pick their **stream** (Physical Science, Biological Science, Commerce, Arts, Technology). Each student only sees subjects for their level and stream, and A/L students see a "coming soon" view until their subjects launch.
+- **62 chapters**, each with four steps: **Notes** → **Flashcards** → **Quiz** → **Past papers** (2016–2025)
+- Chapter list with progress for each step, and a chart of how often each chapter came up in past papers, so students know what to revise first
 - Coins, streaks, ranks (Bronze → Champion) and badges, using the same rules as the app
 - **AI Panda** tutor that answers from the notes (Claude API, or a notes-search fallback when no key is set)
-- **Focus lantern** pomodoro timer, a focus reader for notes, and keyboard shortcuts in quizzes and flashcards
-- Leaderboard with province and grade filters, public profiles, study-friend connections
+- **Focus timer** (pomodoro), a focus reader for notes, and keyboard shortcuts in quizzes and flashcards
+- Leaderboard for each level, with province and grade filters, public profiles, study-friend connections
 - **Admin panel**: students, search, unlock/lock subjects, unlock requests, stats, settings, admins
 - Chapter 1 of each grade is free. Everything else unlocks when an admin unlocks the subject for the student
 
@@ -18,9 +18,14 @@ Built with Next.js 15 (App Router), Tailwind CSS 4 and Supabase (Postgres, Auth 
 
 ## 1. Set up the database (Supabase)
 
-The schema lives in [`supabase/migrations/20261025000001_studybuddy_web_init.sql`](supabase/migrations/20261025000001_studybuddy_web_init.sql).
+The schema lives in [`supabase/migrations/`](supabase/migrations/). Run the files in order:
 
-**Option A: SQL editor.** Open the Supabase dashboard → project `aczdsffdgvitgoqsqnih` → **SQL Editor**, paste the whole file and run it.
+1. [`20261025000001_studybuddy_web_init.sql`](supabase/migrations/20261025000001_studybuddy_web_init.sql): tables, security rules and functions
+2. [`20261025000002_levels_and_streams.sql`](supabase/migrations/20261025000002_levels_and_streams.sql): O/L / A/L level and A/L stream on profiles
+
+Both files are safe to run more than once.
+
+**Option A: SQL editor.** Open the Supabase dashboard → project `aczdsffdgvitgoqsqnih` → **SQL Editor**, paste each file and run it.
 
 **Option B: Claude Code + Supabase MCP.** This repo already has a project-scoped Supabase MCP server in `.mcp.json`. Open a terminal `claude` session in this folder, run `/mcp`, authenticate **supabase**, and ask Claude to apply the migration.
 
@@ -65,6 +70,13 @@ npm run dev
 
 Open http://localhost:3000. `npm run dev` and `npm run build` rebuild the content automatically.
 
+Dev mode compiles each page the first time you open it, so it feels slow. To see the real speed, run the production build:
+
+```bash
+npm run build
+npm start
+```
+
 ## 5. Deploy (Vercel recommended)
 
 Import the GitHub repo into Vercel, add the environment variables above, and deploy. The build command is `npm run build`.
@@ -92,7 +104,7 @@ content/islam-ol/
 
 Locked chapters are never sent to the browser. The server checks access before it loads any chapter content.
 
-**Adding a subject:** add `content/<subject-id>/grade-XX/chapter-YY/...`, add an entry to `SUBJECTS` in [`scripts/build-content.mjs`](scripts/build-content.mjs), and insert a row into the `subjects` table with its chapter counts.
+**Adding a subject:** add `content/<subject-id>/grade-XX/chapter-YY/...`, add an entry to `SUBJECTS` in [`scripts/build-content.mjs`](scripts/build-content.mjs) with its `level` (`"O/L"` or `"A/L"`) and, for A/L, the `streams` that take it. Then insert a row into the `subjects` table with its chapter counts. Remove it from the "coming soon" lists in [`src/lib/levels.ts`](src/lib/levels.ts).
 
 ## How unlocking works
 
@@ -112,8 +124,8 @@ Locked chapters are never sent to the browser. The server checks access before i
 
 ```
 src/app/            routes: landing, (app) student area, admin/, api/panda
-src/components/     Constellation, QuizRunner, FlashcardDeck, ExamVault, NoteReader, …
-src/lib/            catalog, content loader, session, progress, gamification, panda retrieval
+src/components/     ChapterList, QuizRunner, FlashcardDeck, ExamVault, NoteReader, …
+src/lib/            catalog, levels (O/L, A/L streams), content loader, session, progress, gamification, panda retrieval
 scripts/            build-content.mjs (markdown → JSON)
 supabase/           SQL migrations
 content/            study material (markdown)

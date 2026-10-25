@@ -1,11 +1,13 @@
 {
- "generatedAt": "2026-10-25T08:47:15.764Z",
+ "generatedAt": "2026-10-25T10:09:41.007Z",
  "subjects": [
   {
    "id": "islam-ol",
    "name": "Islam",
    "nameLocal": "இஸ்லாம்",
    "level": "O/L",
+   "streams": [],
+   "icon": "book-open",
    "medium": "Tamil",
    "tagline": "Grade 10 & 11 · Tamil medium",
    "color": "#8B5CF6",

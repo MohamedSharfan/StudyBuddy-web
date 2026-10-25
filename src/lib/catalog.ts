@@ -19,6 +19,9 @@ export type SubjectSummary = {
   name: string;
   nameLocal: string;
   level: string;
+  /** A/L only: streams that take this subject. Empty = every stream. */
+  streams?: string[];
+  icon?: string;
   medium: string;
   tagline: string;
   color: string;
@@ -28,14 +31,13 @@ export type SubjectSummary = {
 
 export const catalog = catalogJson as unknown as { generatedAt: string; subjects: SubjectSummary[] };
 
-/** Subjects shown as "coming soon" on the home page and landing. */
-export const upcomingSubjects = [
-  { name: "Science", icon: "atom" },
-  { name: "Mathematics", icon: "sigma" },
-  { name: "History", icon: "landmark" },
-  { name: "Tamil", icon: "languages" },
-  { name: "English", icon: "book-a" },
-];
+/** Live subjects for a student's level (A/L subjects can also be limited to streams). */
+export function subjectsFor(profile: { education_level: string; stream?: string | null } | null | undefined) {
+  if (!profile) return catalog.subjects.filter((s) => s.level === "O/L");
+  return catalog.subjects.filter(
+    (s) => s.level === profile.education_level && (!s.streams?.length || (profile.stream && s.streams.includes(profile.stream))),
+  );
+}
 
 export function getSubject(id: string) {
   return catalog.subjects.find((s) => s.id === id) ?? null;

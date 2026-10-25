@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ChevronLeft, Mail, MessageCircle } from "lucide-react";
 import { UnlockToggle } from "@/components/admin/UnlockToggle";
 import { Avatar } from "@/components/ui/Avatar";
+import { Icon } from "@/components/ui/Icon";
 import { catalog, getChapterSummary, parseChapterId } from "@/lib/catalog";
 import { subjectProgress } from "@/lib/progress";
 import type { AdminStudent } from "@/lib/admin-types";
@@ -44,7 +45,7 @@ export default async function AdminStudentDetail({ params }: { params: Promise<{
         <div className="flex-1 min-w-0">
           <h1 className="display text-3xl font-bold">{s.display_name}</h1>
           <p className="text-sm text-muted">
-            <span className="font-mono text-gold text-base">{s.student_code}</span> {s.username && `· @${s.username}`} · Grade {s.grade}
+            <span className="font-mono text-gold text-base">{s.student_code}</span> {s.username && `· @${s.username}`} · {s.grade >= 12 ? "A/L" : "O/L"} · Grade {s.grade}
             {s.province && ` · ${s.province}`}
           </p>
           <p className="text-xs text-faint mt-1">
@@ -73,7 +74,7 @@ export default async function AdminStudentDetail({ params }: { params: Promise<{
             const prog = subjectProgress(sub, done);
             return (
               <li key={sub.id} className="flex flex-wrap items-center gap-4 py-3">
-                <span className="text-2xl">☪️</span>
+                <Icon name={sub.icon ?? "book-open"} size={22} className="text-lilac" />
                 <span className="flex-1">
                   <span className="block font-bold">
                     {sub.name} {sub.level}

@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Check, Eye, EyeOff, ListTree, Minus, Plus } from "lucide-react";
+import { Check, Eye, EyeOff, ListTree, Loader2, Minus, Plus } from "lucide-react";
 import { RewardModal, useAward } from "@/components/Reward";
 
 type Heading = { depth: number; text: string; id: string };
@@ -77,7 +78,7 @@ export function NoteReader({
   return (
     <>
       <div className="fixed top-0 inset-x-0 h-1 z-50 pointer-events-none">
-        <div className="h-full bg-gradient-to-r from-electric via-neon to-gold transition-[width] duration-150" style={{ width: `${progress * 100}%` }} />
+        <div className="h-full bg-gold" style={{ width: `${progress * 100}%` }} />
       </div>
 
       <div className={`grid gap-8 ${focus ? "" : "xl:grid-cols-[1fr_250px]"}`}>
@@ -118,23 +119,23 @@ export function NoteReader({
             {children}
           </div>
 
-          <div className="mt-12 rounded-3xl p-6 text-center bg-gradient-to-br from-electric/30 to-transparent border border-neon/30">
+          <div className="mt-12 rounded-2xl p-6 text-center border border-line bg-card">
             {claimed ? (
               <>
                 <p className="display text-2xl font-bold flex items-center justify-center gap-2">
                   <Check className="text-gold" /> Notes done
                 </p>
                 <p className="text-sm text-muted mt-1">Next door: test your memory with flashcards.</p>
-                <a href={nextHref} className="btn btn-gold mt-4">
+                <Link href={nextHref} className="btn btn-gold mt-4">
                   Go to flashcards →
-                </a>
+                </Link>
               </>
             ) : (
               <>
                 <p className="display text-2xl font-bold">Finished reading?</p>
-                <p className="text-sm text-muted mt-1">Mark it done to light up the first door of this star.</p>
+                <p className="text-sm text-muted mt-1">Mark it as read to complete step 1 of this chapter.</p>
                 <button onClick={finish} disabled={pending} className="btn btn-gold mt-4">
-                  <span className="coin" /> Mark as read · +1
+                  {pending ? <Loader2 size={16} className="animate-spin" /> : <span className="coin" />} Mark as read · +1
                 </button>
               </>
             )}

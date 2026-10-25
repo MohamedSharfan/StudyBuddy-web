@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Check, LayoutList, RotateCcw, Shuffle, Undo2, X } from "lucide-react";
 import type { Flashcard } from "@/lib/content";
@@ -107,9 +108,9 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
             All {cards.length} cards mastered in {rounds} round{rounds > 1 ? "s" : ""}.
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-6">
-            <a href={nextHref} className="btn btn-gold">
+            <Link href={nextHref} className="btn btn-gold">
               Next door: Quiz →
-            </a>
+            </Link>
             <button onClick={() => restart(true)} className="btn btn-ghost" disabled={pending}>
               <RotateCcw size={16} /> Go again
             </button>
@@ -138,12 +139,12 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
               aria-label={flipped ? "Show question" : "Show answer"}
             >
               <div className="flip-inner">
-                <div className="flip-face glass !rounded-[28px] p-7 sm:p-10 flex flex-col bg-gradient-to-br from-electric/40 to-card">
+                <div className="flip-face glass !bg-card-2 p-7 sm:p-10 flex flex-col">
                   <span className="eyebrow">{queue.length} left · Question</span>
                   <p className="flex-1 grid place-items-center text-center display text-2xl sm:text-3xl font-bold leading-snug">{cards[current].front}</p>
                   <span className="text-center text-xs text-muted">Tap or press Space to flip</span>
                 </div>
-                <div className="flip-face flip-back glass !rounded-[28px] p-7 sm:p-10 flex flex-col bg-gradient-to-br from-gold/20 to-card border-gold/40">
+                <div className="flip-face flip-back glass p-7 sm:p-10 flex flex-col !border-gold/50">
                   <span className="eyebrow !text-gold">Answer</span>
                   <p className="flex-1 grid place-items-center text-center text-lg sm:text-xl font-semibold leading-relaxed">{cards[current].back}</p>
                   <span className="text-center text-xs text-muted">Did you know it?</span>

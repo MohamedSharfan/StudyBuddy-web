@@ -11,67 +11,63 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
   if (!open) return <LockedPanel chapter={c} viewer={viewer} />;
 
   const doors = [
-    { slug: "notes", t: "Read", sub: `${c.minutes} min of notes`, icon: BookOpen, coins: REWARDS.lesson, grad: "from-electric/70 via-royal/40" },
-    { slug: "flashcards", t: "Recall", sub: `${c.counts.flashcards} flashcards`, icon: Layers, coins: REWARDS.flashcards, grad: "from-cyan/45 via-electric/25" },
-    { slug: "quiz", t: "Quiz", sub: `${c.counts.quiz} questions · pass 80%`, icon: Brain, coins: REWARDS.quiz, grad: "from-pink/55 via-electric/25" },
-    {
-      slug: "past-papers",
-      t: "Exam vault",
-      sub: `${c.counts.mcq} MCQ · ${c.counts.structured} structured`,
-      icon: ScrollText,
-      coins: REWARDS.pastpaper,
-      grad: "from-gold/45 via-orange/20",
-    },
+    { slug: "notes", t: "Notes", sub: `${c.minutes} min read`, icon: BookOpen, coins: REWARDS.lesson },
+    { slug: "flashcards", t: "Flashcards", sub: `${c.counts.flashcards} cards`, icon: Layers, coins: REWARDS.flashcards },
+    { slug: "quiz", t: "Quiz", sub: `${c.counts.quiz} questions · pass with 80%`, icon: Brain, coins: REWARDS.quiz },
+    { slug: "past-papers", t: "Past papers", sub: `${c.counts.mcq} MCQ · ${c.counts.structured} structured`, icon: ScrollText, coins: REWARDS.pastpaper },
   ];
   const firstOpen = steps.findIndex((s) => !s);
 
   return (
-    <div className="space-y-8">
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+    <div className="space-y-6">
+      <ol className="grid sm:grid-cols-2 gap-3">
         {doors.map((d, i) => {
           const done = steps[i];
           const I = d.icon;
           return (
-            <Link
-              key={d.slug}
-              href={chapterHref(subject.id, c.grade, c.number, d.slug)}
-              className={`arch glass glass-hover bg-gradient-to-b ${d.grad} to-transparent p-4 sm:p-6 pt-10 sm:pt-14 min-h-[240px] sm:min-h-[280px] flex flex-col items-center text-center rise rise-${i + 1} ${
-                i === firstOpen ? "ring-2 ring-gold/70" : ""
-              }`}
-            >
-              <span className={`grid place-items-center w-14 h-14 rounded-full ring-1 ring-white/20 ${done ? "bg-gold text-bg" : "bg-bg/70"}`}>
-                {done ? <Check size={26} strokeWidth={3} /> : <I size={26} />}
-              </span>
-              <p className="text-[11px] font-bold text-muted mt-4">DOOR {i + 1}</p>
-              <h2 className="display text-xl sm:text-2xl font-bold">{d.t}</h2>
-              <p className="text-xs sm:text-sm text-muted mt-1 flex-1">{d.sub}</p>
-              <p className="text-xs sm:text-sm font-bold mt-3 flex items-center gap-1.5">
-                {done ? (
-                  <span className="text-gold">Completed</span>
-                ) : (
-                  <>
-                    <span className="coin" /> <span className="text-gold">+{d.coins}</span>
-                  </>
-                )}
-              </p>
-              {i === firstOpen && <span className="mt-2 text-[11px] font-extrabold text-gold tracking-widest">START HERE</span>}
-            </Link>
+            <li key={d.slug}>
+              <Link
+                href={chapterHref(subject.id, c.grade, c.number, d.slug)}
+                className={`glass glass-hover flex items-center gap-4 p-4 ${i === firstOpen ? "!border-gold/60" : ""}`}
+              >
+                <span className={`grid place-items-center w-11 h-11 rounded-xl flex-none ${done ? "bg-green text-bg" : "bg-card-2"}`}>
+                  {done ? <Check size={20} strokeWidth={3} /> : <I size={20} />}
+                </span>
+                <span className="flex-1 min-w-0">
+                  <span className="block font-bold">
+                    {i + 1}. {d.t}
+                  </span>
+                  <span className="block text-sm text-muted">{d.sub}</span>
+                </span>
+                <span className="text-sm font-semibold flex-none">
+                  {done ? (
+                    <span className="text-green">Done</span>
+                  ) : i === firstOpen ? (
+                    <span className="text-gold">Start here</span>
+                  ) : (
+                    <span className="text-muted flex items-center gap-1.5">
+                      <span className="coin" /> +{d.coins}
+                    </span>
+                  )}
+                </span>
+              </Link>
+            </li>
           );
         })}
-      </div>
+      </ol>
 
       <div className="grid lg:grid-cols-2 gap-5">
         <div className="glass p-6">
-          <h3 className="font-extrabold">🎯 In this chapter you&apos;ll learn</h3>
+          <h3 className="font-bold">In this chapter you&apos;ll learn</h3>
           <ul lang="ta" className="mt-4 space-y-2.5">
             {c.objectives.map((o) => (
               <li key={o} className="flex gap-3 text-[0.95rem]">
-                <span className="text-gold mt-0.5">✦</span> {o}
+                <span className="text-muted">•</span> {o}
               </li>
             ))}
           </ul>
           {!viewer && (
-            <p className="mt-5 text-sm rounded-xl bg-electric/15 border border-electric/30 p-3">
+            <p className="mt-5 text-sm rounded-xl border border-line p-3">
               <Lock size={13} className="inline -mt-0.5 mr-1" />
               <Link href="/login" className="font-bold text-lilac underline">
                 Sign in

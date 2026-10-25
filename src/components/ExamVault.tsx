@@ -33,20 +33,20 @@ function StructuredCard({ q, index }: { q: PastStructured; index: number }) {
         {open ? <EyeOff size={15} /> : <Eye size={15} />} {open ? "Hide model answer" : "Reveal model answer"}
       </button>
       {open && (
-        <div className="mt-4 space-y-4 rise">
+        <div className="mt-4 space-y-4">
           <div className="rounded-2xl p-4 bg-green/10 border border-green/30">
-            <p className="text-xs font-extrabold text-green tracking-widest mb-1">MODEL ANSWER</p>
+            <p className="text-xs font-bold text-green mb-1">Model answer</p>
             <RichText text={q.answer} />
           </div>
           {q.explanation && (
             <div className="rounded-2xl p-4 bg-electric/10 border border-electric/30">
-              <p className="text-xs font-extrabold text-lilac tracking-widest mb-1">WHY</p>
+              <p className="text-xs font-bold text-lilac mb-1">Why</p>
               <RichText text={q.explanation} />
             </div>
           )}
           {q.guidance && (
             <div className="rounded-2xl p-4 bg-gold/10 border border-gold/30">
-              <p className="text-xs font-extrabold text-gold tracking-widest mb-1">MARKING GUIDE (SUGGESTED)</p>
+              <p className="text-xs font-bold text-gold mb-1">Marking guide (suggested)</p>
               <RichText text={q.guidance} />
             </div>
           )}
@@ -77,7 +77,7 @@ function BrowseMcq({ q }: { q: PastMcq }) {
         {show ? <EyeOff size={14} /> : <Eye size={14} />} {show ? "Hide answer" : "Show answer"}
       </button>
       {show && (
-        <div className="mt-2 text-sm text-muted rise">
+        <div className="mt-2 text-sm text-muted">
           <p>
             <b className="text-green">✓ {q.answer}</b> — {q.explanation}
           </p>
@@ -144,7 +144,7 @@ export function ExamVault({
             done={done}
             title="Past paper Q"
             nextHref={nextHref}
-            nextLabel="Back to the sky map"
+            nextLabel="Back to chapters"
             questions={mcq.map((q) => ({
               prompt: q.prompt,
               options: q.options,

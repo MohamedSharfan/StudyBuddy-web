@@ -1,11 +1,13 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { parseChapterId } from "@/lib/catalog";
 import { loadChapter } from "@/lib/content";
 import { PROVINCES, type CompletionKind } from "@/lib/gamification";
-import { createClient } from "@/lib/supabase/server";
+import { getStream, gradesFor, isLevel } from "@/lib/levels";
+import { SETTINGS_TAG } from "@/lib/settings";
+import { createClient, getAuthUser } from "@/lib/supabase/server";
 
 export type AwardResult = {
   ok: boolean;
@@ -30,9 +32,7 @@ export type AwardResult = {
 export async function awardActivity(kind: CompletionKind, itemId: string, answers?: Record<number, string>): Promise<AwardResult> {
   const supabase = await createClient();
   if (!supabase) return { ok: false, error: "Sign-in is not configured yet." };
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
   if (!user) return { ok: false, needsLogin: true };
 
   const parsed = parseChapterId(itemId);
@@ -92,14 +92,14 @@ export type FormState = { error?: string; ok?: boolean; message?: string };
 export async function saveProfile(_: FormState, form: FormData): Promise<FormState> {
   const supabase = await createClient();
   if (!supabase) return { error: "Not configured" };
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
   if (!user) return { error: "Please sign in again." };
 
   const username = cleanUsername(form.get("username"));
   const displayName = String(form.get("display_name") ?? "").trim();
-  const grade = Number(form.get("grade") ?? 10);
+  const level = form.get("education_level");
+  const stream = level === "A/L" ? String(form.get("stream") ?? "") : null;
+  const grade = Number(form.get("grade") ?? 0);
   const province = String(form.get("province") ?? "");
   const medium = String(form.get("medium") ?? "Tamil");
   const bio = String(form.get("bio") ?? "").trim();
@@ -109,7 +109,9 @@ export async function saveProfile(_: FormState, form: FormData): Promise<FormSta
 
   if (!/^[a-z0-9_]{3,20}$/.test(username)) return { error: "Username: 3–20 letters, numbers or _" };
   if (!displayName) return { error: "Please enter your name." };
-  if (![10, 11].includes(grade)) return { error: "Choose your grade." };
+  if (!isLevel(level)) return { error: "Choose O/L or A/L." };
+  if (level === "A/L" && !getStream(stream)) return { error: "Choose your A/L stream." };
+  if (!gradesFor(level).includes(grade)) return { error: "Choose your grade." };
   if (province && !PROVINCES.includes(province as (typeof PROVINCES)[number])) return { error: "Choose a province." };
   if (phone && !/^[+\d\s-]{7,20}$/.test(phone)) return { error: "Phone number looks wrong." };
 
@@ -118,6 +120,8 @@ export async function saveProfile(_: FormState, form: FormData): Promise<FormSta
     .update({
       username,
       display_name: displayName.slice(0, 60),
+      education_level: level,
+      stream,
       grade,
       province: province || null,
       medium,
@@ -129,6 +133,7 @@ export async function saveProfile(_: FormState, form: FormData): Promise<FormSta
     .eq("id", user.id);
   if (error) {
     if (error.code === "23505") return { error: "That username is taken — try another." };
+    if (error.message.includes("stream")) return { error: "Please ask the admin to run the latest database update (levels and streams)." };
     return { error: error.message };
   }
   await supabase.from("student_private").update({ phone: phone || null }).eq("user_id", user.id);
@@ -143,9 +148,7 @@ export async function saveProfile(_: FormState, form: FormData): Promise<FormSta
 export async function requestUnlock(_: FormState, form: FormData): Promise<FormState> {
   const supabase = await createClient();
   if (!supabase) return { error: "Not configured" };
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
   if (!user) return { error: "Please sign in first." };
   const subjectId = String(form.get("subject_id") ?? "islam-ol");
   const phone = String(form.get("phone") ?? "").trim();
@@ -169,9 +172,7 @@ export async function requestUnlock(_: FormState, form: FormData): Promise<FormS
 export async function connect(targetId: string) {
   const supabase = await createClient();
   if (!supabase) return;
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
   if (!user || user.id === targetId) return;
   // If they already asked us, accept instead.
   const { data: incoming } = await supabase
@@ -191,9 +192,7 @@ export async function connect(targetId: string) {
 export async function disconnect(targetId: string) {
   const supabase = await createClient();
   if (!supabase) return;
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
   if (!user) return;
   await supabase.from("student_connections").delete().eq("from_user_id", user.id).eq("to_user_id", targetId);
   await supabase.from("student_connections").delete().eq("from_user_id", targetId).eq("to_user_id", user.id);
@@ -258,6 +257,7 @@ export async function adminSaveSettings(_: FormState, form: FormData): Promise<F
       { key: "announcement", value: { text: announcement, active }, updated_at: new Date().toISOString() },
     ]);
     if (error) return { error: error.message };
+    revalidateTag(SETTINGS_TAG);
     revalidatePath("/", "layout");
     return { ok: true, message: "Settings saved" };
   } catch (e) {

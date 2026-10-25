@@ -43,10 +43,10 @@ export default async function ProfilePage() {
         }
       />
 
-      <div className="glass p-5 flex flex-wrap items-center gap-4 justify-between bg-gradient-to-r from-gold/10 to-transparent">
+      <div className="glass p-5 flex flex-wrap items-center gap-4 justify-between">
         <div>
-          <p className="text-xs text-muted font-bold">YOUR STUDENT CODE</p>
-          <p className="display text-3xl font-bold tracking-wider text-gold">{p.student_code}</p>
+          <p className="text-sm text-muted">Your student code</p>
+          <p className="text-2xl font-bold tracking-wider text-gold font-mono">{p.student_code}</p>
           <p className="text-xs text-muted">Send this code to us when you unlock a subject.</p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -73,7 +73,7 @@ export default async function ProfilePage() {
                 return (
                   <li key={`${r.item_id}${r.kind}`}>
                     <Link href={c && id ? chapterHref(id.subjectId, c.grade, c.number) : "#"} className="flex items-center gap-3 rounded-xl px-2 py-2 hover:bg-white/5">
-                      <span className="text-gold">✦</span>
+                      <span className="text-muted">•</span>
                       <span className="flex-1 min-w-0">
                         <span className="block text-sm font-bold">
                           {KIND_LABEL[r.kind]} {r.score_percent != null && <span className="text-muted">· {r.score_percent}%</span>}

@@ -165,7 +165,7 @@ create table if not exists public.site_settings (
 );
 
 insert into public.site_settings (key, value) values
-  ('contact', '{"whatsapp": "", "message": "Assalamu alaikum! I would like to unlock StudyBuddy Islam. My student code is"}'),
+  ('contact', '{"whatsapp": "", "message": "Hi! I would like to unlock a subject on StudyBuddy. My student code is"}'),
   ('announcement', '{"text": "", "active": false}')
 on conflict (key) do nothing;
 

@@ -15,12 +15,16 @@ const OUT_CHAPTERS = path.join(ROOT, "generated", "chapters");
 const OUT_CATALOG = path.join(ROOT, "src", "generated", "catalog.json");
 
 // Subjects the site knows about. Add a new folder in /content and an entry here.
+// level is "O/L" or "A/L". For A/L subjects, `streams` limits who sees it
+// (physical, biology, commerce, arts, technology); leave it empty for every stream.
 const SUBJECTS = [
   {
     id: "islam-ol",
     name: "Islam",
     nameLocal: "இஸ்லாம்",
     level: "O/L",
+    streams: [],
+    icon: "book-open",
     medium: "Tamil",
     tagline: "Grade 10 & 11 · Tamil medium",
     color: "#8B5CF6",

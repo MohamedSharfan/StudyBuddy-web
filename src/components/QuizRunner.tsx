@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { ArrowRight, Check, RotateCcw, Shuffle, X } from "lucide-react";
 import type { CompletionKind } from "@/lib/gamification";
@@ -15,15 +16,13 @@ export type RunnerQuestion = {
   note?: string;
 };
 
-function Moon({ state, current }: { state: "right" | "wrong" | "todo"; current: boolean }) {
+function Dot({ state, current }: { state: "right" | "wrong" | "todo"; current: boolean }) {
   return (
     <span
-      className={`relative block w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex-none transition-all ${current ? "ring-2 ring-gold ring-offset-2 ring-offset-bg scale-110" : ""} ${
-        state === "right" ? "bg-gold shadow-[0_0_10px_rgba(251,191,36,.7)]" : state === "wrong" ? "bg-white/15 overflow-hidden" : "bg-white/10"
+      className={`block w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full flex-none ${current ? "ring-2 ring-white ring-offset-2 ring-offset-bg" : ""} ${
+        state === "right" ? "bg-green" : state === "wrong" ? "bg-pink" : "bg-white/15"
       }`}
-    >
-      {state === "wrong" && <span className="absolute inset-0 rounded-full bg-pink [clip-path:circle(50%_at_15%_50%)]" />}
-    </span>
+    />
   );
 }
 
@@ -109,7 +108,7 @@ export function QuizRunner({
     const wrong = order.filter((i) => answers[i] !== questions[i].answer);
     return (
       <div className="max-w-[820px] mx-auto space-y-5">
-        <div className="glass p-8 text-center bg-gradient-to-b from-electric/30 to-transparent">
+        <div className="glass p-8 text-center">
           <ProgressRing value={pct} size={140} stroke={11}>
             <span className="display text-4xl font-bold">{pct}%</span>
           </ProgressRing>
@@ -119,9 +118,9 @@ export function QuizRunner({
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-6">
             {nextHref && pct >= 80 && (
-              <a href={nextHref} className="btn btn-gold">
+              <Link href={nextHref} className="btn btn-gold">
                 {nextLabel ?? "Next"} <ArrowRight size={16} />
-              </a>
+              </Link>
             )}
             <button onClick={() => restart(true)} className="btn btn-ghost" disabled={pending}>
               <Shuffle size={16} /> Retry shuffled
@@ -189,11 +188,11 @@ export function QuizRunner({
       </div>
       <div className="flex flex-wrap gap-1.5 mb-6" aria-hidden>
         {order.map((i, k) => (
-          <Moon key={k} current={k === pos} state={answers[i] ? (answers[i] === questions[i].answer ? "right" : "wrong") : "todo"} />
+          <Dot key={k} current={k === pos} state={answers[i] ? (answers[i] === questions[i].answer ? "right" : "wrong") : "todo"} />
         ))}
       </div>
 
-      <div key={qi} className="glass p-5 sm:p-8 rise" lang="ta">
+      <div key={qi} className="glass p-5 sm:p-8" lang="ta">
         {q.meta && q.meta.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4">
             {q.meta.filter(Boolean).map((m) => (

@@ -16,8 +16,8 @@ export function burst() {
 const TITLES: Record<CompletionKind, string> = {
   lesson: "Lesson complete!",
   flashcards: "Flashcards cleared!",
-  quiz: "Quiz conquered!",
-  pastpaper: "Exam vault cracked!",
+  quiz: "Quiz passed!",
+  pastpaper: "Past papers done!",
 };
 
 export function useAward(kind: CompletionKind, itemId: string) {
@@ -54,7 +54,7 @@ export function RewardModal({ kind, result, onClose, nextHref, nextLabel }: { ki
     title = "Almost there!";
     body = (
       <p className="text-muted">
-        You scored <b className="text-white">{result.score}%</b> ({result.correct}/{result.total}). Score 80% or higher to conquer it and earn coins.
+        You scored <b className="text-white">{result.score}%</b> ({result.correct}/{result.total}). Score 80% or higher to pass and earn coins.
       </p>
     );
   } else if (result.already) {
@@ -76,7 +76,7 @@ export function RewardModal({ kind, result, onClose, nextHref, nextLabel }: { ki
             {result.correct}/{result.total} correct · <b className="text-white">{result.score}%</b>
           </p>
         )}
-        <p className="display text-5xl font-bold text-gold flex items-center justify-center gap-3 mt-3 pop">
+        <p className="text-4xl font-bold text-gold flex items-center justify-center gap-3 mt-3">
           <span className="coin" /> +{result.coinsAwarded}
         </p>
         <p className="text-sm text-muted mt-2">
@@ -87,14 +87,14 @@ export function RewardModal({ kind, result, onClose, nextHref, nextLabel }: { ki
   }
 
   return (
-    <div className="fixed inset-0 z-50 grid place-items-center p-4 bg-bg/70 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={title} onClick={onClose}>
-      <div className="glass w-full max-w-[400px] p-7 text-center pop shadow-[0_30px_80px_-20px_rgba(124,58,237,.8)]" onClick={(e) => e.stopPropagation()}>
-        <Panda size={92} mood={result.ok && result.passed ? "wink" : "think"} className="mx-auto float" />
-        <h2 className="display text-3xl font-bold mt-3">{title}</h2>
+    <div className="fixed inset-0 z-50 grid place-items-center p-4 bg-black/60" role="dialog" aria-modal="true" aria-label={title} onClick={onClose}>
+      <div className="glass w-full max-w-[400px] p-7 text-center pop shadow-2xl" onClick={(e) => e.stopPropagation()}>
+        <Panda size={80} mood={result.ok && result.passed ? "wink" : "think"} className="mx-auto" />
+        <h2 className="display text-2xl font-bold mt-3">{title}</h2>
         <div className="mt-2">{body}</div>
         {badges.length > 0 && (
           <div className="mt-5 rounded-2xl bg-gold/10 border border-gold/30 p-3">
-            <p className="text-xs font-extrabold text-gold tracking-widest">NEW BADGE{badges.length > 1 ? "S" : ""}</p>
+            <p className="text-xs font-bold text-gold">New badge{badges.length > 1 ? "s" : ""}</p>
             {badges.map((b) => (
               <p key={b.code} className="font-bold mt-1">
                 🏅 {b.title}

@@ -102,7 +102,7 @@ export function PandaChat({ firstName, smart }: { firstName: string; smart: bool
         {messages.map((m, i) =>
           m.role === "user" ? (
             <div key={i} className="flex justify-end">
-              <p className="max-w-[85%] rounded-3xl rounded-br-md bg-gradient-to-br from-electric to-royal px-4 py-2.5 whitespace-pre-wrap" lang="ta">
+              <p className="max-w-[85%] rounded-3xl rounded-br-md bg-electric px-4 py-2.5 whitespace-pre-wrap" lang="ta">
                 {m.content}
               </p>
             </div>

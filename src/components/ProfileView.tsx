@@ -22,9 +22,7 @@ export function ProfileHeader({ p, actions }: { p: PublicProfile; actions?: Reac
   const rank = rankFor(p.coins);
   return (
     <div className="glass overflow-hidden">
-      <div className="h-28 sm:h-36 relative bg-gradient-to-r from-royal via-electric to-pink/70">
-        <div className="absolute inset-0 opacity-40" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, #fff 1px, transparent 1.5px), radial-gradient(circle at 70% 60%, #fff 1px, transparent 1.5px)", backgroundSize: "60px 60px, 90px 90px" }} />
-      </div>
+      <div className="h-24 sm:h-28 bg-royal" />
       <div className="px-5 sm:px-8 pb-6 -mt-12 flex flex-col sm:flex-row sm:items-end gap-4">
         <Avatar name={p.display_name} url={p.avatar_url} size={104} ring />
         <div className="flex-1 min-w-0">
@@ -33,10 +31,12 @@ export function ProfileHeader({ p, actions }: { p: PublicProfile; actions?: Reac
             {p.username && <span>@{p.username}</span>} {p.headline && <span>· {p.headline}</span>}
           </p>
           <div className="flex flex-wrap gap-2 mt-2">
-            <span className="chip" style={{ color: rank.color, borderColor: `${rank.color}55` }}>
-              ◆ {rank.name}
+            <span className="chip font-bold" style={{ color: rank.color }}>
+              {rank.name}
             </span>
-            <span className="chip">Grade {p.grade}</span>
+            <span className="chip">
+              {p.grade >= 12 ? "A/L" : "O/L"} · Grade {p.grade}
+            </span>
             {p.province && (
               <span className="chip">
                 <MapPin size={12} /> {p.province}
@@ -80,14 +80,14 @@ export function ProfileStats({ p, lessons, quizzes }: { p: PublicProfile; lesson
               <li key={r.name} className="flex-1 flex flex-col items-center justify-end h-full gap-1.5">
                 <div
                   className={`arch w-full ${current ? "ring-2 ring-gold" : ""}`}
-                  style={{ height: `${30 + i * 17}%`, background: reached ? `linear-gradient(180deg, ${r.color}, transparent)` : "rgba(255,255,255,.05)" }}
+                  style={{ height: `${30 + i * 17}%`, background: reached ? r.color : "rgba(255,255,255,.06)" }}
                 />
                 <span className={`text-[10px] font-bold ${current ? "text-white" : "text-muted"}`}>{r.name}</span>
               </li>
             );
           })}
         </ol>
-        <p className="text-xs text-muted mt-3">{up ? `${up.min - p.coins} coins to ${up.name}` : "Champion — the top of the sky!"}</p>
+        <p className="text-xs text-muted mt-3">{up ? `${up.min - p.coins} coins to ${up.name}` : "Champion, the top rank!"}</p>
       </div>
     </div>
   );
@@ -105,9 +105,9 @@ export function BadgeGrid({ codes }: { codes: string[] }) {
           return (
             <div key={b.code} className={`text-center ${got ? "" : "opacity-35 grayscale"}`} title={b.description}>
               <span
-                className={`mx-auto grid place-items-center w-14 h-14 rounded-2xl rotate-45 ${got ? "bg-gradient-to-br from-gold to-orange shadow-[0_0_20px_rgba(251,191,36,.4)]" : "bg-white/5 border border-line"}`}
+                className={`mx-auto grid place-items-center w-14 h-14 rounded-2xl ${got ? "bg-gold" : "bg-white/5 border border-line"}`}
               >
-                <Icon name={b.icon} size={22} className={`-rotate-45 ${got ? "text-bg" : "text-muted"}`} />
+                <Icon name={b.icon} size={22} className={got ? "text-bg" : "text-muted"} />
               </span>
               <p className="text-[11px] font-bold mt-3 leading-tight">{b.title}</p>
               <p className="text-[10px] text-faint mt-0.5 leading-tight hidden sm:block">{b.description}</p>

@@ -24,7 +24,7 @@ export default async function AdminRequests({ searchParams }: { searchParams: Pr
   return (
     <div className="space-y-5">
       <div>
-        <p className="eyebrow !text-gold">Admin</p>
+        <p className="eyebrow">Admin</p>
         <h1 className="display text-4xl font-bold mt-1">Unlock requests</h1>
         <p className="text-sm text-muted mt-1">Confirm the student&apos;s payment (WhatsApp / bank), then press Unlock. The request closes automatically.</p>
       </div>

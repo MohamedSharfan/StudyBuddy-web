@@ -6,6 +6,8 @@ export async function middleware(request: NextRequest) {
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   let response = NextResponse.next({ request });
   if (!url || !key) return response;
+  // Visitors without a Supabase session cookie have nothing to refresh.
+  if (!request.cookies.getAll().some((c) => c.name.startsWith("sb-"))) return response;
 
   const supabase = createServerClient(url, key, {
     cookies: {
@@ -20,11 +22,11 @@ export async function middleware(request: NextRequest) {
     },
   });
 
-  // Refreshes the auth token if needed.
-  await supabase.auth.getUser();
+  // Refreshes an expired token, then verifies it locally against the cached JWKS (no Auth round trip).
+  await supabase.auth.getClaims();
   return response;
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|logo.jpg|.*\.(?:svg|png|jpg|jpeg|gif|webp|woff2?)$).*)"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|logo.jpg|api/|.*\\.(?:svg|png|jpg|jpeg|gif|webp|woff2?)$).*)"],
 };
