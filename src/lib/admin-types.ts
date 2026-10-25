@@ -1,0 +1,21 @@
+export type AdminStudent = {
+  id: string;
+  display_name: string;
+  username: string | null;
+  student_code: string;
+  email: string | null;
+  phone: string | null;
+  grade: number;
+  province: string | null;
+  avatar_url: string | null;
+  coins: number;
+  streak_days: number;
+  current_rank: string;
+  created_at: string;
+  last_activity_day: string | null;
+  unlocked_subjects: string[];
+  pending_requests: number;
+  completions: number;
+  is_admin: boolean;
+  total_count: number;
+};

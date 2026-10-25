@@ -1,0 +1,47 @@
+import {
+  Atom,
+  BookA,
+  BookOpen,
+  CircleHelp,
+  Coins,
+  Crown,
+  Flame,
+  Frame,
+  Landmark,
+  Languages,
+  Layers,
+  Library,
+  Palette,
+  ScrollText,
+  Shirt,
+  Sigma,
+  Sticker,
+  Trophy,
+  type LucideProps,
+} from "lucide-react";
+
+const MAP = {
+  atom: Atom,
+  "book-a": BookA,
+  "book-open": BookOpen,
+  "circle-help": CircleHelp,
+  coins: Coins,
+  crown: Crown,
+  flame: Flame,
+  frame: Frame,
+  landmark: Landmark,
+  languages: Languages,
+  layers: Layers,
+  library: Library,
+  palette: Palette,
+  "scroll-text": ScrollText,
+  shirt: Shirt,
+  sigma: Sigma,
+  sticker: Sticker,
+  trophy: Trophy,
+} as const;
+
+export function Icon({ name, ...props }: { name: string } & LucideProps) {
+  const C = MAP[name as keyof typeof MAP] ?? BookOpen;
+  return <C {...props} />;
+}
