@@ -59,7 +59,7 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
       <div className="grid lg:grid-cols-2 gap-5">
         <div className="glass p-6">
           <h3 className="font-bold">In this chapter you&apos;ll learn</h3>
-          <ul lang="ta" className="mt-4 space-y-2.5">
+          <ul className="mt-4 space-y-2.5">
             {c.objectives.map((o) => (
               <li key={o} className="flex gap-3 text-[0.95rem]">
                 <span className="text-muted">•</span> {o}

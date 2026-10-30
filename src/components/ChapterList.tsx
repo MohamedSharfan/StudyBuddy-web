@@ -39,7 +39,7 @@ export function ChapterList({ items }: { items: StarItem[] }) {
                   {c.free && <span className="text-green font-semibold">Free</span>}
                   {it.next && <span className="text-gold font-semibold">Up next</span>}
                 </span>
-                <span lang="ta" className={`block font-semibold leading-snug truncate ${locked ? "text-muted" : ""}`}>
+                <span className={`block font-semibold leading-snug truncate ${locked ? "text-muted" : ""}`}>
                   {c.title}
                 </span>
               </span>

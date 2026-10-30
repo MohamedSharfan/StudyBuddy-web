@@ -30,7 +30,7 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
 
   return (
     <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-6 items-start">
-      <div className="min-w-0">
+      <div className="min-w-0" lang={subject.lang}>
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="eyebrow">
@@ -38,9 +38,7 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
             </p>
             <h1 className="display text-3xl font-bold mt-1">
               {subject.name}{" "}
-              <span lang="ta" className="text-muted text-xl font-semibold">
-                {subject.nameLocal}
-              </span>
+              <span className="text-muted text-xl font-semibold">{subject.nameLocal || `· ${subject.medium} medium`}</span>
             </h1>
           </div>
           <div className="flex rounded-xl border border-line p-1" role="tablist" aria-label="Grade">

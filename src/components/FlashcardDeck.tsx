@@ -92,7 +92,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
       </div>
 
       {list ? (
-        <div className="grid sm:grid-cols-2 gap-3" lang="ta">
+        <div className="grid sm:grid-cols-2 gap-3">
           {cards.map((c, i) => (
             <div key={i} className="glass p-4">
               <p className="font-bold">{c.front}</p>
@@ -118,7 +118,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
         </div>
       ) : (
         <>
-          <div className="relative h-[360px] sm:h-[380px]" lang="ta">
+          <div className="relative h-[360px] sm:h-[380px]">
             {/* the stack behind */}
             {queue.slice(1, 3).map((_, k) => (
               <div

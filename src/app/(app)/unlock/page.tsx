@@ -51,7 +51,7 @@ export default async function UnlockPage() {
             <div>
               <p className="eyebrow">{s.level} · {s.medium} medium</p>
               <h2 className="text-2xl font-bold mt-1">
-                {s.name} <span lang="ta" className="text-muted text-xl">{s.nameLocal}</span>
+                {s.name} <span className="text-muted text-xl">{s.nameLocal || `· ${s.medium} medium`}</span>
               </h2>
               <div className="flex flex-wrap gap-2 mt-3">
                 <span className="chip">{t.chapters} chapters</span>

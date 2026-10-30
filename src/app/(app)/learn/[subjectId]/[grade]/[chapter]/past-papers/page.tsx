@@ -8,7 +8,7 @@ export default async function PastPapersPage({ params }: { params: ChapterParams
   const { subject, summary: c, viewer, open, content, steps } = await resolveChapter(params, true);
   if (!open || !content) return <LockedPanel chapter={c} viewer={viewer} />;
   const pp = content.pastPapers;
-  const pattern = [pp.pattern, pp.related ? `## தொடர்புடைய பிற வினாக்கள்\n\n${pp.related}` : ""].filter(Boolean).join("\n\n---\n\n");
+  const pattern = [pp.pattern, pp.related ? `## ${subject.relatedHeading}\n\n${pp.related}` : ""].filter(Boolean).join("\n\n---\n\n");
 
   return (
     <div className="space-y-6">
@@ -16,8 +16,7 @@ export default async function PastPapersPage({ params }: { params: ChapterParams
         <div className="glass p-5 sm:p-6">
           <h2 className="display text-xl font-bold">Past-paper questions for this chapter</h2>
           <p className="text-sm text-muted mt-2">
-            From Islam I &amp; II papers 2016–2025 (Tamil medium). Answers are textbook-based suggestions — official marking schemes weren&apos;t
-            available, so check flagged items with your teacher. Score 80% in the MCQ practice to complete this step.
+            {subject.pastPaperNote} Score 80% in the MCQ practice to complete this step.
           </p>
         </div>
         <ExamRadar years={c.years} compact />

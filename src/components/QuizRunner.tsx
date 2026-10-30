@@ -143,7 +143,7 @@ export function QuizRunner({
           {order.length < questions.length && <p className="text-xs text-faint mt-3">Coins are awarded for a full run of all questions.</p>}
         </div>
         {wrong.length > 0 && (
-          <div className="glass p-5 sm:p-6" lang="ta">
+          <div className="glass p-5 sm:p-6">
             <h3 className="font-extrabold mb-4">Review what you missed</h3>
             <ol className="space-y-4">
               {wrong.map((i) => {
@@ -192,7 +192,7 @@ export function QuizRunner({
         ))}
       </div>
 
-      <div key={qi} className="glass p-5 sm:p-8" lang="ta">
+      <div key={qi} className="glass p-5 sm:p-8">
         {q.meta && q.meta.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4">
             {q.meta.filter(Boolean).map((m) => (

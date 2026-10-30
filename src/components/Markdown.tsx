@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 
@@ -63,6 +64,12 @@ const components: Components = {
     );
   },
   a({ href, children }) {
+    if (href?.startsWith("/"))
+      return (
+        <Link href={href} className="text-cyan underline underline-offset-4">
+          {children}
+        </Link>
+      );
     return (
       <a href={href} target="_blank" rel="noreferrer" className="text-cyan underline underline-offset-4">
         {children}
@@ -76,7 +83,7 @@ const components: Components = {
 
 export function Markdown({ children, className = "", size }: { children: string; className?: string; size?: number }) {
   return (
-    <div className={`prose-sb ${className}`} lang="ta" style={size ? ({ "--fs": `${size}rem` } as React.CSSProperties) : undefined}>
+    <div className={`prose-sb ${className}`} style={size ? ({ "--fs": `${size}rem` } as React.CSSProperties) : undefined}>
       <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
         {children}
       </ReactMarkdown>
@@ -94,7 +101,7 @@ function inline(line: string) {
 export function RichText({ text, className = "" }: { text: string; className?: string }) {
   const lines = text.split("\n");
   return (
-    <div className={`prose-sb !text-[0.98rem] !leading-[1.85] ${className}`} lang="ta">
+    <div className={`prose-sb !text-[0.98rem] !leading-[1.85] ${className}`}>
       {lines.map((line, i) =>
         line.trim() === "" ? (
           <div key={i} className="h-2" />

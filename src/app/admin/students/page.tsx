@@ -30,7 +30,6 @@ export default async function AdminStudents({ searchParams }: { searchParams: Pr
   const rows = (data ?? []) as AdminStudent[];
   const total = rows[0]?.total_count ?? 0;
   const pages = Math.max(1, Math.ceil(total / PAGE));
-  const subject = catalog.subjects[0];
   const href = (over: Record<string, string>) => {
     const s = new URLSearchParams({ q, filter, page: String(pageNum), ...over });
     if (!s.get("q")) s.delete("q");
@@ -81,7 +80,7 @@ export default async function AdminStudents({ searchParams }: { searchParams: Pr
                 <th className="px-4 py-3 font-bold">Grade</th>
                 <th className="px-4 py-3 font-bold">Progress</th>
                 <th className="px-4 py-3 font-bold">Joined</th>
-                <th className="px-4 py-3 font-bold text-right">{subject.name} access</th>
+                <th className="px-4 py-3 font-bold text-right">Access</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-line">
@@ -119,8 +118,13 @@ export default async function AdminStudents({ searchParams }: { searchParams: Pr
                     {r.pending_requests > 0 && <span className="block text-pink font-bold">Requested unlock</span>}
                   </td>
                   <td className="px-4 py-3">
-                    <div className="flex justify-end">
-                      <UnlockToggle userId={r.id} subjectId={subject.id} unlocked={r.unlocked_subjects.includes(subject.id)} />
+                    <div className="flex flex-col items-end gap-1.5">
+                      {catalog.subjects.map((s) => (
+                        <div key={s.id} className="flex items-center gap-2">
+                          <span className="text-xs text-muted">{s.medium}</span>
+                          <UnlockToggle userId={r.id} subjectId={s.id} unlocked={r.unlocked_subjects.includes(s.id)} compact />
+                        </div>
+                      ))}
                     </div>
                   </td>
                 </tr>

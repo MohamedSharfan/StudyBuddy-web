@@ -1,17 +1,16 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { parseChapterId } from "@/lib/catalog";
-import { getChapterSummary } from "@/lib/catalog";
+import { getChapterSummary, parseChapterId, subjectsFor } from "@/lib/catalog";
 import { retrieve } from "@/lib/panda";
 import { getViewer, hasSubjectAccess } from "@/lib/session";
 
 export const runtime = "nodejs";
 
-const SYSTEM = `You are Panda, the friendly study buddy inside StudyBuddy — a learning app for Sri Lankan G.C.E. O/L students studying Islam in the Tamil medium (Grade 10 and 11 syllabus).
+const SYSTEM = `You are Panda, the friendly study buddy inside StudyBuddy — a learning app for Sri Lankan G.C.E. O/L students studying Islam (Grade 10 and 11 syllabus) in the Tamil or English medium.
 
 How to answer:
 - Answer in the language the student writes in (Tamil or English; Tanglish is fine to answer in simple Tamil).
 - Ground every answer in the NOTES provided. If the notes don't cover the question, say so briefly and give a careful general answer, flagging that the student should check with their teacher.
-- Keep it short and exam-focused: a direct answer first, then 2–5 bullet points of key facts. Show Arabic terms with their Tamil transliteration where the notes do.
+- Keep it short and exam-focused: a direct answer first, then 2–5 bullet points of key facts. Show Arabic terms with their transliteration where the notes do.
 - When useful, end with "📌 Revise: Grade X · Chapter Y" pointing to the chapter the answer came from, and optionally one quick practice question.
 - Be warm and encouraging, like an older sibling. Never invent Quran verse numbers or hadith references that aren't in the notes.
 - Use simple Markdown (bold, bullet lists). No headings.`;
@@ -48,8 +47,11 @@ export async function POST(req: Request) {
   const question = history.at(-1);
   if (!question || question.role !== "user") return new Response("Ask me something!", { status: 400 });
 
+  // Only the student's own subjects (their level and medium), and only chapters they can open.
+  const mySubjects = new Set(subjectsFor(viewer.profile).map((s) => s.id));
   const canRead = (chapterId: string) => {
     const p = parseChapterId(chapterId);
+    if (!p || !mySubjects.has(p.subjectId)) return false;
     const s = p && getChapterSummary(p.subjectId, p.grade, p.number);
     return Boolean(s && (s.free || hasSubjectAccess(viewer, p.subjectId)));
   };
@@ -63,11 +65,11 @@ export async function POST(req: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
     // Offline fallback: show the best matching notes, like the app's local Panda.
     const text = snippets.length
-      ? `இதோ உங்கள் StudyBuddy குறிப்புகளிலிருந்து:\n\n${snippets
+      ? `From your StudyBuddy notes:\n\n${snippets
           .slice(0, 3)
           .map((s) => `**Grade ${s.grade} · Ch ${s.number} — ${s.heading}**\n${s.text.split("\n").filter(Boolean).slice(1, 6).join("\n")}`)
           .join("\n\n")}\n\n📌 Revise: Grade ${snippets[0].grade} · Chapter ${snippets[0].number}`
-      : "I couldn't find that in the chapters you can access yet. Try different keywords (Tamil words work best), or open the chapter notes. 🐼";
+      : "I couldn't find that in the chapters you can access yet. Try different keywords, or open the chapter notes. 🐼";
     return new Response(encoder.encode(text), { headers: { "Content-Type": "text/plain; charset=utf-8" } });
   }
 

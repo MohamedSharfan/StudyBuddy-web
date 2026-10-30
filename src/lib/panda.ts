@@ -30,7 +30,7 @@ async function buildIndex() {
       }
       const cards = ch.flashcards.map((f) => `- ${f.front} → ${f.back}`).join("\n");
       if (cards)
-        chunks.push({ chapterId: ch.id, grade: ch.grade, number: ch.number, title: ch.title, heading: "மீட்டல் அட்டைகள்", text: cards.slice(0, 2400), haystack: `${ch.title} ${cards}`.toLowerCase() });
+        chunks.push({ chapterId: ch.id, grade: ch.grade, number: ch.number, title: ch.title, heading: "Flashcards", text: cards.slice(0, 2400), haystack: `${ch.title} ${cards}`.toLowerCase() });
     }
   }
   return chunks;

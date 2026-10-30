@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Phone } from "lucide-react";
 import { Avatar } from "@/components/ui/Avatar";
-import { getSubject } from "@/lib/catalog";
+import { getSubject, subjectLabel } from "@/lib/catalog";
 import { DismissRequest } from "./DismissRequest";
 import { UnlockToggle } from "./UnlockToggle";
 
@@ -27,7 +27,7 @@ export function RequestRow({ r }: { r: RequestItem }) {
             {r.student?.display_name ?? "Unknown"} <span className="text-gold font-mono text-sm">{r.student?.student_code}</span>
           </span>
           <span className="block text-xs text-muted">
-            {subject?.name ?? r.subject_id} · G{r.student?.grade} · {new Date(r.created_at).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}
+            {subject ? subjectLabel(subject) : r.subject_id} · G{r.student?.grade} · {new Date(r.created_at).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}
           </span>
           {r.message && <span className="block text-sm mt-1 text-white/90 break-words">“{r.message}”</span>}
         </span>

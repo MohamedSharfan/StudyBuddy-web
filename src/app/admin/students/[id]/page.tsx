@@ -4,7 +4,7 @@ import { ChevronLeft, Mail, MessageCircle } from "lucide-react";
 import { UnlockToggle } from "@/components/admin/UnlockToggle";
 import { Avatar } from "@/components/ui/Avatar";
 import { Icon } from "@/components/ui/Icon";
-import { catalog, getChapterSummary, parseChapterId } from "@/lib/catalog";
+import { catalog, getChapterSummary, parseChapterId, subjectLabel } from "@/lib/catalog";
 import { subjectProgress } from "@/lib/progress";
 import type { AdminStudent } from "@/lib/admin-types";
 import { getDb } from "@/lib/session";
@@ -77,7 +77,7 @@ export default async function AdminStudentDetail({ params }: { params: Promise<{
                 <Icon name={sub.icon ?? "book-open"} size={22} className="text-lilac" />
                 <span className="flex-1">
                   <span className="block font-bold">
-                    {sub.name} {sub.level}
+                    {subjectLabel(sub)}
                   </span>
                   <span className="text-xs text-muted">
                     {prog.percent}% complete · {prog.completedChapters}/{prog.chapterCount} chapters
@@ -126,7 +126,7 @@ export default async function AdminStudentDetail({ params }: { params: Promise<{
                   <li key={c.item_id + c.kind} className="flex items-center gap-3">
                     <span className="chip !py-0.5">{KIND[c.kind]}</span>
                     <span lang="ta" className="flex-1 truncate">
-                      {ch ? `G${ch.grade} Ch ${ch.number} · ${ch.title}` : c.item_id}
+                      {ch ? `${pid.subjectId.endsWith("-en") ? "EN" : "TA"} · G${ch.grade} Ch ${ch.number} · ${ch.title}` : c.item_id}
                     </span>
                     {c.score_percent != null && <span className="text-xs text-muted">{c.score_percent}%</span>}
                   </li>

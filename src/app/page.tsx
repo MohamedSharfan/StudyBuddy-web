@@ -60,8 +60,12 @@ export default async function Landing() {
             </Link>
           </div>
           <p className="text-sm text-muted mt-6">
-            Live now: <b className="text-white">O/L {subject.name}</b> ({subject.medium} medium, Grade 10 &amp; 11). More subjects and A/L streams are
-            coming.
+            Live now: <b className="text-white">O/L {subject.name}</b>, Grade 10 &amp; 11, in{" "}
+            {catalog.subjects
+              .filter((s) => s.name === subject.name && s.level === subject.level)
+              .map((s) => `${s.medium}`)
+              .join(" and ")}{" "}
+            medium. More subjects and A/L streams are coming.
           </p>
         </div>
         <div className="mx-auto w-full max-w-[360px]">
@@ -130,7 +134,7 @@ export default async function Landing() {
           </ul>
         </div>
         <div>
-          <p lang="ta" className="text-sm text-muted mb-2">
+          <p className="text-sm text-muted mb-2">
             Example: Grade {radarChapter.grade} · Chapter {radarChapter.number} · {radarChapter.title}
           </p>
           <ExamRadar years={radarChapter.years} />
@@ -162,7 +166,7 @@ export default async function Landing() {
                   <Link key={s.id} href={`/subjects/${s.id}`} className="rounded-xl border border-green/40 p-3 hover:bg-white/[.03]">
                     <Icon name={s.icon ?? "book-open"} size={20} className="text-green" />
                     <p className="font-semibold mt-2">{s.name}</p>
-                    <p className="text-xs text-green">Live</p>
+                    <p className="text-xs text-green">Live · {s.medium}</p>
                   </Link>
                 ))}
               {OL_UPCOMING.map((s) => (

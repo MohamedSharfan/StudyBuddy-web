@@ -106,7 +106,7 @@ export function NoteReader({
             </div>
           </div>
           {tocOpen && (
-            <nav className="xl:hidden glass !rounded-2xl p-3 mb-4 text-sm" lang="ta">
+            <nav className="xl:hidden glass !rounded-2xl p-3 mb-4 text-sm">
               {toc.map((h) => (
                 <a key={h.id} href={`#${h.id}`} onClick={() => setTocOpen(false)} className="block py-1.5 px-2 rounded-lg hover:bg-white/5 text-muted">
                   {h.text}
@@ -144,7 +144,7 @@ export function NoteReader({
 
         {!focus && (
           <aside className="hidden xl:block">
-            <nav className="sticky top-24 glass p-4 max-h-[calc(100dvh-120px)] overflow-y-auto" aria-label="Contents" lang="ta">
+            <nav className="sticky top-24 glass p-4 max-h-[calc(100dvh-120px)] overflow-y-auto" aria-label="Contents">
               <p className="eyebrow mb-3">Contents</p>
               {toc.map((h) => (
                 <a

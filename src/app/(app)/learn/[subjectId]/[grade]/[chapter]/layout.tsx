@@ -20,7 +20,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
   const doneCount = steps.filter(Boolean).length;
 
   return (
-    <div>
+    <div lang={subject.lang}>
       <div className="flex items-center justify-between gap-3 text-sm">
         <Link href={`/subjects/${subject.id}?grade=${c.grade}`} className="flex items-center gap-1 text-muted hover:text-white font-semibold">
           <ChevronLeft size={16} /> {subject.name} · Grade {c.grade}
@@ -49,7 +49,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
             </span>
           )}
         </p>
-        <h1 lang="ta" className="display text-2xl sm:text-[1.75rem] font-bold leading-snug mt-1">
+        <h1 className="display text-2xl sm:text-[1.75rem] font-bold leading-snug mt-1">
           {c.title}
         </h1>
         <p className="text-sm text-muted mt-1">

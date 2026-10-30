@@ -1,8 +1,8 @@
 # StudyBuddy Web
 
-The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L and A/L students. The first live subject is **O/L Islam (Tamil medium), Grade 10 & 11**; more O/L subjects and the A/L streams come next.
+The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L and A/L students. The first live subject is **O/L Islam, Grade 10 & 11**, in the **Tamil** and **English** mediums; more O/L subjects and the A/L streams come next.
 
-- At sign-up, students choose **O/L or A/L**. A/L students also pick their **stream** (Physical Science, Biological Science, Commerce, Arts, Technology). Each student only sees subjects for their level and stream, and A/L students see a "coming soon" view until their subjects launch.
+- At sign-up, students choose **O/L or A/L**. A/L students also pick their **stream** (Physical Science, Biological Science, Commerce, Arts, Technology). Each student only sees subjects for their level, stream and **medium** (students in a medium we don't have yet see every medium). A/L students see a "coming soon" view until their subjects launch.
 - **62 chapters**, each with four steps: **Notes** → **Flashcards** → **Quiz** → **Past papers** (2016–2025)
 - Chapter list with progress for each step, and a chart of how often each chapter came up in past papers, so students know what to revise first
 - Coins, streaks, ranks (Bronze → Champion) and badges, using the same rules as the app
@@ -22,8 +22,9 @@ The schema lives in [`supabase/migrations/`](supabase/migrations/). Run the file
 
 1. [`20261025000001_studybuddy_web_init.sql`](supabase/migrations/20261025000001_studybuddy_web_init.sql): tables, security rules and functions
 2. [`20261025000002_levels_and_streams.sql`](supabase/migrations/20261025000002_levels_and_streams.sql): O/L / A/L level and A/L stream on profiles
+3. [`20261030000003_islam_english_medium.sql`](supabase/migrations/20261030000003_islam_english_medium.sql): adds O/L Islam in the English medium
 
-Both files are safe to run more than once.
+All files are safe to run more than once.
 
 **Option A: SQL editor.** Open the Supabase dashboard → project `aczdsffdgvitgoqsqnih` → **SQL Editor**, paste each file and run it.
 
@@ -88,7 +89,8 @@ Import the GitHub repo into Vercel, add the environment variables above, and dep
 All study content is markdown in [`content/`](content/), in the same format as the files you prepared:
 
 ```
-content/islam-ol/
+content/islam-ol/                ← Tamil medium
+content/islam-ol-en/             ← English medium (same layout)
   grade-10/chapter-01/Notes.md
                       Flashcards.md
                       Quiz.md
@@ -97,6 +99,8 @@ content/islam-ol/
   PastPapers_Index.md
   Questions_To_Verify.md        ← shown to admins under Admin → Content
 ```
+
+Past-paper files can use either layout: the Tamil one (`Q1.` … `Correct Answer: B`) or the English one (`### A1.` … `**Correct answer:** B – …`). The build detects which one each file uses.
 
 1. Edit or replace the files, keeping the same `Front:/Back:`, `Q1.` / `A.`–`D.` / `Correct Answer:` layout.
 2. Run `npm run content` to check the counts (it prints chapters, questions and cards).
@@ -112,6 +116,8 @@ Locked chapters are never sent to the browser. The server checks access before i
 2. They contact you on WhatsApp (set the number in **Admin → Settings**) or send an unlock request from the site.
 3. You confirm payment, open **Admin → Students** (or **Unlock requests**), search the name, email, phone or code, and press **Unlock**. You can add a payment note.
 4. The subject opens for them straight away. Every unlock and lock is logged on the student's admin page.
+
+Each medium is a separate subject (`islam-ol` = Tamil, `islam-ol-en` = English), so it is unlocked separately. The Students list has an unlock button for each medium.
 
 ## Security model (Supabase RLS)
 

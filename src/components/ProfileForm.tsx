@@ -141,7 +141,7 @@ export function ProfileForm({ initial, next, full = false, submitLabel = "Save" 
             </div>
             <div>
               <label className="label" htmlFor="medium">
-                Medium
+                Medium <span className="text-faint font-normal">(your subjects are shown in this medium)</span>
               </label>
               <select id="medium" name="medium" defaultValue={initial.medium} className="input">
                 <option>Tamil</option>

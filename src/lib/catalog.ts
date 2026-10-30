@@ -26,17 +26,40 @@ export type SubjectSummary = {
   tagline: string;
   color: string;
   freeChapters: number;
+  /** Language of the study content: "ta" or "en". */
+  lang: string;
+  /** Shown above the past-paper questions (where the questions come from). */
+  pastPaperNote: string;
+  relatedHeading: string;
   grades: GradeSummary[];
 };
 
 export const catalog = catalogJson as unknown as { generatedAt: string; subjects: SubjectSummary[] };
 
-/** Live subjects for a student's level (A/L subjects can also be limited to streams). */
-export function subjectsFor(profile: { education_level: string; stream?: string | null } | null | undefined) {
+type StudentLevel = { education_level: string; stream?: string | null; medium?: string } | null | undefined;
+
+/** Every live subject for a student's level (A/L subjects can also be limited to streams), in any medium. */
+export function subjectsForLevel(profile: StudentLevel) {
   if (!profile) return catalog.subjects.filter((s) => s.level === "O/L");
   return catalog.subjects.filter(
-    (s) => s.level === profile.education_level && (!s.streams?.length || (profile.stream && s.streams.includes(profile.stream))),
+    (s) => s.level === profile.education_level && (!s.streams?.length || Boolean(profile.stream && s.streams.includes(profile.stream))),
   );
+}
+
+/**
+ * The subjects a student studies: their level, in their medium.
+ * If nothing is available in their medium yet (e.g. Sinhala), they see every medium.
+ */
+export function subjectsFor(profile: StudentLevel) {
+  const forLevel = subjectsForLevel(profile);
+  if (!profile?.medium) return forLevel;
+  const mine = forLevel.filter((s) => s.medium === profile.medium);
+  return mine.length ? mine : forLevel;
+}
+
+/** "Islam O/L · English medium" — distinguishes the same subject in different mediums. */
+export function subjectLabel(s: Pick<SubjectSummary, "name" | "level" | "medium">) {
+  return `${s.name} ${s.level} · ${s.medium} medium`;
 }
 
 export function getSubject(id: string) {

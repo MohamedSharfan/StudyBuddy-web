@@ -15,7 +15,7 @@ export function LockedPanel({ chapter, viewer }: { chapter: ChapterSummary; view
         {chapter.counts.mcq + chapter.counts.structured} past-paper questions waiting for you.
       </p>
       {chapter.objectives.length > 0 && (
-        <ul lang="ta" className="mt-5 text-left mx-auto w-fit space-y-1.5 text-sm text-muted">
+        <ul className="mt-5 text-left mx-auto w-fit space-y-1.5 text-sm text-muted">
           {chapter.objectives.slice(0, 4).map((o) => (
             <li key={o} className="flex gap-2">
               <span>•</span> {o}

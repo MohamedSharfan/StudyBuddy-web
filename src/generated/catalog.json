@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T10:09:41.007Z",
+ "generatedAt": "2026-10-30T18:25:03.254Z",
  "subjects": [
   {
    "id": "islam-ol",
@@ -12,6 +12,9 @@
    "tagline": "Grade 10 & 11 · Tamil medium",
    "color": "#8B5CF6",
    "freeChapters": 1,
+   "lang": "ta",
+   "pastPaperNote": "From the Islam I & II papers 2016–2025 (Tamil medium). Answers are textbook-based suggestions; official marking schemes weren't available, so check flagged items with your teacher.",
+   "relatedHeading": "தொடர்புடைய பிற வினாக்கள்",
    "grades": [
     {
      "grade": 10,
@@ -1794,6 +1797,1822 @@
         "பிளவு பற்றிய எச்சரிக்கை; இலங்கை உம்மத்தாக எமது கடமைகள்"
        ],
        "minutes": 7,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 19,
+        "mcq": 2,
+        "structured": 7
+       },
+       "years": {
+        "2016": 1,
+        "2018": 2,
+        "2019": 2,
+        "2020": 1,
+        "2022": 1,
+        "2024": 2
+       },
+       "free": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "islam-ol-en",
+   "name": "Islam",
+   "nameLocal": "",
+   "level": "O/L",
+   "streams": [],
+   "icon": "book-open",
+   "medium": "English",
+   "tagline": "Grade 10 & 11 · English medium",
+   "color": "#8B5CF6",
+   "freeChapters": 1,
+   "lang": "en",
+   "pastPaperNote": "English renderings of the Islam I & II papers 2016–2025 (Tamil medium); the official English-medium wording wasn't available. Answers are textbook-based suggestions, so check flagged items with your teacher.",
+   "relatedHeading": "Related questions in other chapters",
+   "grades": [
+    {
+     "grade": 10,
+     "chapters": [
+      {
+       "id": "islam-ol-en-10-01",
+       "grade": 10,
+       "number": 1,
+       "title": "Aqeedah (Islamic Creed)",
+       "objectives": [
+        "What *aqeedah* is",
+        "The six pillars of Iman (faith)",
+        "The four divisions of aqeedah",
+        "Why aqeedah does not change",
+        "Mistaken groups, and the imams who protected aqeedah"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 13,
+        "mcq": 11,
+        "structured": 2
+       },
+       "years": {
+        "2016": 1,
+        "2018": 3,
+        "2019": 1,
+        "2020": 3,
+        "2022": 1,
+        "2023": 1,
+        "2024": 2,
+        "2025": 1
+       },
+       "free": true
+      },
+      {
+       "id": "islam-ol-en-10-02",
+       "grade": 10,
+       "number": 2,
+       "title": "Iman and Amal (Faith and Deeds)",
+       "objectives": [
+        "What *Iman* and *amal* mean",
+        "The link between Iman and amal",
+        "What *righteous deeds* (*al-'amal al-salih*) are",
+        "What a believer's actions should be like"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 13,
+        "mcq": 4,
+        "structured": 1
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 1,
+        "2019": 1,
+        "2023": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-03",
+       "grade": 10,
+       "number": 3,
+       "title": "Risalah and Hidayah (Messengership and Guidance)",
+       "objectives": [
+        "What *risalah* and *hidayah* mean",
+        "Why human society needs risalah (four reasons)",
+        "The *suhuf* (scrolls) and the Books – which was given to whom"
+       ],
+       "minutes": 7,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 13,
+        "mcq": 6,
+        "structured": 2
+       },
+       "years": {
+        "2017": 2,
+        "2019": 1,
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-04",
+       "grade": 10,
+       "number": 4,
+       "title": "At-Taharah (Purification)",
+       "objectives": [
+        "The importance of cleanliness (Quran and hadith)",
+        "The types of water (*tahur*, *tahir*, *mutanajjis*)",
+        "*Hadath* – minor and major ritual impurity",
+        "Concessions: *tayammum* and *jabirah*"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 17,
+        "quiz": 14,
+        "mcq": 17,
+        "structured": 7
+       },
+       "years": {
+        "2016": 3,
+        "2017": 2,
+        "2018": 2,
+        "2019": 2,
+        "2020": 2,
+        "2021": 4,
+        "2022": 3,
+        "2023": 1,
+        "2024": 2,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-05",
+       "grade": 10,
+       "number": 5,
+       "title": "An-Najasah (Impurity)",
+       "objectives": [
+        "What *najasah* means",
+        "The three types of *najis* (impure substances)",
+        "How each type is cleaned",
+        "Cases where impure things can be cleaned and used"
+       ],
+       "minutes": 8,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 13,
+        "mcq": 2,
+        "structured": 2
+       },
+       "years": {
+        "2017": 1,
+        "2018": 1,
+        "2021": 1,
+        "2022": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-06",
+       "grade": 10,
+       "number": 6,
+       "title": "Ibadah (Worship)",
+       "objectives": [
+        "A Muslim's three responsibilities",
+        "What *ibadah* is",
+        "The aims of ibadah",
+        "The types of ibadah",
+        "The conditions for daily actions to become ibadah",
+        "*Fard* (*'ayn* and *kifayah*) and *sunnah*"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 14,
+        "mcq": 11,
+        "structured": 5
+       },
+       "years": {
+        "2016": 1,
+        "2017": 2,
+        "2019": 3,
+        "2020": 1,
+        "2021": 2,
+        "2023": 1,
+        "2024": 2,
+        "2025": 4
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-07",
+       "grade": 10,
+       "number": 7,
+       "title": "The Importance of Salah (Prayer)",
+       "objectives": [
+        "Why prayer is the most important act of worship",
+        "Evidence about prayer from the Quran and hadith",
+        "Concessions in prayer",
+        "Ten benefits of guarding the prayer",
+        "The social benefits of prayer"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 14,
+        "mcq": 11,
+        "structured": 7
+       },
+       "years": {
+        "2016": 1,
+        "2017": 2,
+        "2018": 2,
+        "2019": 1,
+        "2020": 3,
+        "2021": 3,
+        "2023": 3,
+        "2024": 1,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-08",
+       "grade": 10,
+       "number": 8,
+       "title": "Sifat al-Salah (How to Pray)",
+       "objectives": [
+        "Basic facts about prayer",
+        "Why prayer must be performed correctly (hadith)",
+        "The steps of prayer – from standing to the salam",
+        "What is recited in each position",
+        "Differences between men and women"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 17,
+        "quiz": 15,
+        "mcq": 13,
+        "structured": 5
+       },
+       "years": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 1,
+        "2019": 3,
+        "2020": 2,
+        "2021": 1,
+        "2022": 2,
+        "2023": 2,
+        "2024": 2,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-09",
+       "grade": 10,
+       "number": 9,
+       "title": "What to Recite after the Prayer",
+       "objectives": [
+        "The importance of du'a (supplication)",
+        "The dhikr and du'as recited after every prayer",
+        "What is specially recited after the Subh and Maghrib prayers",
+        "The virtue of each, with its source collection"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 17,
+        "quiz": 14,
+        "mcq": 4,
+        "structured": 2
+       },
+       "years": {
+        "2016": 2,
+        "2019": 2,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-10",
+       "grade": 10,
+       "number": 10,
+       "title": "At-Tazkiyah (Purification of the Soul)",
+       "objectives": [
+        "What tazkiyah is",
+        "The three states of the soul (nafs) described in the Quran",
+        "The importance of tazkiyah – evidence from the Quran and hadith",
+        "Ways to purify the soul"
+       ],
+       "minutes": 7,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 13,
+        "mcq": 7,
+        "structured": 3
+       },
+       "years": {
+        "2016": 2,
+        "2017": 1,
+        "2018": 1,
+        "2020": 1,
+        "2021": 2,
+        "2022": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-11",
+       "grade": 10,
+       "number": 11,
+       "title": "The Islamic View of Good Character – I",
+       "objectives": [
+        "The importance of good character",
+        "Arabic words that mean good character",
+        "The Prophet ﷺ – the peak of good character",
+        "Good qualities described in Surah Luqman and Surah al-Furqan"
+       ],
+       "minutes": 6,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 12,
+        "mcq": 1,
+        "structured": 5
+       },
+       "years": {
+        "2017": 2,
+        "2019": 1,
+        "2022": 1,
+        "2023": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-12",
+       "grade": 10,
+       "number": 12,
+       "title": "The Islamic View of Good Character – II",
+       "objectives": [],
+       "minutes": 17,
+       "counts": {
+        "flashcards": 20,
+        "quiz": 18,
+        "mcq": 6,
+        "structured": 7
+       },
+       "years": {
+        "2016": 3,
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2021": 2,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-13",
+       "grade": 10,
+       "number": 13,
+       "title": "Ways of Spiritual Development",
+       "objectives": [
+        "The place of spirituality in Islam",
+        "What \"spiritual poverty\" is",
+        "Four ways of spiritual development: ikhlas, tawbah, wara', zuhd"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 17,
+        "quiz": 16,
+        "mcq": 9,
+        "structured": 5
+       },
+       "years": {
+        "2018": 4,
+        "2019": 1,
+        "2020": 3,
+        "2021": 1,
+        "2022": 1,
+        "2023": 2,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-14",
+       "grade": 10,
+       "number": 14,
+       "title": "The Importance of Wahy (Revelation)",
+       "objectives": [
+        "The three kinds of knowledge: sense knowledge, reason, and revealed knowledge (wahy)",
+        "The meaning of the word wahy",
+        "The two kinds of wahy: wahy matluww and wahy ghayr matluww",
+        "Why wahy is necessary"
+       ],
+       "minutes": 8,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 14,
+        "mcq": 6,
+        "structured": 2
+       },
+       "years": {
+        "2016": 2,
+        "2019": 1,
+        "2020": 2,
+        "2021": 2,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-15",
+       "grade": 10,
+       "number": 15,
+       "title": "The Revelation and Compilation of the Quran",
+       "objectives": [
+        "The event of the first revelation",
+        "How the Quran was revealed gradually and how it was written down",
+        "The Prophet's ﷺ time → the time of Abu Bakr (RA) → the time of 'Uthman (RA) – the three stages of compilation",
+        "Key Arabic terms"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 17,
+        "quiz": 16,
+        "mcq": 21,
+        "structured": 7
+       },
+       "years": {
+        "2016": 4,
+        "2017": 3,
+        "2018": 4,
+        "2019": 3,
+        "2020": 4,
+        "2021": 3,
+        "2022": 4,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-16",
+       "grade": 10,
+       "number": 16,
+       "title": "The Importance of the Sunnah",
+       "objectives": [
+        "What the Sunnah is",
+        "Evidence from the Quran and the Sunnah that the Sunnah is a source",
+        "The relationship between the Quran and the Sunnah",
+        "The Quran cannot be understood without the Sunnah – examples",
+        "Efforts made to preserve the Sunnah"
+       ],
+       "minutes": 8,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 14,
+        "mcq": 2,
+        "structured": 3
+       },
+       "years": {
+        "2019": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-17",
+       "grade": 10,
+       "number": 17,
+       "title": "Secondary Sources (of Islamic Law)",
+       "objectives": [
+        "What secondary sources are",
+        "Ijma' – meaning, evidence, benefits, types",
+        "Qiyas – meaning, arkan al-qiyas, evidence, necessity",
+        "Seven other secondary sources"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 15,
+        "mcq": 9,
+        "structured": 6
+       },
+       "years": {
+        "2016": 1,
+        "2017": 2,
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2021": 2,
+        "2022": 3,
+        "2024": 3,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-18",
+       "grade": 10,
+       "number": 18,
+       "title": "Arabia before Islam",
+       "objectives": [
+        "The geographical position of Arabia",
+        "What the Jahiliyyah period was",
+        "Society, religion, family and conduct at that time",
+        "The good qualities they had"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 15,
+        "mcq": 4,
+        "structured": 2
+       },
+       "years": {
+        "2016": 2,
+        "2018": 1,
+        "2019": 1,
+        "2021": 1,
+        "2023": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-19",
+       "grade": 10,
+       "number": 19,
+       "title": "The Da'wah of the Prophet ﷺ and Its Challenges",
+       "objectives": [
+        "What da'wah is and when it began",
+        "Secret and public da'wah in Makkah",
+        "The opposition and persecution of the Quraysh",
+        "The hijrah to Abyssinia, the social boycott, the journey to Ta'if",
+        "The pledges of 'Aqabah and the hijrah to Madinah",
+        "The challenges faced in Madinah"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 17,
+        "mcq": 10,
+        "structured": 6
+       },
+       "years": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 2,
+        "2019": 4,
+        "2020": 2,
+        "2021": 1,
+        "2024": 2,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-20",
+       "grade": 10,
+       "number": 20,
+       "title": "The Importance of the Sirah",
+       "objectives": [
+        "What the sirah is",
+        "The Prophet ﷺ is a guide for all people – evidence from the Quran",
+        "Why the sirah has been preserved for 14 centuries",
+        "The first books of sirah",
+        "Why we need to study the sirah"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 15,
+        "mcq": 3,
+        "structured": 3
+       },
+       "years": {
+        "2016": 1,
+        "2019": 1,
+        "2020": 2,
+        "2022": 1,
+        "2024": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-21",
+       "grade": 10,
+       "number": 21,
+       "title": "The Islamic View of Economics",
+       "objectives": [
+        "Economy and economics – basic terms",
+        "Capitalism, socialism and the Islamic economy – a comparison",
+        "The two kinds of foundations of the Islamic economy",
+        "The special features of the Islamic economic system"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 16,
+        "mcq": 0,
+        "structured": 4
+       },
+       "years": {
+        "2018": 1,
+        "2020": 1,
+        "2021": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-22",
+       "grade": 10,
+       "number": 22,
+       "title": "The Importance of Work",
+       "objectives": [
+        "Why Islam values work so highly",
+        "The Islamic position on begging",
+        "Three reasons work is important",
+        "What must be observed for earning to become worship",
+        "The limits of the Shari'ah to keep in earning",
+        "Imam al-Mawardi's three reasons why people neglect work"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 16,
+        "mcq": 1,
+        "structured": 7
+       },
+       "years": {
+        "2017": 2,
+        "2019": 1,
+        "2021": 1,
+        "2022": 2,
+        "2023": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-23",
+       "grade": 10,
+       "number": 23,
+       "title": "Work – I",
+       "objectives": [],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 17,
+        "mcq": 3,
+        "structured": 3
+       },
+       "years": {
+        "2020": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 2,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-24",
+       "grade": 10,
+       "number": 24,
+       "title": "Work – II",
+       "objectives": [],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 16,
+        "mcq": 4,
+        "structured": 3
+       },
+       "years": {
+        "2018": 1,
+        "2020": 1,
+        "2022": 2,
+        "2023": 1,
+        "2024": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-25",
+       "grade": 10,
+       "number": 25,
+       "title": "Let Us Keep the Limits of Ajnabi and Mahram",
+       "objectives": [
+        "Why the rules of ajnabi and mahram are needed",
+        "What a mahram is, and its three kinds",
+        "What an ajnabi is",
+        "Six limits to keep when dealing with ajnabi (non-mahram) men"
+       ],
+       "minutes": 7,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 13,
+        "mcq": 10,
+        "structured": 4
+       },
+       "years": {
+        "2016": 3,
+        "2017": 1,
+        "2019": 3,
+        "2022": 2,
+        "2023": 3,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-26",
+       "grade": 10,
+       "number": 26,
+       "title": "Human Rights",
+       "objectives": [
+        "Duties and rights – why Allah alone should lay them down",
+        "Rights in Islam vs rights made by human beings",
+        "The Charter of Madinah and the Magna Carta",
+        "Seven human rights given by Islam"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 15,
+        "mcq": 5,
+        "structured": 6
+       },
+       "years": {
+        "2016": 2,
+        "2018": 2,
+        "2021": 2,
+        "2022": 1,
+        "2023": 3,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-27",
+       "grade": 10,
+       "number": 27,
+       "title": "Youth and Its Mission",
+       "objectives": [
+        "The importance of youth",
+        "Sayings of the Prophet ﷺ about youth",
+        "Stories of young people in the Quran",
+        "The youth of the Prophet ﷺ and his young Companions",
+        "People who achieved great things while young",
+        "Today's challenges and what young people should do"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 16,
+        "mcq": 5,
+        "structured": 3
+       },
+       "years": {
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2022": 2,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-28",
+       "grade": 10,
+       "number": 28,
+       "title": "Physical and Mental Health",
+       "objectives": [
+        "Health – a blessing",
+        "Four ways to keep the body healthy: eating habits, exercise, cleanliness, rest",
+        "Health of the heart (mind) – why it comes first",
+        "Causes of diseases of the heart and their remedies"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 16,
+        "mcq": 4,
+        "structured": 4
+       },
+       "years": {
+        "2017": 1,
+        "2021": 2,
+        "2022": 2,
+        "2023": 1,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-29",
+       "grade": 10,
+       "number": 29,
+       "title": "Keeping to Moderation",
+       "objectives": [
+        "What wasatiyyah (moderation) is",
+        "Ummatan wasatan – the balanced community",
+        "Moderation in worship – incidents from the hadith",
+        "Moderation in spending, food, walking and speech",
+        "The warning against going to extremes in religion",
+        "Balance between this world and the Hereafter"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 15,
+        "mcq": 3,
+        "structured": 4
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2019": 1,
+        "2020": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-10-30",
+       "grade": 10,
+       "number": 30,
+       "title": "Fiqh al-Awlawiyyat (The Jurisprudence of Priorities)",
+       "objectives": [
+        "What fiqh al-awlawiyyat is",
+        "Everyday examples",
+        "Priorities shown by the Quran and the Sunnah",
+        "The five levels of rulings in the Shari'ah",
+        "Today's need and the example of the Companions"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 16,
+        "mcq": 4,
+        "structured": 1
+       },
+       "years": {
+        "2016": 2,
+        "2017": 1,
+        "2021": 1,
+        "2023": 1
+       },
+       "free": false
+      }
+     ]
+    },
+    {
+     "grade": 11,
+     "chapters": [
+      {
+       "id": "islam-ol-en-11-01",
+       "grade": 11,
+       "number": 1,
+       "title": "Aqeedah",
+       "objectives": [
+        "What aqeedah is",
+        "All the prophets taught the same aqeedah",
+        "Factors that made aqeedah lose its simplicity",
+        "The schools of thought that appeared",
+        "The imams who protected aqeedah"
+       ],
+       "minutes": 7,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 13,
+        "mcq": 5,
+        "structured": 4
+       },
+       "years": {
+        "2016": 2,
+        "2017": 1,
+        "2018": 2,
+        "2019": 2,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": true
+      },
+      {
+       "id": "islam-ol-en-11-02",
+       "grade": 11,
+       "number": 2,
+       "title": "Ahl as-Sunnah wal-Jama'ah",
+       "objectives": [
+        "The meaning of the expression \"Ahl as-Sunnah wal-Jama'ah\"",
+        "Who they are – evidence from the hadith",
+        "Eight features of the aqeedah of Ahl as-Sunnah wal-Jama'ah"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 16,
+        "quiz": 15,
+        "mcq": 9,
+        "structured": 4
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 3,
+        "2024": 3,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-03",
+       "grade": 11,
+       "number": 3,
+       "title": "At-Tawhid (التَّوْحِيْدُ)",
+       "objectives": [
+        "Tawhid – the root and meaning of the word",
+        "The three meanings of tawhid",
+        "The importance of tawhid – four proofs"
+       ],
+       "minutes": 7,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 13,
+        "mcq": 6,
+        "structured": 0
+       },
+       "years": {
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2021": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-04",
+       "grade": 11,
+       "number": 4,
+       "title": "Things That Harm Iman",
+       "objectives": [],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 15,
+        "mcq": 8,
+        "structured": 2
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 1,
+        "2019": 2,
+        "2021": 1,
+        "2022": 1,
+        "2023": 2,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-05",
+       "grade": 11,
+       "number": 5,
+       "title": "The Finality of Prophethood",
+       "objectives": [
+        "The finality of prophethood – the position of Islam",
+        "Evidence from the Quran (3)",
+        "Evidence from the hadith (4)",
+        "Rational evidence",
+        "False prophets who appeared in history",
+        "Present-day campaigns against the finality of prophethood"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 16,
+        "quiz": 18,
+        "mcq": 4,
+        "structured": 3
+       },
+       "years": {
+        "2018": 1,
+        "2019": 1,
+        "2023": 1,
+        "2024": 3,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-06",
+       "grade": 11,
+       "number": 6,
+       "title": "Al-Qada' wal-Qadar (Divine Decree)",
+       "objectives": [
+        "Qada' and qadar – the meaning of the words",
+        "Why we must believe in qadar on the basis of revelation",
+        "Two wrong attitudes towards qadar",
+        "Two points stressed by the Quran and the hadith",
+        "Why Allah established qadar"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 15,
+        "mcq": 4,
+        "structured": 3
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2020": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-07",
+       "grade": 11,
+       "number": 7,
+       "title": "Zakat",
+       "objectives": [
+        "Zakat – meaning and importance",
+        "The individual and social benefits of zakat",
+        "Zakat as a collective duty",
+        "The conditions for zakat to become due, and its fards",
+        "The kinds of wealth on which zakat is due, and their nisab",
+        "Those entitled to zakat (8) and those not entitled (5)"
+       ],
+       "minutes": 15,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 22,
+        "mcq": 17,
+        "structured": 8
+       },
+       "years": {
+        "2016": 2,
+        "2017": 3,
+        "2018": 3,
+        "2019": 3,
+        "2020": 2,
+        "2021": 3,
+        "2022": 2,
+        "2023": 3,
+        "2024": 1,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-08",
+       "grade": 11,
+       "number": 8,
+       "title": "The Deeper Meanings of Fasting",
+       "objectives": [
+        "Sawm – meaning and definition",
+        "Quranic evidence that fasting is obligatory",
+        "Five virtues of fasting",
+        "Five benefits of fasting"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 15,
+        "mcq": 7,
+        "structured": 6
+       },
+       "years": {
+        "2017": 1,
+        "2018": 2,
+        "2019": 1,
+        "2020": 3,
+        "2022": 1,
+        "2023": 3,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-09",
+       "grade": 11,
+       "number": 9,
+       "title": "Hajj and 'Umrah",
+       "objectives": [
+        "The conditions for hajj to become obligatory",
+        "The arkan (fards), wajibs, sunnahs and prohibitions (muharramat) of hajj",
+        "Fidyah (compensation)",
+        "The three ways of performing hajj and 'umrah",
+        "How to perform 'umrah and hajj (step by step)",
+        "The benefits of hajj"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 16,
+        "quiz": 17,
+        "mcq": 10,
+        "structured": 5
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 2,
+        "2019": 1,
+        "2020": 1,
+        "2021": 1,
+        "2023": 3,
+        "2024": 3,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-10",
+       "grade": 11,
+       "number": 10,
+       "title": "The Holy Places of Islam",
+       "objectives": [
+        "The three holy places and their spiritual status",
+        "The Ka'bah – its history",
+        "Al-Masjid al-Aqsa – its history",
+        "Al-Masjid an-Nabawi – its history and role"
+       ],
+       "minutes": 16,
+       "counts": {
+        "flashcards": 17,
+        "quiz": 20,
+        "mcq": 9,
+        "structured": 6
+       },
+       "years": {
+        "2016": 1,
+        "2017": 2,
+        "2018": 2,
+        "2019": 1,
+        "2020": 2,
+        "2021": 3,
+        "2023": 2,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-11",
+       "grade": 11,
+       "number": 11,
+       "title": "The Islamic View of Good Character",
+       "objectives": [
+        "Good character – meaning and Arabic terms",
+        "The importance of good character (Quran, hadith)",
+        "The need for good character – who should decide?",
+        "Four good qualities taught by Islam: patience, courage, humility, forgiveness"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 16,
+        "quiz": 20,
+        "mcq": 3,
+        "structured": 2
+       },
+       "years": {
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-12",
+       "grade": 11,
+       "number": 12,
+       "title": "Developing Islamic Morals",
+       "objectives": [
+        "The difference between khalq and khuluq",
+        "The importance of morals – hadiths",
+        "Five categories of good morals",
+        "How Islamic duties train good morals"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 17,
+        "mcq": 2,
+        "structured": 2
+       },
+       "years": {
+        "2023": 1,
+        "2024": 2,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-13",
+       "grade": 11,
+       "number": 13,
+       "title": "Ways of Spiritual Development",
+       "objectives": [
+        "The human being – body and soul",
+        "Islamic practices that purify the soul",
+        "Four spiritual qualities: sabr, tawakkul, ma'rifah, rida",
+        "Qalbun salim (a sound, pure heart)"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 17,
+        "quiz": 20,
+        "mcq": 4,
+        "structured": 3
+       },
+       "years": {
+        "2017": 2,
+        "2018": 1,
+        "2019": 2,
+        "2023": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-14",
+       "grade": 11,
+       "number": 14,
+       "title": "Al-Quran",
+       "objectives": [],
+       "minutes": 15,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 20,
+        "mcq": 5,
+        "structured": 5
+       },
+       "years": {
+        "2017": 1,
+        "2020": 2,
+        "2021": 2,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-15",
+       "grade": 11,
+       "number": 15,
+       "title": "As-Sunnah",
+       "objectives": [
+        "The Sunnah – its definition and three parts",
+        "The difference between the Quran and the Sunnah",
+        "Evidence that the Sunnah is a source of law",
+        "Efforts made to preserve the Sunnah",
+        "The history of hadith compilation",
+        "As-Sihah as-Sittah – the six hadith imams"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 18,
+        "mcq": 8,
+        "structured": 4
+       },
+       "years": {
+        "2017": 2,
+        "2018": 1,
+        "2019": 1,
+        "2020": 2,
+        "2021": 2,
+        "2022": 2,
+        "2023": 1,
+        "2024": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-16",
+       "grade": 11,
+       "number": 16,
+       "title": "Al-Ijtihad",
+       "objectives": [
+        "Primary sources and secondary sources",
+        "Ijtihad – the root of the word and its definition",
+        "Ijtihad in the Prophet's ﷺ time – the incident of Mu'adh (RA)",
+        "Who are the \"ulul-amr\"?",
+        "Seven qualities a mujtahid must have",
+        "The reward for ijtihad"
+       ],
+       "minutes": 7,
+       "counts": {
+        "flashcards": 10,
+        "quiz": 13,
+        "mcq": 6,
+        "structured": 2
+       },
+       "years": {
+        "2017": 2,
+        "2019": 1,
+        "2020": 2,
+        "2021": 1,
+        "2022": 1,
+        "2024": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-17",
+       "grade": 11,
+       "number": 17,
+       "title": "The Science of Fiqh",
+       "objectives": [
+        "What fiqh is",
+        "The origin and growth of the science of fiqh",
+        "The four madhhabs and their imams",
+        "Madrasat al-athar vs madrasat ar-ra'y"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 20,
+        "mcq": 11,
+        "structured": 6
+       },
+       "years": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 3,
+        "2019": 1,
+        "2020": 2,
+        "2021": 1,
+        "2022": 2,
+        "2023": 2,
+        "2024": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-18",
+       "grade": 11,
+       "number": 18,
+       "title": "Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)",
+       "objectives": [
+        "Who al-Khulafa' ar-Rashidun are",
+        "Abu Bakr (RA) – a short life history",
+        "His personal qualities",
+        "How he was chosen as caliph, and evidence that he was the most qualified",
+        "His seven services and contributions"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 11,
+        "quiz": 15,
+        "mcq": 4,
+        "structured": 4
+       },
+       "years": {
+        "2017": 2,
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-19",
+       "grade": 11,
+       "number": 19,
+       "title": "Caliph 'Umar (RA)",
+       "objectives": [
+        "'Umar (RA) – a short life history, and how he accepted Islam",
+        "His personal qualities",
+        "How he was appointed caliph",
+        "Administrative reforms and new offices",
+        "His death"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 15,
+        "mcq": 4,
+        "structured": 2
+       },
+       "years": {
+        "2019": 1,
+        "2020": 1,
+        "2022": 1,
+        "2023": 2,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-20",
+       "grade": 11,
+       "number": 20,
+       "title": "Caliph 'Uthman (RA)",
+       "objectives": [
+        "'Uthman (RA) – a short life history",
+        "His personal qualities, and the title \"Dhun-Nurayn\"",
+        "His selection as caliph by the committee of six",
+        "Five main contributions",
+        "His martyrdom"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 17,
+        "mcq": 3,
+        "structured": 1
+       },
+       "years": {
+        "2019": 1,
+        "2020": 1,
+        "2023": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-21",
+       "grade": 11,
+       "number": 21,
+       "title": "Caliph 'Ali (RA)",
+       "objectives": [
+        "'Ali (RA) – a short life history",
+        "Accepting Islam, and his personal qualities",
+        "The background to his taking up the caliphate",
+        "His services and work",
+        "His martyrdom"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 16,
+        "mcq": 6,
+        "structured": 4
+       },
+       "years": {
+        "2016": 2,
+        "2019": 1,
+        "2022": 2,
+        "2023": 1,
+        "2024": 2,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-22",
+       "grade": 11,
+       "number": 22,
+       "title": "History and Contribution of Sri Lankan Muslims",
+       "objectives": [
+        "The ancient relationship between the Arabs and Sri Lanka",
+        "When Islam was introduced to Sri Lanka – the evidence",
+        "The good character and social position of the early Muslims",
+        "The contribution of Muslims to the national good"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 18,
+        "mcq": 8,
+        "structured": 9
+       },
+       "years": {
+        "2016": 1,
+        "2017": 2,
+        "2018": 2,
+        "2019": 1,
+        "2020": 2,
+        "2021": 2,
+        "2023": 3,
+        "2024": 3,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-23",
+       "grade": 11,
+       "number": 23,
+       "title": "A Sri Lankan Muslim Pioneer – 1 (Scholar M. C. Siddi Lebbe)",
+       "objectives": [
+        "Muhammad Cassim Siddi Lebbe's family background and education",
+        "His working life (lawyer, judge, municipal council member)",
+        "His work in journalism – Muslim Nesan and Gnanadeepam",
+        "Educational reform – Zahira College and girls' schools",
+        "Political, social and religious reform work",
+        "His death, and the honours given to him"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 19,
+        "mcq": 5,
+        "structured": 2
+       },
+       "years": {
+        "2016": 1,
+        "2018": 1,
+        "2019": 1,
+        "2020": 1,
+        "2022": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-24",
+       "grade": 11,
+       "number": 24,
+       "title": "A Sri Lankan Muslim Pioneer – 2 (Dr T. B. Jayah)",
+       "objectives": [
+        "The birth and education of Dr Tuan Burhanuddeen Jayah",
+        "His teaching career, and his mark as an educationist",
+        "His work for the growth of Zahira College",
+        "His ideas on learning in a religious environment",
+        "His political contribution and diplomatic service",
+        "His death, and the honours given to him"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 19,
+        "mcq": 3,
+        "structured": 2
+       },
+       "years": {
+        "2016": 1,
+        "2019": 1,
+        "2021": 1,
+        "2022": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-25",
+       "grade": 11,
+       "number": 25,
+       "title": "Islamic Teachings on Earning a Living",
+       "objectives": [
+        "Islam – a complete way of life; earning a living is one part of it",
+        "The balance of soul and body, and the purpose of earning",
+        "What to avoid in work: cheating, false oaths, hoarding, interest, buying and selling haram goods",
+        "Observing halal and haram in trade"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 19,
+        "mcq": 1,
+        "structured": 4
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2018": 1,
+        "2021": 1,
+        "2024": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-26",
+       "grade": 11,
+       "number": 26,
+       "title": "Islamic Finance",
+       "objectives": [
+        "The importance of the economy, and Islamic guidance on finance",
+        "The virtue of earning in a halal way",
+        "The foundations of Islam's teaching on earning",
+        "Trading methods Islam allows: murabahah, mudarabah, musharakah, ijarah, salam, rahn, qard hasan",
+        "Forbidden financial activities"
+       ],
+       "minutes": 8,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 16,
+        "mcq": 9,
+        "structured": 5
+       },
+       "years": {
+        "2016": 3,
+        "2017": 1,
+        "2019": 3,
+        "2020": 2,
+        "2021": 1,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-27",
+       "grade": 11,
+       "number": 27,
+       "title": "Marriage (النكاح)",
+       "objectives": [
+        "The family, and the importance of marriage",
+        "The legal status of marriage (sunnah, wajib)",
+        "The three purposes of marriage",
+        "Nikah – its meaning; mahram (permanent, temporary)",
+        "The 4 essentials (fard) for a valid nikah: bride and groom, ijab–qabul, wali, witnesses",
+        "Mahr and walimah"
+       ],
+       "minutes": 15,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 20,
+        "mcq": 13,
+        "structured": 9
+       },
+       "years": {
+        "2016": 3,
+        "2017": 4,
+        "2018": 3,
+        "2019": 3,
+        "2020": 2,
+        "2021": 2,
+        "2022": 2,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-28",
+       "grade": 11,
+       "number": 28,
+       "title": "The Model Islamic Family",
+       "objectives": [
+        "The union of a righteous couple – an act of 'ibadah",
+        "The goal of the model family – Paradise, and protection from the Fire",
+        "The duties of husband, wife and parents",
+        "The family life of the Prophet ﷺ – the model",
+        "Caring for neighbours and blood relatives"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 16,
+        "mcq": 1,
+        "structured": 3
+       },
+       "years": {
+        "2018": 1,
+        "2020": 1,
+        "2022": 1,
+        "2023": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-29",
+       "grade": 11,
+       "number": 29,
+       "title": "Talaq and 'Iddah (الطلاق والعدة)",
+       "objectives": [
+        "The situation in which Islam permits divorce",
+        "The steps Islam shows for avoiding talaq",
+        "The three kinds of dissolution of marriage: talaq, faskh, khul'",
+        "Improper (bid'i) and proper (sunni) talaq",
+        "Raj'i and ba'in (sughra, kubra) talaq",
+        "Zihar, li'an, ila'"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 20,
+        "mcq": 18,
+        "structured": 5
+       },
+       "years": {
+        "2016": 1,
+        "2017": 4,
+        "2018": 2,
+        "2019": 2,
+        "2020": 2,
+        "2021": 1,
+        "2022": 4,
+        "2023": 2,
+        "2024": 3,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-30",
+       "grade": 11,
+       "number": 30,
+       "title": "The Islamic View of Worldly Life",
+       "objectives": [
+        "Two extreme views people hold about worldly life",
+        "The balanced (middle) position of Islam",
+        "The Prophet's ﷺ warning about monasticism",
+        "Two kinds of Quran verses about the world",
+        "The prayer asking for good in both worlds"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 11,
+        "quiz": 15,
+        "mcq": 1,
+        "structured": 1
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-31",
+       "grade": 11,
+       "number": 31,
+       "title": "Islam and the Media",
+       "objectives": [
+        "The power and kinds of today's media",
+        "The Quran and Sunnah – the oldest means of communication",
+        "The public and indirect methods of communication the Prophet ﷺ used",
+        "Letters, envoys and diwans (departments)",
+        "Awareness of information",
+        "The 5 qualities the media should follow"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 14,
+        "quiz": 20,
+        "mcq": 4,
+        "structured": 5
+       },
+       "years": {
+        "2017": 1,
+        "2021": 1,
+        "2022": 4,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "islam-ol-en-11-32",
+       "grade": 11,
+       "number": 32,
+       "title": "The Concept of the Ummah (الأمة)",
+       "objectives": [
+        "\"Ummah\" – its linguistic meaning and definitions",
+        "Ideas about the ummah in the Quran",
+        "The special qualities of the Muslim ummah",
+        "The origin of the Muslim ummah – the prayer of Ibrahim and Isma'il (AS)",
+        "9 guidelines for protecting the ummah",
+        "The warning about division; our duties as the Sri Lankan ummah"
+       ],
+       "minutes": 10,
        "counts": {
         "flashcards": 12,
         "quiz": 19,

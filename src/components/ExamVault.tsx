@@ -119,7 +119,7 @@ export function ExamVault({
   ];
 
   return (
-    <div lang="ta">
+    <div>
       <div className="flex gap-2 overflow-x-auto no-scrollbar mb-6" role="tablist">
         {tabs.map(({ id, label, icon: I, count }) => (
           <button

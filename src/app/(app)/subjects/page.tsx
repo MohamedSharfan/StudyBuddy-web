@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Lock } from "lucide-react";
 import { Icon } from "@/components/ui/Icon";
 import { ProgressRing } from "@/components/ui/ProgressRing";
-import { subjectTotals, subjectsFor } from "@/lib/catalog";
+import { subjectTotals, subjectsFor, subjectsForLevel } from "@/lib/catalog";
 import { OL_UPCOMING, getStream, levelLabel } from "@/lib/levels";
 import { subjectProgress } from "@/lib/progress";
 import { completionSet, getViewer, hasSubjectAccess } from "@/lib/session";
@@ -14,6 +14,7 @@ export default async function Subjects() {
   const p = viewer?.profile;
   const done = completionSet(viewer);
   const subjects = subjectsFor(p);
+  const otherMediums = subjectsForLevel(p).filter((s) => !subjects.includes(s));
   const isAL = p?.education_level === "A/L";
   const comingSoon = isAL ? (getStream(p?.stream)?.subjects ?? []) : OL_UPCOMING;
 
@@ -38,7 +39,7 @@ export default async function Subjects() {
                   </ProgressRing>
                   <div className="flex-1 min-w-0">
                     <h2 className="text-xl font-bold">
-                      {s.name} <span lang="ta" className="text-muted font-normal text-base">{s.nameLocal}</span>
+                      {s.name} {s.nameLocal && <span className="text-muted font-normal text-base">{s.nameLocal}</span>}
                     </h2>
                     <p className="text-sm text-muted">{s.tagline}</p>
                     <p className="text-sm text-muted mt-2">
@@ -66,6 +67,19 @@ export default async function Subjects() {
         <div className="glass p-6">
           <p className="font-bold">Your subjects are coming soon</p>
           <p className="text-sm text-muted mt-1">We&apos;re launching O/L first. These will open here as soon as they&apos;re ready.</p>
+        </div>
+      )}
+
+      {otherMediums.length > 0 && (
+        <div>
+          <h2 className="text-sm font-semibold text-muted mb-3">Also available in another medium</h2>
+          <div className="flex flex-wrap gap-2">
+            {otherMediums.map((s) => (
+              <Link key={s.id} href={`/subjects/${s.id}`} className="chip hover:!text-white">
+                <Icon name={s.icon ?? "book-open"} size={13} /> {s.name} · {s.medium} medium
+              </Link>
+            ))}
+          </div>
         </div>
       )}
 
