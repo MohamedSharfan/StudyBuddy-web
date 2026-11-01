@@ -1,13 +1,16 @@
 /**
  * Launch settings. Safe to import from client and server code.
  *
- * Free launch (first month): no student sign-in, every chapter open, only O/L Islam live.
+ * Free launch: no student sign-in, every chapter open, only O/L Islam live.
  * To bring back accounts, coins, ranks and paid unlocks later, set LOGIN_ENABLED = true and
  * FREE_ACCESS = false. Admins can still sign in at /login and use /admin while these are off.
  */
 export const LOGIN_ENABLED = false;
 export const FREE_ACCESS = true;
 export const AL_ENABLED = false;
+
+/** Marketing line shown on the start screen and subject pages while FREE_ACCESS is on. */
+export const FREE_OFFER = "Enjoy 100% FREE access throughout your 2026 O/L preparation.";
 
 /** Teacher on WhatsApp Business, for students' subject doubts. */
 export const TEACHER_PHONE = "+94 76 739 3761";

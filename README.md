@@ -16,7 +16,7 @@ Built with Next.js 15 (App Router), Tailwind CSS 4 and Supabase (Postgres, Auth 
 
 ## Free launch mode (current)
 
-For the first month the site is free and needs no account. The switches are in [`src/lib/config.ts`](src/lib/config.ts):
+The site is free (marketing line: "Enjoy 100% FREE access throughout your 2026 O/L preparation.", `FREE_OFFER` in config) and needs no account. The switches are in [`src/lib/config.ts`](src/lib/config.ts):
 
 | Setting | Now | What it does |
 |---|---|---|

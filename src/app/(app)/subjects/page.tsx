@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Lock } from "lucide-react";
+import { FreeOffer } from "@/components/FreeOffer";
 import { Icon } from "@/components/ui/Icon";
 import { ProgressRing } from "@/components/ui/ProgressRing";
 import { subjectTotals, subjectsFor, subjectsForLevel } from "@/lib/catalog";
@@ -29,6 +30,8 @@ export default async function Subjects() {
           {LOGIN_ENABLED && viewer?.profile ? levelLabel(viewer.profile) : `O/L · Grade 10 & 11${medium ? ` · ${medium.name} medium` : ""}`}
         </p>
       </div>
+
+      <FreeOffer />
 
       {subjects.length > 0 ? (
         <div className="grid md:grid-cols-2 gap-4">
