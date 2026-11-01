@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { ArrowRight, Check, ChevronLeft, Lock, MessageCircle } from "lucide-react";
-import { FreeOffer } from "@/components/FreeOffer";
+import { ALComingSoon, FreeOffer } from "@/components/FreeOffer";
 import { Icon } from "@/components/ui/Icon";
 import { Logo } from "@/components/ui/Logo";
 import { FREE_OFFER, MEDIUMS, teacherWhatsAppLink } from "@/lib/config";
@@ -40,6 +40,7 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
       <main className="flex-1 px-4 pb-10 max-w-[640px] w-full mx-auto">
         <div className="mt-4 sm:mt-10">
           <FreeOffer />
+          <ALComingSoon className="mt-2" />
           <h1 className="display text-[1.9rem] sm:text-4xl font-bold leading-tight mt-5">
             {pickMedium ? "Which medium do you study in?" : "What are you studying for?"}
           </h1>

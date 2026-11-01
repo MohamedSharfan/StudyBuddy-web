@@ -3,7 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { Lock } from "lucide-react";
 import { AskTeacher } from "@/components/AskTeacher";
 import { ChapterList } from "@/components/ChapterList";
-import { FreeOffer } from "@/components/FreeOffer";
+import { ALComingSoon, FreeOffer } from "@/components/FreeOffer";
 import { ProgressRing } from "@/components/ui/ProgressRing";
 import { catalog, getSubject, subjectTotals } from "@/lib/catalog";
 import { LOGIN_ENABLED, MEDIUMS } from "@/lib/config";
@@ -82,6 +82,7 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
         </div>
 
         <FreeOffer className="mt-4" />
+        <ALComingSoon className="mt-2" />
 
         <p className="text-muted mt-4 mb-3 text-sm">
           {LOGIN_ENABLED ? `${gradeDone} of ${items.length} chapters done` : `${items.length} chapters · tap a chapter to start`}

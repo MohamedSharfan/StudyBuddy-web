@@ -12,6 +12,9 @@ export const AL_ENABLED = false;
 /** Marketing line shown on the start screen and subject pages while FREE_ACCESS is on. */
 export const FREE_OFFER = "Enjoy 100% FREE access throughout your 2026 O/L preparation.";
 
+/** Shown while AL_ENABLED is off. */
+export const AL_COMING_SOON = "A/L is coming soon: Physical Science, Biological Science, Commerce, Arts and Technology streams.";
+
 /** Teacher on WhatsApp Business, for students' subject doubts. */
 export const TEACHER_PHONE = "+94 76 739 3761";
 const TEACHER_WHATSAPP = "94767393761";
