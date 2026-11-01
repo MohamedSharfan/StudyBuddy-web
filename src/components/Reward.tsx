@@ -4,6 +4,7 @@ import { useCallback, useState, useTransition } from "react";
 import Link from "next/link";
 import confetti from "canvas-confetti";
 import { awardActivity, type AwardResult } from "@/app/actions";
+import { LOGIN_ENABLED } from "@/lib/config";
 import { BADGES, type CompletionKind } from "@/lib/gamification";
 import { Panda } from "@/components/ui/Panda";
 
@@ -26,6 +27,8 @@ export function useAward(kind: CompletionKind, itemId: string) {
   const claim = useCallback(
     (answers?: Record<number, string>) =>
       new Promise<AwardResult>((resolve) => {
+        // Free launch: nothing is saved to an account, so finish locally without a server call or popup.
+        if (!LOGIN_ENABLED) return resolve({ ok: true, passed: true });
         start(async () => {
           const r = await awardActivity(kind, itemId, answers);
           setResult(r);

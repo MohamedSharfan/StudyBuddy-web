@@ -14,7 +14,7 @@ export default async function QuizPage({ params }: { params: ChapterParams }) {
       itemId={c.id}
       done={steps[2]}
       nextHref={chapterHref(subject.id, c.grade, c.number, "past-papers")}
-      nextLabel="Next door: Exam vault"
+      nextLabel="Next: Past papers"
       questions={content.quiz.map((q) => ({ ...q, meta: [DIFFICULTY[q.difficulty] ?? q.difficulty] }))}
     />
   );

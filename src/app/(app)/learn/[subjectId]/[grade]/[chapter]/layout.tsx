@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, Lock } from "lucide-react";
+import { AskTeacher } from "@/components/AskTeacher";
 import { DoorTabs } from "@/components/DoorTabs";
+import { FREE_ACCESS, LOGIN_ENABLED } from "@/lib/config";
 import { chapterHref, getChapterSummary } from "@/lib/catalog";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
 
@@ -41,7 +43,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
 
       <header className="mt-4">
         <p className="eyebrow">
-          Grade {c.grade} · Chapter {c.number} {c.free && <span className="text-green">· Free</span>}
+          Grade {c.grade} · Chapter {c.number} {c.free && !FREE_ACCESS && <span className="text-green">· Free</span>}
           {!open && (
             <span className="text-gold">
               {" "}
@@ -53,7 +55,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
           {c.title}
         </h1>
         <p className="text-sm text-muted mt-1">
-          {doneCount}/4 steps done · {c.minutes} min read · {c.counts.quiz} quiz · {c.counts.mcq + c.counts.structured} past-paper questions
+          {LOGIN_ENABLED && `${doneCount}/4 steps done · `}{c.minutes} min read · {c.counts.quiz} quiz · {c.counts.mcq + c.counts.structured} past-paper questions
         </p>
       </header>
 
@@ -61,6 +63,9 @@ export default async function ChapterLayout({ params, children }: { params: Chap
         <DoorTabs base={base} steps={steps} />
       </div>
       {children}
+      <div className="mt-8">
+        <AskTeacher context={`${subject.name} (${subject.medium} medium), Grade ${c.grade} Chapter ${c.number}: ${c.title}`} />
+      </div>
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import Link from "next/link";
-import { BookOpen, Brain, Check, Layers, Lock, ScrollText } from "lucide-react";
+import { BookOpen, Brain, Check, ChevronRight, Layers, Lock, ScrollText } from "lucide-react";
 import { LockedPanel } from "@/components/LockedPanel";
 import { ExamRadar } from "@/components/ExamRadar";
 import { chapterHref } from "@/lib/catalog";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
+import { LOGIN_ENABLED } from "@/lib/config";
 import { REWARDS } from "@/lib/gamification";
 
 export default async function ChapterHub({ params }: { params: ChapterParams }) {
@@ -44,10 +45,12 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
                     <span className="text-green">Done</span>
                   ) : i === firstOpen ? (
                     <span className="text-gold">Start here</span>
-                  ) : (
+                  ) : LOGIN_ENABLED ? (
                     <span className="text-muted flex items-center gap-1.5">
                       <span className="coin" /> +{d.coins}
                     </span>
+                  ) : (
+                    <ChevronRight size={18} className="text-muted" />
                   )}
                 </span>
               </Link>
@@ -66,7 +69,7 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
               </li>
             ))}
           </ul>
-          {!viewer && (
+          {LOGIN_ENABLED && !viewer && (
             <p className="mt-5 text-sm rounded-xl border border-line p-3">
               <Lock size={13} className="inline -mt-0.5 mr-1" />
               <Link href="/login" className="font-bold text-lilac underline">

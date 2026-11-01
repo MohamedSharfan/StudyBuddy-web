@@ -1,6 +1,7 @@
 import "server-only";
 import { cache } from "react";
 import { redirect } from "next/navigation";
+import { FREE_ACCESS } from "./config";
 import { createClient, getAuthUser } from "./supabase/server";
 
 export type Profile = {
@@ -93,6 +94,7 @@ export async function getDb() {
 }
 
 export function hasSubjectAccess(viewer: Viewer | null, subjectId: string) {
+  if (FREE_ACCESS) return true;
   return Boolean(viewer && (viewer.isAdmin || viewer.unlocked.includes(subjectId)));
 }
 

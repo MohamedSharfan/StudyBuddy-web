@@ -1,11 +1,13 @@
 import Link from "next/link";
-import { Flame, LogIn, Megaphone } from "lucide-react";
+import { Flame, LogIn, Megaphone, MessageCircle } from "lucide-react";
 import { Avatar } from "@/components/ui/Avatar";
 import { Logo } from "@/components/ui/Logo";
 import { rankFor } from "@/lib/gamification";
 import type { Viewer } from "@/lib/session";
 import type { SiteSettings } from "@/lib/settings";
+import { LOGIN_ENABLED, TEACHER_PHONE, teacherWhatsAppLink } from "@/lib/config";
 import { FocusTimer } from "./FocusTimer";
+import { StudyBottomNav, StudySideNav } from "./StudyNav";
 import { BottomNav, SideNav } from "./NavLinks";
 
 export function Hud({ viewer }: { viewer: Viewer | null }) {
@@ -35,7 +37,69 @@ export function Hud({ viewer }: { viewer: Viewer | null }) {
   );
 }
 
-export function AppShell({ viewer, settings, children }: { viewer: Viewer | null; settings: SiteSettings; children: React.ReactNode }) {
+function Announcement({ settings }: { settings: SiteSettings }) {
+  if (!settings.announcement.active || !settings.announcement.text) return null;
+  return (
+    <div className="flex items-center justify-center gap-2 text-center text-sm font-semibold px-4 py-2 bg-electric">
+      <Megaphone size={15} /> {settings.announcement.text}
+    </div>
+  );
+}
+
+/** Free launch: no accounts. Header shows the chosen medium and a WhatsApp link to a teacher. */
+function StudyShell({ settings, studyHref, mediumName, children }: { settings: SiteSettings; studyHref: string; mediumName: string | null; children: React.ReactNode }) {
+  return (
+    <div className="app-root min-h-dvh lg:pl-[240px]">
+      <aside className="app-sidebar hidden lg:flex fixed inset-y-0 left-0 w-[240px] flex-col gap-7 p-5 border-r border-line bg-bg-2 z-30">
+        <Logo href={studyHref} />
+        <StudySideNav studyHref={studyHref} />
+        <div className="mt-auto rounded-xl border border-line p-4">
+          <p className="text-sm font-bold">Have a doubt?</p>
+          <p className="text-xs text-muted mt-1 mb-3">Ask our teacher on WhatsApp: {TEACHER_PHONE}</p>
+          <a href={teacherWhatsAppLink()} target="_blank" rel="noreferrer" className="btn btn-green btn-sm w-full">
+            <MessageCircle size={15} /> Ask a teacher
+          </a>
+        </div>
+      </aside>
+
+      <header className="sticky top-0 z-30 bg-bg border-b border-line">
+        <Announcement settings={settings} />
+        <div className="flex items-center justify-between gap-3 px-4 sm:px-6 h-14 sm:h-16 max-w-[1200px] mx-auto">
+          <div className="lg:hidden">
+            <Logo href={studyHref} size={32} />
+          </div>
+          <div className="hidden lg:block" />
+          <Link href="/?change=1" className="chip hover:!text-white" title="Change level or medium">
+            O/L{mediumName ? ` · ${mediumName}` : ""}
+          </Link>
+        </div>
+      </header>
+
+      <main className="px-4 sm:px-6 pb-28 lg:pb-16 pt-5 max-w-[1200px] mx-auto">{children}</main>
+      <StudyBottomNav studyHref={studyHref} />
+    </div>
+  );
+}
+
+export function AppShell({
+  viewer,
+  settings,
+  studyHref,
+  mediumName,
+  children,
+}: {
+  viewer: Viewer | null;
+  settings: SiteSettings;
+  studyHref: string;
+  mediumName: string | null;
+  children: React.ReactNode;
+}) {
+  if (!LOGIN_ENABLED)
+    return (
+      <StudyShell settings={settings} studyHref={studyHref} mediumName={mediumName}>
+        {children}
+      </StudyShell>
+    );
   return (
     <div className="app-root min-h-dvh lg:pl-[240px]">
       <aside className="app-sidebar hidden lg:flex fixed inset-y-0 left-0 w-[240px] flex-col gap-7 p-5 border-r border-line bg-bg-2 z-30">
@@ -61,11 +125,7 @@ export function AppShell({ viewer, settings, children }: { viewer: Viewer | null
       </aside>
 
       <header className="sticky top-0 z-30 bg-bg border-b border-line">
-        {settings.announcement.active && settings.announcement.text && (
-          <div className="flex items-center justify-center gap-2 text-center text-sm font-semibold px-4 py-2 bg-electric">
-            <Megaphone size={15} /> {settings.announcement.text}
-          </div>
-        )}
+        <Announcement settings={settings} />
         <div className="flex items-center justify-between gap-3 px-4 sm:px-6 h-16 max-w-[1200px] mx-auto">
           <div className="lg:hidden">
             <Logo href="/home" size={34} />

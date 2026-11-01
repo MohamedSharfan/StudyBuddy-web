@@ -76,6 +76,14 @@ function chapterTitleFrom(h1) {
   return title;
 }
 
+/** Markdown emphasis (**bold**, *italic*, _italic_) removed, for titles and lists shown as plain text. */
+const plain = (t) =>
+  t
+    .replace(/\*\*/g, "")
+    .replace(/(^|[^\w*])\*([^*\n]+)\*(?!\w)/g, "$1$2")
+    .replace(/(^|\W)_([^_\n]+)_(?!\w)/g, "$1$2")
+    .trim();
+
 function parseNotes(md) {
   const lines = md.split("\n");
   const h1 = lines.find((l) => l.startsWith("# ")) ?? "";
@@ -89,14 +97,14 @@ function parseNotes(md) {
       const l = lines[i];
       if (/^#{1,3}\s/.test(l) || /^-{3,}$/.test(l.trim())) break;
       const m = l.match(/^\s*[-*]\s+(.*)/);
-      if (m) objectives.push(m[1].replace(/\*\*/g, "").trim());
+      if (m) objectives.push(plain(m[1]));
     }
   }
 
   const headings = [];
   for (const l of lines) {
     const m = l.match(/^(##|###)\s+(.*)/);
-    if (m) headings.push({ depth: m[1].length, text: m[2].replace(/\*\*/g, "").trim() });
+    if (m) headings.push({ depth: m[1].length, text: plain(m[2]) });
   }
 
   const words = body.split(/\s+/).filter(Boolean).length;

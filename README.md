@@ -14,6 +14,20 @@ The website for **StudyBuddy** (Play · Learn · Level up). It's the web version
 
 Built with Next.js 15 (App Router), Tailwind CSS 4 and Supabase (Postgres, Auth and RLS).
 
+## Free launch mode (current)
+
+For the first month the site is free and needs no account. The switches are in [`src/lib/config.ts`](src/lib/config.ts):
+
+| Setting | Now | What it does |
+|---|---|---|
+| `LOGIN_ENABLED` | `false` | Hides sign-in, coins, ranks, profiles, AI Panda and the unlock page. Those pages lead back to the start screen. |
+| `FREE_ACCESS` | `true` | Every chapter is open. |
+| `AL_ENABLED` | `false` | A/L shows as "coming soon". |
+
+Students choose **O/L** then **Tamil or English medium** on the start screen; the choice is remembered on their phone (`sb_medium` cookie) and they go straight to Islam. An **Ask a teacher** button on every study page opens WhatsApp (+94 76 739 3761) with the subject and chapter filled in.
+
+Admins can still sign in at `/login` and use `/admin`. To switch accounts and paid unlocks back on, set `LOGIN_ENABLED = true` and `FREE_ACCESS = false`.
+
 ---
 
 ## 1. Set up the database (Supabase)

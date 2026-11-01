@@ -109,7 +109,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-6">
             <Link href={nextHref} className="btn btn-gold">
-              Next door: Quiz →
+              Next: Quiz →
             </Link>
             <button onClick={() => restart(true)} className="btn btn-ghost" disabled={pending}>
               <RotateCcw size={16} /> Go again
@@ -175,7 +175,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
           )}
         </>
       )}
-      <RewardModal kind="flashcards" result={result} onClose={clear} nextHref={nextHref} nextLabel="Next door: Quiz →" />
+      <RewardModal kind="flashcards" result={result} onClose={clear} nextHref={nextHref} nextLabel="Next: Quiz →" />
     </div>
   );
 }

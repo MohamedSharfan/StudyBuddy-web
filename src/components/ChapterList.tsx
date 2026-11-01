@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Check, Lock } from "lucide-react";
 import type { ChapterSummary } from "@/lib/catalog";
+import { FREE_ACCESS } from "@/lib/config";
 
 export type StarState = "done" | "progress" | "open" | "locked";
 
@@ -13,7 +14,7 @@ export type StarItem = {
 };
 
 /** Chapters of one grade as a simple list: number, title, step progress and lock state. */
-export function ChapterList({ items }: { items: StarItem[] }) {
+export function ChapterList({ items, showProgress = true }: { items: StarItem[]; showProgress?: boolean }) {
   return (
     <ol className="grid grid-cols-1 xl:grid-cols-2 gap-2.5">
       {items.map((it) => {
@@ -23,7 +24,7 @@ export function ChapterList({ items }: { items: StarItem[] }) {
           <li key={c.id} className="min-w-0">
             <Link
               href={it.href}
-              className={`glass glass-hover flex items-center gap-3.5 p-3.5 ${it.next ? "!border-gold/60" : ""}`}
+              className={`glass glass-hover flex items-center gap-3.5 p-3.5 ${showProgress && it.next ? "!border-gold/60" : ""}`}
               aria-label={`Chapter ${c.number}: ${c.title}${locked ? " (locked)" : ""}`}
             >
               <span
@@ -36,18 +37,20 @@ export function ChapterList({ items }: { items: StarItem[] }) {
               <span className="flex-1 min-w-0">
                 <span className="flex items-center gap-2 text-xs text-muted">
                   Chapter {c.number}
-                  {c.free && <span className="text-green font-semibold">Free</span>}
-                  {it.next && <span className="text-gold font-semibold">Up next</span>}
+                  {c.free && !FREE_ACCESS && <span className="text-green font-semibold">Free</span>}
+                  {showProgress && it.next && <span className="text-gold font-semibold">Up next</span>}
                 </span>
                 <span className={`block font-semibold leading-snug truncate ${locked ? "text-muted" : ""}`}>
                   {c.title}
                 </span>
               </span>
-              <span className="hidden sm:flex gap-1 flex-none" aria-hidden>
-                {it.steps.map((s, k) => (
-                  <span key={k} className={`h-1.5 w-4 rounded-full ${s ? "bg-green" : "bg-white/10"}`} />
-                ))}
-              </span>
+              {showProgress && (
+                <span className="hidden sm:flex gap-1 flex-none" aria-hidden>
+                  {it.steps.map((s, k) => (
+                    <span key={k} className={`h-1.5 w-4 rounded-full ${s ? "bg-green" : "bg-white/10"}`} />
+                  ))}
+                </span>
+              )}
             </Link>
           </li>
         );

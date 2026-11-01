@@ -112,7 +112,7 @@ export function QuizRunner({
           <ProgressRing value={pct} size={140} stroke={11}>
             <span className="display text-4xl font-bold">{pct}%</span>
           </ProgressRing>
-          <h2 className="display text-3xl font-bold mt-4">{pct >= 80 ? "Conquered! 🌙" : pct >= 50 ? "Good effort!" : "Keep going!"}</h2>
+          <h2 className="display text-3xl font-bold mt-4">{pct >= 80 ? "Passed! Well done" : pct >= 50 ? "Good effort!" : "Keep going!"}</h2>
           <p className="text-muted mt-1">
             {correctCount} of {questions.length} correct{pct < 80 && " · 80% needed to pass"}
           </p>

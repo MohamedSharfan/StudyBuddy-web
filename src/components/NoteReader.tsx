@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { Check, Eye, EyeOff, ListTree, Loader2, Minus, Plus } from "lucide-react";
 import { RewardModal, useAward } from "@/components/Reward";
+import { LOGIN_ENABLED } from "@/lib/config";
 
 type Heading = { depth: number; text: string; id: string };
 
@@ -120,12 +121,20 @@ export function NoteReader({
           </div>
 
           <div className="mt-12 rounded-2xl p-6 text-center border border-line bg-card">
-            {claimed ? (
+            {!LOGIN_ENABLED ? (
+              <>
+                <p className="display text-2xl font-bold">Finished reading?</p>
+                <p className="text-sm text-muted mt-1">Next: test your memory with flashcards.</p>
+                <Link href={nextHref} className="btn btn-gold mt-4">
+                  Go to flashcards →
+                </Link>
+              </>
+            ) : claimed ? (
               <>
                 <p className="display text-2xl font-bold flex items-center justify-center gap-2">
                   <Check className="text-gold" /> Notes done
                 </p>
-                <p className="text-sm text-muted mt-1">Next door: test your memory with flashcards.</p>
+                <p className="text-sm text-muted mt-1">Next: test your memory with flashcards.</p>
                 <Link href={nextHref} className="btn btn-gold mt-4">
                   Go to flashcards →
                 </Link>
@@ -168,7 +177,7 @@ export function NoteReader({
         )}
       </div>
 
-      <RewardModal kind="lesson" result={result} onClose={clear} nextHref={nextHref} nextLabel="Next door: Flashcards →" />
+      <RewardModal kind="lesson" result={result} onClose={clear} nextHref={nextHref} nextLabel="Next: Flashcards →" />
     </>
   );
 }

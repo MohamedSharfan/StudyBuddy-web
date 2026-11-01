@@ -1,9 +1,15 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
+import { LOGIN_ENABLED } from "@/lib/config";
+
+// Student pages that need an account. While sign-in is off they lead back to the start screen.
+const ACCOUNT_PAGES = /^\/(home|leaderboard|profile|rewards|unlock|panda|onboarding|u)(\/|$)/;
 
 export async function middleware(request: NextRequest) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!LOGIN_ENABLED && ACCOUNT_PAGES.test(request.nextUrl.pathname)) return NextResponse.redirect(new URL("/", request.url));
+
   let response = NextResponse.next({ request });
   if (!url || !key) return response;
   // Visitors without a Supabase session cookie have nothing to refresh.
