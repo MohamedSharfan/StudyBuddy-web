@@ -3,7 +3,8 @@
 import { useMemo, useState } from "react";
 import { ChevronDown, Eye, EyeOff, FileText, ListChecks, Target } from "lucide-react";
 import type { PastMcq, PastStructured } from "@/lib/content";
-import { RichText } from "@/components/Markdown";
+import { withArabic } from "@/components/ArabicText";
+import { RichText } from "@/components/RichText";
 import { QuizRunner } from "@/components/QuizRunner";
 
 type Tab = "practice" | "structured" | "browse" | "pattern";
@@ -65,11 +66,11 @@ function BrowseMcq({ q }: { q: PastMcq }) {
         <span className="chip !text-gold !border-gold/40">📜 {q.yearLabel || q.year}</span>
         <span className="chip">{q.reference}</span>
       </div>
-      <p className="font-bold whitespace-pre-wrap">{q.prompt}</p>
+      <RichText text={q.prompt} className="font-bold !text-white" />
       <ul className="mt-3 grid sm:grid-cols-2 gap-2 text-sm">
         {q.options.map((o) => (
           <li key={o.key} className={`rounded-xl px-3 py-2 border ${show && o.key === q.answer ? "border-green bg-green/15" : "border-line"}`}>
-            <b className="text-lilac">{o.key}.</b> {o.text}
+            <b className="text-lilac">{o.key}.</b> {withArabic(o.text)}
           </li>
         ))}
       </ul>
@@ -79,7 +80,7 @@ function BrowseMcq({ q }: { q: PastMcq }) {
       {show && (
         <div className="mt-2 text-sm text-muted">
           <p>
-            <b className="text-green">✓ {q.answer}</b> — {q.explanation}
+            <b className="text-green">✓ {q.answer}</b> — {withArabic(q.explanation)}
           </p>
           <StatusNote status={q.status} verification={q.verification} />
         </div>

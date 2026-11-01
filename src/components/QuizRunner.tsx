@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { ArrowRight, Check, RotateCcw, Shuffle, X } from "lucide-react";
 import type { CompletionKind } from "@/lib/gamification";
+import { withArabic } from "@/components/ArabicText";
+import { RichText } from "@/components/RichText";
 import { RewardModal, useAward } from "@/components/Reward";
 import { ProgressRing } from "@/components/ui/ProgressRing";
 
@@ -202,7 +204,12 @@ export function QuizRunner({
             ))}
           </div>
         )}
-        <h2 className="text-lg sm:text-xl font-bold leading-relaxed whitespace-pre-wrap">{q.prompt}</h2>
+        {q.prompt.includes("|") ? (
+          // Past-paper questions can contain a table ("| அ | ஆ |" …).
+          <RichText text={q.prompt} className="font-bold !text-white" />
+        ) : (
+          <h2 className="text-lg sm:text-xl font-bold leading-relaxed whitespace-pre-wrap">{withArabic(q.prompt)}</h2>
+        )}
         <div className="grid gap-3 mt-6" role="radiogroup">
           {q.options.map((o, i) => {
             const chosen = picked === o.key;
@@ -232,7 +239,7 @@ export function QuizRunner({
                 >
                   {correct ? <Check size={18} strokeWidth={3} /> : wrong ? <X size={18} strokeWidth={3} /> : o.key}
                 </span>
-                <span className="font-semibold leading-snug">{o.text}</span>
+                <span className="font-semibold leading-snug">{withArabic(o.text)}</span>
                 <kbd className="ml-auto hidden sm:block text-[10px] text-faint">{i + 1}</kbd>
               </button>
             );
@@ -242,7 +249,7 @@ export function QuizRunner({
         {picked && (
           <div className={`mt-6 rounded-2xl p-4 border pop ${isRight ? "bg-green/10 border-green/40" : "bg-pink/10 border-pink/40"}`}>
             <p className="font-extrabold">{isRight ? "✓ Correct!" : `✗ The answer is ${q.answer}`}</p>
-            {q.explanation && <p className="text-[0.95rem] text-muted mt-1.5 leading-relaxed">{q.explanation}</p>}
+            {q.explanation && <p className="text-[0.95rem] text-muted mt-1.5 leading-relaxed">{withArabic(q.explanation)}</p>}
             {q.note && <p className="text-xs text-faint mt-2">{q.note}</p>}
           </div>
         )}

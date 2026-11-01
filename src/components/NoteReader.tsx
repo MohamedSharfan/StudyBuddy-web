@@ -83,8 +83,8 @@ export function NoteReader({
       </div>
 
       <div className={`grid gap-8 ${focus ? "" : "xl:grid-cols-[1fr_250px]"}`}>
-        <article ref={ref} className={`glass p-5 sm:p-10 ${focus ? "max-w-[780px] mx-auto w-full" : ""}`}>
-          <div className="flex items-center justify-end gap-2 -mt-1 mb-2 sticky top-[72px] z-10">
+        <article ref={ref} className={`glass p-4 sm:p-10 ${focus ? "max-w-[780px] mx-auto w-full" : ""}`}>
+          <div className="flex items-center justify-end gap-2 -mt-1 mb-2 sm:sticky sm:top-[72px] z-10">
             <div className="glass !rounded-full flex items-center p-1 shadow-lg">
               <button onClick={() => changeSize(-0.06)} className="w-8 h-8 grid place-items-center rounded-full hover:bg-white/10" aria-label="Smaller text">
                 <Minus size={15} />
