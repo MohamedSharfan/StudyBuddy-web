@@ -56,7 +56,7 @@ function StudyShell({ settings, studyHref, mediumName, children }: { settings: S
         <div className="mt-auto rounded-xl border border-line p-4">
           <p className="text-sm font-bold">Have a doubt?</p>
           <p className="text-xs text-muted mt-1 mb-3">Ask our tutor on WhatsApp: {TEACHER_PHONE}</p>
-          <a href={teacherWhatsAppLink()} target="_blank" rel="noreferrer" className="btn btn-green btn-sm w-full">
+          <a href={teacherWhatsAppLink()} target="_blank" rel="noreferrer" className="btn btn-tutor btn-sm w-full">
             <MessageCircle size={15} /> Ask a tutor
           </a>
         </div>

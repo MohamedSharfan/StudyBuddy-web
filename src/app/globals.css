@@ -145,6 +145,11 @@ body {
   --b: #10b981;
   --b-dark: #047857;
 }
+.btn-tutor {
+  --b: #fff;
+  --b-dark: #d4d4d4;
+  color: #000;
+}
 .btn-ghost {
   background: transparent;
   border: 1px solid var(--line-strong);

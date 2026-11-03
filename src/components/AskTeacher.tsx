@@ -6,7 +6,7 @@ export function AskTeacher({ context, compact = false }: { context?: string; com
   const href = teacherWhatsAppLink(context);
   if (compact)
     return (
-      <a href={href} target="_blank" rel="noreferrer" className="btn btn-green btn-sm">
+      <a href={href} target="_blank" rel="noreferrer" className="btn btn-tutor btn-sm">
         <MessageCircle size={15} /> Ask a tutor
       </a>
     );
@@ -19,7 +19,7 @@ export function AskTeacher({ context, compact = false }: { context?: string; com
         <p className="font-bold">Have a doubt?</p>
         <p className="text-sm text-muted">Ask our tutor on WhatsApp · {TEACHER_PHONE}</p>
       </div>
-      <a href={href} target="_blank" rel="noreferrer" className="btn btn-green btn-sm flex-none">
+      <a href={href} target="_blank" rel="noreferrer" className="btn btn-tutor btn-sm flex-none">
         Ask
       </a>
     </div>

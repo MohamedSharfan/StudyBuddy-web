@@ -32,7 +32,7 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
     <div className="min-h-dvh flex flex-col">
       <header className="flex items-center justify-between gap-3 px-4 h-16 max-w-[640px] w-full mx-auto">
         <Logo href="/?change=1" size={36} />
-        <a href={teacherWhatsAppLink()} target="_blank" rel="noreferrer" className="btn btn-green btn-sm">
+        <a href={teacherWhatsAppLink()} target="_blank" rel="noreferrer" className="btn btn-tutor btn-sm">
           <MessageCircle size={16} /> Ask a tutor
         </a>
       </header>
