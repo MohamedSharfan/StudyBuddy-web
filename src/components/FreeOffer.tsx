@@ -1,5 +1,5 @@
-import { Gift, GraduationCap } from "lucide-react";
-import { AL_COMING_SOON, AL_ENABLED, FREE_ACCESS, FREE_OFFER } from "@/lib/config";
+import { Gift } from "lucide-react";
+import { FREE_ACCESS, FREE_OFFER } from "@/lib/config";
 
 const HIGHLIGHT = "100% FREE";
 
@@ -10,29 +10,17 @@ export function FreeOffer({ className = "" }: { className?: string }) {
   return (
     <p className={`flex items-center gap-2.5 rounded-xl border border-gold/40 bg-gold/10 px-3.5 py-2.5 text-sm font-semibold text-white ${className}`}>
       <Gift size={18} className="text-gold flex-none" />
-      <span>
-        {before}
-        {after !== null && (
-          <>
-            <b className="text-gold">{HIGHLIGHT}</b>
-            {after}
-          </>
-        )}
-      </span>
-    </p>
-  );
-}
-
-/** Small "A/L coming soon" banner, shown until A/L launches. */
-export function ALComingSoon({ className = "" }: { className?: string }) {
-  if (AL_ENABLED) return null;
-  const [lead, rest] = AL_COMING_SOON.split(/:\s*/, 2);
-  return (
-    <p className={`flex items-center gap-2.5 rounded-xl border border-violet/40 bg-violet/10 px-3.5 py-2.5 text-sm ${className}`}>
-      <GraduationCap size={18} className="text-lilac flex-none" />
-      <span>
-        <b className="text-white">{lead}</b>
-        {rest && <span className="text-muted">: {rest}</span>}
+      <span className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
+        <span>
+          {before}
+          {after !== null && (
+            <>
+              <b className="text-gold">{HIGHLIGHT}</b>
+              {after}
+            </>
+          )}
+        </span>
+        <span className="text-gold">Your 75+ Marks Journey Starts Here</span>
       </span>
     </p>
   );

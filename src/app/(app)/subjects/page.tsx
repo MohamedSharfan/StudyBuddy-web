@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Lock } from "lucide-react";
-import { ALComingSoon, FreeOffer } from "@/components/FreeOffer";
+import { FreeOffer } from "@/components/FreeOffer";
 import { Icon } from "@/components/ui/Icon";
 import { ProgressRing } from "@/components/ui/ProgressRing";
 import { subjectTotals, subjectsFor, subjectsForLevel } from "@/lib/catalog";
@@ -33,7 +33,6 @@ export default async function Subjects() {
 
       <div className="space-y-2">
         <FreeOffer />
-        <ALComingSoon />
       </div>
 
       {subjects.length > 0 ? (

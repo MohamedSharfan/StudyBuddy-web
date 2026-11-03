@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { ArrowRight, Check, ChevronLeft, Lock, MessageCircle } from "lucide-react";
-import { ALComingSoon, FreeOffer } from "@/components/FreeOffer";
+import { ArrowRight, Check, ChevronLeft, MessageCircle } from "lucide-react";
+import { FreeOffer } from "@/components/FreeOffer";
 import { Icon } from "@/components/ui/Icon";
 import { Logo } from "@/components/ui/Logo";
 import { FREE_OFFER, MEDIUMS, teacherWhatsAppLink } from "@/lib/config";
@@ -18,7 +18,7 @@ export const metadata = {
 };
 
 /**
- * Start screen. Step 1: O/L or A/L (A/L coming soon). Step 2: Tamil or English medium.
+ * Start screen. Step 1: O/L. Step 2: Tamil or English medium.
  * Returning students who already picked a medium go straight to their subject.
  */
 export default async function Start({ searchParams }: { searchParams: Promise<{ step?: string; change?: string }> }) {
@@ -33,14 +33,13 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
       <header className="flex items-center justify-between gap-3 px-4 h-16 max-w-[640px] w-full mx-auto">
         <Logo href="/?change=1" size={36} />
         <a href={teacherWhatsAppLink()} target="_blank" rel="noreferrer" className="btn btn-green btn-sm">
-          <MessageCircle size={16} /> Ask a teacher
+          <MessageCircle size={16} /> Ask a tutor
         </a>
       </header>
 
       <main className="flex-1 px-4 pb-10 max-w-[640px] w-full mx-auto">
         <div className="mt-4 sm:mt-10">
           <FreeOffer />
-          <ALComingSoon className="mt-2" />
           <h1 className="display text-[1.9rem] sm:text-4xl font-bold leading-tight mt-5">
             {pickMedium ? "Which medium do you study in?" : "What are you studying for?"}
           </h1>
@@ -77,15 +76,6 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
               </span>
               <ArrowRight size={20} className="text-muted" />
             </Link>
-            <div className="flex items-center gap-4 p-5 min-h-[76px] rounded-[18px] border border-line opacity-60" aria-disabled="true">
-              <span className="flex-1">
-                <span className="block text-lg font-bold">A/L</span>
-                <span className="block text-sm text-muted">Grade 12 &amp; 13</span>
-              </span>
-              <span className="chip">
-                <Lock size={12} /> Coming soon
-              </span>
-            </div>
           </div>
         )}
 

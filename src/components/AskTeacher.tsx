@@ -1,13 +1,13 @@
 import { MessageCircle } from "lucide-react";
 import { TEACHER_PHONE, teacherWhatsAppLink } from "@/lib/config";
 
-/** "Have a doubt? Ask a teacher" — opens WhatsApp with the subject/chapter already filled in. */
+/** "Have a doubt? Ask a tutor" — opens WhatsApp with the subject/chapter already filled in. */
 export function AskTeacher({ context, compact = false }: { context?: string; compact?: boolean }) {
   const href = teacherWhatsAppLink(context);
   if (compact)
     return (
       <a href={href} target="_blank" rel="noreferrer" className="btn btn-green btn-sm">
-        <MessageCircle size={15} /> Ask a teacher
+        <MessageCircle size={15} /> Ask a tutor
       </a>
     );
   return (
@@ -17,7 +17,7 @@ export function AskTeacher({ context, compact = false }: { context?: string; com
       </span>
       <div className="flex-1 min-w-0">
         <p className="font-bold">Have a doubt?</p>
-        <p className="text-sm text-muted">Ask our teacher on WhatsApp · {TEACHER_PHONE}</p>
+        <p className="text-sm text-muted">Ask our tutor on WhatsApp · {TEACHER_PHONE}</p>
       </div>
       <a href={href} target="_blank" rel="noreferrer" className="btn btn-green btn-sm flex-none">
         Ask

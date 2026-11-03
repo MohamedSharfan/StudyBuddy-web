@@ -5,13 +5,13 @@ import { usePathname } from "next/navigation";
 import { BookOpen, Languages, LayoutGrid, MessageCircle } from "lucide-react";
 import { teacherWhatsAppLink } from "@/lib/config";
 
-/** Navigation for the free launch (no accounts): study, subjects, ask a teacher, change medium. */
+/** Navigation for the free launch (no accounts): study, subjects, ask a tutor, change medium. */
 function useItems(studyHref: string) {
   const path = usePathname();
   return [
     { href: studyHref, label: "Chapters", icon: BookOpen, active: path.startsWith("/learn") || path.startsWith("/subjects/") },
     { href: "/subjects", label: "Subjects", icon: LayoutGrid, active: path === "/subjects" },
-    { href: teacherWhatsAppLink(), label: "Ask teacher", icon: MessageCircle, external: true, active: false },
+    { href: teacherWhatsAppLink(), label: "Ask tutor", icon: MessageCircle, external: true, active: false },
     { href: "/?change=1", label: "Medium", icon: Languages, active: false },
   ];
 }
@@ -26,7 +26,7 @@ export function StudySideNav({ studyHref }: { studyHref: string }) {
         }`;
         const inner = (
           <>
-            <I size={19} className={active ? "text-gold" : ""} /> {label === "Medium" ? "Change medium" : label === "Ask teacher" ? "Ask a teacher" : label}
+            <I size={19} className={active ? "text-gold" : ""} /> {label === "Medium" ? "Change medium" : label === "Ask tutor" ? "Ask a tutor" : label}
           </>
         );
         return external ? (
