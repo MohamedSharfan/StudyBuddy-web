@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **13** (multiple-choice: 6; structured/essay items: 7). Papers in which this chapter was examined: 9 of 10 – 2016, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ Which of the following phrases refers to Prophet Muhammad ﷺ?
 
 **Explanation:** "A mercy to the worlds" (rahmatan lil-'alamin – 21:107) refers to the Prophet. Rabb an-nas and Rabb al-'alamin – Allah; hudan lin-nas – the Quran.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2016 – Islam I, Q31
@@ -53,8 +50,6 @@ The reason Prophet Muhammad ﷺ was called 'al-Amin' in his youth
 **Correct answer:** D – being trustworthy *(option (4) on the original paper)*
 
 **Explanation:** Al-Amin = the trustworthy one. The people of Makkah left their valuables with the Prophet for safekeeping. The name for speaking the truth is "as-Sadiq".
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md)
 
@@ -79,8 +74,6 @@ The Prophet ﷺ said that two qualities should never be found in a believer. Wha
 
 **Explanation:** A hadith (Ahmad) with the meaning that a believer may naturally have all kinds of traits, but not treachery (dishonesty) and lying.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md)
 
 ---
@@ -104,8 +97,6 @@ Which attribute of Allah does His name al-Mughni indicate?
 
 **Explanation:** Al-Mughni = the One who makes rich; al-Mu'ti = the Giver; al-Ghaniyy = the Rich, free of all need.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2020 – Islam I, Q12
@@ -126,8 +117,6 @@ What title did the Quraysh give the Prophet ﷺ because of his trustworthiness?
 **Correct answer:** A – al-Amin *(option (1) on the original paper)*
 
 **Explanation:** Al-Amin = the trustworthy one (the same idea appeared in 2016 Q31). As-Siddiq – Abu Bakr (RA); al-Faruq – 'Umar (RA).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md)
 
@@ -152,8 +141,6 @@ The account of a woman who went to Hell, even though she prayed regularly, becau
 
 **Explanation:** The woman who tied up a cat without food went to Hell – a hadith (Bukhari); love for living creatures.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -170,7 +157,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) The benefits of giving (charity)
 
-**Suggested answer:**
+**Answer:**
 
 Giving = giving others part of the wealth Allah has granted.
 Benefits:
@@ -182,9 +169,7 @@ Benefits:
 
 **Answer explanation:** The textbook mentions five benefits of giving and the verses 2:274, 64:16 and 16:96.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -200,16 +185,14 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) State the two titles by which people called the Prophet ﷺ from his childhood.
 
-**Suggested answer:**
+**Answer:**
 
 1. Al-Amin (the trustworthy)
 2. As-Sadiq (the truthful)
 
 **Answer explanation:** "Al-Amin" was also asked in 2016 Q31 and 2020 Q12 (MCQ).
 
-**Marking guidance (suggested only – not an official marking scheme):** Both names.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both names.
 
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md)
 
@@ -227,7 +210,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State five of the good qualities Islam teaches, and explain them.
 
-**Suggested answer:**
+**Answer:**
 
 1. Love – love for Allah, the Prophet ﷺ, oneself, others, other creatures and the environment; love is connected with iman.
 2. Sacrifice – giving up one's own wishes for the good of others (e.g. the Ansar sharing their property with the Muhajirun).
@@ -238,11 +221,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** As the question says "explain", give the meaning and evidence / an example for each quality.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The example of the Ansar's sacrifice is based on general knowledge of the sirah.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md); [Grade 11, Chapter 11: The Islamic View of Good Character](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_11.md)
 
@@ -260,15 +239,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (viii) State two of the good qualities Islam teaches.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: love, sacrifice, giving, honesty (amanah), self-control of the senses, patience, truthfulness, humility, forgiveness, courage.
 
 **Answer explanation:** Stating the names is enough.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two qualities.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two qualities.
 
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md); [Grade 11, Chapter 11: The Islamic View of Good Character](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_11.md)
 
@@ -287,15 +264,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short answers.
 (i) State two animals which Islam forbids treating cruelly, even though they are najis animals.
 
-**Suggested answer:**
+**Answer:**
 
 The dog, the pig
 
 **Answer explanation:** Textbook (love – love for other creatures): even though dogs and pigs are najis, it is not permitted to treat them cruelly.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two animals.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two animals.
 
 **Also relevant to:** [Grade 10, Chapter 5: An-Najasah (Impurity)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_05.md)
 
@@ -314,7 +289,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) State two names of Allah connected with the quality of showing love.
 (ii) Give three benefits a person gains by showing love to others.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any two of: ar-Rahman, ar-Rahim, al-Wadud.
 
@@ -326,11 +301,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The textbook gives the benefits of love in this way.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 11, Chapter 32.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -346,7 +317,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Explain, on the basis of evidence from the Quran and the hadith, the need to care for one's parents.
 
-**Suggested answer:**
+**Answer:**
 
 - Parents deserve love, gratitude and obedience.
 - The Quran: his mother carried him in weakness upon weakness and weaned him in two years; be grateful to Me and to your parents (31:14).
@@ -356,9 +327,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Evidence is needed from both the Quran and the hadith.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 28: The Model Islamic Family](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_28.md)
 

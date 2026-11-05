@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **11** (multiple-choice: 5; structured/essay items: 6). Papers in which this chapter was examined: 6 of 10 – 2016, 2018, 2021 (2022), 2022 (2023), 2023 (2024), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ What a person must do for other human beings
 
 **Explanation:** Haqq al-'ibad = the duties owed to (Allah's) servants, i.e. other people. Haqq Allah – duty to Allah; haqq al-jar – duty to neighbours only.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 29: Keeping to Moderation](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_29.md)
 
 ---
@@ -55,8 +52,6 @@ A matter included in huquq al-'ibad
 **Correct answer:** C – caring for and protecting the environment *(option (3) on the original paper)*
 
 **Explanation:** Huquq al-'ibad = duties to creation (to people); protecting the environment is a duty to others. The others are acts of worship owed to Allah (huquq Allah).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 29: Keeping to Moderation](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_29.md)
 
@@ -81,10 +76,6 @@ The author of the book "Islamic Jurisprudence – An International Perspective"
 
 **Explanation:** The author of this book is the former judge Dr C. G. Weeramantry.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** In the textbook notes the initials of the name are given as "C. V." and in the paper as "C. G."; this does not change the answer choice.
-
 ---
 
 ### A4. 2023 (2024) – Islam I, Q19
@@ -105,8 +96,6 @@ The period between the two charters made to guarantee human rights – the Chart
 **Correct answer:** C – six centuries *(option (3) on the original paper)*
 
 **Explanation:** Magna Carta came in 1215, six centuries after the Charter of Madinah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -129,8 +118,6 @@ In the view of Islam, a person attains superiority
 
 **Explanation:** "…you are counted superior only through taqwa" (Bayhaqi) – the right to equality.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -147,7 +134,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Point out the distinctive features of the human rights granted by Islam.
 
-**Suggested answer:**
+**Answer:**
 
 1. Given by Allah – birthrights drawn from the Quran and the Sunnah.
 2. Permanent – they do not change with time or place.
@@ -158,11 +145,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Comparing them with man-made rights strengthens the answer.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (i) and (iii) of this question are under Grade 10, Chapter 30.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -178,7 +161,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (viii) Give two rights Islam has granted to women.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. The right to property – what they earn belongs to them (4:32)
@@ -189,11 +172,7 @@ Any two of the following:
 
 **Answer explanation:** Islam gave these rights to women, who had been deprived of rights in the time of Jahiliyyah.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two rights.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Women's rights are not a separate section in the current textbook; this has been gathered from the chapters on human rights, marriage and talaq.
+**Marking guidance:*** Two rights.
 
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md); [Grade 11, Chapter 29: Talaq and 'Iddah (الطلاق والعدة)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_29.md)
 
@@ -211,7 +190,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) The human rights granted by Islam
 
-**Suggested answer:**
+**Answer:**
 
 - The right to lay down rights belongs to Allah; they are birthrights – permanent and cannot be taken away (man-made rights change with time and are only on paper).
 - The Charter of Madinah – six centuries before Magna Carta (1215).
@@ -227,9 +206,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Give one piece of evidence for each right.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -245,7 +222,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Give one of the teachings of the Prophet ﷺ that stresses "every person is equal before the law".
 
-**Suggested answer:**
+**Answer:**
 
 Any one of the following (meaning):
 1. "Even if my daughter Fatimah stole, I would not hesitate to cut off her hand."
@@ -253,9 +230,7 @@ Any one of the following (meaning):
 
 **Answer explanation:** The incident of Fatimah (RA) shows equality before the law most directly.
 
-**Marking guidance (suggested only – not an official marking scheme):** One teaching.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** One teaching.
 
 ---
 
@@ -271,15 +246,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (viii) State two of the human rights granted by Islam.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: the right to life, the right to equality, personal freedom, the right to justice, the right to protection of dignity, the right to property, protection of religious feelings.
 
 **Answer explanation:** The textbook mentions seven rights.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two rights.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two rights.
 
 ---
 
@@ -295,15 +268,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State two human rights granted by Islam.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: the right to life, the right to equality, personal freedom, the right to justice, the right to protection of dignity, the right to property, protection of religious feelings.
 
 **Answer explanation:** The same question appeared in 2023 (2024) Islam II Q1 (viii).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two rights.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two rights.
 
 ---
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **14** (multiple-choice: 9; structured/essay items: 5). Papers in which this chapter was examined: 9 of 10 – 2016, 2017, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ A forbidden trading activity
 
 **Explanation:** Riba (interest) is haram in Islam. Mudarabah, musharakah and ijarah are permitted financial dealings.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 25: Islamic Teachings on Earning a Living](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_25.md)
 
 ---
@@ -55,8 +52,6 @@ What is a partnership business formed by more than one partner called?
 **Correct answer:** B – musharakah *(option (2) on the original paper)*
 
 **Explanation:** Musharakah – a partnership business run by several partners who put in capital and work. Mudarabah – one gives capital, the other work; murabahah – cost price + profit.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -88,8 +83,6 @@ Which option arranges Column II according to Column I?
 
 **Explanation:** Riba – interest (D); salam – advance payment (A); ijarah – renting (B); musharakah – partnership (C). So D A B C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2019 – Islam I, Q7
@@ -110,8 +103,6 @@ Which trading method takes place with the buyer knowing the cost price and the p
 **Correct answer:** D – murabahah *(option (4) on the original paper)*
 
 **Explanation:** Murabahah = selling at the cost price with the profit added (in a way the buyer knows).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -134,8 +125,6 @@ What is the business carried out with one person's capital and another person's 
 
 **Explanation:** Mudarabah – one gives capital, the other work/experience.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2020 – Islam I, Q36
@@ -156,8 +145,6 @@ A person obtains a motor vehicle for his own use from an Islamic bank on a five-
 **Correct answer:** B – ijarah *(option (2) on the original paper)*
 
 **Explanation:** Ijarah = leasing / hire purchase.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -187,8 +174,6 @@ In the table above, the group of words referring to trading methods permitted in
 **Correct answer:** C – BDFG *(option (3) on the original paper)*
 
 **Explanation:** Mudarabah, murabahah, musharakah and ijarah are permitted trading methods. Riba is haram; mahr – marriage; qiran – Hajj; tazkiyah – purity of heart.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -220,8 +205,6 @@ Which option is correct when Column II is arranged, in order, to match Column I?
 
 **Explanation:** Musharakah – trade (D); talaq – marriage (A); sa'y – Hajj and 'umrah (B); ijma' – a source of law (C). So D A B C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 29: Talaq and 'Iddah (الطلاق والعدة)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_29.md); [Grade 11, Chapter 9: Hajj and 'Umrah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_09.md); [Grade 10, Chapter 17: Secondary Sources (of Islamic Law)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_17.md)
 
 ---
@@ -245,8 +228,6 @@ Which of the following is a forbidden trading activity?
 
 **Explanation:** Riba (interest) is haram. Mudarabah, ijarah and musharakah are permitted.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 25: Islamic Teachings on Earning a Living](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_25.md)
 
 ---
@@ -265,7 +246,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) State two trading ventures permitted by Islam.
 
-**Suggested answer:**
+**Answer:**
 
 1. Al-mudarabah
 2. Al-musharakah
@@ -273,9 +254,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** These are based on profit-and-loss sharing or a fair profit, without interest.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two of the permitted methods.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two of the permitted methods.
 
 ---
 
@@ -291,16 +270,14 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vii) State the difference between the trading methods ijarah and salam.
 
-**Suggested answer:**
+**Answer:**
 
 - Ijarah: renting / leasing out an item or service for a fixed period and receiving the fee for it – ownership does not change; only the use is given.
 - Salam: a sale in which the full price of the goods is paid in advance and the goods are received on a fixed future date.
 
 **Answer explanation:** Ijarah – a fee for use; salam – purchase with advance payment.
 
-**Marking guidance (suggested only – not an official marking scheme):** The difference must be clear.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The difference must be clear.
 
 ---
 
@@ -317,7 +294,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (i) State two trading methods forbidden by Islam.
 (ii) Briefly describe the musharakah trading method.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any two of the following: interest (riba), gambling, cheating / fraud, adulteration, fraud in measure and weight, hoarding, trading in harmful things.
 
@@ -330,11 +307,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** In (ii) it is necessary to mention how profit and loss are shared.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 10, Chapter 22.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 25: Islamic Teachings on Earning a Living](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_25.md)
 
@@ -352,17 +325,13 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) Define 'al-musharakah'.
 
-**Suggested answer:**
+**Answer:**
 
 Al-musharakah = a partnership business in which more than one partner join together in capital and manpower; profit is shared according to the agreement; loss is borne in proportion to each share.
 
 **Answer explanation:** Hadith Qudsi: "I am the third as long as neither of them betrays the other" (Abu Dawud).
 
-**Marking guidance (suggested only – not an official marking scheme):** The definition.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under Grade 10, Chapter 22.
+**Marking guidance:*** The definition.
 
 ---
 
@@ -378,17 +347,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) State two trading ventures permitted by Islam.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: murabahah, mudarabah, musharakah, ijarah, salam, rahn, qard hasan.
 
 **Answer explanation:** This was also asked in 2022 (2023) Q36 (MCQ).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two methods.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 10, Chapter 22 and part (iii) under Grade 10, Chapter 21.
+**Marking guidance:*** Two methods.
 
 ---
 

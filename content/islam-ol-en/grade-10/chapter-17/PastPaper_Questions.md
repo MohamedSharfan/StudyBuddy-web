@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **15** (multiple-choice: 9; structured/essay items: 6). Papers in which this chapter was examined: 9 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -40,8 +39,6 @@ Which option arranges Column II according to Column I?
 
 **Explanation:** Unanimous decision – ijma' (B); analogy – qiyas (D); custom – 'urf (A); public good – maslahah mursalah (C). So B D A C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2017 – Islam I, Q25
@@ -62,8 +59,6 @@ In qiyas, what is the new problem that must be solved called?
 **Correct answer:** B – far' *(option (2) on the original paper)*
 
 **Explanation:** The pillars of qiyas: asl (the original case), far' (the new case), 'illah (the common reason), hukm (the ruling).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -86,8 +81,6 @@ Which of the following is NOT one of the seven secondary sources other than ijma
 
 **Explanation:** The seven secondary sources: istihsan, istishab, istislah, 'urf, ash-shara'i' as-sabiqah (earlier divine laws), qawl as-sahabi, sadd adh-dhara'i'. "'Illah" is one of the pillars (rukn) of qiyas, not a separate source.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2022 (2023) – Islam I, Q4
@@ -109,8 +102,6 @@ The term 'ijma'', one of the sources of Islam, refers to
 
 **Explanation:** Ijma' = a unanimous decision. Drawing an analogy = qiyas.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2022 (2023) – Islam I, Q5
@@ -131,8 +122,6 @@ Which is NOT included in the arkan (pillars) of qiyas?
 **Correct answer:** B – al-wasl *(option (2) on the original paper)*
 
 **Explanation:** The pillars of qiyas: al-asl, al-far', al-'illah, al-hukm. "Al-wasl" is not one of them.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -164,8 +153,6 @@ Which option is correct when column "Y" is arranged to match column "X"?
 
 **Explanation:** Qawl as-sahabi – the saying of a Companion (B); 'urf – custom (C); qiyas – analogy (D); maslahah mursalah – the public good (A). So BCDA.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2024 (2025) – Islam I, Q22
@@ -186,8 +173,6 @@ How many pillars (rukn) does the secondary source 'qiyas' have?
 **Correct answer:** C – four *(option (3) on the original paper)*
 
 **Explanation:** The pillars of qiyas are four: asl, far', 'illah, hukm.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -210,8 +195,6 @@ If one or some of the mujtahids living at a particular time remain silent, witho
 
 **Explanation:** Ijma' as-sukuti = tacit consensus.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2025 (2026) – Islam I, Q13
@@ -233,8 +216,6 @@ What do the mujtahids call explicit ijma'?
 
 **Explanation:** Ijma' as-sarih = explicit consensus (ijma' al-qawli).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -251,16 +232,14 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ix) State two main kinds of ijma'.
 
-**Suggested answer:**
+**Answer:**
 
 1. Ijma' as-sarih (explicit / verbal consensus)
 2. Ijma' as-sukuti (tacit consensus)
 
 **Answer explanation:** Sarih – all the mujtahids clearly agree in words; sukuti – some state a view and the others remain silent. (The textbook also mentions ijma' al-aktharriyyah – majority consensus.)
 
-**Marking guidance (suggested only – not an official marking scheme):** Two kinds.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two kinds.
 
 **Also relevant to:** [Grade 11, Chapter 16: Al-Ijtihad](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_16.md)
 
@@ -278,7 +257,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) State the arkan (pillars) of qiyas.
 
-**Suggested answer:**
+**Answer:**
 
 1. Asl – the original case whose ruling is already known
 2. Far' – the new case for which a solution is sought
@@ -287,9 +266,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** E.g. wine (asl) – drugs (far') – intoxication ('illah) – haram (hukm).
 
-**Marking guidance (suggested only – not an official marking scheme):** All four pillars.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** All four pillars.
 
 ---
 
@@ -305,7 +282,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) State two kinds of ijma' and describe one of them.
 
-**Suggested answer:**
+**Answer:**
 
 Kinds: 1. Ijma' as-sarih (explicit / verbal consensus); 2. Ijma' as-sukuti (tacit consensus). (The textbook also mentions ijma' al-aktharriyyah.)
 Description (ijma' as-sarih): it becomes clear from their words that all the mujtahids are in unanimous agreement on a question; it is also called "ijma' al-qawli"; it is taken as firm evidence.
@@ -313,9 +290,7 @@ Description (ijma' as-sarih): it becomes clear from their words that all the muj
 
 **Answer explanation:** The names of both kinds + an explanation of one.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 16: Al-Ijtihad](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_16.md)
 
@@ -333,7 +308,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) State two of the kinds of ijma', with their meanings.
 
-**Suggested answer:**
+**Answer:**
 
 1. Ijma' as-sarih – all the mujtahids clearly agreeing on a ruling in their own words.
 2. Ijma' as-sukuti – some state a ruling and the others remain silent without objecting.
@@ -341,9 +316,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** The meaning is needed along with the name.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two kinds with their meanings.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two kinds with their meanings.
 
 ---
 
@@ -361,7 +334,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 (ii) State three of the arkan (pillars) of qiyas and explain them.
 (iii) Clarify, with evidence from the Quran and Sunnah, that 'ijma' may be taken as a source of law'.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Qiyas (linguistically: comparing, estimating) = comparing a new problem on which the Quran or Sunnah gives no ruling with a problem on which a ruling is given, on the basis of a common cause, and applying the same ruling.
 
@@ -378,9 +351,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (iii) write the evidence together with the conclusion drawn from it.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -396,15 +367,13 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) To which act of ours did the Prophet ﷺ compare it when explaining that "we can perform Hajj for our father who died without performing it while it was obligatory on him"?
 
-**Suggested answer:**
+**Answer:**
 
 He compared it with paying off the father's debt – "If your father had a debt and you paid it, would it benefit him? … A debt owed to Allah is even more fit to be paid."
 
 **Answer explanation:** The textbook gives this as evidence for qiyas.
 
-**Marking guidance (suggested only – not an official marking scheme):** "Paying a debt".
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** "Paying a debt".
 
 **Also relevant to:** [Grade 11, Chapter 9: Hajj and 'Umrah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_09.md)
 

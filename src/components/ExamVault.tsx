@@ -9,16 +9,6 @@ import { QuizRunner } from "@/components/QuizRunner";
 
 type Tab = "practice" | "structured" | "browse" | "pattern";
 
-function StatusNote({ status, verification }: { status: string; verification: string }) {
-  if (!status && !verification) return null;
-  return (
-    <div className="mt-3 text-[11px] text-faint space-y-1">
-      {status && <p>ⓘ {status}</p>}
-      {verification && <p>⚠ {verification}</p>}
-    </div>
-  );
-}
-
 function StructuredCard({ q, index }: { q: PastStructured; index: number }) {
   const [open, setOpen] = useState(false);
   return (
@@ -47,11 +37,10 @@ function StructuredCard({ q, index }: { q: PastStructured; index: number }) {
           )}
           {q.guidance && (
             <div className="rounded-2xl p-4 bg-gold/10 border border-gold/30">
-              <p className="text-xs font-bold text-gold mb-1">Marking guide (suggested)</p>
+              <p className="text-xs font-bold text-gold mb-1">Marking guide</p>
               <RichText text={q.guidance} />
             </div>
           )}
-          <StatusNote status={q.status} verification={q.verification} />
         </div>
       )}
     </li>
@@ -82,7 +71,6 @@ function BrowseMcq({ q }: { q: PastMcq }) {
           <p>
             <b className="text-green">✓ {q.answer}</b> — {withArabic(q.explanation)}
           </p>
-          <StatusNote status={q.status} verification={q.verification} />
         </div>
       )}
     </li>
@@ -152,7 +140,6 @@ export function ExamVault({
               answer: q.answer,
               explanation: q.explanation,
               meta: [`📜 ${q.yearLabel || q.year}`, q.reference],
-              note: [q.status, q.verification].filter(Boolean).join(" · "),
             }))}
           />
         ) : (

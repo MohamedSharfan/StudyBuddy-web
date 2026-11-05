@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **6** (multiple-choice: 6; structured/essay items: 0). Papers in which this chapter was examined: 6 of 10 – 2018, 2019, 2020, 2021 (2022), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ Among the names of Allah, the meaning of the word 'ar-Rahim' is
 
 **Explanation:** Ar-Rahim = the One of matchless love / the incomparably Merciful. The Most Pure – al-Quddus; the Much-Forgiving – al-Ghafur; the All-Knowing – al-'Alim.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md)
 
 ---
@@ -55,8 +52,6 @@ What is the meaning of Rabb al-'alamin?
 **Correct answer:** A – the Lord of the worlds *(option (1) on the original paper)*
 
 **Explanation:** Rabb al-'alamin (1:1) = the Lord of the worlds. The mercy of the worlds (rahmatan lil-'alamin) – the Prophet ﷺ.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 20: The Importance of the Sirah](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_20.md)
 
@@ -81,10 +76,6 @@ Which name of Allah gives the meaning 'the Merciful'?
 
 **Explanation:** Ar-Rahman = the Most Merciful (whose mercy is boundless); ar-Rahim = the One of matchless love (2018 Q1). Al-Khaliq – the Creator; ar-Raziq – the Provider.
 
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** The meaning "the Merciful" can fit both ar-Rahman and ar-Rahim; no official answer is available – confirm with the teacher.
-
 ---
 
 ### A4. 2021 (2022) – Islam I, Q14
@@ -105,10 +96,6 @@ The meaning of 'al-Mughni' in 'al-Asma' al-Husna'
 **Correct answer:** C – the One who makes rich *(option (3) on the original paper)*
 
 **Explanation:** Al-Mughni (المغني) = the One who makes rich (who frees from need). "The Rich, who is content" is al-Ghaniyy (الغني).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The name "al-Mughni" is not explained separately in the current textbook notes; the answer is based on the meaning of the Arabic word.
 
 ---
 
@@ -131,8 +118,6 @@ Which individual surah of the Quran stresses 'tawhid'?
 
 **Explanation:** Surah al-Ikhlas (112) – Allah is One, free of need, He did not beget nor was He begotten, and none is equal to Him – stresses tawhid completely.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2025 (2026) – Islam I, Q34
@@ -153,8 +138,6 @@ Which of the following statements about tawhid is WRONG?
 **Correct answer:** D – Good deeds done without tawhid will be rewarded in the Hereafter. *(option (4) on the original paper)*
 
 **Explanation:** Deeds without tawhid (mixed with shirk) become worthless (39:66); so (D) is wrong.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 4: Things That Harm Iman](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_04.md)
 

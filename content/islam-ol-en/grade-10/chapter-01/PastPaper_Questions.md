@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **13** (multiple-choice: 11; structured/essay items: 2). Papers in which this chapter was examined: 8 of 10 – 2016, 2018, 2019, 2020, 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 8.
 
@@ -31,8 +30,6 @@ Which of the following does NOT refer to the 'Day of Judgement'?
 
 **Explanation:** Yawm an-Nahr = 10 Dhul-Hijjah (the day of sacrifice). The others are names of the Day of Judgement.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2018 – Islam I, Q2
@@ -53,8 +50,6 @@ What forms the basis of Islamic 'aqidah?
 **Correct answer:** A – the Quran and the Sunnah *(option (1) on the original paper)*
 
 **Explanation:** The sources of 'aqidah are the Quran and the Sunnah only; ijma', qiyas and 'urf are secondary sources for law.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 1: Aqeedah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_01.md)
 
@@ -79,8 +74,6 @@ The division that includes matters connected with the life of the Hereafter, suc
 
 **Explanation:** Matters connected with the Hereafter (the grave, ba'th, mahshar, hisab, mizan, sirat, jannah, nar) come under as-Sam'iyyat.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2019 – Islam I, Q21
@@ -101,8 +94,6 @@ The part of Islamic 'aqidah that speaks of things beyond the senses, such as jin
 **Correct answer:** A – is ar-Ruhaniyyat. *(option (1) on the original paper)*
 
 **Explanation:** Angels, jinn, devils and the soul – ar-Ruhaniyyat.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -125,8 +116,6 @@ What is the discipline that explains belief in Islam called?
 
 **Explanation:** The discipline that gathers and explains the beliefs of Islam is 'ilm al-'aqidah ('ilm al-'aqa'id).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2020 – Islam I, Q16
@@ -148,8 +137,6 @@ Which of the following pairs of words have opposite meanings?
 
 **Explanation:** Jannah (Paradise) – nar (Hellfire) are opposites. Lat and Manat – idols; Majannah and Dhul-Majaz – markets; Hashr and Ba'th – events of the Hereafter.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2022 (2023) – Islam I, Q24
@@ -170,8 +157,6 @@ The word NOT connected with the Hereafter
 **Correct answer:** D – al-Lawh al-Mahfuz *(option (4) on the original paper)*
 
 **Explanation:** Sirat (the bridge), mizan (the scales) and shafa'ah (intercession) are events of the Hereafter. Al-Lawh al-Mahfuz – the Preserved Tablet on which everything is recorded (connected with qada' and qadar).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 6: Al-Qada' wal-Qadar (Divine Decree)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_06.md)
 
@@ -196,8 +181,6 @@ The term that gives the meaning "firmly believing and accepting without any room
 
 **Explanation:** 'Aqidah = beliefs firmly held and accepted without doubt.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 1: Aqeedah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_01.md)
 
 ---
@@ -221,8 +204,6 @@ Scholars of 'aqidah divide and explain the main beliefs in four divisions. The d
 
 **Explanation:** The four divisions: Ilahiyyat, Nubuwwat, Ruhaniyyat (angels, jinn, devils, the soul), Sam'iyyat.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A10. 2024 (2025) – Islam I, Q6
@@ -243,8 +224,6 @@ To which of the following schools of thought did Abu al-Hasan al-Ash'ari (RH) be
 **Correct answer:** D – Ahl as-Sunnah wal-Jama'ah *(option (4) on the original paper)*
 
 **Explanation:** Imam Abu al-Hasan al-Ash'ari – one of the imams of Ahl as-Sunnah wal-Jama'ah who protected the purity of 'aqidah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 1: Aqeedah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_01.md); [Grade 11, Chapter 2: Ahl as-Sunnah wal-Jama'ah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_02.md)
 
@@ -269,8 +248,6 @@ How do scholars name the division that includes matters connected with the life 
 
 **Explanation:** As-Sam'iyyat – unseen matters that can be known only through revelation (the Hereafter, the grave, Paradise, Hellfire, etc.).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -287,7 +264,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) What is 'iman mufassal'?
 
-**Suggested answer:**
+**Answer:**
 
 Iman mufassal = detailed faith – the declaration of belief that sets out each of the six pillars of iman separately:
 آمَنْتُ بِاللهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَالْقَدْرِ خَيْرِهِ وَشَرِّهِ مِنَ اللهِ تَعَالَى
@@ -295,11 +272,7 @@ Iman mufassal = detailed faith – the declaration of belief that sets out each 
 
 **Answer explanation:** (The brief form of faith is called "iman mujmal".)
 
-**Marking guidance (suggested only – not an official marking scheme):** Definition + the six elements.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The term "iman mufassal" is not in the current textbook; its content is the six pillars in the Hadith of Jibril. Part (ii) of this question is under Grade 11, Chapter 4.
+**Marking guidance:*** Definition + the six elements.
 
 ---
 
@@ -316,16 +289,14 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Write short answers.
 (i) State the two sources that form the basis of Islamic 'aqidah.
 
-**Suggested answer:**
+**Answer:**
 
 1. The Quran
 2. The Sunnah
 
 **Answer explanation:** Only these two, because 'aqidah must be built on final and certain evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both sources.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both sources.
 
 ---
 

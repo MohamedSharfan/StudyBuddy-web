@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **10** (multiple-choice: 7; structured/essay items: 3). Papers in which this chapter was examined: 8 of 10 – 2016, 2017, 2018, 2020, 2021 (2022), 2022 (2023), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 5.
 
@@ -31,10 +30,6 @@ Which of the following pairs has the closest similar meaning?
 
 **Explanation:** Qalbun salim (a sound, pure heart) and mutma'inn (a heart at peace) both describe a healthy, upright heart – close in meaning. Mujtahid–muqallid and dunya–akhirah are opposite pairs; sahifah (a sheet/scroll) and mushaf (a compiled book) are different.
 
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** No official answer is available; some may consider (B) suitable as well, so confirm with the teacher.
-
 **Also relevant to:** [Grade 11, Chapter 13: Ways of Spiritual Development](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_13.md)
 
 ---
@@ -58,8 +53,6 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Explanation:** Tazkiyah (التزكية) = purifying / cleansing – especially purifying the heart.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2018 – Islam I, Q31
@@ -80,8 +73,6 @@ A student who had been committing sins, ruled by his desires, felt remorse after
 **Correct answer:** B – is called an-nafs al-lawwamah. *(option (2) on the original paper)*
 
 **Explanation:** The heart that regrets when it sins, blames itself and tries to change is an-nafs al-lawwamah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -104,8 +95,6 @@ Among the kinds of human heart, 'the heart that reproaches itself'
 
 **Explanation:** An-nafs al-lawwamah = the self-reproaching heart (the same idea appeared in 2018 Q31).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2021 (2022) – Islam I, Q34
@@ -126,10 +115,6 @@ The most suitable lesson taught by the hadith, "Indeed, in the body there is a p
 **Correct answer:** A – the importance of the heart in the human body *(option (1) on the original paper)*
 
 **Explanation:** The textbook gives this hadith under the headings "the heart is the leader of the body" (Ch. 10) and "the heart drives the body" (Ch. 28) – that is, the importance of the heart in the human body.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** Because the same hadith is also given as evidence for the importance of tazkiyah (purity of heart), (D) may also fit – confirm with the teacher.
 
 **Also relevant to:** [Grade 10, Chapter 28: Physical and Mental Health](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_28.md)
 
@@ -154,8 +139,6 @@ The meaning of 'an-nafs al-ammarah bis-su''
 
 **Explanation:** An-nafs al-ammarah = the heart that commands evil; lawwamah = self-reproaching; mutma'innah = at peace.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2025 (2026) – Islam I, Q10
@@ -177,8 +160,6 @@ Which of the following terms refers to purifying the heart?
 
 **Explanation:** Tazkiyat an-nafs = purifying the heart. At-taharah – outer cleanliness.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -196,7 +177,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Write short notes on two of the following.
 (i) Tazkiyat an-nafs
 
-**Suggested answer:**
+**Answer:**
 
 Tazkiyah = purifying; tazkiyat an-nafs = purifying the heart (soul).
 - Protecting the heart from bad qualities, including associating partners with Allah, and developing good qualities.
@@ -206,9 +187,7 @@ Tazkiyah = purifying; tazkiyat an-nafs = purifying the heart (soul).
 
 **Answer explanation:** Include the definition, the states, the importance and the ways.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 ---
 
@@ -225,7 +204,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) What is the linguistic meaning of 'tazkiyat an-nafs'?
 (ii) State the three states of the heart explained by the Quran.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Tazkiyah = purifying, putting right; nafs = the heart (soul). Tazkiyat an-nafs = purifying the heart.
 
@@ -236,11 +215,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** What is hoped for through tazkiyah is to reach the third state, an-nafs al-mutma'innah.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 10, Chapter 12.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -256,15 +231,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) What is the meaning of 'tazkiyah'?
 
-**Suggested answer:**
+**Answer:**
 
 Tazkiyah = purifying, putting right (in Islamic usage, purifying the heart – tazkiyat an-nafs).
 
 **Answer explanation:** The same idea appeared in 2021 (2022) Islam II Q2 (i).
 
-**Marking guidance (suggested only – not an official marking scheme):** The meaning.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The meaning.
 
 ---
 

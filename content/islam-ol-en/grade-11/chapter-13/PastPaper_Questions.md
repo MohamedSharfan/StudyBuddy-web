@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **7** (multiple-choice: 4; structured/essay items: 3). Papers in which this chapter was examined: 5 of 10 – 2017, 2018, 2019, 2023 (2024), 2025 (2026). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ In a verse of the Quran, Allah says to seek His help through two things. One of 
 
 **Explanation:** "Seek help through patience and prayer" (2:45, meaning).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 11: The Islamic View of Good Character](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_11.md)
 
 ---
@@ -56,8 +53,6 @@ The person who stated the spiritual teaching, "Empty yourself of your desires th
 
 **Explanation:** This saying about ma'rifah is from Muhyiddin 'Abd al-Qadir al-Jilani (RH).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2019 – Islam I, Q24
@@ -78,8 +73,6 @@ What is meant by tawakkul is
 **Correct answer:** C – entrusting the outcome to Allah after making an effort. *(option (3) on the original paper)*
 
 **Explanation:** Tawakkul = making the effort and entrusting its result to Allah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 22: The Importance of Work](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_22.md)
 
@@ -104,8 +97,6 @@ On which occasion is the du'a "Bismillahi tawakkaltu 'ala Allah" recited?
 
 **Explanation:** Whoever says "Bismillahi tawakkaltu 'ala Allah…" on leaving the house is guided, and the devil turns away from him (Abu Dawud) – tawakkul.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -122,7 +113,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Point out three occasions that call for patience, and the three forms of patience to be shown on them.
 
-**Suggested answer:**
+**Answer:**
 
 | Occasion | Form of patience |
 |---|---|
@@ -133,9 +124,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Each occasion must be written as a pair with its form.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 11: The Islamic View of Good Character](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_11.md)
 
@@ -154,15 +143,13 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Give short answers.
 (i) What were the words Prophet Ibrahim (AS) said when he was thrown into the fire?
 
-**Suggested answer:**
+**Answer:**
 
 حَسْبِيَ اللهُ وَنِعْمَ الْوَكِيْلُ – "Hasbiya Allahu wa ni'ma al-wakil" (Allah is sufficient for me, and He is the best disposer of affairs).
 
 **Answer explanation:** This is the highest expression of tawakkul (Bukhari).
 
-**Marking guidance (suggested only – not an official marking scheme):** The words or their correct meaning.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The words or their correct meaning.
 
 ---
 
@@ -178,15 +165,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) What is another name for the pledge called 'Bay'at ash-Shajarah'?
 
-**Suggested answer:**
+**Answer:**
 
 Bay'at ar-Ridwan
 
 **Answer explanation:** The pledge the Companions made willingly under the tree; it is connected with the quality of rida (contentment).
 
-**Marking guidance (suggested only – not an official marking scheme):** The name.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The name.
 
 ---
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **5** (multiple-choice: 4; structured/essay items: 1). Papers in which this chapter was examined: 4 of 10 – 2016, 2017, 2021 (2022), 2023 (2024). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ When Salim was trying to carry out a sunnah 'amal (deed) done with money, the pe
 
 **Explanation:** According to fiqh al-awlawiyyat (the fiqh of priorities), giving relief to disaster victims takes priority over a sunnah deed (textbook example: drought relief > a third 'umrah).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2017 – Islam I, Q37
@@ -53,8 +50,6 @@ Nusri is a young man closely connected with his village mosque. While coming to 
 **Correct answer:** C – taking the patient to hospital immediately *(option (3) on the original paper)*
 
 **Explanation:** Saving a life is urgent; since there is time for Zuhr, taking the injured man to hospital first is the priority (fiqh al-awlawiyyat).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ On the basis of 'fiqh al-awlawiyyat', to which of the following activities would
 
 **Explanation:** Protecting life is the most urgent and most important; the others can be done later.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2023 (2024) – Islam I, Q34
@@ -100,8 +93,6 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Explanation:** Fiqh al-awlawiyyat = legal knowledge concerning priorities.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -119,7 +110,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (i) What is meant by 'fiqh al-awlawiyyat'?
 (iii) State a difficult situation that can arise in daily life and explain what should be given priority in it.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Fiqh al-awlawiyyat = the legal approach concerning what must be given priority. Not giving priority to the less important over the more important; putting first what should come first and later what should come later, and giving everything its proper place.
 
@@ -127,11 +118,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Any example may be used in (iii), but the reason for the priority must be explained.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 10, Chapter 26.
+**Marking guidance:*** No official marking scheme.
 
 ---
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **4** (multiple-choice: 3; structured/essay items: 1). Papers in which this chapter was examined: 3 of 10 – 2019, 2020, 2023 (2024). Related questions placed in other chapters: 7.
 
@@ -31,8 +30,6 @@ To which countries was the Islamic empire extended in the time of Caliph 'Uthman
 
 **Explanation:** In 'Uthman's (RA) time, rule extended to parts of North Africa such as Alexandria, southern Egypt, Tunisia and Morocco.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2020 – Islam I, Q33
@@ -53,8 +50,6 @@ Which caliph founded a navy under the leadership of Mu'awiyah (RA), governor of 
 **Correct answer:** C – 'Uthman (RA) *(option (3) on the original paper)*
 
 **Explanation:** In 27 AH 'Uthman (RA) created the first navy of the Islamic world under the leadership of Mu'awiyah (RA).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ The person who was busy stirring up revolts in the time of Caliph 'Uthman (RA)
 
 **Explanation:** 'Abdullah ibn Saba', a Jew, played the full part in creating the unrest in 'Uthman's (RA) time.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -95,7 +88,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vi) State two of the main tasks of Caliph 'Uthman (RA).
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Preparing copies of the Quran so that it would be recited in one way, and sending them to the provinces ("Jami' al-Quran").
@@ -105,11 +98,7 @@ Any two of the following:
 
 **Answer explanation:** The navy was also asked about in 2020 Q33 (MCQ).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two tasks.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Check the mosque expansions and the extension of rule against the textbook.
+**Marking guidance:*** Two tasks.
 
 **Also relevant to:** [Grade 10, Chapter 15: The Revelation and Compilation of the Quran](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_15.md)
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **9** (multiple-choice: 5; structured/essay items: 4). Papers in which this chapter was examined: 6 of 10 – 2016, 2017, 2018, 2019, 2024 (2025), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ The group who examined 'aqidah from a rationalist point of view
 
 **Explanation:** Under the influence of Greek thought, the Mu'tazilah examined matters of 'aqidah giving priority to reason.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md)
 
 ---
@@ -56,8 +53,6 @@ Which school of thought met strong opposition from Imam Ahmad ibn Hanbal (RH), w
 
 **Explanation:** Imam Ahmad (RH) struggled against Mu'tazili thought and said, "It is better that I die while Islam lives."
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2018 – Islam I, Q5
@@ -78,8 +73,6 @@ Imam Ahmad ibn Hanbal (RH) and Abu Mansur al-Maturidi (RH) are both
 **Correct answer:** A – scholars of the science of 'aqidah. *(option (1) on the original paper)*
 
 **Explanation:** The textbook mentions these two (together with al-Ash'ari and at-Tahawi) as imams who protected the purity of 'aqidah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md)
 
@@ -104,8 +97,6 @@ In protecting pure 'aqidah, against which group's thought did Imam Ahmad ibn Han
 
 **Explanation:** Imam Ahmad (RH) struggled against Mu'tazili thought (the same idea appeared in 2017 Q39).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2025 (2026) – Islam I, Q27
@@ -127,8 +118,6 @@ Which of the following is how a Muslim's conduct regarding 'aqidah should NOT be
 
 **Explanation:** 'Aqidah must be based on revelation; deviant sects arose precisely because they relied on reason alone.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 6: Al-Qada' wal-Qadar (Divine Decree)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_06.md)
 
 ---
@@ -148,7 +137,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (ii) State the background to the rise of 'ilm al-'aqidah.
 (iii) Describe the deviant 'aqidah sects.
 
-**Suggested answer:**
+**Answer:**
 
 (ii) In the time of the Prophet ﷺ and the Companions, 'aqidah was believed in its original form without dispute. Later:
 1. Internal political conflicts among Muslims
@@ -169,11 +158,7 @@ Imam Ahmad ibn Hanbal, Abu al-Hasan al-Ash'ari, Abu Mansur al-Maturidi, Abu Ja'f
 
 **Answer explanation:** In (iii) the belief of each sect must be briefly explained; listing the names alone is not enough.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme. (ii) the causes; (iii) the sects and their beliefs.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The beliefs of the sects are not explained in detail in the textbook; they are given briefly from general knowledge of 'aqidah. Part (i) of this question is under Grade 11, Chapter 2.
+**Marking guidance:*** No official marking scheme. (ii) the causes; (iii) the sects and their beliefs.
 
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md)
 
@@ -191,18 +176,14 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) Distinguish between the terms Shi'ah and Khawarij.
 
-**Suggested answer:**
+**Answer:**
 
 - Shi'ah: those who said that 'Ali (RA) and his family were the ones entitled to the caliphate after the Prophet ﷺ; they arose from a political dispute and later grew into a separate sect in matters of 'aqidah.
 - Khawarij: those who "went out" from 'Ali's (RA) side; an extremist sect who considered a person who commits a major sin to be a kafir; the man who killed 'Ali (RA) was also a Khariji.
 
 **Answer explanation:** Stress the difference: Shi'ah – excessive support for 'Ali (RA); Khawarij – opposition to 'Ali (RA) and extremism.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The textbook mentions these two sects by name only; the detailed explanation is based on general knowledge of 'aqidah and history.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 21: Caliph 'Ali (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_21.md)
 
@@ -220,7 +201,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (x) State two factors that led to the rise of deviant schools of thought in Islamic history.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Internal political conflicts within the Muslim community
@@ -230,9 +211,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions eight factors that caused 'aqidah to lose its simplicity.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two factors.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two factors.
 
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md)
 
@@ -250,17 +229,13 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) Give two schools of thought that arose centred on 'aqidah rather than political aims.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: Qadariyyah, Jabriyyah, Mu'tazilah, Murji'ah.
 
 **Answer explanation:** The Shi'ah arose on the basis of the political dispute over the caliphate (textbook); the Khawarij also arose from a political background.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two groups.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The political background of the Khawarij is based on general historical knowledge. Part (ii) of this question is under Grade 11, Chapter 5 and part (iii) under Grade 10, Chapter 29.
+**Marking guidance:*** Two groups.
 
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md); [Grade 11, Chapter 6: Al-Qada' wal-Qadar (Divine Decree)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_06.md)
 

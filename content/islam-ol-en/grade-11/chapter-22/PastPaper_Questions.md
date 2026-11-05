@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **17** (multiple-choice: 8; structured/essay items: 9). Papers in which this chapter was examined: 9 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -39,10 +38,6 @@ Which option arranges Column II according to Column I?
 
 **Explanation:** Siddi Lebbe – Hassan Bey Charithram (B); Emerson Tennent – Ceylon (C); Ibn Shahriyar – 'Aja'ib al-Hind (A). So B C A.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** In the original paper option (4) is "D B C"; there is no D in Column II – it is given as it is.
-
 **Also relevant to:** [Grade 11, Chapter 23: A Sri Lankan Muslim Pioneer – 1 (Scholar M. C. Siddi Lebbe)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_23.md)
 
 ---
@@ -66,8 +61,6 @@ The author of the book 'Futuh al-Buldan', which mentions Islam in Sri Lanka
 
 **Explanation:** Futuh al-Buldan – al-Baladhuri. 'Aja'ib al-Hind – Ibn Shahriyar.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2018 – Islam I, Q38
@@ -88,8 +81,6 @@ The religious preacher sent to Sri Lanka to teach Islam
 **Correct answer:** A – Khalid ibn Bakaya *(option (1) on the original paper)*
 
 **Explanation:** The preacher sent to Colombo by the caliph in Baghdad at the request of the Sri Lankan Muslims was Khalid ibn Bakaya. Wahb ibn Abi Habsa – the envoy the Prophet sent to the king of Sri Lanka.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -112,8 +103,6 @@ Choose the statement that is NOT suitable about the factors that led the Arabs, 
 
 **Explanation:** Sri Lanka is not "very close" to Arabia; the factors were its location on the East–West trade route and the Arabs' experience of sea travel.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2021 (2022) – Islam I, Q20
@@ -134,8 +123,6 @@ A history book written in Arabic that also contains information about Sri Lankan
 **Correct answer:** A – 'Aja'ib al-Hind *(option (1) on the original paper)*
 
 **Explanation:** "'Aja'ib al-Hind", written by Ibn Shahriyar, contains the account of the envoy sent from Sri Lanka in the time of 'Umar (RA).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -158,8 +145,6 @@ Which Sri Lankan king, in the 8th century CE, sent the widows and orphaned child
 
 **Explanation:** Dathopatissa II (al-Baladhuri – Futuh al-Buldan).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2024 (2025) – Islam I, Q40
@@ -180,8 +165,6 @@ Which is NOT among the evidence that 'Islam was introduced to Sri Lanka in its e
 **Correct answer:** C – the Greeks and Romans setting foot in Sri Lanka before the Arabs came *(option (3) on the original paper)*
 
 **Explanation:** Khalid ibn Bakaya, the conquest of Sindh (the Dathopatissa incident) and Wahb ibn Abi Habsa (Thomas Arnold) are pieces of evidence the textbook mentions. The coming of the Greeks and Romans is not evidence for the introduction of Islam.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -204,8 +187,6 @@ What is the reason the Arabs of the pre-Islamic period regarded Sri Lanka as a m
 
 **Explanation:** Because Sri Lanka lay in the middle of the East–West trade route, it became a stopping place for the Arabs.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -222,7 +203,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) The national contribution of Muslims in Sri Lanka
 
-**Suggested answer:**
+**Answer:**
 
 1. Trade – pioneers in exporting gems, ivory and spices; trade advisers to the kings (4 Muslim advisers at the court of Parakramabahu the Great).
 2. Transport – introduced the "tavalam" transport system.
@@ -232,9 +213,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** It is best to mention contributions in several fields.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 23: A Sri Lankan Muslim Pioneer – 1 (Scholar M. C. Siddi Lebbe)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_23.md); [Grade 11, Chapter 24: A Sri Lankan Muslim Pioneer – 2 (Dr T. B. Jayah)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_24.md)
 
@@ -252,16 +231,14 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (viii) Name two Arabic books that put forward views on the introduction of Islam to Sri Lanka.
 
-**Suggested answer:**
+**Answer:**
 
 1. 'Aja'ib al-Hind (عجائب الهند) – Ibn Shahriyar
 2. Futuh al-Buldan (فتوح البلدان) – al-Baladhuri
 
 **Answer explanation:** 'Aja'ib al-Hind gives the account of the Sri Lankan envoy in 'Umar's (RA) time, and Futuh al-Buldan the account of the widows sent by Dathopatissa II.
 
-**Marking guidance (suggested only – not an official marking scheme):** The names of two books.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The names of two books.
 
 ---
 
@@ -277,15 +254,13 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ix) Briefly state the information about Sri Lanka given by the Arab historian Ibn Shahriyar in his book 'Aja'ib al-Hind.
 
-**Suggested answer:**
+**Answer:**
 
 In the time of 'Umar (RA) the people of Sri Lanka sent an envoy to Madinah to learn about Islam; he learned about Islam from 'Umar (RA) and died on the Makran coast (Pakistan) on the way back; the servant who went with him reached Sri Lanka and passed on the information about Islam. From this it is inferred that Islam may have been introduced to Sri Lanka in the time of 'Umar (RA).
 
 **Answer explanation:** The envoy, 'Umar (RA), Makran, the servant – the four key elements.
 
-**Marking guidance (suggested only – not an official marking scheme):** The substance of the information.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The substance of the information.
 
 ---
 
@@ -301,7 +276,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) The history of the introduction of Islam to Sri Lanka
 
-**Suggested answer:**
+**Answer:**
 
 - Even before Islam (from BCE times) the Arabs had trade links with Sri Lanka; the reasons were Sri Lanka's location on the East–West trade route and the Arabs' experience of sea travel.
 - According to "Muslim Nesan" (Siddi Lebbe), the Prophet ﷺ sent Wahb ibn Abi Habsa (RA) to the king of Sri Lanka in 628 CE.
@@ -312,9 +287,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Write in chronological order, with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -332,7 +305,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 (ii) Write in detail one piece of information given by Sir James Tennent about the Banu Hashim who settled on the coasts of Sri Lanka.
 (iii) Briefly explain five of the contributions made by the early Muslims to the economic development of Sri Lanka.
 
-**Suggested answer:**
+**Answer:**
 
 (i)
 1. Thomas Arnold
@@ -351,9 +324,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (iii) explain each contribution in one sentence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -369,15 +340,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vii) Give two of the towns where the early settlements of Sri Lankan Muslims took place.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: Colombo, Beruwala, Galle, Matara.
 
 **Answer explanation:** At first coastal towns; later Kurunegala, Gampola and the central hill country.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two towns.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two towns.
 
 ---
 
@@ -394,7 +363,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) Who was the king of the Polonnaruwa period who appointed four Muslims as trade advisers?
 (ii) State three of the reasons the Arabs used Sri Lanka as a stopping place even before Islam was introduced to Sri Lanka.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Parakramabahu the Great (1156–1186).
 
@@ -408,11 +377,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** These factors were also asked in 2020 Q40 (MCQ).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 11, Chapter 12.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -428,7 +393,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) The contributions of Muslims to the economic development of Sri Lanka
 
-**Suggested answer:**
+**Answer:**
 
 - They exported gems, ivory and spices.
 - Foreign exchange through exports; as people took up production, the country's income increased.
@@ -439,9 +404,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The same topic was also asked in 2021 (2022) Islam II Q6 (iii).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -457,15 +420,13 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Who is the famous historian who says that "Islam may have spread in Sri Lanka in the time of Caliph 'Umar (RA)"? What is the book he wrote?
 
-**Suggested answer:**
+**Answer:**
 
 Ibn Shahriyar – "'Aja'ib al-Hind".
 
 **Answer explanation:** The envoy sent from Sri Lanka learned about Islam from 'Umar (RA) and died on the Makran coast on his way back; the servant who went with him came to Sri Lanka and passed on the information.
 
-**Marking guidance (suggested only – not an official marking scheme):** Name + book.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Name + book.
 
 ---
 

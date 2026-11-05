@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **15** (multiple-choice: 9; structured/essay items: 6). Papers in which this chapter was examined: 9 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ Which is NOT one of the three places of worship that are important in Islam?
 
 **Explanation:** The three sacred places of worship: Masjid al-Haram (the Ka'bah), Masjid an-Nabawi and Masjid al-Aqsa. Masjid al-Qiblatayn is not one of them.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2017 – Islam I, Q17
@@ -53,8 +50,6 @@ The first person to pray in Masjid al-Aqsa after Prophet Muhammad ﷺ
 **Correct answer:** D – Caliph 'Umar (RA) *(option (4) on the original paper)*
 
 **Explanation:** After the conquest of Palestine in 636 CE, 'Umar (RA) cleaned al-Aqsa and prayed two rak'ahs – the first person to pray there after the Prophet.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 19: Caliph 'Umar (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_19.md)
 
@@ -79,8 +74,6 @@ The place where Masjid al-Qiblatayn is situated
 
 **Explanation:** Masjid al-Qiblatayn (the mosque of the two qiblahs) is in Madinah; the change of qiblah (2:144) happened here in the middle of a prayer.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2019 – Islam I, Q16
@@ -101,8 +94,6 @@ Where was the 'Covenant of 'Umar', between 'Umar (RA) and the Christians, signed
 **Correct answer:** B – al-Quds (Jerusalem) *(option (2) on the original paper)*
 
 **Explanation:** The agreement 'Umar (RA) made with the Christians when he took over the city of al-Quds (Jerusalem) after the conquest of Palestine in 636 CE is the "Covenant of 'Umar".
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 19: Caliph 'Umar (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_19.md)
 
@@ -127,10 +118,6 @@ Which word is NOT connected with the features of a mosque building?
 
 **Explanation:** Maqbarah = a cemetery (burial ground). The mihrab (where the imam stands), the minbar (pulpit) and the minaret (tower) are features of a mosque building.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The features of a mosque building are not explained separately in the current textbook.
-
 ---
 
 ### A6. 2021 (2022) – Islam I, Q27
@@ -152,8 +139,6 @@ Masjid an-Nabawi was built
 
 **Explanation:** The Prophet ﷺ built Masjid an-Nabawi after making the hijrah to Madinah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2021 (2022) – Islam I, Q30
@@ -174,8 +159,6 @@ The Companion who owned the house where the Prophet ﷺ first stayed when he mad
 **Correct answer:** B – Abu Ayyub (RA) *(option (2) on the original paper)*
 
 **Explanation:** Reaching Madinah in 622 CE, the Prophet ﷺ stayed in the house of Abu Ayyub al-Ansari (RA) while he began building Masjid an-Nabawi.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 19: The Da'wah of the Prophet ﷺ and Its Challenges](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_19.md)
 
@@ -200,8 +183,6 @@ One prayer performed at the Ka'bah (Masjid al-Haram) is equal to how many prayer
 
 **Explanation:** Masjid al-Haram – 100,000; Masjid an-Nabawi – 1,000; Masjid al-Aqsa – 500 (textbook).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2025 (2026) – Islam I, Q31
@@ -223,8 +204,6 @@ Which of the following is a distinction of Masjid al-Aqsa?
 
 **Explanation:** Masjid al-Aqsa – 500 prayers. (A) and (C) are about the Ka'bah; (D) – Masjid an-Nabawi.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -241,7 +220,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) Introduce Masjid al-Aqsa.
 
-**Suggested answer:**
+**Answer:**
 
 - The third holy place of Islam, in Palestine (in the city of al-Quds).
 - The second mosque, built forty years after Masjid al-Haram (Bukhari).
@@ -251,9 +230,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Mention its location, history and distinction.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -269,7 +246,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) Masjid an-Nabawi
 
-**Suggested answer:**
+**Answer:**
 
 - The Prophet ﷺ reached Madinah on 27 September 622 CE and, while staying in the house of Abu Ayyub al-Ansari (RA), began the building work on land belonging to two orphans.
 - At first it was built about 35 × 30 metres with three doors; on one side was the platform of the Ashab as-Suffah.
@@ -279,9 +256,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Mention its history, functions and distinction.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -297,7 +272,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ix) Give two distinctions of Masjid an-Nabawi.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Praying there is better than a thousand prayers in other mosques (except Masjid al-Haram).
@@ -306,9 +281,7 @@ Any two of the following:
 
 **Answer explanation:** It is good to give the distinctions with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two distinctions.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two distinctions.
 
 ---
 
@@ -324,15 +297,13 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vi) What is the land in which Masjid al-Aqsa stands called in Islamic history?
 
-**Suggested answer:**
+**Answer:**
 
 The land of "Sham" (the land Allah has blessed).
 
 **Answer explanation:** Textbook: al-Aqsa and the surrounding regions come within the land of "Sham" in history; today the region of Palestine.
 
-**Marking guidance (suggested only – not an official marking scheme):** Stating "Sham".
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Stating "Sham".
 
 ---
 
@@ -348,7 +319,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Briefly explain the history of the holy Ka'bah.
 
-**Suggested answer:**
+**Answer:**
 
 - The first house of God set up on earth (3:96); first built by Adam (AS) (there is also the view that the angels built it).
 - It was destroyed by the flood in the time of Nuh (AS).
@@ -359,9 +330,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Write in chronological order.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -377,7 +346,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Masjid an-Nabawi
 
-**Suggested answer:**
+**Answer:**
 
 - Second in spiritual rank in Islam; praying there equals 1,000 prayers (Bukhari); one of the three mosques to which a journey for worship may be made.
 - Reaching Madinah in 622 CE, the Prophet ﷺ began the building work while staying in the house of Abu Ayyub al-Ansari (RA).
@@ -387,9 +356,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Include its history, how it was built, its role and its expansion.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

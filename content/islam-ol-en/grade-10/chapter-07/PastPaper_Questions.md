@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **18** (multiple-choice: 11; structured/essay items: 7). Papers in which this chapter was examined: 9 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ A group of Grade 10 students has gone on a trip. The whole day was planned for t
 
 **Explanation:** A traveller has the concession of al-qasr wal-jam'; Zuhr and 'Asr may be combined, either brought forward (jam' at-taqdim) or delayed (jam' at-ta'khir). Letting a prayer become qada' is not allowed.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2017 – Islam I, Q33
@@ -53,8 +50,6 @@ What a hadith points out as the difference between a believer (mu'min) and a dis
 **Correct answer:** B – abandoning prayer *(option (2) on the original paper)*
 
 **Explanation:** "The difference between a believer and a disbeliever is abandoning prayer" (Muslim).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ A teacher who took students to see the Sigiriya paintings had them pray the Zuhr
 
 **Explanation:** Delaying Zuhr and praying both together in the time of 'Asr is jam' at-ta'khir; bringing 'Asr forward and praying both in the time of Zuhr is jam' at-taqdim.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2020 – Islam I, Q6
@@ -99,8 +92,6 @@ Which of the following is mentioned in the Quran as one of the benefits a person
 **Correct answer:** C – Prayer restrains from evil deeds. *(option (3) on the original paper)*
 
 **Explanation:** "Indeed, prayer restrains from shameful and evil deeds" (29:45, meaning).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -129,8 +120,6 @@ Which of the above are the correct statements about prayer?
 
 **Explanation:** A, C and D are correct; an adult Muslim of sound mind is not allowed to leave prayer on any occasion (there are concessions) – so B is wrong. After the Mi'raj, Jibril (AS) stood as imam and taught the prayer.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 8: Sifat al-Salah (How to Pray)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_08.md)
 
 ---
@@ -154,8 +143,6 @@ An act of 'ibadah that will be questioned about first in the Hereafter
 
 **Explanation:** In the Hereafter the servant will first be called to account about prayer.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2021 (2022) – Islam I, Q16
@@ -176,8 +163,6 @@ A person who is travelling, regarding the five daily prayers that are obligatory
 **Correct answer:** D – may shorten and combine them. *(option (4) on the original paper)*
 
 **Explanation:** A traveller has the concession of "al-qasr wal-jam'" (shortening and combining); the prayer itself is not removed.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 16: The Importance of the Sunnah](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_16.md)
 
@@ -202,8 +187,6 @@ The one who will enter the Fire called 'Saqar' in the Hereafter
 
 **Explanation:** "What brought you into Saqar?" – "We were not among those who prayed" (74:40–43).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2023 (2024) – Islam I, Q7
@@ -224,8 +207,6 @@ With which act of worship is the expression 'al-qasr wal-jam'' connected?
 **Correct answer:** A – prayer *(option (1) on the original paper)*
 
 **Explanation:** Al-qasr wal-jam' = shortening and combining prayers – a concession in prayer.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -249,8 +230,6 @@ Complete the following hadith.
 
 **Explanation:** "The key to prayer is wudu; the key to Paradise is prayer" (Tirmidhi).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A11. 2025 (2026) – Islam I, Q8
@@ -272,8 +251,6 @@ What did the Prophet ﷺ point out as the difference between a believer and a di
 
 **Explanation:** "The difference between a believer and a disbeliever is abandoning prayer" (Muslim).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -290,16 +267,14 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) State two sins from which Muslims can be protected through prayer.
 
-**Suggested answer:**
+**Answer:**
 
 1. Shameful deeds (fahsha')
 2. Hateful evil deeds (munkar)
 
 **Answer explanation:** "Indeed, prayer restrains from shameful and evil deeds" (29:45, meaning). Adultery, alcohol, lying and fraud may be given as examples.
 
-**Marking guidance (suggested only – not an official marking scheme):** Stating two sins; adding the meaning of 29:45 strengthens the answer.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Stating two sins; adding the meaning of 29:45 strengthens the answer.
 
 ---
 
@@ -315,7 +290,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Qasr and jam' prayer
 
-**Suggested answer:**
+**Answer:**
 
 - A concession Allah has given so that prayer can be established in every situation of life – "al-qasr wal-jam'".
 - Qasr = shortening the prayer: on a journey, praying the four-rak'ah prayers (Zuhr, 'Asr, 'Isha') as two rak'ahs; Subh and Maghrib are not shortened.
@@ -326,11 +301,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** One may conclude that this concession shows Islam is an easy religion.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Detailed conditions such as the travel distance are not in the current textbook; they are given briefly from general fiqh knowledge.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -346,7 +317,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) State the importance of prayer and clarify three social benefits gained through it.
 
-**Suggested answer:**
+**Answer:**
 
 Importance:
 - Prayer is the pillar of Islam (Ahmad); a duty prescribed at fixed times for the believers (4:103).
@@ -360,9 +331,7 @@ Social benefits:
 
 **Answer explanation:** As the question says "clarify", explain each social benefit.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -378,7 +347,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Give three warnings the Prophet ﷺ gave to the one who misses prayer.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. "The difference between a believer and a disbeliever is abandoning prayer" (Muslim).
@@ -388,9 +357,7 @@ Any three of the following:
 
 **Answer explanation:** Give the meaning of the hadith and its collection.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -406,7 +373,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Briefly explain five of the benefits gained by a believer who is careful about his prayer.
 
-**Suggested answer:**
+**Answer:**
 
 Any five of the following:
 1. A chance to converse with his Lord.
@@ -422,9 +389,7 @@ Any five of the following:
 
 **Answer explanation:** The textbook mentions ten benefits of guarding prayer; write one sentence of explanation for each.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -440,17 +405,13 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) After the Mi'raj journey, for how many days did Jibril (AS) stand as imam and show the Prophet ﷺ how to perform the prayer?
 
-**Suggested answer:**
+**Answer:**
 
 Two days.
 
 **Answer explanation:** On the first day he led each prayer at the beginning of its time and on the second day at the end of its time, teaching that "the time of prayer is between these two" (Abu Dawud, Tirmidhi).
 
-**Marking guidance (suggested only – not an official marking scheme):** The number.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** The Tamil set marked this as not in the current textbook notes (2020 Q39 says only that "Jibril (AS) taught the methods of prayer"). Correction found during the English conversion: the Grade 10, Chapter 8 notes do say that Jibril (AS) led the prayer for the first two days after the Mi'raj, so the answer is supported by the textbook – still confirm with the teacher.
+**Marking guidance:*** The number.
 
 **Also relevant to:** [Grade 10, Chapter 8: Sifat al-Salah (How to Pray)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_08.md)
 
@@ -468,7 +429,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Explain five benefits gained in this world and the Hereafter by people who are careful about their prayer.
 
-**Suggested answer:**
+**Answer:**
 
 Any five of the following:
 1. A chance to converse with the Lord.
@@ -484,9 +445,7 @@ Any five of the following:
 
 **Answer explanation:** It is best to include benefits from both this world and the Hereafter (the same topic appeared in 2023 (2024) Islam II Q2 (iii)).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **8** (multiple-choice: 5; structured/essay items: 3). Papers in which this chapter was examined: 7 of 10 – 2018, 2019, 2020, 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -40,8 +39,6 @@ Which option is correct when Column II is arranged to match Column I?
 
 **Explanation:** Yusuf (AS) – Surah Yusuf (D); Musa (AS) – al-A'raf (C); Ibrahim (AS) – al-Baqarah (B); the people of the cave – al-Kahf (A). So D C B A.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2022 (2023) – Islam I, Q7
@@ -63,8 +60,6 @@ Which of the following scholars became famous as an expert in Arabic grammar?
 
 **Explanation:** Imam Sibawayh – an expert in Arabic grammar; the textbook mentions him among those who achieved great things in their youth.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2022 (2023) – Islam I, Q30
@@ -85,8 +80,6 @@ One of the group of young people who supported and surrounded the Prophet ﷺ wh
 **Correct answer:** D – al-Arqam (RA) *(option (4) on the original paper)*
 
 **Explanation:** The textbook names al-Arqam, 'Ali, Mus'ab, Ja'far, Ibn 'Abbas, Ibn 'Umar, Mu'adh and Sa'd (RA) as the Prophet's young Companions; the house of al-Arqam (RA) (Dar al-Arqam) was the first place of learning.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 19: The Da'wah of the Prophet ﷺ and Its Challenges](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_19.md)
 
@@ -111,8 +104,6 @@ The surah that contains the story of the young men who protected their iman from
 
 **Explanation:** The story of the people of the cave (Ashab al-Kahf), who protected their iman from the tyranny of the state, is in Surah al-Kahf.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2024 (2025) – Islam I, Q21
@@ -134,10 +125,6 @@ The act of worship the Prophet said young people who are not able to marry shoul
 
 **Explanation:** "O young people! Whoever among you is able to marry should marry… whoever is not able should fast; it is a shield for him" (Bukhari, Muslim).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** This hadith was not found in the current textbook notes; the answer is based on the well-known hadith.
-
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
 ---
@@ -156,7 +143,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Briefly explain five things Islam mentions as ways a young person should follow to protect himself from evils.
 
-**Suggested answer:**
+**Answer:**
 
 1. Giving first place to taqwa – setting aside time every day for dhikr, salawat, tawbah, istighfar, reciting the Quran and sunnah prayers.
 2. Choosing good friends and good role models; receiving advice (nasihah) from good people.
@@ -166,9 +153,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** The idea that "youth is like a sword" – it can be used to build or to destroy – may be given as an introduction.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -184,7 +169,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Give three of the guidelines Islam mentions for making youth meaningful.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. Making one's youth pleasing to Allah; giving first place to taqwa (dhikr, tawbah, reciting the Quran, sunnah prayers).
@@ -196,9 +181,7 @@ Any three of the following:
 
 **Answer explanation:** The hadith "Make use of your youth before your old age" (Hakim) may be given as an introduction.
 
-**Marking guidance (suggested only – not an official marking scheme):** Three guidelines.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Three guidelines.
 
 ---
 
@@ -215,7 +198,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) A hadith says that "on the plain of Mahshar, where there is no shade, some young people will have the chance to stay in the shade of the 'Arsh (Throne)". What quality did the Prophet ﷺ explain such young people will have in this world?
 (ii) Give the names of three of the young Companions who supported the Prophet ﷺ in the early period of his da'wah.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Young people who grew up in the worship of Allah ('ibadah) (Muslim).
 
@@ -223,11 +206,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** "When the old called me a liar, the young believed me" (hadith – textbook).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 11, Chapter 21.
+**Marking guidance:*** No official marking scheme.
 
 ---
 

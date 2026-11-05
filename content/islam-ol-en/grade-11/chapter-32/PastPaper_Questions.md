@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **9** (multiple-choice: 2; structured/essay items: 7). Papers in which this chapter was examined: 6 of 10 – 2016, 2018, 2019, 2020, 2022 (2023), 2024 (2025). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ Shameem, riding his motorcycle to the mosque for congregational prayer, gave a l
 
 **Explanation:** Carrying a passenger without a helmet breaks the country's civil law; respecting the laws of the nation is a Muslim's duty.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 30: Fiqh al-Awlawiyyat (The Jurisprudence of Priorities)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_30.md)
 
 ---
@@ -56,8 +53,6 @@ While a curfew was in force to control the spread of COVID-19, some people who u
 
 **Explanation:** Breaking a curfew imposed for the public good is breaking the law; respecting the nation's civil laws and protecting life take priority.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 30: Fiqh al-Awlawiyyat (The Jurisprudence of Priorities)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_30.md)
 
 ---
@@ -76,17 +71,13 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) Write the meaning of 'ummah'.
 
-**Suggested answer:**
+**Answer:**
 
 Ummah – linguistically "mother", "community". A group of people united by one belief and one goal. The Muslim ummah = those who, without distinction of race, language or colour, have accepted the kalimah and taken Islam as their way of life; its special qualities are being balanced, enjoining good and forbidding evil, and bearing witness to mankind (3:110, 2:143).
 
 **Answer explanation:** State the linguistic meaning and the meaning in Islamic usage.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under Grade 10, Chapter 25.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -102,7 +93,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (v) Write two ways Islam has shown for creating social harmony.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Holding friendly dialogue with fellow communities
@@ -113,9 +104,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook gives these guidelines for Muslims as members of the Sri Lankan ummah.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two.
 
 **Also relevant to:** [Grade 10, Chapter 26: Human Rights](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_26.md)
 
@@ -133,7 +122,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Patriotism (love of the nation)
 
-**Suggested answer:**
+**Answer:**
 
 - A Muslim belongs both to the worldwide Muslim ummah and to the Sri Lankan ummah; fulfilling both responsibilities is a moral duty.
 - Expressions of patriotism: love for and loyalty to the nation; contributing to national unity; facing its challenges; respecting its civil laws; cooperating to end anti-social activities; learning the national languages; praying for the nation.
@@ -142,9 +131,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Stress that patriotism is not contrary to Islam.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 22: History and Contribution of Sri Lankan Muslims](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_22.md)
 
@@ -162,7 +149,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) The rules a Muslim should keep as a citizen of Sri Lanka
 
-**Suggested answer:**
+**Answer:**
 
 - Love for and loyalty to the nation.
 - Respecting the feelings of the nation's people.
@@ -175,9 +162,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** One may conclude that, for a balanced ummah, it is not difficult to reconcile love of the nation and love of the community.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -193,7 +178,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State and explain five guidelines we should follow as people of Sri Lanka.
 
-**Suggested answer:**
+**Answer:**
 
 Any five of the following:
 1. Love for and loyalty to the nation.
@@ -207,9 +192,7 @@ Any five of the following:
 
 **Answer explanation:** As the question says "explain", write one sentence of explanation for each.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 29: Keeping to Moderation](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_29.md)
 
@@ -227,16 +210,14 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (viii) Give the linguistic and social meanings of the term 'ummah'.
 
-**Suggested answer:**
+**Answer:**
 
 - Linguistic meaning: "mother", "community".
 - Social meaning: a body of people united by one belief and one goal / a group of people who came from one origin / people joined together by religion, region or time.
 
 **Answer explanation:** The Quran uses the word "ummah" in more than fifty places.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both meanings.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both meanings.
 
 ---
 
@@ -252,7 +233,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Give five guidelines the Quran and Sunnah have given for protecting the structure called the ummah.
 
-**Suggested answer:**
+**Answer:**
 
 Any five of the following:
 1. Holding fast to the Quran and Sunnah
@@ -267,9 +248,7 @@ Any five of the following:
 
 **Answer explanation:** The textbook mentions nine guidelines.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

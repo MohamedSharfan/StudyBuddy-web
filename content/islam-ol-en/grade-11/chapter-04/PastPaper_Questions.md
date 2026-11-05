@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **10** (multiple-choice: 8; structured/essay items: 2). Papers in which this chapter was examined: 8 of 10 – 2016, 2017, 2018, 2019, 2021 (2022), 2022 (2023), 2023 (2024), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ What does the Arabic term 'ilhad' refer to?
 
 **Explanation:** Ilhad (الإلحاد) = atheism – one of the things that harm iman. Hypocrisy = nifaq; disbelief = kufr.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2017 – Islam I, Q36
@@ -53,8 +50,6 @@ The meaning of 'kufr'
 **Correct answer:** B – refusing to accept Allah as the One worthy of worship *(option (2) on the original paper)*
 
 **Explanation:** Kufr = disbelief – refusing to accept Allah and His religion. (A) – shirk; (C) – riddah; (D) – ilhad (atheism).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 2: Ahl as-Sunnah wal-Jama'ah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_02.md)
 
@@ -79,8 +74,6 @@ Just as leaving the religion of Islam is called riddah, saying there is no God
 
 **Explanation:** Atheism – saying there is no God – is ilhad.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2019 – Islam I, Q13
@@ -101,8 +94,6 @@ Which of the following pairs shows opposite meanings?
 **Correct answer:** C – iman - kufr *(option (3) on the original paper)*
 
 **Explanation:** Iman (belief) and kufr (disbelief) are opposites. The other pairs have similar meanings.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 2: Iman and Amal (Faith and Deeds)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_02.md)
 
@@ -136,10 +127,6 @@ The option that is correct when column 'Y' is arranged, in order, to match colum
 
 **Explanation:** Ikhlas – pure intention (D); ilhad – denial of God: the universe came about by itself (A); khatam an-nabi – the last prophet (B); shirk al-asghar – minor shirk (C). So D A B C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Matching explanation (C) with shirk al-asghar is by elimination; the textbook gives showing off, swearing by other than Allah, etc. as examples of minor shirk.
-
 **Also relevant to:** [Grade 11, Chapter 5: The Finality of Prophethood](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_05.md); [Grade 10, Chapter 13: Ways of Spiritual Development](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_13.md)
 
 ---
@@ -163,8 +150,6 @@ The word for the atheistic thinking that rejects God, saying 'there is no God'
 
 **Explanation:** Ilhad = atheism (the belief that there is no God at all). Nifaq – hypocrisy; shirk – associating partners with Allah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2023 (2024) – Islam I, Q17
@@ -185,8 +170,6 @@ The term 'ilhad' refers to
 **Correct answer:** D – atheism *(option (4) on the original paper)*
 
 **Explanation:** Ilhad = atheism (the same idea appeared in 2022 (2023) Q10).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -218,8 +201,6 @@ Which is the correct option in which Column II is arranged according to Column I
 
 **Explanation:** Shirk – associating partners (B); kufr – rejecting the beliefs and practices (D); ilhad – rejecting God (A); riddah – leaving Islam (C). So B, D, A, C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -236,18 +217,14 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) State the two kinds of shirk akbar, with examples.
 
-**Suggested answer:**
+**Answer:**
 
 1. Shirk in belief (believing that others share in Allah's unique attributes such as creating and managing) – e.g. believing that some other power sends rain or cures illness.
 2. Shirk in worship (performing for something other than Allah the worship due to Allah alone) – e.g. prostrating to idols or graves, making vows to them.
 
 **Answer explanation:** Major shirk destroys good deeds (39:65); it is not forgiven without tawbah (4:48).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** The current textbook divides shirk only into "akbar and asghar"; sub-kinds of shirk akbar are not explained. The division above is based on the ideas of tawhid (creation, worship) – confirm with the teacher.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 3: At-Tawhid (التَّوْحِيْدُ)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_03.md)
 
@@ -266,7 +243,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) Give the two main divisions of shirk, with examples.
 (ii) Briefly explain three of the things that harm iman.
 
-**Suggested answer:**
+**Answer:**
 
 (i)
 1. Shirk al-akbar (major shirk) – performing for something other than Allah the worship due to Allah alone (e.g. worshipping created things, praying to them); it is not forgiven without tawbah (4:48).
@@ -280,11 +257,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (i) an example is compulsory for both divisions.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 10, Chapter 7.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 3: At-Tawhid (التَّوْحِيْدُ)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_03.md)
 

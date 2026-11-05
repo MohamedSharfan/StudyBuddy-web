@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **5** (multiple-choice: 2; structured/essay items: 3). Papers in which this chapter was examined: 5 of 10 – 2019, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025). Related questions placed in other chapters: 5.
 
@@ -31,8 +30,6 @@ In the paired words kitab and hikmah in the Quran, Imam ash-Shafi'i (RH) says th
 
 **Explanation:** Imam ash-Shafi'i (RH): kitab = the Quran; hikmah = the Sunnah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2024 (2025) – Islam I, Q1
@@ -54,8 +51,6 @@ Which is the most suitable meaning of the term 'sunnah'?
 
 **Explanation:** The linguistic meaning of the word sunnah is "way".
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -72,7 +67,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Explain the importance of the Sunnah, with evidence from the Quran and the hadith.
 
-**Suggested answer:**
+**Answer:**
 
 Sunnah = the life and words of the Prophet ﷺ; the second source after the Quran.
 Evidence from the Quran:
@@ -87,9 +82,7 @@ Importance: without the Sunnah the Quran cannot be understood or put into practi
 
 **Answer explanation:** The comparison may be used: the Quran = the book; the Sunnah = the light that helps us read it.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 15: As-Sunnah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_15.md)
 
@@ -107,7 +100,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) The importance of the Sunnah
 
-**Suggested answer:**
+**Answer:**
 
 - Sunnah = the sayings, actions and approvals of the Prophet ﷺ; the second main source of Islam; "wahy ghayr matluww".
 - The Quran commands obedience to the Messenger as to Allah; take what the Messenger gives you and avoid what he forbids (59:7).
@@ -118,11 +111,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Write with evidence from the Quran together with examples.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Check the verse numbers 59:7, 33:21 and 3:31 against the textbook.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 15: As-Sunnah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_15.md)
 
@@ -140,7 +129,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State what 'Sunnah' is, and give one piece of evidence each from the Quran and the hadith that it must be obeyed.
 
-**Suggested answer:**
+**Answer:**
 
 Sunnah = the sayings, actions and approvals (taqrir) of the Prophet ﷺ; the second main source of Islam.
 - Evidence from the Quran (any one): "Take what the Messenger gives you, and keep away from what he forbids you" (59:7); "Whoever obeys the Messenger has obeyed Allah" (4:80).
@@ -148,11 +137,7 @@ Sunnah = the sayings, actions and approvals (taqrir) of the Prophet ﷺ; the sec
 
 **Answer explanation:** Definition + one verse of the Quran + one hadith.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** Compare with the evidence in the textbook and confirm the verse numbers and the hadith collection details.
+**Marking guidance:*** No official marking scheme.
 
 ---
 

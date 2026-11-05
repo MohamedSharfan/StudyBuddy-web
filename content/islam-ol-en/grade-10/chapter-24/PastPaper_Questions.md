@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **7** (multiple-choice: 4; structured/essay items: 3). Papers in which this chapter was examined: 5 of 10 – 2018, 2020, 2022 (2023), 2023 (2024), 2024 (2025). Related questions placed in other chapters: 5.
 
@@ -31,8 +30,6 @@ Which is NOT a requirement for goods being sold in trade?
 
 **Explanation:** Goods for sale must belong to the seller, be able to be handed over, and be clean and useful; being at the place of sale is not a condition.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2023 (2024) – Islam I, Q5
@@ -53,8 +50,6 @@ Which is NOT one of the foundations needed for a sale to be valid from the Islam
 **Correct answer:** B – stating the profit *(option (2) on the original paper)*
 
 **Explanation:** The three foundations of a sale: buyer and seller, the goods, ijab and qabul. Stating the profit is not a foundation.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ To which Companion did the Prophet ﷺ say, when he asked to be appointed to a p
 
 **Explanation:** The incident of Abu Dharr al-Ghifari (RA) (Muslim) – a lesson about occupation suited to one's ability.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2024 (2025) – Islam I, Q28
@@ -100,8 +93,6 @@ Which Companion said, "Only those who know the rules of the religion should buy 
 
 **Explanation:** The warning of 'Umar (RA) – those without understanding of the law may end up consuming interest.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -118,7 +109,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vii) Write two qualities that goods for sale must have.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Belonging to the seller
@@ -128,9 +119,7 @@ Any two of the following:
 
 **Answer explanation:** These are the conditions concerning "the goods", the second basic element of a sale.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two qualities.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two qualities.
 
 ---
 
@@ -146,7 +135,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) State two common benefits that buyer and seller gain by trading while keeping to Islamic principles.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Buying and selling become worship.
@@ -157,11 +146,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions these five benefits.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two benefits.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 10 – Chapters 21 and 23).
+**Marking guidance:*** Two benefits.
 
 ---
 
@@ -177,15 +162,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vii) Give two of the things to be avoided in trade.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: interest, false oaths, hoarding, adulteration / hiding defects, fraud in measure and weight, buying and selling haram goods.
 
 **Answer explanation:** The textbook lists eight things forbidden in trade.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two things.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two things.
 
 **Also relevant to:** [Grade 11, Chapter 25: Islamic Teachings on Earning a Living](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_25.md)
 

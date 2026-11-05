@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **14** (multiple-choice: 9; structured/essay items: 5). Papers in which this chapter was examined: 8 of 10 – 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ Just as 'wara'' refers to scrupulous caution, what does 'taqwa' refer to?
 
 **Explanation:** Taqwa = God-consciousness. Repentance – tawbah; detachment – zuhd; entrusting one's affairs – tawakkul.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2018 – Islam I, Q35
@@ -53,8 +50,6 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 **Correct answer:** C – spending the night in good deeds *(option (3) on the original paper)*
 
 **Explanation:** Qiyam al-layl = standing in worship at night – spending the night, in any month, in good deeds such as prayer and dhikr; it is not only for Ramadan.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 28: Physical and Mental Health](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_28.md)
 
@@ -79,8 +74,6 @@ What is meant by 'muhasabah'?
 
 **Explanation:** Muhasabah (muhasabat an-nafs) = examining and assessing one's own deeds (self-examination). Sincerity – ikhlas; Allah's pleasure – rida; patience – sabr.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 10: At-Tazkiyah (Purification of the Soul)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_10.md)
 
 ---
@@ -104,8 +97,6 @@ Which word is used for avoiding anything one suspects to be wrong, for fear of f
 
 **Explanation:** Wara' (scrupulous caution) = keeping away even from doubtful things.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2020 – Islam I, Q7
@@ -126,8 +117,6 @@ A person does a good deed with the sincere intention "for Allah", but also hopes
 **Correct answer:** A – associating partners with Allah. *(option (1) on the original paper)*
 
 **Explanation:** When the praise of someone else is aimed at in a deed alongside Allah, it is showing off (riya'); "even a little showing off is shirk" – the incident in which 18:110 was revealed.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 2: Iman and Amal (Faith and Deeds)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_02.md)
 
@@ -161,8 +150,6 @@ Which option is correct when Column II is arranged, in order, to match Column I?
 
 **Explanation:** Tawbah – removing the stain of sin (C); zuhd – a life of detachment (D); an-nafs al-ammarah – a heart enslaved to desire (A); khuluq hasan – good character (B). So C D A B.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 10: At-Tazkiyah (Purification of the Soul)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_10.md); [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md)
 
 ---
@@ -185,8 +172,6 @@ Which period is regarded as the time for making tawbah (repentance)?
 **Correct answer:** C – there is no time limit *(option (3) on the original paper)*
 
 **Explanation:** There is no fixed time limit for tawbah; tawbah should be made as soon as a sin is committed.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -217,8 +202,6 @@ According to the above table, the group of words referring only to Islamic ways 
 
 **Explanation:** Tazkiyah, ikhlas, tawbah, zuhd and wara' – ways of spiritual development. Fidyah, qiran, riba and wahy belong to other topics.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 10: At-Tazkiyah (Purification of the Soul)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_10.md)
 
 ---
@@ -242,8 +225,6 @@ The Islamic phrase that refers to the impermanent nature of this world
 
 **Explanation:** Dar al-fana' = this perishable world; dar al-baqa' = the lasting Hereafter.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 
 ---
@@ -262,7 +243,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vi) State two conditions needed for tawbah to be accepted.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Making tawbah with a sincere intention, for Allah
@@ -272,9 +253,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions four conditions of tawbah.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two conditions.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two conditions.
 
 ---
 
@@ -290,17 +269,13 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) What is dar al-fana'?
 
-**Suggested answer:**
+**Answer:**
 
 Dar al-fana' (دار الفناء) = this perishable worldly life. Its opposite is dar al-baqa' (دار البقاء), the endless life of the Hereafter.
 
 **Answer explanation:** Zuhd (detachment from the world) is needed so as not to be deceived by the illusion of dar al-fana' and forget dar al-baqa'.
 
-**Marking guidance (suggested only – not an official marking scheme):** The correct meaning.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 11 – Chapter 5; Grade 10 – Chapter 11).
+**Marking guidance:*** The correct meaning.
 
 ---
 
@@ -317,7 +292,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (i) State the difference between zuhd and rahbaniyyah.
 (ii) Give three conditions needed for tawbah to be accepted.
 
-**Suggested answer:**
+**Answer:**
 
 (i) | Zuhd | Rahbaniyyah |
 
@@ -333,11 +308,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** In (i) the difference may be shown as a table.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 11, Chapter 11.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 
@@ -355,7 +326,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State what 'tawbah' is and give the conditions for it to be accepted.
 
-**Suggested answer:**
+**Answer:**
 
 Tawbah (linguistically: returning) = turning, in secret and in public, from what Allah dislikes to what He loves (seeking forgiveness for sin).
 Conditions:
@@ -367,9 +338,7 @@ Conditions:
 
 **Answer explanation:** The conditions of tawbah were also asked in 2020 Islam II Q4 (ii).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -385,15 +354,13 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (x) The Prophet ﷺ, who said "Follow what does not cause doubt", advised how to deal with what causes doubt?
 
-**Suggested answer:**
+**Answer:**
 
 What causes doubt should be left (avoided).
 
 **Answer explanation:** "Leave what makes you doubt for what does not make you doubt" (Ahmad, Tirmidhi, Nasa'i) – the quality of wara'.
 
-**Marking guidance (suggested only – not an official marking scheme):** "Leaving it".
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** "Leaving it".
 
 ---
 

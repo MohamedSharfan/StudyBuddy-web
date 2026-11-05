@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **23** (multiple-choice: 18; structured/essay items: 5). Papers in which this chapter was examined: 10 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ How long is the 'iddah of a pregnant woman?
 
 **Explanation:** The 'iddah of a pregnant woman lasts until she gives birth (65 At-Talaq: 4). 4 months 10 days – for a (non-pregnant) woman whose husband has died.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2017 – Islam I, Q22
@@ -53,8 +50,6 @@ The matter described as the most hated to Allah among the things He has permitte
 **Correct answer:** D – talaq *(option (4) on the original paper)*
 
 **Explanation:** "Of the things Allah has permitted, the most hated to Him is talaq" (Abu Dawud).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Explanation:** Khul' = the wife obtaining release from her husband by giving a gift / returning the mahr. (C) – faskh; (D) – talaq.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2017 – Islam I, Q30
@@ -99,8 +92,6 @@ Rizana's husband died on 10.10.2014 while she was pregnant. She gave birth to a 
 **Correct answer:** B – until 10.06.2015 *(option (2) on the original paper)*
 
 **Explanation:** The 'iddah of a pregnant woman lasts until she gives birth (65:4); so until the day of birth, 10.06.2015.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -123,8 +114,6 @@ One thing a woman observing 'iddah for her dead husband must avoid
 
 **Explanation:** During the 'iddah she must not marry or take part in marriage talks.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2018 – Islam I, Q25
@@ -146,8 +135,6 @@ The form of divorce that gives the chance to take the wife back
 
 **Explanation:** Talaq raj'i – after the first or second talaq the wife may be taken back before the 'iddah ends.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2019 – Islam I, Q29
@@ -168,8 +155,6 @@ Choose the correct statement about khul'.
 **Correct answer:** C – It is the wife divorcing her husband. *(option (3) on the original paper)*
 
 **Explanation:** Khul' = the wife obtaining release from the marriage with her husband (by returning the mahr / giving a gift). (A) – talaq; (B) – zihar; (D) – faskh.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -199,8 +184,6 @@ Which of the above groups contains the terms connected with release from marriag
 
 **Explanation:** Talaq, li'an, zihar and khul' are connected with release from marriage. Ijab, qabul and mahr – marriage.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2020 – Islam I, Q23
@@ -221,8 +204,6 @@ Which of the following is the correct statement about 'faskh'?
 **Correct answer:** D – It is when it becomes known that husband and wife are mahram to each other. *(option (4) on the original paper)*
 
 **Explanation:** Faskh = the marriage becoming invalid – e.g. when it becomes known that the couple are mahram. (A) – talaq; (B) – zihar; (C) – khul'.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -245,8 +226,6 @@ An act which, though people are permitted to do it, is greatly hated by Allah
 
 **Explanation:** "Of permitted things, the most hated to Allah is talaq" (Abu Dawud).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A11. 2022 (2023) – Islam I, Q17
@@ -267,8 +246,6 @@ Which of the following words is NOT connected with divorce?
 **Correct answer:** C – ijab *(option (3) on the original paper)*
 
 **Explanation:** Ijab (the offer) is connected with the marriage contract. Li'an, khul' and faskh – separation from marriage.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
@@ -293,10 +270,6 @@ A man divorcing his wife on his deathbed so that she should not get a share of h
 
 **Explanation:** Talaq pronounced with the intention of wronging the wife (to take away her right of inheritance) is haram.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The legal rulings of talaq (wajib, sunnah, haram, mubah) are not explained separately in the current textbook notes; the answer is based on general fiqh knowledge.
-
 ---
 
 ### A13. 2022 (2023) – Islam I, Q31
@@ -317,10 +290,6 @@ The 'iddah period of divorced women
 **Correct answer:** A – three periods of purity *(option (1) on the original paper)*
 
 **Explanation:** The 'iddah of a divorced woman (who menstruates and is not pregnant) is three "quru'" (2:228); in the Shafi'i madhhab this is understood as three periods of purity (tuhr). 4 months 10 days – the 'iddah of a woman whose husband has died.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The textbook explains this as "until three menstrual periods have passed"; of the options given, only (A) fits.
 
 ---
 
@@ -343,8 +312,6 @@ What a woman observing 'iddah for her dead husband must avoid
 
 **Explanation:** Remarriage is forbidden during the 'iddah; going out for a need and going to the doctor are permitted.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A15. 2023 (2024) – Islam I, Q10
@@ -365,8 +332,6 @@ The wife asking for and obtaining release from marriage from her husband is
 **Correct answer:** C – khul' *(option (3) on the original paper)*
 
 **Explanation:** Khul' – the wife obtaining release, before the qadi, by giving a gift or returning the mahr.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -389,8 +354,6 @@ In the daily reports on the wrongs done by people in the world, which act, when 
 
 **Explanation:** When one of the devils says, "Today I separated this family", Iblis is most delighted (Muslim).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A17. 2024 (2025) – Islam I, Q33
@@ -411,8 +374,6 @@ A man divorcing his wife by pronouncing three talaqs at once is
 **Correct answer:** A – talaq bid'i *(option (1) on the original paper)*
 
 **Explanation:** Pronouncing all three talaqs at once is improper talaq (talaq bid'i).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -435,8 +396,6 @@ What is the length of the 'iddah of a pregnant mother?
 
 **Explanation:** The 'iddah of a pregnant woman – until she gives birth (65:4).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -453,15 +412,13 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vi) State clearly the situation in which 'zihar' ends in divorce.
 
-**Suggested answer:**
+**Answer:**
 
 After the husband compares his wife physically to his mother (zihar), if he does not carry out the expiation (kaffarah) for it, it ends in talaq (divorce).
 
 **Answer explanation:** If the kaffarah is carried out, they may live together again.
 
-**Marking guidance (suggested only – not an official marking scheme):** Stating the situation in which the kaffarah is not carried out.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Stating the situation in which the kaffarah is not carried out.
 
 ---
 
@@ -477,7 +434,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vi) Present two of the conditions for proper talaq.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Pronouncing it while the woman is in a period of purity (tuhr)
@@ -486,9 +443,7 @@ Any two of the following:
 
 **Answer explanation:** Talaq pronounced in this way is "talaq sunni"; pronouncing it during menstruation or in a tuhr with intercourse is "talaq bid'i".
 
-**Marking guidance (suggested only – not an official marking scheme):** Two conditions.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two conditions.
 
 ---
 
@@ -504,7 +459,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) The kinds of 'iddah
 
-**Suggested answer:**
+**Answer:**
 
 - 'Iddah = the period a woman whose marriage has ended must wait without remarrying; Allah's command; observing it is 'ibadah.
 - Kinds:
@@ -518,9 +473,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Give the period and the Quranic evidence for each kind.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -536,7 +489,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State what ''iddah' is, and describe three benefits that come from a woman observing it.
 
-**Suggested answer:**
+**Answer:**
 
 'Iddah (word meaning: counting) = a woman who has lost her husband or been divorced remaining bound by certain rules, without remarrying, for a fixed period (e.g. 3 menstrual periods / 4 months 10 days / until giving birth).
 Benefits:
@@ -546,9 +499,7 @@ Benefits:
 
 **Answer explanation:** As the question says "describe", one sentence of explanation is needed for each benefit.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -564,15 +515,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vii) What does 'khul'', a main division of dissolution of marriage, refer to?
 
-**Suggested answer:**
+**Answer:**
 
 The wife obtaining release from the marriage, before the qadi, by giving the husband something as a gift or returning the mahr he gave her.
 
 **Answer explanation:** As talaq is for the husband, khul' is for the wife.
 
-**Marking guidance (suggested only – not an official marking scheme):** The correct explanation.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The correct explanation.
 
 ---
 

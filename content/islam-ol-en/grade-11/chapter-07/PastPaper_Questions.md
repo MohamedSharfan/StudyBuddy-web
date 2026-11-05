@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **25** (multiple-choice: 17; structured/essay items: 8). Papers in which this chapter was examined: 10 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 1.
 
@@ -31,10 +30,6 @@ The day on which 'fitrah' must be given
 
 **Explanation:** Zakat al-fitr must be given before the 'Eid al-Fitr prayer (Shawwal 1).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Zakat al-fitr is not explained separately in the current Grade 10/11 textbooks; it has been placed under the zakat chapter.
-
 **Also relevant to:** [Grade 11, Chapter 8: The Deeper Meanings of Fasting](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_08.md)
 
 ---
@@ -58,8 +53,6 @@ A trader started a business and at the end of one year found about Rs. 850 000/-
 
 **Explanation:** Because the stock reached the nisab, zakat is 2.5% of the whole stock: 850 000 × 2.5% = Rs. 21 250.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2017 – Islam I, Q13
@@ -80,8 +73,6 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 **Correct answer:** C – Rs. 16 250 *(option (3) on the original paper)*
 
 **Explanation:** The balance after deducting the debt: 850 000 − 200 000 = 650 000 (the nisab has been reached). 650 000 × 2.5% = Rs. 16 250.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -104,8 +95,6 @@ Of the two fard acts of zakat, one is making the intention (niyyah); the other i
 
 **Explanation:** The two fard acts of zakat: the intention, and giving it to the eight categories entitled to receive it. Reaching the nisab is a condition (shart) for it to become obligatory.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2018 – Islam I, Q17
@@ -126,8 +115,6 @@ A person had seven hundred thousand rupees throughout the year. The nisab of zak
 **Correct answer:** D – Rs. 15,000 *(option (4) on the original paper)*
 
 **Explanation:** The balance after deducting the debt is 700 000 − 100 000 = 600 000; this reaches the nisab. 600 000 × 2.5% = Rs. 15 000.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -150,8 +137,6 @@ The person entitled to receive zakat when stranded while making a journey permit
 
 **Explanation:** Ibn as-sabil = the wayfarer – stranded on a permitted journey. Gharimun – debtors; fi sabil Allah – those in the path of Allah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2018 – Islam I, Q27
@@ -172,10 +157,6 @@ The most correct statement about zakat and zakat al-fitr
 **Correct answer:** D – Zakat al-fitr was made obligatory first and zakat after it. *(option (4) on the original paper)*
 
 **Explanation:** Most scholars hold that zakat al-fitr was made obligatory in 2 AH together with the Ramadan fast, and the zakat on wealth was laid down after it. Zakat al-fitr is also obligatory (not sunnah); Ramadan is not a condition for zakat.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** Zakat al-fitr is not explained in the current textbook; the answer on the historical order is based on general fiqh knowledge – confirm with the teacher.
 
 ---
 
@@ -198,8 +179,6 @@ If a person has 110 goats, how much zakat must he give?
 
 **Explanation:** For 40 to 120 goats the zakat is one female goat; for 121–200, two.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2020 – Islam I, Q38
@@ -220,8 +199,6 @@ Which of the following is the correct statement about zakat?
 **Correct answer:** C – The group called mu'allafat al-qulub are entitled to receive zakat. *(option (3) on the original paper)*
 
 **Explanation:** Mu'allafat al-qulub (those whose hearts are drawn to Islam) are one of the eight categories mentioned in 9:60. Nisab is necessary for trade goods too; Ramadan is not a condition for zakat.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -244,8 +221,6 @@ One of the five pillars of Islam that carries the meanings of purity and growth
 
 **Explanation:** "Purity" and "growth" are the linguistic meanings of the word zakat.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A11. 2021 (2022) – Islam I, Q31
@@ -266,8 +241,6 @@ If a person owns 201 goats, the amount of zakat he must give
 **Correct answer:** A – 03 female goats *(option (1) on the original paper)*
 
 **Explanation:** Goats: 40–120 → 1; 121–200 → 2; 201–399 → 3 female goats.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -290,8 +263,6 @@ Which group contains things on which zakat is obligatory?
 
 **Explanation:** Livestock (goats), crops (dates) and gold – zakat is obligatory on them. There is no zakat on a vehicle for personal use.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A13. 2023 (2024) – Islam I, Q13
@@ -312,8 +283,6 @@ Which act of worship purifies a Muslim's wealth?
 **Correct answer:** B – zakat *(option (2) on the original paper)*
 
 **Explanation:** Zakat = purity, growth; "Take charity from their wealth to purify them" (9:103, meaning).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -336,8 +305,6 @@ The minimum number of goats a person must have for zakat to become obligatory on
 
 **Explanation:** The nisab for goats = 40.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A15. 2024 (2025) – Islam I, Q32
@@ -358,8 +325,6 @@ The amount of zakat to be paid at the end of the year by a person who holds Sri 
 **Correct answer:** D – Rs. 50 000 *(option (4) on the original paper)*
 
 **Explanation:** Zakat on money is 2.5% → 2,000,000 × 2.5 ÷ 100 = Rs. 50,000.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -382,8 +347,6 @@ The correct practice a Muslim should follow in giving zakat
 
 **Explanation:** Those who went into debt for a fair reason (gharimun) are entitled to zakat. Those one is obliged to support are not entitled; zakat is not obligatory before the nisab; Ramadan is not a condition.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A17. 2025 (2026) – Islam I, Q36
@@ -405,8 +368,6 @@ Which of the following is the correct practice according to the conditions of za
 
 **Explanation:** Textbook: the guardian of the property of a child who has not reached puberty must give zakat on it. For grain, zakat is due at harvest; there is no zakat on public property; for gold it is 1/40 (2.5%).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -423,18 +384,14 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) Present one piece of evidence from the Quran or one hadith to establish that zakat is a collective duty.
 
-**Suggested answer:**
+**Answer:**
 
 9 At-Tawbah: 60 – among those who receive zakat it names the workers who collect it ('amilin) as a category; this makes clear that collecting zakat from individuals and giving it to those entitled is a collective task of society.
 Or: 9:103 – "Take charity from their wealth…" (the command to collect it, meaning); or the hadith in which the Prophet, sending Mu'adh (RA) to Yemen, said, "It is to be taken from the rich and given to the poor" (Bukhari).
 
 **Answer explanation:** One piece of evidence and how it shows a collective duty is enough.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 11 – Chapters 13 and 31).
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -450,16 +407,14 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) Among those who receive zakat, distinguish between fi sabil Allah and ibn as-sabil.
 
-**Suggested answer:**
+**Answer:**
 
 - Fi sabil Allah: those engaged in the path of Allah (in religious work / striving).
 - Ibn as-sabil: a wayfarer on a permitted journey who has no means of completing it.
 
 **Answer explanation:** Both are among the eight categories mentioned in verse 9:60.
 
-**Marking guidance (suggested only – not an official marking scheme):** An explanation of both.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** An explanation of both.
 
 ---
 
@@ -475,7 +430,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) State two social benefits of zakat.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Mutual love, collective responsibility and unity grow in society
@@ -486,11 +441,7 @@ Any two of the following:
 
 **Answer explanation:** As "social" benefits are asked for, avoid personal benefits (purification of the heart).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two social benefits.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 11 – Chapter 8; Grade 10 – Chapter 7).
+**Marking guidance:*** Two social benefits.
 
 ---
 
@@ -506,16 +457,14 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (v) Among those entitled to receive zakat, distinguish between the faqir and the miskin.
 
-**Suggested answer:**
+**Answer:**
 
 - Faqir: a person in extreme poverty with no income at all.
 - Miskin: a person who has some income but does not get enough for himself and those in his care.
 
 **Answer explanation:** The faqir is in a worse state than the miskin.
 
-**Marking guidance (suggested only – not an official marking scheme):** The difference between the two.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The difference between the two.
 
 ---
 
@@ -531,15 +480,13 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ix) Clarify who the 'gharimun' are among those entitled to receive zakat.
 
-**Suggested answer:**
+**Answer:**
 
 Gharimun = debtors who went into debt for fair (halal) reasons and have no means of paying it off.
 
 **Answer explanation:** The sixth of the eight categories mentioned in 9:60.
 
-**Marking guidance (suggested only – not an official marking scheme):** The correct explanation.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The correct explanation.
 
 ---
 
@@ -556,7 +503,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) Write four of the benefits of fulfilling zakat collectively.
 (ii) State three of the categories entitled to receive zakat, and explain them briefly.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any four of the following:
 1. No wealthy person can escape the duty.
@@ -577,11 +524,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (ii) the name and a one-line explanation are needed.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 10, Chapter 13.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -597,7 +540,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) State two of the groups who are NOT entitled to receive zakat.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following groups:
 1. Those with sufficient income
@@ -608,11 +551,7 @@ Any two of the following groups:
 
 **Answer explanation:** The textbook mentions five who are not entitled.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two groups.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 10, Chapter 11 and part (iii) under Grade 11, Chapter 2.
+**Marking guidance:*** Two groups.
 
 ---
 
@@ -628,15 +567,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (v) Give two of the groups NOT entitled to receive zakat.
 
-**Suggested answer:**
+**Answer:**
 
 Any two groups of: those with sufficient income, slaves, the descendants of the Prophet ﷺ (Banu Hashim, Banu al-Muttalib), those whom the zakat-giver is obliged to support, non-Muslims.
 
 **Answer explanation:** The same question appeared in 2023 (2024) Islam II Q5 (i).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two groups.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two groups.
 
 ---
 

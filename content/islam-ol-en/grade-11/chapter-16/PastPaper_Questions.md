@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **8** (multiple-choice: 6; structured/essay items: 2). Papers in which this chapter was examined: 6 of 10 – 2017, 2019, 2020, 2021 (2022), 2022 (2023), 2024 (2025). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ What is 'ijtihad'?
 
 **Explanation:** Ijtihad (from the root "jahada" – to strive) = the research effort made by a qualified scholar on a problem for which the Quran and Sunnah give no direct solution.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2020 – Islam I, Q19
@@ -53,8 +50,6 @@ Which Companion was sent as governor to Yemen in the time of the Prophet ﷺ?
 **Correct answer:** B – Mu'adh ibn Jabal (RA) *(option (2) on the original paper)*
 
 **Explanation:** Mu'adh ibn Jabal (RA) was sent to Yemen as governor; his reply – Quran → Sunnah → ijtihad – is famous.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 31: Islam and the Media](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_31.md)
 
@@ -79,8 +74,6 @@ Which statement about the qualifications a mujtahid must have is WRONG?
 
 **Explanation:** Knowledge of the Quran and Sunnah, mastery of Arabic and understanding of earlier ijtihad are qualifications of a mujtahid; "knowledge of medieval sciences" is not mentioned as a qualification.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2021 (2022) – Islam I, Q11
@@ -101,8 +94,6 @@ The most correct Islamic way of finding solutions to problems for which the Qura
 **Correct answer:** D – ijtihad *(option (4) on the original paper)*
 
 **Explanation:** When the Quran and Sunnah give no direct solution, the research effort made by qualified scholars based on them is ijtihad. Qiyas is only one method of ijtihad.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 17: Secondary Sources (of Islamic Law)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_17.md)
 
@@ -127,8 +118,6 @@ One of the important qualities a mujtahid must have
 
 **Explanation:** A mujtahid must have deep knowledge of the Quran and the Sunnah (the same idea appeared in 2020 Q30).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2024 (2025) – Islam I, Q11
@@ -150,8 +139,6 @@ What is 'ijtihad'?
 
 **Explanation:** Ijtihad = the research effort made by qualified people to find a solution to a problem for which the Quran and Sunnah give no direct solution. A unanimous decision = ijma'.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -168,15 +155,13 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (v) State a verse of the Quran showing that ijtihad is permitted.
 
-**Suggested answer:**
+**Answer:**
 
 4 An-Nisa': 59 – "O believers! Obey Allah, obey the Messenger and those in authority (ulul-amr) among you…" (meaning)
 
 **Answer explanation:** The commentators (mufassirun) have explained that "ulul-amr" in this verse refers to the mujtahids.
 
-**Marking guidance (suggested only – not an official marking scheme):** A suitable verse (with a note of its meaning).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** A suitable verse (with a note of its meaning).
 
 ---
 
@@ -192,17 +177,13 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) What is ijtihad?
 
-**Suggested answer:**
+**Answer:**
 
 Ijtihad (from the root word "jahada" – to strive) = when the Quran or Sunnah gives no direct solution to a new problem, the research effort made by those with deep knowledge of both, based on them, to find a solution.
 
 **Answer explanation:** Those who do this work are the mujtahids.
 
-**Marking guidance (suggested only – not an official marking scheme):** Word meaning + definition.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 10 – Chapter 17; Grade 11 – Chapter 17).
+**Marking guidance:*** Word meaning + definition.
 
 ---
 

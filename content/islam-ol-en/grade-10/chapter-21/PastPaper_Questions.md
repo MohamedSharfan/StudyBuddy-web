@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **4** (multiple-choice: 0; structured/essay items: 4). Papers in which this chapter was examined: 4 of 10 – 2018, 2020, 2021 (2022), 2025 (2026). Related questions placed in other chapters: 1.
 
@@ -28,7 +27,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Clarify five special features of the Islamic economic system.
 
-**Suggested answer:**
+**Answer:**
 
 1. Its divine nature – it is based on Allah's guidance; it does not have the weaknesses of man-made theories.
 2. Correcting inequality – wealth is shared so that it does not circulate only among the rich (59:7).
@@ -39,9 +38,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** As the question says "clarify", explain each with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -57,7 +54,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Briefly describe three special features of the Islamic economic system.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. Its divine nature – it is based on Allah's guidance; it does not have the weaknesses of man-made theories.
@@ -69,9 +66,7 @@ Any three of the following:
 
 **Answer explanation:** As the question says "describe", one sentence of explanation for each.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -87,16 +82,14 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (viii) What are the two foundations of the Islamic economy?
 
-**Suggested answer:**
+**Answer:**
 
 1. Foundations of principle (based on belief)
 2. Practical foundations
 
 **Answer explanation:** E.g. all resources belong to Allah (principle); making sure there is no interest (practice).
 
-**Marking guidance (suggested only – not an official marking scheme):** Both kinds.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both kinds.
 
 ---
 
@@ -112,7 +105,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Briefly explain five special features of the Islamic economic system.
 
-**Suggested answer:**
+**Answer:**
 
 1. Its divine nature – based on Allah's guidance; all resources belong to Allah (53:31).
 2. Correcting inequality – wealth is shared so that it does not circulate only among a few (zakat, sadaqah).
@@ -124,9 +117,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The same topic appeared in 2020 Islam II Q5 (ii).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

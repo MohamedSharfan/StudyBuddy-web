@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **24** (multiple-choice: 17; structured/essay items: 7). Papers in which this chapter was examined: 10 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 1.
 
@@ -31,8 +30,6 @@ Ahmad was carrying water in a vessel to his father. Suddenly he bumped into his 
 
 **Explanation:** Because a clean substance (tea) mixed with it and changed the nature of the water, it is clean in itself but does not purify other things – al-ma' at-tahir.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2016 – Islam I, Q33
@@ -53,8 +50,6 @@ What are the parts of the body in tayammum?
 **Correct answer:** B – the face and both hands *(option (2) on the original paper)*
 
 **Explanation:** Tayammum = wiping (mash) the face and both hands with clean soil.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Explanation:** Jabirah = a bandage / plaster put on a wound; tayammum may be done in place of washing that part.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2017 – Islam I, Q31
@@ -99,8 +92,6 @@ Among the kinds of water, 'al-ma' at-tahur' is
 **Correct answer:** C – purifying (very clean) water *(option (3) on the original paper)*
 
 **Explanation:** Al-ma' at-tahur = very clean water that is clean in itself and can purify other things. Clean water = tahir.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -123,8 +114,6 @@ In a large pond, the colour and taste of the water have changed because algae ha
 
 **Explanation:** A large amount of water (pond water) changed by leaves, algae etc. through standing for a long time is still "al-ma' at-tahur"; wudu may be made with it.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2018 – Islam I, Q24
@@ -145,8 +134,6 @@ A person for whom ghusl is obligatory refuses to perform the prayer at its prope
 **Correct answer:** B – You must make tayammum and pray. *(option (2) on the original paper)*
 
 **Explanation:** When water cannot be used, tayammum is made in place of wudu or ghusl, and the prayer is performed at its proper time.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -169,8 +156,6 @@ Which of the following kinds of water is permitted for making wudu?
 
 **Explanation:** Rain, snow and hail water are "al-ma' at-tahur" – suitable for wudu. Rose water and king coconut water are tahir (they do not purify); a small amount of water already used for wudu is musta'mal.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A8. 2019 – Islam I, Q35
@@ -191,8 +176,6 @@ What are the parts of the body in tayammum?
 **Correct answer:** B – the face and both hands *(option (2) on the original paper)*
 
 **Explanation:** Tayammum – the face and both hands (the same question appeared in 2016 Q33).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -215,8 +198,6 @@ On which occasion does ghusl become obligatory for a person?
 
 **Explanation:** Ghusl is obligatory after major hadath (intercourse, discharge of semen, the end of hayd or nifas, etc.).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A10. 2021 (2022) – Islam I, Q2
@@ -237,8 +218,6 @@ Water belonging to the category 'al-ma' at-tahur'
 **Correct answer:** D – sea water *(option (4) on the original paper)*
 
 **Explanation:** Tahur = clean in itself and able to purify other things – e.g. rain water, sea water. Tea, fruit juice and king coconut water are "tahir" (clean, but cannot purify).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -261,8 +240,6 @@ Which of the following statements about tayammum is WRONG?
 
 **Explanation:** If the jabirah (bandage) is on a part of wudu, tayammum is made instead of washing that place, and the other parts of wudu are washed with water. Tayammum is made only on the face and both hands; there is no tayammum on parts that are not parts of wudu.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A12. 2022 (2023) – Islam I, Q19
@@ -283,8 +260,6 @@ Which of the following are regarded as al-ma' at-tahur, very clean (purifying) w
 **Correct answer:** A – rain water, sea water *(option (1) on the original paper)*
 
 **Explanation:** Rain water and sea water are both tahur. King coconut water, tea and rose water are tahir (they cannot purify).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -307,8 +282,6 @@ The meaning of 'jabirah'
 
 **Explanation:** Jabirah = a bandage or plaster put on a part of the body because of a wound.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A14. 2024 (2025) – Islam I, Q18
@@ -329,8 +302,6 @@ Which of the following kinds of water cannot be used to make wudu?
 **Correct answer:** A – king coconut water *(option (1) on the original paper)*
 
 **Explanation:** King coconut water is "tahir" – clean, but cannot purify. Sea, river and tank water – tahur.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -353,8 +324,6 @@ Which of the following kinds of water is NOT al-ma' at-tahur?
 
 **Explanation:** King coconut water – tahir. Sea, spring and rain water – tahur.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A16. 2025 (2026) – Islam I, Q14
@@ -375,8 +344,6 @@ Najis has fallen into water that is less than qullatayn. However, there is no ch
 **Correct answer:** B – must not be used. *(option (2) on the original paper)*
 
 **Explanation:** A small amount of water (al-ma' al-qalil) becomes najis as soon as najis touches it, even if there is no change; wudu cannot be made with it.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -399,8 +366,6 @@ Which option contains only the parts of the body in tayammum?
 
 **Explanation:** Tayammum – wiping (mash) the face and both hands.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -418,7 +383,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Write short notes on two of the following.
 (i) The kinds of water and their uses
 
-**Suggested answer:**
+**Answer:**
 
 Jurists divide water into three:
 1. Al-ma' at-tahur (purifying water) – clean in itself and purifies other things. E.g. rain, sea, river and spring water. Use: wudu, obligatory ghusl, washing the dead, removing najis. It is divided into a large amount (mutlaq), a small amount (qalil) and used water (musta'mal).
@@ -427,9 +392,7 @@ Jurists divide water into three:
 
 **Answer explanation:** Each kind needs a definition, an example and its use.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 **Also relevant to:** [Grade 10, Chapter 5: An-Najasah (Impurity)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_05.md)
 
@@ -447,7 +410,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) State two of the main kinds of water classified by Islamic jurists, and give one example of each.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Al-ma' at-tahur (purifying water) – e.g. rain water / sea water / river water
@@ -456,9 +419,7 @@ Any two of the following:
 
 **Answer explanation:** One example is needed for each kind.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two kinds + examples.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two kinds + examples.
 
 ---
 
@@ -475,15 +436,13 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short answers.
 (i) What is 'al-ma' al-musta'mal'?
 
-**Suggested answer:**
+**Answer:**
 
 Al-ma' al-musta'mal = used water – water less than qullatayn that has been used for an obligatory act such as wudu or ghusl. It cannot be used for another obligatory act.
 
 **Answer explanation:** The textbook says that if clean water is added to bring it up to qullatayn, it may be used again.
 
-**Marking guidance (suggested only – not an official marking scheme):** The correct definition.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The correct definition.
 
 **Also relevant to:** [Grade 10, Chapter 5: An-Najasah (Impurity)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_05.md)
 
@@ -501,16 +460,14 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) Clarify the two kinds of ritual impurity called 'hadath'.
 
-**Suggested answer:**
+**Answer:**
 
 1. Minor hadath (al-hadath al-asghar) – caused by passing urine or stool, passing wind, sleep, etc.; removed by wudu.
 2. Major hadath (al-hadath al-akbar) – caused by intercourse, discharge of semen, hayd, nifas, etc.; removed by ghusl.
 
 **Answer explanation:** State the cause and the way of removing each kind.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both kinds, with explanation.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both kinds, with explanation.
 
 ---
 
@@ -526,15 +483,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ix) What are the parts of the body in tayammum?
 
-**Suggested answer:**
+**Answer:**
 
 The face and both hands.
 
 **Answer explanation:** Tayammum = wiping (mash) the face and both hands using clean soil.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both parts.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both parts.
 
 ---
 
@@ -551,7 +506,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) Give two occasions for making tayammum.
 (iii) Define al-ma' at-tahur with examples, and state three of its uses.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any two of the following:
 1. When water cannot be used because of illness
@@ -568,11 +523,7 @@ Uses (any three):
 
 **Answer explanation:** The three divisions of tahur water: kathir (mutlaq), qalil, musta'mal.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 10, Chapter 5.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -589,7 +540,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short notes on any two of the following.
 (i) The importance of cleanliness
 
-**Suggested answer:**
+**Answer:**
 
 - Islam insists that every Muslim keep clean; being clean is itself an act of worship that brings reward.
 - "Indeed, Allah loves those who purify themselves" (9:108); "Keep your clothes clean" (74:4) (meaning).
@@ -600,9 +551,7 @@ Write short notes on any two of the following.
 
 **Answer explanation:** Write with evidence from the Quran and hadith.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 ---
 

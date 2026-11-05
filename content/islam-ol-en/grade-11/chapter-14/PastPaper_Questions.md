@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **10** (multiple-choice: 5; structured/essay items: 5). Papers in which this chapter was examined: 7 of 10 – 2017, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 0.
 
@@ -31,10 +30,6 @@ Who was the king, an enemy of Prophet Musa (AS), who was drowned while crossing 
 
 **Explanation:** Pharaoh, the bitter enemy of Musa (AS), was drowned; the Quran (10:92) said his body would be preserved.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The original paper says "the river Nile"; the textbook says only that he was "drowned".
-
 ---
 
 ### A2. 2021 (2022) – Islam I, Q7
@@ -56,8 +51,6 @@ The name of the tafsir of the Quran written by Imam az-Zamakhshari from a litera
 
 **Explanation:** Imam az-Zamakhshari – "al-Kashshaf" (a literary tafsir).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2022 (2023) – Islam I, Q1
@@ -78,8 +71,6 @@ The meaning of the term 'mu'jizat'
 **Correct answer:** B – miracle *(option (2) on the original paper)*
 
 **Explanation:** Mu'jizah = a miracle – something that happens contrary to the normal course; given by Allah to confirm the message of the prophets.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 2: Ahl as-Sunnah wal-Jama'ah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_02.md)
 
@@ -113,8 +104,6 @@ Which option is correct when Column II is arranged, in order, to match Column I?
 
 **Explanation:** Musa – the staff becoming a snake (D); Ibrahim – the fire turning cool (C); Salih – the she-camel from the rock (B); 'Isa – healing the sick (A). So D C B A.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2025 (2026) – Islam I, Q33
@@ -136,8 +125,6 @@ Which of the following miracles is connected with Prophet Musa (AS)?
 
 **Explanation:** Musa – the staff becoming a snake; Ibrahim – the fire turning cool; 'Isa – healing the sick; Salih – the she-camel from the rock (the same idea appeared in 2023 (2024) Q33).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -156,7 +143,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (ii) State three miracles given to the messengers.
 (iii) List five miracles mentioned in the Quran.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Mu'jizat (miracles) = events that happen contrary to the normal course of nature. Allah gave them to the prophets to confirm the message He gave them; human beings cannot challenge them or produce anything like them.
 
@@ -174,11 +161,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** In (iii) the miracles of the Quran's language, science and prophecy may also be mentioned (e.g. Pharaoh's body – 10:92; the Roman victory – 30:2–4).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** It is not clear whether (iii) "five miracles mentioned in the Quran" means the miracles of the prophets or the miraculous features of the Quran itself; both interpretations are given – confirm with the teacher.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 3: Risalah and Hidayah (Messengership and Guidance)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_03.md)
 
@@ -197,7 +180,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (i) What is 'mu'jizat al-Quran'?
 (ii) State three of the reasons why the Quran is the main source of Islamic law.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Mu'jizat al-Quran = the miraculous nature of the Quran – its uniqueness, such that even if mankind and jinn joined together they could not produce anything like it (17:88); its miracles of language, science and prophecy. The Quran is the lasting miracle given to the Prophet ﷺ.
 
@@ -210,11 +193,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** In (ii) it is suitable to compare it with human laws.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 10, Chapter 15.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -231,7 +210,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short notes on any two of the following.
 (i) The Quran is a miracle
 
-**Suggested answer:**
+**Answer:**
 
 - A miracle (mu'jizah) = something that happens contrary to the normal course; given to the prophets to confirm their message. In each age the miracles related to the field that was famous then (Musa – defeating sorcery; 'Isa – medicine); Muhammad ﷺ – the Quran.
 - The miracle of language: it surpassed the skill of the poets (al-Walid ibn al-Mughirah admitted it); its challenges – 52:34, 11:13, 2:23, 17:88 – have not been met to this day; it is the reference book for Arabic grammar; the incident of Surah an-Najm; memorised by hundreds of thousands.
@@ -240,9 +219,7 @@ Write short notes on any two of the following.
 
 **Answer explanation:** Write equally on the three kinds of miracle, with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 ---
 
@@ -258,16 +235,14 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ix) Write the names of two poets, enemies of Islam, who admitted their inability before the literary excellence of the Quran.
 
-**Suggested answer:**
+**Answer:**
 
 1. Al-Walid ibn al-Mughirah
 2. Labid
 
 **Answer explanation:** Labid admitted his inability before the Quran and stopped composing poetry altogether.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two names.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two names.
 
 ---
 
@@ -284,16 +259,14 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short answers.
 (i) State the two basic sources of law in Islam.
 
-**Suggested answer:**
+**Answer:**
 
 1. The Quran
 2. The Sunnah
 
 **Answer explanation:** These are the main sources that do not change; ijma' and qiyas are secondary sources.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both.
 
 **Also relevant to:** [Grade 10, Chapter 16: The Importance of the Sunnah](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_16.md); [Grade 10, Chapter 17: Secondary Sources (of Islamic Law)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_17.md)
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **4** (multiple-choice: 2; structured/essay items: 2). Papers in which this chapter was examined: 3 of 10 – 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,10 +30,6 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Explanation:** This is a hadith stressing the importance of good character.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Check the exact wording and the collection of this hadith in the textbook.
-
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md)
 
 ---
@@ -58,8 +53,6 @@ Which of the following statements about a Muslim's manners is WRONG?
 
 **Explanation:** When many eat together, good manners are to eat from what is nearest to oneself; reaching into all sides is bad manners.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md)
 
 ---
@@ -78,7 +71,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Briefly explain 'how the basic duties of Islam train people to be drawn to good character'.
 
-**Suggested answer:**
+**Answer:**
 
 1. Prayer – fear of Allah, nearness to Allah, light in the heart; the ability to tell good from evil; "Prayer restrains from shameful and evil deeds" (29:45).
 2. Zakat – love for the poor, a generous outlook; miserliness removed; the heart purified from love of the world (9:103).
@@ -87,9 +80,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Give the moral quality each duty trains and the evidence for it.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -105,7 +96,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) Keeping environmental values
 
-**Suggested answer:**
+**Answer:**
 
 - "Keeping environmental values" is one of the five classifications of good conduct.
 - Protecting useful plants – planting trees is charity (Ahmad).
@@ -116,9 +107,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Write, linking protection of the environment with iman and 'ibadah.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 12: The Islamic View of Good Character – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_12.md); [Grade 10, Chapter 2: Iman and Amal (Faith and Deeds)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_02.md); [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **18** (multiple-choice: 13; structured/essay items: 5). Papers in which this chapter was examined: 10 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ The occasion on which 'du'a al-istiftah' is recited
 
 **Explanation:** Du'a al-istiftah (Wajjahtu…) is the opening du'a recited after takbirat al-ihram.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2017 – Islam I, Q8
@@ -53,8 +50,6 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 **Correct answer:** B – the first takbir said to begin the prayer *(option (2) on the original paper)*
 
 **Explanation:** Takbirat at-tahrimah = the first takbir said when beginning the prayer with the intention. "Allahu akbar" is common to all takbirs.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ In 'du'a al-istiftah', the phrase that follows "inna salati…" is
 
 **Explanation:** "Inna salati wa nusuki wa mahyaya wa mamati lillahi rabbil-'alamin" (إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي…).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2018 – Islam I, Q10
@@ -99,8 +92,6 @@ Which is NOT one of the fard acts of prayer?
 **Correct answer:** D – the place of prayer being clean *(option (4) on the original paper)*
 
 **Explanation:** The place of prayer being clean is a condition (shart) of prayer, not a fard (rukn).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -127,10 +118,6 @@ Choose the correct answer concerning the following statements.
 
 **Explanation:** A is correct (du'a al-istiftah comes after takbirat at-tahrimah). C is correct (the conditions of nisab and hawl). D is wrong (these are prohibitions of ihram). B is wrong – according to the textbook, it was Imam ash-Shafi'i (RH) who said "hikmah" refers to the Sunnah.
 
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** Whether statement B is right or wrong depends on information about Imam Malik's (RH) explanation; the textbook gives only Imam ash-Shafi'i's view – confirm with the teacher.
-
 **Also relevant to:** [Grade 11, Chapter 7: Zakat](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_07.md); [Grade 11, Chapter 9: Hajj and 'Umrah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_09.md); [Grade 10, Chapter 16: The Importance of the Sunnah](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_16.md)
 
 ---
@@ -154,8 +141,6 @@ On his way back from the playground, Anwar goes to the mosque, joins a congregat
 
 **Explanation:** Joining Maghrib in the second rak'ah: he sits in the imam's 2nd rak'ah (first tahiyyat), in the imam's 3rd rak'ah (final tahiyyat), and then in the rak'ah he completes on his own – he sits in all three rak'ahs. This does not happen in the four-rak'ah prayers.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2020 – Islam I, Q31
@@ -176,8 +161,6 @@ Which of the following recitations in prayer is compulsory?
 **Correct answer:** C – Surah al-Fatihah *(option (3) on the original paper)*
 
 **Explanation:** Reciting Surah al-Fatihah in every rak'ah is compulsory (fard); du'a al-istiftah and other surahs are sunnah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -208,8 +191,6 @@ Choose the answer set that puts the above actions in order.
 
 **Explanation:** Takbir with the intention (C) → al-Fatihah (A) → ruku' and i'tidal (F) → sajdah and the iftirash sitting between the two sajdahs (E) → the second sajdah (B) → finally the tawarruk sitting and salam (D).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2022 (2023) – Islam I, Q22
@@ -230,10 +211,6 @@ The prayer in which two ruku's are made in one rak'ah
 **Correct answer:** B – the eclipse prayer *(option (2) on the original paper)*
 
 **Explanation:** In the eclipse prayer (salat al-kusuf / khusuf) there are two ruku's in each rak'ah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The method of the eclipse prayer is not explained in the current textbook notes; the answer is based on general fiqh knowledge.
 
 ---
 
@@ -256,8 +233,6 @@ Which of the following is it sunnah to recite right after the opening takbir in 
 
 **Explanation:** It is sunnah to recite du'a al-istiftah (the opening du'a) after takbirat al-ihram. Takbirat al-ihram and al-Fatihah are fard.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A11. 2023 (2024) – Islam I, Q4
@@ -278,8 +253,6 @@ In prayer, 'du'a al-istiftah' is
 **Correct answer:** D – reciting "Wajjahtu" *(option (4) on the original paper)*
 
 **Explanation:** The opening du'a recited after takbirat al-ihram is "Wajjahtu…" (du'a al-istiftah was also asked in 2022 (2023) Q25).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -302,8 +275,6 @@ On which occasion in prayer should the dhikr "Subhana rabbiya al-a'la wa bihamdi
 
 **Explanation:** In sujud "Subhana rabbiya al-a'la"; in ruku' "Subhana rabbiya al-'azim".
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A13. 2025 (2026) – Islam I, Q3
@@ -325,8 +296,6 @@ When is "Sami'a Allahu liman hamidah" said in prayer?
 
 **Explanation:** "Sami'a Allahu liman hamidah" when rising from ruku' to i'tidal (standing); after standing, "Rabbana laka al-hamd".
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -343,18 +312,14 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (v) Name the two fard acts of prayer carried out by 'reciting'.
 
-**Suggested answer:**
+**Answer:**
 
 1. Reciting Surah al-Fatihah
 2. Reciting the final at-tahiyyat
 
 **Answer explanation:** According to the Shafi'i madhhab these are fard acts carried out verbally (qawli). (Takbirat al-ihram, the salawat in the final tahiyyat and the salam are also verbal fard acts.)
 
-**Marking guidance (suggested only – not an official marking scheme):** The two most suitable for "reciting": al-Fatihah and at-tahiyyat.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** The current Grade 10 textbook does not give the fard acts of prayer as a separate list; the answer is based on general Shafi'i fiqh – confirm with the teacher.
+**Marking guidance:*** The two most suitable for "reciting": al-Fatihah and at-tahiyyat.
 
 ---
 
@@ -370,15 +335,13 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Write in your own language the du'a to be recited on coming to i'tidal saying "Sami'a Allahu liman hamidah".
 
-**Suggested answer:**
+**Answer:**
 
 "Rabbana laka al-hamdu mil'a as-samawati wa mil'a al-ardi wa mil'a ma shi'ta min shay'in ba'd" – Our Lord! To You belongs all praise, filling the heavens, filling the earth, and filling whatever else You will after that.
 
 **Answer explanation:** As the question says "in your own language", the meaning is required (in the Tamil-medium paper this means Tamil; in this English rendering, English).
 
-**Marking guidance (suggested only – not an official marking scheme):** The correct meaning of the du'a.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The correct meaning of the du'a.
 
 ---
 
@@ -394,16 +357,14 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Apart from the forehead and the two palms, state, in pairs, the other four parts of the body that must touch the ground in sujud.
 
-**Suggested answer:**
+**Answer:**
 
 1. The two knees
 2. The two feet (the toes)
 
 **Answer explanation:** The seven parts in sujud: the forehead, the two palms, the two knees, the two feet.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both pairs.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both pairs.
 
 ---
 
@@ -419,16 +380,14 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) According to the Shafi'i madhhab, give two prayers in which reciting qunut is sunnah.
 
-**Suggested answer:**
+**Answer:**
 
 1. The Subh (Fajr) prayer (in the second rak'ah)
 2. The witr prayer from the 16th night of Ramadan (in the second half of the month)
 
 **Answer explanation:** Textbook: qunut – in the 2nd rak'ah of Subh + in witr from the 16th night of Ramadan – is sunnah in the Shafi'i madhhab.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two prayers.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two prayers.
 
 ---
 
@@ -444,15 +403,13 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vi) How many parts of the body must touch the ground when making sujud in prayer?
 
-**Suggested answer:**
+**Answer:**
 
 Seven parts – the two feet, the two knees, the two palms and the forehead.
 
 **Answer explanation:** It is best to name the parts as well as the number.
 
-**Marking guidance (suggested only – not an official marking scheme):** The number (7).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The number (7).
 
 ---
 

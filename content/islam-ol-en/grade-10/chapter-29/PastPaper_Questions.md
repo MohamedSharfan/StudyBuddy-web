@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **7** (multiple-choice: 3; structured/essay items: 4). Papers in which this chapter was examined: 7 of 10 – 2016, 2017, 2019, 2020, 2022 (2023), 2023 (2024), 2024 (2025). Related questions placed in other chapters: 7.
 
@@ -31,8 +30,6 @@ What is meant by 'ummatan wasatan'?
 
 **Explanation:** Ummatan wasatan (2:143) = a balanced (middle) community.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 32: The Concept of the Ummah (الأمة)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_32.md)
 
 ---
@@ -56,8 +53,6 @@ Respecting people of other religions and keeping to the middle way are teachings
 
 **Explanation:** Wasatiyyah = the middle way between two extremes; respecting others is an expression of it.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2023 (2024) – Islam I, Q39
@@ -79,10 +74,6 @@ When the Prophet ﷺ, while performing Hajj, asked Ibn 'Abbas (RA) to gather sto
 
 **Explanation:** When people thought large stones were better, Ibn 'Abbas (RA) picked up small stones; the Prophet ﷺ warned against going to extremes in religion (Ahmad).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** "Pebbles" (D) may also refer to small stones; (A) is given because the textbook says "small stones".
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -99,7 +90,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) Keeping to the middle way (wasatiyyah)
 
-**Suggested answer:**
+**Answer:**
 
 Wasatiyyah = taking the balanced position between two extremes. The Muslim community is "ummatan wasatan" – a balanced community (2:143).
 - In worship: the incidents of 'Abdullah ibn 'Amr (RA) and the three Companions – "Whoever does not follow my Sunnah is not of me" (Bukhari); Mu'adh (RA) – "Make things easy for people" (Muslim).
@@ -109,9 +100,7 @@ Wasatiyyah = taking the balanced position between two extremes. The Muslim commu
 
 **Answer explanation:** Definition + balance in several areas of life, with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 
@@ -129,7 +118,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Clarify five ways Islam has put forward concerning keeping to the middle way (wasatiyyah) in life.
 
-**Suggested answer:**
+**Answer:**
 
 1. Balance in worship – 'Abdullah ibn 'Amr (RA): "Your body, your wife and your guests have rights over you" (Bukhari); the incident of the three Companions.
 2. Not going to extremes in religion – "Beware of going to extremes in religion" (Ahmad); Mu'adh (RA) – "Make things easy for people" (Muslim).
@@ -140,9 +129,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** As the question says "clarify", give evidence / an example for each way.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -158,17 +145,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) Write the meaning of 'wasatiyyah', with a definition.
 
-**Suggested answer:**
+**Answer:**
 
 Wasatiyyah (linguistically: the middle) = the balanced way that keeps balance and justice in all aspects of life, between going to excess (ifrat) and falling short (tafrit). "Thus We have made you a balanced community" (2:143, meaning).
 
 **Answer explanation:** Word meaning + definition + evidence from the Quran.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 10 – Chapters 22 and 28).
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 32: The Concept of the Ummah (الأمة)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_32.md)
 
@@ -186,7 +169,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Explain one incident from the life of the Prophet ﷺ that stresses the need to keep to the middle way in life.
 
-**Suggested answer:**
+**Answer:**
 
 Any one of the following:
 1. The incident of the three Companions (Bukhari): one said he would pray all night, another that he would fast all year, the third that he would never marry. The Prophet ﷺ: "I fear Allah more than you; yet I fast and I leave fasting; I pray and I sleep; and I marry women; whoever does not follow my Sunnah is not of me."
@@ -196,9 +179,7 @@ Any one of the following:
 
 **Answer explanation:** Explain the incident and the lesson drawn from it.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

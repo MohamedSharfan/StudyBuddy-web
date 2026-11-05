@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **16** (multiple-choice: 11; structured/essay items: 5). Papers in which this chapter was examined: 8 of 10 – 2016, 2017, 2019, 2020, 2021 (2022), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ Among the duties a believer (mu'min) must fulfil, 'imarah' refers to
 
 **Explanation:** The three responsibilities of a Muslim: 'ibadah (worship), 'imarah (developing the earth), khilafah (acting as Allah's representative).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 
 ---
@@ -55,8 +52,6 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 **Correct answer:** A – what every Muslim must do. *(option (1) on the original paper)*
 
 **Explanation:** Fard 'ayn = what is obligatory on every Muslim individually (e.g. prayer). (D) – fard kifayah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 7: The Importance of Salah (Prayer)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_07.md)
 
@@ -81,8 +76,6 @@ Which word shows that 'man is Allah's representative'?
 
 **Explanation:** Khalifah = representative; acting as Allah's representative on earth is the responsibility of "khilafah". Kalim Allah – Musa (AS); Habib Allah – the Prophet ﷺ.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2019 – Islam I, Q2
@@ -103,8 +96,6 @@ A Muslim has three tasks to fulfil. One of them is 'imarah. What are the other t
 **Correct answer:** C – 'ibadah, khilafah *(option (3) on the original paper)*
 
 **Explanation:** The three responsibilities of a Muslim: 'ibadah (worship), 'imarah (developing the earth), khilafah (being Allah's representative).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -127,8 +118,6 @@ Which of the following is an act that is fard kifayah?
 
 **Explanation:** Fard kifayah – if enough people in the community do it, the duty is lifted from the others. Prayer, zakat and Hajj are fard 'ayn (individual duties).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2021 (2022) – Islam I, Q23
@@ -149,8 +138,6 @@ The Arabic word 'imarah' refers to
 **Correct answer:** D – the activity of developing the earth. *(option (4) on the original paper)*
 
 **Explanation:** The responsibilities of a Muslim: 'ibadah, 'imarah (developing the earth), khilafah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 
@@ -175,8 +162,6 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Explanation:** Textbook: the acts of worship connected with the heart are ikhlas and patience. Udhiyah – wealth; reciting the Quran and dhikr – the tongue; fasting – the body.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A8. 2024 (2025) – Islam I, Q25
@@ -197,8 +182,6 @@ The Arabic term for man managing the earth as Allah's representative on it
 **Correct answer:** C – khilafah *(option (3) on the original paper)*
 
 **Explanation:** Khilafah = managing the earth as Allah's representative. 'Imarah = developing the earth.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 
@@ -232,8 +215,6 @@ The correct answer set obtained when the words under Column II are arranged to m
 
 **Explanation:** Fard – the five daily prayers (D); haram – drinking alcohol (A); fard kifayah – the duties to the dead (B); sunnah – saying salam (C). So D, A, B, C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A10. 2025 (2026) – Islam I, Q1
@@ -254,8 +235,6 @@ What is the responsibility of man managing the earth as Allah's representative o
 **Correct answer:** C – khilafah *(option (3) on the original paper)*
 
 **Explanation:** Khilafah = managing the earth as Allah's representative (the same idea appeared in 2024 (2025) Q25).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 30: The Islamic View of Worldly Life](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_30.md)
 
@@ -280,8 +259,6 @@ Making it possible for the female obstetricians the community needs to be produc
 
 **Explanation:** The textbook gives producing experts such as female obstetricians as an example of fard kifayah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -299,7 +276,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Write short answers.
 (i) State two activities identified as fard kifayah.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. The duties to the dead (washing, shrouding, the prayer, burial)
@@ -308,9 +285,7 @@ Any two of the following:
 
 **Answer explanation:** If some people in the community do it, the duty is lifted from the others; if no one does it, everyone is sinful.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two examples.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two examples.
 
 ---
 
@@ -326,7 +301,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) Life is an act of worship
 
-**Suggested answer:**
+**Answer:**
 
 - "I did not create jinn and mankind except to worship Me" (51:56, meaning) – so the whole of life includes 'ibadah.
 - 'Ibadah = complete obedience joined with the highest love for Allah; not only the defined acts of worship such as prayer and fasting, but daily actions such as eating, sleeping and work can also become 'ibadah.
@@ -335,9 +310,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Include the definition, evidence, conditions and an example.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 22: The Importance of Work](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_22.md)
 
@@ -355,17 +328,13 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) Define 'ibadah'.
 
-**Suggested answer:**
+**Answer:**
 
 'Ibadah (from "'abada" – he worshipped, he obeyed, he submitted) = obeying Allah by doing what He has commanded and avoiding what He has forbidden; complete obedience joined with the highest love for Allah.
 
 **Answer explanation:** The verse "I created jinn and mankind only to worship Me" (51:56) may be added.
 
-**Marking guidance (suggested only – not an official marking scheme):** Word meaning and definition.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 10 – Chapter 7; Grade 11 – Chapter 8).
+**Marking guidance:*** Word meaning and definition.
 
 ---
 
@@ -381,7 +350,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (viii) Give two main purposes of 'ibadat (acts of worship) in Islam.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Refining the heart and producing God-consciousness (taqwa)
@@ -392,9 +361,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions five purposes.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two purposes.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two purposes.
 
 ---
 
@@ -410,7 +377,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Clarify the conditions for a Muslim's daily activities to be accepted as 'ibadah'.
 
-**Suggested answer:**
+**Answer:**
 
 1. Permission of the Shari'ah – the act must be permitted (work is 'ibadah; selling alcohol, interest and gambling can never be 'ibadah).
 2. A sincere intention (ikhlas) – doing it for Allah's pleasure.
@@ -420,9 +387,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Give an example for each condition.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 22: The Importance of Work](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_22.md)
 

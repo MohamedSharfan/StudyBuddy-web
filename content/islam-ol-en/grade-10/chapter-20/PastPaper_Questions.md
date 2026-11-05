@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **6** (multiple-choice: 3; structured/essay items: 3). Papers in which this chapter was examined: 5 of 10 – 2016, 2019, 2020, 2022 (2023), 2024 (2025). Related questions placed in other chapters: 1.
 
@@ -31,8 +30,6 @@ The first person to write the biography of the Prophet ﷺ
 
 **Explanation:** The first sirah book was written by Ibn Ishaq (151 AH); the book available today is the one by Ibn Hisham (218 AH), which quotes it.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2020 – Islam I, Q22
@@ -53,8 +50,6 @@ What is the meaning of 'Rabb an-nas'?
 **Correct answer:** A – the Lord of mankind *(option (1) on the original paper)*
 
 **Explanation:** Rabb an-nas (114:1) = the Lord of mankind. The mercy to the worlds – the Prophet ﷺ (21:107).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 3: At-Tawhid (التَّوْحِيْدُ)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_03.md)
 
@@ -79,8 +74,6 @@ The first sirah book, compiling the life history of the Prophet ﷺ, written by 
 
 **Explanation:** The first sirah book, written by Ibn Ishaq, is "Sirat Rasul Allah"; Ibn Hisham abridged it and wrote "Sirat Ibn Hisham".
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -97,7 +90,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Present the reasons why the sirah should be studied.
 
-**Suggested answer:**
+**Answer:**
 
 1. The Prophet ﷺ is a beautiful example for everyone (33:21) – not limited by time, place or race.
 2. The sirah is the channel of the basic sources of Islam (Quran, Sunnah); a practical example of the Islamic way of life.
@@ -108,9 +101,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** It is best to present the reasons with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -126,15 +117,13 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vi) What is understood by the term 'sirah'?
 
-**Suggested answer:**
+**Answer:**
 
 Sirah = the life history of Prophet Muhammad ﷺ; on this basis it is studied as a separate discipline.
 
 **Answer explanation:** The first sirah book – Ibn Ishaq.
 
-**Marking guidance (suggested only – not an official marking scheme):** The correct meaning.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The correct meaning.
 
 ---
 
@@ -150,7 +139,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Explain three research efforts made in the early period to preserve 'Sirat Rasul Allah'.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. The Companions observed very closely, while the Prophet ﷺ was alive, his appearance, movements, teachings, actions, likes and dislikes.
@@ -161,9 +150,7 @@ Any three of the following:
 
 **Answer explanation:** As the question says "explain", one sentence of explanation is needed for each effort.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

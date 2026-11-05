@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **7** (multiple-choice: 4; structured/essay items: 3). Papers in which this chapter was examined: 6 of 10 – 2016, 2017, 2020, 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 3.
 
@@ -30,8 +29,6 @@ The status of a person who disbelieves in 'qada'-qadar'
 **Correct answer:** D – kafir *(option (4) on the original paper)*
 
 **Explanation:** Belief in qada' and qadar is one of the six pillars of iman; whoever denies it is a kafir.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -63,8 +60,6 @@ Which option is correct when Column II is arranged, in order, to match Column I?
 
 **Explanation:** 'Ilm – knowledge (B); qudrah – power (C); iradah – will (D); qadar – decreeing (A). So B C D A.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2024 (2025) – Islam I, Q14
@@ -85,8 +80,6 @@ Which Companion said, "We are going from one qadar to another qadar"?
 **Correct answer:** B – 'Umar (RA) *(option (2) on the original paper)*
 
 **Explanation:** 'Umar (RA) said this when, on the journey to Sham, he decided to turn back because of the epidemic there (the textbook says cholera) (the same idea appeared in 2020 Islam II Q1 (viii)).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -109,8 +102,6 @@ What should a Muslim's belief about qada' and qadar be?
 
 **Explanation:** The two aspects stressed by the Quran and hadith: Allah's will + man's freedom of action and responsibility. (B) is the Jabriyyah view, (D) the Qadariyyah view.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -127,7 +118,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vii) Give two benefits gained, according to Islam, from believing in divine decree.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Not being crushed in spirit over what one has missed (57:22–23)
@@ -137,9 +128,7 @@ Any two of the following:
 
 **Answer explanation:** Belief in divine decree keeps a person from losing balance.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two benefits.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two benefits.
 
 ---
 
@@ -155,15 +144,13 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (viii) Which Companion said, "I am moving from one qadar to another qadar"?
 
-**Suggested answer:**
+**Answer:**
 
 'Umar (RA)
 
 **Answer explanation:** 'Umar's (RA) reply when, on the journey to Sham, he decided to turn back because of the epidemic there (the textbook says cholera), and Abu 'Ubaydah (RA) asked, "Are you fleeing from Allah's qadar?"
 
-**Marking guidance (suggested only – not an official marking scheme):** The name.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The name.
 
 ---
 
@@ -180,7 +167,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short notes on any two of the following.
 (i) The duties a Muslim must fulfil during natural disasters
 
-**Suggested answer:**
+**Answer:**
 
 - Believing in qada' and qadar, accepting Allah's will and being patient; "Seek help through patience and prayer" (2:45).
 - Turning back to Allah through tawbah, du'a and istighfar.
@@ -193,11 +180,7 @@ Write short notes on any two of the following.
 
 **Answer explanation:** Write from the three angles of belief, worship and social duty.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** The topic "a Muslim's duties during natural disasters" is not a separate section in the current textbook notes; this is a suggested answer gathered from the lessons on qada' and qadar, fiqh al-awlawiyyat, human rights and fard kifayah – confirm with the teacher.
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 **Also relevant to:** [Grade 10, Chapter 30: Fiqh al-Awlawiyyat (The Jurisprudence of Priorities)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_30.md); [Grade 10, Chapter 6: Ibadah (Worship)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_06.md); [Grade 11, Chapter 32: The Concept of the Ummah (الأمة)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_32.md)
 

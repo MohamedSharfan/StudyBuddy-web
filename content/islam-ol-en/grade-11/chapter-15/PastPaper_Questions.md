@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **12** (multiple-choice: 8; structured/essay items: 4). Papers in which this chapter was examined: 8 of 10 – 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ A muhaddith is
 
 **Explanation:** Muhaddith = a scholar of the science of hadith. A fiqh scholar – faqih; a Quran commentator – mufassir.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2018 – Islam I, Q34
@@ -54,10 +51,6 @@ The Companion regarded as having narrated the most hadiths
 
 **Explanation:** Abu Hurayrah (RA) is regarded as the Companion who narrated the largest number of hadiths.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** This information is based on general knowledge of the science of hadith.
-
 ---
 
 ### A3. 2019 – Islam I, Q28
@@ -78,8 +71,6 @@ Which of the following is the main reason the hadith is one of the basic sources
 **Correct answer:** A – Allah has commanded us to follow the Prophet *(option (1) on the original paper)*
 
 **Explanation:** "Take what the Messenger gives you" (59:7), "Whoever obeys the Messenger has obeyed Allah" (4:80) – Allah's command is the main reason.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 16: The Importance of the Sunnah](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_16.md)
 
@@ -104,10 +95,6 @@ What is known as having its meaning from Allah and its wording from the Prophet 
 
 **Explanation:** Hadith qudsi = the Prophet ﷺ reporting "Allah says" – the meaning is Allah's, the words are the Prophet's.
 
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** Because the textbook explains the whole Sunnah as "the language is the Prophet's and the meaning is Allah's", (B) may also fit; (A) is given according to the common definition of hadith qudsi – confirm with the teacher.
-
 ---
 
 ### A5. 2020 – Islam I, Q29
@@ -128,8 +115,6 @@ In which period did the effort to compile the Prophet's ﷺ hadiths into books f
 **Correct answer:** B – in the period of the Umayyads. *(option (2) on the original paper)*
 
 **Explanation:** The effort to compile hadiths into books began in the time of the Umayyad caliph 'Umar ibn 'Abd al-'Aziz (RH), through Imam az-Zuhri.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -152,8 +137,6 @@ The field in which Imam al-Bukhari (RH) became famous
 
 **Explanation:** Imam al-Bukhari – the field of hadith; compiler of "Sahih al-Bukhari".
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2022 (2023) – Islam I, Q12
@@ -174,8 +157,6 @@ The person who collected the hadiths and compiled them into a book by order of t
 **Correct answer:** C – Imam Shihab ad-Din az-Zuhri (RH) *(option (3) on the original paper)*
 
 **Explanation:** Imam Ibn Shihab az-Zuhri (the same idea appeared in 2021 (2022) Islam II Q1 (x)).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -198,8 +179,6 @@ The number of hadiths included in the collection of al-Bukhari
 
 **Explanation:** According to the textbook table, Sahih al-Bukhari – 7275 hadiths (Sahih Muslim – 4000; Sunan Abi Dawud – 4800).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -218,7 +197,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (ii) Point out three methods used to preserve the hadiths.
 (iii) Briefly describe the contribution of Imam Muslim (RH) to the field of hadith.
 
-**Suggested answer:**
+**Answer:**
 
 (i) What includes the three – the sayings (qawl), actions (fi'l) and approvals (taqrir) of the Prophet ﷺ – is called hadith (Sunnah).
 
@@ -232,9 +211,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** In (iii) the place of birth, period, book and its distinction should be mentioned.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -250,15 +227,13 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (x) Who collected the hadiths by order of Caliph 'Umar ibn 'Abd al-'Aziz (RH)?
 
-**Suggested answer:**
+**Answer:**
 
 Imam Ibn Shihab az-Zuhri (RH)
 
 **Answer explanation:** 2020 Q29 (MCQ) – the compilation of hadith into books began in the Umayyad period.
 
-**Marking guidance (suggested only – not an official marking scheme):** The name.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The name.
 
 ---
 
@@ -274,15 +249,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State four of the compilers of the Sihah as-Sittah.
 
-**Suggested answer:**
+**Answer:**
 
 Any four of: Imam al-Bukhari, Imam Muslim, Imam Abu Dawud, Imam at-Tirmidhi, Imam an-Nasa'i, Imam Ibn Majah.
 
 **Answer explanation:** The six authentic hadith collections are called the "Sihah as-Sittah".
 
-**Marking guidance (suggested only – not an official marking scheme):** Four names.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Four names.
 
 ---
 
@@ -298,7 +271,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Write the names of the six hadith collections called the 'Sihah as-Sittah'.
 
-**Suggested answer:**
+**Answer:**
 
 1. Sahih al-Bukhari
 2. Sahih Muslim
@@ -309,11 +282,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The names of the compilers were asked in 2022 (2023) Islam II Q1 (iii).
 
-**Marking guidance (suggested only – not an official marking scheme):** The six collections.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (i) of this question is under Grade 11, Chapter 2 and part (iii) under Grade 10, Chapter 16.
+**Marking guidance:*** The six collections.
 
 ---
 

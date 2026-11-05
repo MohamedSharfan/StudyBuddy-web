@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **28** (multiple-choice: 21; structured/essay items: 7). Papers in which this chapter was examined: 10 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 8.
 
@@ -31,8 +30,6 @@ The place where the first 'wahy' (revelation) came down to Prophet Muhammad ﷺ
 
 **Explanation:** The first revelation (the opening verses of Surah al-'Alaq) came down in the cave of Hira. Thawr is the cave where the Prophet stayed during the hijrah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2016 – Islam I, Q13
@@ -53,8 +50,6 @@ The surah that contains the first revealed verses of the Quran
 **Correct answer:** A – al-'Alaq *(option (1) on the original paper)*
 
 **Explanation:** The first revelation was the opening five verses of Surah al-'Alaq (Iqra'…).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ In the Quran, 'tartib an-nuzul' is
 
 **Explanation:** Tartib an-nuzul = the order in which the Quran came down step by step; tartib at-tilawah = the order for recitation shown by the Prophet (the present order).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2017 – Islam I, Q1
@@ -99,8 +92,6 @@ The first verse revealed to Prophet Muhammad ﷺ
 **Correct answer:** C – Iqra' *(option (3) on the original paper)*
 
 **Explanation:** The first revelation in the cave of Hira was the verses of Surah al-'Alaq beginning "Iqra'" (Read).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -123,8 +114,6 @@ The Companion who took the main part in compiling the Quran in the times of both
 
 **Explanation:** Zayd ibn Thabit (RA) was in charge of both compilations. Hudhayfah (RA) only advised the compilation in 'Uthman's (RA) time.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2018 – Islam I, Q8
@@ -145,8 +134,6 @@ Those called 'kuttab al-wahy' are
 **Correct answer:** D – those who wrote down and recorded the revelation under the Prophet's ﷺ supervision as soon as it was revealed *(option (4) on the original paper)*
 
 **Explanation:** Kuttab al-wahy = the scribes of revelation – Companions who wrote down and recorded the revelation under the Prophet's supervision as soon as it came (e.g. Zayd ibn Thabit (RA)).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -169,8 +156,6 @@ The longest surah in the Quran
 
 **Explanation:** Surah al-Baqarah, with 286 verses, is the longest surah of the Quran.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A8. 2018 – Islam I, Q36
@@ -191,8 +176,6 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 **Correct answer:** C – the order in which the Quran was revealed *(option (3) on the original paper)*
 
 **Explanation:** Tartib an-nuzul = the order in which the Quran was revealed (the same idea appeared in 2016 Q26).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -215,8 +198,6 @@ How many verses were recited to the Prophet when revelation first came to him?
 
 **Explanation:** The opening five verses of Surah al-'Alaq (Iqra'… ma lam ya'lam) were revealed first, in the cave of Hira.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A10. 2019 – Islam I, Q23
@@ -237,10 +218,6 @@ What is meant by tartib at-tilawah?
 **Correct answer:** C – the order in which the Quran is recited *(option (3) on the original paper)*
 
 **Explanation:** Tartib at-tilawah = the order for reciting the Quran shown by the Prophet ﷺ. The order of revelation – tartib an-nuzul.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** As today's mushaf is compiled in the order of recitation, (A) may also refer to the same order; (C) fits the word meaning directly.
 
 ---
 
@@ -263,8 +240,6 @@ How would you introduce the Companion Hudhayfah al-Yamani (RA)?
 
 **Explanation:** Hudhayfah (RA) noticed differences in recitation and reported them to 'Uthman (RA). (A) – Hafsah (RA); (C) – Zayd ibn Thabit (RA).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A12. 2020 – Islam I, Q8
@@ -285,8 +260,6 @@ When the Prophet ﷺ came home from the cave of Hira, shaken by the first revela
 **Correct answer:** B – Khadijah (RA) *(option (2) on the original paper)*
 
 **Explanation:** His wife Khadijah (RA) covered and comforted the Prophet when he came home, and took him to Waraqah ibn Nawfal.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -309,8 +282,6 @@ Which Companion was with the Prophet ﷺ when he recited the whole Quran to Jibr
 
 **Explanation:** When it was checked twice in the Ramadan before his death, Zayd ibn Thabit (RA) was present and listening.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A14. 2020 – Islam I, Q32
@@ -331,8 +302,6 @@ What is meant by 'tartib an-nuzul'?
 **Correct answer:** B – the order in which the Quran was revealed *(option (2) on the original paper)*
 
 **Explanation:** Tartib an-nuzul = the order in which the Quran was revealed (the same question appeared in 2016 and 2018).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -355,8 +324,6 @@ The number of years it took for the Quran to be revealed to Prophet Muhammad ﷺ
 
 **Explanation:** The Quran was revealed little by little over about 23 years (about 13 in Makkah and about 10 in Madinah).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A16. 2021 (2022) – Islam I, Q18
@@ -377,10 +344,6 @@ The period in which the laws of the Quran were explained in detail
 **Correct answer:** A – is the Madinan period. *(option (1) on the original paper)*
 
 **Explanation:** The Makkan verses are mostly about iman and 'aqidah; the laws were revealed in detail in the Madinan period, when the Islamic state was formed.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The difference in content between Makkan and Madinan verses is based on general knowledge of 'ulum al-Quran.
 
 ---
 
@@ -403,8 +366,6 @@ The name of the surah containing the five verses first sent down to the Prophet 
 
 **Explanation:** The first verses revealed in the cave of Hira were the first five verses of Surah al-'Alaq (96) ("Iqra'…").
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A18. 2022 (2023) – Islam I, Q3
@@ -425,8 +386,6 @@ The caliph called 'Jami' al-Quran'
 **Correct answer:** C – 'Uthman (RA) *(option (3) on the original paper)*
 
 **Explanation:** 'Uthman (RA) is called "Jami' al-Quran" because he prepared and sent out copies so that the whole ummah would recite in one way.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 20: Caliph 'Uthman (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_20.md)
 
@@ -451,8 +410,6 @@ After revelation first came to the Prophet ﷺ, to whom did Khadijah (RA) take h
 
 **Explanation:** Khadijah (RA) took the Prophet to her relative Waraqah ibn Nawfal, who knew the earlier Books.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A20. 2023 (2024) – Islam I, Q38
@@ -473,8 +430,6 @@ Those whom the Prophet ﷺ instructed to write down the Quran
 **Correct answer:** C – the kuttab al-wahy *(option (3) on the original paper)*
 
 **Explanation:** Kuttab al-wahy = the scribes of revelation – the Companions appointed by the Prophet ﷺ to write down the Quran.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -497,8 +452,6 @@ Who is the caliph called by the name 'Jami' al-Quran'?
 
 **Explanation:** 'Uthman (RA) – "Jami' al-Quran" (the same question appeared in 2022 (2023) Q3).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 20: Caliph 'Uthman (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_20.md)
 
 ---
@@ -517,16 +470,14 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vi) Who were the two Companions who prompted the caliphs Abu Bakr (RA) and 'Uthman (RA) to take up the compilation of the Quran?
 
-**Suggested answer:**
+**Answer:**
 
 1. Abu Bakr (RA) – 'Umar (RA)
 2. 'Uthman (RA) – Hudhayfah ibn al-Yaman (RA)
 
 **Answer explanation:** Because many huffaz were martyred in the Battle of Yamamah, 'Umar (RA) advised compiling the Quran; Hudhayfah (RA) noticed differences arising in recitation and told 'Uthman (RA).
 
-**Marking guidance (suggested only – not an official marking scheme):** The names of both Companions, each with the right caliph.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The names of both Companions, each with the right caliph.
 
 **Also relevant to:** [Grade 11, Chapter 18: Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_18.md); [Grade 11, Chapter 20: Caliph 'Uthman (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_20.md)
 
@@ -544,7 +495,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) The compilation of the Quran in the time of Abu Bakr (RA)
 
-**Suggested answer:**
+**Answer:**
 
 - Because many Companions who had memorised the Quran were martyred in the Battle of Yamamah, there was fear that the Quran would be lost.
 - 'Umar (RA) advised Caliph Abu Bakr (RA) to compile the Quran.
@@ -554,9 +505,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Mention the reason, who advised it, who was in charge, the method and the result.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 18: Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_18.md)
 
@@ -575,7 +524,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Write short notes on two of the following.
 (i) The revelation of the Quran
 
-**Suggested answer:**
+**Answer:**
 
 - When the Prophet ﷺ was 40, in the month of Ramadan, in the cave of Hira, the first revelation – the opening verses of Surah al-'Alaq (Iqra') – was brought by Jibril (AS).
 - The Quran began to be revealed on Laylat al-Qadr (97:1).
@@ -585,9 +534,7 @@ Write short notes on two of the following.
 
 **Answer explanation:** Include the first revelation, the period, the gradual stages and the recording.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 ---
 
@@ -603,7 +550,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Briefly explain five contributions of Caliph 'Uthman (RA) to preserving the Quran.
 
-**Suggested answer:**
+**Answer:**
 
 1. Taking immediate action when Hudhayfah al-Yamani (RA) pointed out the differences in recitation that had arisen during the Armenian and Azerbaijani campaigns.
 2. Setting up a committee led by Zayd ibn Thabit (RA), including members of the Quraysh.
@@ -613,11 +560,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** It is best to give the five contributions in the order of events.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (i) and (ii) of this question are under Grade 11, Chapter 14.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 20: Caliph 'Uthman (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_20.md)
 
@@ -635,15 +578,13 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (v) In the time of which caliph was the Quran first compiled into a book?
 
-**Suggested answer:**
+**Answer:**
 
 In the time of Caliph Abu Bakr (RA).
 
 **Answer explanation:** After many huffaz were martyred in the Battle of Yamamah, it was compiled on 'Umar's (RA) advice under the leadership of Zayd ibn Thabit (RA).
 
-**Marking guidance (suggested only – not an official marking scheme):** The name of the caliph.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The name of the caliph.
 
 **Also relevant to:** [Grade 11, Chapter 18: Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_18.md)
 
@@ -662,7 +603,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short notes on any two of the following.
 (i) The compilation of the Quran
 
-**Suggested answer:**
+**Answer:**
 
 - The Prophet's ﷺ time: as revelation came, he had it memorised and written down through the kuttab al-wahy (on leather, bones, palm stalks and stones); it was checked with Jibril (AS) every Ramadan, and twice in the last Ramadan (Zayd ibn Thabit (RA) was present).
 - The time of Abu Bakr (RA): because huffaz were martyred at Yamamah, 'Umar (RA) gave his advice → compiled under the leadership of Zayd ibn Thabit (RA) using written copies and two witnesses → the "mushaf"; kept by Hafsah (RA).
@@ -671,9 +612,7 @@ Write short notes on any two of the following.
 
 **Answer explanation:** Write the three stages in chronological order.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 **Also relevant to:** [Grade 11, Chapter 18: Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_18.md); [Grade 11, Chapter 20: Caliph 'Uthman (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_20.md)
 
@@ -691,17 +630,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) In about which year (CE), and where, were verses of the Quran first revealed?
 
-**Suggested answer:**
+**Answer:**
 
 In about 610 CE, in the cave of Hira in Makkah (Jabal an-Nur).
 
 **Answer explanation:** When the Prophet ﷺ was 40, in the month of Ramadan, the first five verses of Surah al-'Alaq were revealed.
 
-**Marking guidance (suggested only – not an official marking scheme):** Year + place.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Check the year "610 CE" against the textbook.
+**Marking guidance:*** Year + place.
 
 ---
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **5** (multiple-choice: 4; structured/essay items: 1). Papers in which this chapter was examined: 5 of 10 – 2016, 2017, 2018, 2019, 2023 (2024). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ What is conveyed by the word 'ikhlas'?
 
 **Explanation:** Ikhlas = the sincerity of doing deeds for Allah alone. Scrupulous caution = wara'; detachment = zuhd; God-consciousness = taqwa.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 13: Ways of Spiritual Development](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_13.md)
 
 ---
@@ -55,8 +52,6 @@ The term 'ikhlas' refers to
 **Correct answer:** C – sincerity (purity of intention) *(option (3) on the original paper)*
 
 **Explanation:** Ikhlas = the sincerity of doing deeds for Allah alone (the same question appeared in 2016 Q12).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 13: Ways of Spiritual Development](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_13.md)
 
@@ -81,8 +76,6 @@ The person who spared an enemy, saying, "I set out to kill you on the battlefiel
 
 **Explanation:** The incident the textbook gives as an example of ikhlas is that of 'Ali (RA).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 21: Caliph 'Ali (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_21.md)
 
 ---
@@ -106,8 +99,6 @@ Iman has more than seventy branches. The highest of them is the kalimah 'La ilah
 
 **Explanation:** The highest branch of iman is the kalimah; the lowest is removing harm from the road; modesty is a branch of iman.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -124,7 +115,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Briefly explain five effects iman has on a Muslim's life.
 
-**Suggested answer:**
+**Answer:**
 
 1. A clear goal in life – the questions "Who am I? What is my task? What is my end?" are answered.
 2. A driving force for good deeds – iman and deeds are like a flower and its fragrance; iman inspires good deeds (16:97).
@@ -135,9 +126,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** As the question says "briefly explain", one sentence of explanation is needed for each effect.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md)
 

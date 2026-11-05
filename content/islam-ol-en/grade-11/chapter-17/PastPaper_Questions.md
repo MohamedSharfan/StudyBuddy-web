@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **17** (multiple-choice: 11; structured/essay items: 6). Papers in which this chapter was examined: 9 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025). Related questions placed in other chapters: 0.
 
@@ -30,8 +29,6 @@ The discipline that deals with legal matters
 **Correct answer:** C – 'ilm al-fiqh *(option (3) on the original paper)*
 
 **Explanation:** 'Ilm al-fiqh – the science of Islamic law. 'Ilm al-fara'id – distribution of inheritance; 'ilm al-'aqidah – belief.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -63,8 +60,6 @@ Which answer correctly links, in order, the book names in Column II with the aut
 
 **Explanation:** Malik – al-Muwatta' (B); Ahmad – Musnad Ahmad (D); ash-Shafi'i – ar-Risalah (A); Abu Hanifah – al-Fiqh al-Akbar (C). So B, D, A, C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2017 – Islam I, Q6
@@ -85,8 +80,6 @@ The discipline connected with legal matters
 **Correct answer:** B – 'ilm al-fiqh *(option (2) on the original paper)*
 
 **Explanation:** The discipline concerned with law is 'ilm al-fiqh (the same question appeared in 2016 Q7).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -109,8 +102,6 @@ The title of Imam Malik (RH)
 
 **Explanation:** Imam Malik – Imam al-Madinah. Al-Imam al-A'zam – Abu Hanifah; 'Alim Quraysh – ash-Shafi'i; Sayf Allah – Khalid ibn al-Walid (RA).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2018 – Islam I, Q19
@@ -131,8 +122,6 @@ One of the famous imams who contributed to the development of Islamic law
 **Correct answer:** A – Imam ash-Shafi'i (RH) *(option (1) on the original paper)*
 
 **Explanation:** Imam ash-Shafi'i (RH) – one of the four madhhab imams; he compiled usul al-fiqh. Ibn Kathir – tafsir; Bukhari – hadith.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -161,8 +150,6 @@ The information given below in columns X and Y is related in some way. Choose th
 **Correct answer:** C – C D B A *(option (3) on the original paper)*
 
 **Explanation:** 'Ibadat – zakat (C); mu'amalat – partnership business (D); akhlaq – giving (B); hudud – cutting off the hand (A). So C D B A.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -193,8 +180,6 @@ Which option correctly arranges the titles to match the names of the imams?
 
 **Explanation:** Abu Hanifah – al-Imam al-A'zam (B); Malik – Imam al-Madinah (C); ash-Shafi'i – 'Alim Quraysh (A). So B C A.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A8. 2021 (2022) – Islam I, Q28
@@ -216,8 +201,6 @@ Which of the following books was written by Imam ash-Shafi'i (RH)?
 
 **Explanation:** Imam ash-Shafi'i – "al-Umm"; Abu Hanifah – "al-Fiqh al-Akbar"; Malik – "al-Muwatta'"; Ahmad – "Musnad Ahmad".
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2022 (2023) – Islam I, Q18
@@ -238,8 +221,6 @@ The scholar called Imam al-Madinah
 **Correct answer:** B – Imam Malik (RH) *(option (2) on the original paper)*
 
 **Explanation:** Imam Malik – Imam al-Madinah (the same idea appeared in 2020 Q34).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -271,8 +252,6 @@ Which option is correct when column "II" is arranged to match column "I"?
 
 **Explanation:** Abu Hanifah – al-Fiqh al-Akbar (B); Malik – al-Muwatta' (D); ash-Shafi'i – al-Umm (A); Ahmad – al-Musnad (C). So BDAC.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A11. 2024 (2025) – Islam I, Q20
@@ -294,8 +273,6 @@ In whose reign was the Shafi'i madhhab declared the official madhhab in Egypt?
 
 **Explanation:** In the time of Sultan Salah ad-Din the Shafi'i madhhab became the official madhhab in Egypt.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -312,15 +289,13 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Write the names of two imams who contributed to the science of fiqh.
 
-**Suggested answer:**
+**Answer:**
 
 Imam Abu Hanifah (RH), Imam ash-Shafi'i (RH) (also: Imam Malik, Imam Ahmad ibn Hanbal – any two of these)
 
 **Answer explanation:** The imams of the four madhhabs made a great contribution to the science of fiqh.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two imams.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two imams.
 
 ---
 
@@ -336,7 +311,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) State what fiqh is, and briefly introduce the four imams of the madhhabs.
 
-**Suggested answer:**
+**Answer:**
 
 Fiqh (الفقه) = understanding; the discipline covering the Islamic laws derived from the Quran, the Sunnah and ijtihad; the first of the Islamic sciences to arise.
 1. Imam Abu Hanifah (80–150 AH): Nu'man ibn Thabit; born in Kufa; "al-Imam al-A'zam"; his teacher Hammad; "al-Fiqh al-Akbar"; madrasat ar-ra'y.
@@ -346,9 +321,7 @@ Fiqh (الفقه) = understanding; the discipline covering the Islamic laws deri
 
 **Answer explanation:** For each imam mention some of: name, period, birthplace, book, distinction.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -364,15 +337,13 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (x) State the name of Imam Ahmad ibn Hanbal's (RH) book relating to Islamic rulings.
 
-**Suggested answer:**
+**Answer:**
 
 Musnad Ahmad (مسند أحمد)
 
 **Answer explanation:** The textbook gives "Musnad Ahmad" as Imam Ahmad's book.
 
-**Marking guidance (suggested only – not an official marking scheme):** The name of the book.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The name of the book.
 
 ---
 
@@ -388,15 +359,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) State the science that arose first among the Islamic sciences, and state which period was the golden age of that science.
 
-**Suggested answer:**
+**Answer:**
 
 The science of fiqh; its golden age – the period of the Tabi' at-Tabi'in (the period when the madhhabs arose).
 
 **Answer explanation:** It developed as a separate science in the period of the Tabi'in; the period of the Tabi' at-Tabi'in was its golden age.
 
-**Marking guidance (suggested only – not an official marking scheme):** The science + the golden age.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The science + the golden age.
 
 ---
 
@@ -413,7 +382,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short notes on any two of the following.
 (i) Imam ash-Shafi'i (RH)
 
-**Suggested answer:**
+**Answer:**
 
 - 150–204 AH; his name was Muhammad ibn Idris; born in Gaza, Palestine; of Qurayshi descent; title "'Alim Quraysh".
 - Educated in Makkah and Madinah; his teachers – Imam Malik and Imam Abu Yusuf (as in the textbook); government service in Yemen; mufti and teacher in Baghdad; later Egypt.
@@ -424,9 +393,7 @@ Write short notes on any two of the following.
 
 **Answer explanation:** Include his life history, education, books, approach and the spread of his madhhab.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 ---
 
@@ -442,7 +409,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vii) State the names of two of the main madhhabs and their founders.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. The Hanafi madhhab – Imam Abu Hanifah (RH)
@@ -452,9 +419,7 @@ Any two of the following:
 
 **Answer explanation:** The name of the madhhab and its founder must be given as a pair.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two pairs.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two pairs.
 
 ---
 

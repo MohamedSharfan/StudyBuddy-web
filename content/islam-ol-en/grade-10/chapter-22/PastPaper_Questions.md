@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **8** (multiple-choice: 1; structured/essay items: 7). Papers in which this chapter was examined: 6 of 10 – 2017, 2019, 2021 (2022), 2022 (2023), 2023 (2024), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ How did the Prophet ﷺ say a person who keeps on begging will come in the Herea
 
 **Explanation:** "Whoever keeps begging will come on the Day of Judgement with no flesh on his face" (Bukhari, Muslim).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -49,7 +46,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (x) Write two guidelines for making earning a living an act of worship.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. A pure intention (niyyah)
@@ -60,9 +57,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions five guidelines.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two.
 
 **Also relevant to:** [Grade 10, Chapter 6: Ibadah (Worship)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_06.md); [Grade 11, Chapter 25: Islamic Teachings on Earning a Living](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_25.md)
 
@@ -80,7 +75,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) The importance of work
 
-**Suggested answer:**
+**Answer:**
 
 - Islam values work highly; it condemns living on the work of others and begging ("whoever keeps begging will come on the Day of Judgement with no flesh on his face" – Bukhari, Muslim).
 - "Allah loves the believer who works at a trade" (Tabarani).
@@ -91,9 +86,7 @@ Three reasons:
 
 **Answer explanation:** Explain the reasons with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -109,7 +102,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Explain five limits of the Shari'ah to be observed when earning a living.
 
-**Suggested answer:**
+**Answer:**
 
 1. It must not involve haram goods – e.g. alcohol, pork, stolen goods.
 2. It must not be through forbidden methods – e.g. robbery, interest, bribery.
@@ -119,11 +112,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** As the question says "explain", give an example for each limit.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (i) and (ii) of this question are under Grade 11, Chapter 26.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 25: Islamic Teachings on Earning a Living](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_25.md)
 
@@ -142,7 +131,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 (ii) Briefly explain three things a Muslim must avoid when engaged in earning a living.
 (iii) Clarify the importance of work in Islam.
 
-**Suggested answer:**
+**Answer:**
 
 (ii) Any three of the following:
 1. Work involving haram goods (alcohol, pork, stolen goods).
@@ -160,9 +149,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (ii) give an example for each; in (iii) clarify with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 24: Work – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_24.md); [Grade 11, Chapter 25: Islamic Teachings on Earning a Living](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_25.md)
 
@@ -180,7 +167,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Give three of the Islamic guidelines to be followed if earning a living is to become an act of 'ibadah.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. A pure intention
@@ -191,9 +178,7 @@ Any three of the following:
 
 **Answer explanation:** These match the conditions for a daily action to become 'ibadah (Grade 10, Ch. 6).
 
-**Marking guidance (suggested only – not an official marking scheme):** Three guidelines.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Three guidelines.
 
 **Also relevant to:** [Grade 10, Chapter 6: Ibadah (Worship)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_06.md)
 
@@ -211,7 +196,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (x) Give two of the reasons Imam al-Mawardi gives for some people being careless about work.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Laziness
@@ -220,9 +205,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions Imam al-Mawardi's three reasons.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two reasons.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two reasons.
 
 ---
 
@@ -238,7 +221,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Give three things a Muslim must avoid in the effort to earn a living.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. Haram goods (alcohol, pork, stolen goods)
@@ -249,9 +232,7 @@ Any three of the following:
 
 **Answer explanation:** The same question appeared in 2021 (2022) Islam II Q4 (ii).
 
-**Marking guidance (suggested only – not an official marking scheme):** Three things.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Three things.
 
 ---
 

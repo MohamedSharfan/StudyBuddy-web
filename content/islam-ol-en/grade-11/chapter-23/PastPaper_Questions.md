@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **7** (multiple-choice: 5; structured/essay items: 2). Papers in which this chapter was examined: 7 of 10 – 2016, 2018, 2019, 2020, 2022 (2023), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ The person exiled from Egypt to Sri Lanka
 
 **Explanation:** The revolutionary exiled from Egypt was 'Urabi (Orabi) Pasha; Siddi Lebbe welcomed him despite the government's objection.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2018 – Islam I, Q21
@@ -53,8 +50,6 @@ The scholar of our country who said, "I wish that Arabic should be the home lang
 **Correct answer:** B – Scholar Siddi Lebbe *(option (2) on the original paper)*
 
 **Explanation:** It was the scholar Siddi Lebbe who wished Arabic to be the home language of every Muslim.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ Who first set up schools for the educational development of Sri Lankan Muslim wo
 
 **Explanation:** Siddi Lebbe set up separate schools for Muslim girls in places such as Kandy and Kurunegala.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2022 (2023) – Islam I, Q35
@@ -99,8 +92,6 @@ The scholar who started the newspaper 'Muslim Nesan' and wrote stressing the nee
 **Correct answer:** A – Siddi Lebbe *(option (1) on the original paper)*
 
 **Explanation:** M. C. Siddi Lebbe started the newspaper "Muslim Nesan".
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -123,8 +114,6 @@ Who was promoted to advocate of the Supreme Court in 1864 CE and later served as
 
 **Explanation:** M. C. Siddi Lebbe was promoted to advocate of the Supreme Court in 1864.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -142,7 +131,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Write short notes on any two of the following.
 (i) Scholar M. C. Siddi Lebbe
 
-**Suggested answer:**
+**Answer:**
 
 - Born in Kandy on 11 June 1838; his father Muhammad Lebbe was Sri Lanka's first Muslim lawyer (1833).
 - Mastery of Tamil, English and Arabic; 1862 district lawyer, 1864 Supreme Court advocate.
@@ -154,9 +143,7 @@ Write short notes on any two of the following.
 
 **Answer explanation:** Write centred on his being "the father of the revival of the Sri Lankan Muslims".
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 ---
 
@@ -172,7 +159,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Briefly describe five social reform works carried out by the scholar Siddi Lebbe.
 
-**Suggested answer:**
+**Answer:**
 
 Any five of the following:
 1. Journalism – "Muslim Nesan" in 1882, "Gnanadeepam" in 1892; "the first journalist of the Sri Lankan Muslims".
@@ -186,9 +173,7 @@ Any five of the following:
 
 **Answer explanation:** Describe each work in one sentence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

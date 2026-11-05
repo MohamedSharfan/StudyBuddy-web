@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **9** (multiple-choice: 4; structured/essay items: 5). Papers in which this chapter was examined: 4 of 10 – 2017, 2021 (2022), 2022 (2023), 2025 (2026). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ The Companion who carried the Prophet's ﷺ letter to the king of Egypt
 
 **Explanation:** To the Muqawqis, king of Egypt – Hatib ibn Abi Balta'ah (RA); Kisra – 'Abdullah ibn Hudhafah; Heraclius – Dihyah al-Kalbi; the Najashi – 'Amr ibn Umayyah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2022 (2023) – Islam I, Q13
@@ -53,8 +50,6 @@ Who is NOT included among the poets of the Prophet's ﷺ time?
 **Correct answer:** B – Hudhayfah al-Yamani *(option (2) on the original paper)*
 
 **Explanation:** The poets the Prophet ﷺ told to answer in verse: Hassan, Ka'b and Ibn Rawahah. Hudhayfah al-Yamani is not known as a poet.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ The group of words connected with Prophet Sulayman (AS)
 
 **Explanation:** Sulayman (AS) used the hoopoe (hudhud) to learn news of distant lands; through it came the news about Bilqis, the queen of Saba'.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2025 (2026) – Islam I, Q26
@@ -100,10 +93,6 @@ Who was NOT a poet who praised the virtues of Islam and the Muslims?
 
 **Explanation:** Hassan, Ibn Rawahah and Ka'b – poets of the Prophet's ﷺ time. Imru' al-Qays was a poet of the pre-Islamic Jahiliyyah period.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Information about Imru' al-Qays is not in the current textbook notes; the answer is based on general historical knowledge.
-
 **Also relevant to:** [Grade 10, Chapter 18: Arabia before Islam](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_18.md)
 
 ---
@@ -122,7 +111,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Explain five qualities the communication media should have.
 
-**Suggested answer:**
+**Answer:**
 
 1. Based on evidence – publishing information only after verifying it (49:6; "it is a lie to pass on everything one hears" – Muslim).
 2. Trustworthiness – truth and honesty (amanah); avoiding guesswork, fantasy, lies and mixing truth with falsehood.
@@ -132,9 +121,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** As the question says "explain", one sentence of explanation is needed for each quality.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -152,7 +139,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 (ii) State three of the media methods used by the Prophet ﷺ in the early period.
 (iii) Briefly describe five qualities of communication media according to Islam.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any two of: Hassan ibn Thabit (RA), Ka'b ibn Malik (RA), 'Abdullah ibn Rawahah (RA).
 
@@ -173,9 +160,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (iii) the Banu al-Mustaliq incident (49:6) may be given as an example.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -191,7 +176,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State five of the qualities communication media should follow, and explain them briefly.
 
-**Suggested answer:**
+**Answer:**
 
 1. Based on evidence – investigating news thoroughly (49:6); passing on everything one hears is lying (Muslim).
 2. Trustworthiness – truth and honesty (amanah); avoiding guesswork, fantasy and suppression of facts (6:143).
@@ -201,9 +186,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The same question was also asked in 2021 (2022) Islam II Q5 (iii).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -220,7 +203,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) State two markets that were famous in the time of Jahiliyyah.
 (ii) State three media methods the Prophet ﷺ used to put forward his message.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any two of: 'Ukaz, Majannah, Dhul-Majaz.
 
@@ -235,11 +218,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The same question appeared in 2021 (2022) Islam II Q5 (ii).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 11, Chapter 23.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 18: Arabia before Islam](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_18.md)
 
@@ -257,7 +236,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Media ethics from the Islamic point of view
 
-**Suggested answer:**
+**Answer:**
 
 - By the rule that all things are permissible in principle, modern media may be used to spread good ideas and protect moral values.
 - The qualities the media should follow:
@@ -270,9 +249,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The qualities of the media were also asked in 2021 (2022) and 2022 (2023).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

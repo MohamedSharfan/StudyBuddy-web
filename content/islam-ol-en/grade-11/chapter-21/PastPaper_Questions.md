@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **10** (multiple-choice: 6; structured/essay items: 4). Papers in which this chapter was examined: 6 of 10 – 2016, 2019, 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,10 +30,6 @@ Those who took over Islamic rule after the Rightly Guided Caliphate (al-khilafah
 
 **Explanation:** When the Rightly Guided Caliphate ended with 'Ali (RA), the Umayyads took over; after them the Abbasids.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Umayyad rule is not covered in detail in the current textbook; placed under the last chapter on the Rightly Guided Caliphs.
-
 ---
 
 ### A2. 2022 (2023) – Islam I, Q15
@@ -56,8 +51,6 @@ Which of the following is the title of 'Ali (RA)?
 
 **Explanation:** 'Ali (RA) – "Asadullah" (the Lion of Allah). Sayf Allah – Khalid (RA); Khalil Allah – Ibrahim (AS); Kalim Allah – Musa (AS).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2022 (2023) – Islam I, Q16
@@ -78,8 +71,6 @@ The person who added vowel marks to the letters of the Quran during the rule of 
 **Correct answer:** A – Abu al-Aswad ad-Du'ali *(option (1) on the original paper)*
 
 **Explanation:** Vowel marks (harakat) were added to the letters of the Quran through the grammarian Abu al-Aswad ad-Du'ali.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 15: The Revelation and Compilation of the Quran](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_15.md)
 
@@ -113,8 +104,6 @@ Which option is correct when Column II is arranged, in order, to match Column I?
 
 **Explanation:** Abu Bakr – defeating those who refused zakat (C); 'Umar – the Hijri calendar (D); 'Uthman – the navy (A); 'Ali – vowel marks through Abu al-Aswad (B). So C, D, A, B.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 18: Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_18.md); [Grade 11, Chapter 19: Caliph 'Umar (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_19.md); [Grade 11, Chapter 20: Caliph 'Uthman (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_20.md)
 
 ---
@@ -138,8 +127,6 @@ The one who killed 'Ali (RA)
 
 **Explanation:** 'Ali (RA) was martyred in Ramadan 40 AH by Ibn Muljam, a Khariji. Abu Lu'lu'ah – the killer of 'Umar (RA).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2025 (2026) – Islam I, Q21
@@ -161,8 +148,6 @@ Who was the famous Arabic grammarian who added vowel marks to the letters of the
 
 **Explanation:** In 'Ali's (RA) time Abu al-Aswad ad-Du'ali added the vowel marks (the same idea appeared in 2022 (2023) Q16).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 15: The Revelation and Compilation of the Quran](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_15.md)
 
 ---
@@ -181,7 +166,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) Write two personal qualities found in 'Ali (RA).
 
-**Suggested answer:**
+**Answer:**
 
 1. Bravery / courage – praised as "Asadullah" (the Lion of Allah); he slept in the Prophet's bed on the night of the hijrah.
 2. Deep knowledge and justice – judicial service in 'Umar's (RA) time; encouraged the study of grammar and fiqh.
@@ -189,9 +174,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** It is best to give one piece of evidence for each quality.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two suitable personal qualities.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two suitable personal qualities.
 
 ---
 
@@ -207,7 +190,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (viii) State two tasks carried out by Caliph 'Ali (RA).
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Developing the city of Kufa, his seat of government
@@ -218,9 +201,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions these as the services of 'Ali (RA).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two tasks.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two tasks.
 
 ---
 
@@ -236,7 +217,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) The personal qualities of Caliph 'Ali (RA)
 
-**Suggested answer:**
+**Answer:**
 
 - From childhood, bravery, wisdom and strength of personality; because he lived with the Prophet, he took part in Islamic and social work from the beginning.
 - Courage – on the night of the hijrah, while the Quraysh surrounded the house, he slept in the Prophet's bed in his place.
@@ -245,9 +226,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Give one incident as an example for each quality.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -263,7 +242,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) State and briefly explain five of the urgent measures 'Ali (RA) took to protect the stability of the caliphate when he was appointed caliph.
 
-**Suggested answer:**
+**Answer:**
 
 - After 'Uthman (RA) was killed, while Madinah was under the armed control of the rebels, protecting the caliphate and bringing things back to normal was an urgent need.
 - Taking office only with the agreement of the leading figures who had the community's recognition – protecting the legitimacy of the caliphate.
@@ -274,11 +253,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** As "urgent measures" are asked for, write them in connection with the background to his taking office.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** The textbook gives the removal of governors and the three battles, and in the "services" section the development of Kufa, the reorganisation of the police, etc.; check the list of "five urgent measures" against the textbook. The moving of the capital to Kufa is based on general historical knowledge.
+**Marking guidance:*** No official marking scheme.
 
 ---
 

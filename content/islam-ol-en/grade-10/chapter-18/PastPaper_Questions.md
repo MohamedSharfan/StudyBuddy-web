@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **6** (multiple-choice: 4; structured/essay items: 2). Papers in which this chapter was examined: 5 of 10 – 2016, 2018, 2019, 2021 (2022), 2023 (2024). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ The eastern border of Arabia in the time of the Prophet ﷺ
 
 **Explanation:** The borders of Arabia: north – the Syrian desert; south – the Arabian Sea; west – the Red Sea; east – the Persian Gulf.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2019 – Islam I, Q3
@@ -53,8 +50,6 @@ What is the western border of the Arabian Peninsula?
 **Correct answer:** B – the Red Sea *(option (2) on the original paper)*
 
 **Explanation:** West – the Red Sea; east – the Persian Gulf; north – the Syrian desert; south – the Arabian Sea.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -85,8 +80,6 @@ Which group in the table above contains only terms connected with pre-Islamic Ar
 
 **Explanation:** Jahiliyyah, qabilah (tribe), 'asabiyyah (tribal fanaticism), poetry – pre-Islamic Arabia. Kuttab al-wahy, Mushaf 'Uthman, Bay'at al-'Aqabah, sirah, tabi'i – the Islamic period.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2023 (2024) – Islam I, Q36
@@ -108,8 +101,6 @@ The phrase 'Sab' Mu'allaqat' refers to
 
 **Explanation:** As-Sab' al-Mu'allaqat = the collection of seven poems hung on the Ka'bah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -126,15 +117,13 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (vii) State two good qualities the people of the Jahiliyyah period maintained.
 
-**Suggested answer:**
+**Answer:**
 
 Hospitality, bravery (also: eloquence in language, love of freedom, keeping one's word, simplicity – any two of these)
 
 **Answer explanation:** The textbook mentions six good qualities; these later helped the growth of Islam.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two good qualities.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two good qualities.
 
 ---
 
@@ -150,15 +139,13 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Name two markets found in the time of Jahiliyyah.
 
-**Suggested answer:**
+**Answer:**
 
 'Ukaz, Dhul-Majaz (also: Majannah)
 
 **Answer explanation:** Poetry competitions were also held in these markets, which met in the sacred months; the Prophet ﷺ also used them for da'wah.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two markets.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two markets.
 
 **Also relevant to:** [Grade 11, Chapter 31: Islam and the Media](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_31.md)
 

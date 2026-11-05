@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **6** (multiple-choice: 1; structured/essay items: 5). Papers in which this chapter was examined: 5 of 10 – 2017, 2019, 2022 (2023), 2023 (2024), 2025 (2026). Related questions placed in other chapters: 10.
 
@@ -31,8 +30,6 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Explanation:** This is a hadith of the Prophet ﷺ (Ahmad, Bayhaqi).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -50,7 +47,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (i) What is the importance of morality (akhlaq) in Islam?
 (ii) State three moral qualities mentioned in Surah Luqman.
 
-**Suggested answer:**
+**Answer:**
 
 (i) - It is good character that defines a mature, accepted life.
 - Morality is the reason man stands apart from other creatures and reaches a high rank.
@@ -67,11 +64,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** As (ii) asks for moral qualities, points 5 and 6 are the most suitable.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under the chapter on Abu Bakr (RA) (Grade 11, Chapter 18).
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -87,7 +80,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) List and explain five good qualities mentioned in Surah al-Furqan.
 
-**Suggested answer:**
+**Answer:**
 
 Any five of the following (25:63–73 – the qualities of 'Ibad ar-Rahman):
 1. They walk on the earth humbly – modestly, without arrogance.
@@ -101,9 +94,7 @@ Any five of the following (25:63–73 – the qualities of 'Ibad ar-Rahman):
 
 **Answer explanation:** As the question says "list and explain", a brief explanation is needed for each quality.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -119,7 +110,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (v) Give a hadith that stresses good character (akhlaq).
 
-**Suggested answer:**
+**Answer:**
 
 Any one of the following (meaning):
 1. "I have been sent only to perfect good character."
@@ -127,11 +118,7 @@ Any one of the following (meaning):
 
 **Answer explanation:** Stating the meaning of the hadith correctly is enough.
 
-**Marking guidance (suggested only – not an official marking scheme):** One hadith.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The hadiths are given only in the form of their meaning; check the narrator and collection details in the textbook.
+**Marking guidance:*** One hadith.
 
 **Also relevant to:** [Grade 11, Chapter 12: Developing Islamic Morals](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_12.md)
 
@@ -149,7 +136,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) State three of the good qualities mentioned in Surah Luqman.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following (31:13–19):
 1. Not associating partners with Allah
@@ -163,9 +150,7 @@ Any three of the following (31:13–19):
 
 **Answer explanation:** The advice Luqman gave to his son.
 
-**Marking guidance (suggested only – not an official marking scheme):** Three qualities.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Three qualities.
 
 ---
 
@@ -181,15 +166,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) State two Arabic words used to refer to good character.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: khuluq hasan (خُلُق حَسَن), akhlaq hasanah (أخلاق حسنة), makarim al-akhlaq (مكارم الأخلاق), adab / adab (plural) (أدب / آداب).
 
 **Answer explanation:** The textbook lists these words.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two words.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two words.
 
 ---
 

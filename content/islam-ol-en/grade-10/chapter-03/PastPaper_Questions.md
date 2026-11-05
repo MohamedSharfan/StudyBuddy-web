@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **8** (multiple-choice: 6; structured/essay items: 2). Papers in which this chapter was examined: 7 of 10 – 2017, 2019, 2020, 2021 (2022), 2022 (2023), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ The term showing that the prophets were protected from sins
 
 **Explanation:** 'Ismah = the prophets being protected from sins and errors. Mu'jizat = miracles; hidayah = guidance.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 2: Ahl as-Sunnah wal-Jama'ah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_02.md)
 
 ---
@@ -56,8 +53,6 @@ The number of suhuf (scrolls) given to Idris (AS)
 
 **Explanation:** Suhuf: Adam 10, Shith 50, Idris 30, Ibrahim 10, Musa 10 – 110 in all.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2019 – Islam I, Q10
@@ -78,8 +73,6 @@ How many suhuf (scrolls) were revealed to Idris (AS) and Ibrahim (AS) respective
 **Correct answer:** C – 30, 10 *(option (3) on the original paper)*
 
 **Explanation:** Idris (AS) – 30; Ibrahim (AS) – 10 suhuf.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -102,8 +95,6 @@ The meaning of 'hidayah'
 
 **Explanation:** Hidayah = right guidance (the straight path). Allah gives hidayah to people through risalah (messengership).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2024 (2025) – Islam I, Q7
@@ -124,10 +115,6 @@ The number of suhuf given to various prophets before the Books were revealed is 
 **Correct answer:** A – Ibrahim (AS), Musa (AS) *(option (1) on the original paper)*
 
 **Explanation:** "In the scrolls of Ibrahim and Musa" (87:19, meaning).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The details of the suhuf are not in the current textbook notes; the answer is based on the Quran (87:19).
 
 ---
 
@@ -150,8 +137,6 @@ What is the number of suhuf given to Prophet Musa (AS)?
 
 **Explanation:** Suhuf 110: Adam 10, Shith 50, Idris 30, Ibrahim 10, Musa 10 (textbook). Musa (AS) was given both suhuf (10) and the Tawrah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -168,15 +153,13 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) State the names of the two prophets to whom the Books Injil and Zabur were revealed.
 
-**Suggested answer:**
+**Answer:**
 
 Injil – 'Isa (AS); Zabur – Dawud (AS).
 
 **Answer explanation:** Tawrah – Musa (AS); Furqan (the Quran) – Muhammad ﷺ.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both, as correct pairs.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both, as correct pairs.
 
 ---
 
@@ -193,15 +176,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 Write short answers.
 (i) Who is the prophet to whom the Book Zabur was revealed?
 
-**Suggested answer:**
+**Answer:**
 
 Dawud (AS)
 
 **Answer explanation:** The same idea appeared in 2020 Islam II Q1 (ii).
 
-**Marking guidance (suggested only – not an official marking scheme):** The name.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The name.
 
 ---
 

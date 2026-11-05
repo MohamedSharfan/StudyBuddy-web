@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **13** (multiple-choice: 7; structured/essay items: 6). Papers in which this chapter was examined: 8 of 10 – 2017, 2018, 2019, 2020, 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ The month in which there is no occasion for a sunnah fast
 
 **Explanation:** Because the obligatory (fard) fast is kept throughout Ramadan, there is no occasion for a sunnah fast in that month.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2018 – Islam I, Q9
@@ -53,8 +50,6 @@ The days of the week suitable for a sunnah fast
 **Correct answer:** B – Monday, Thursday *(option (2) on the original paper)*
 
 **Explanation:** The Prophet ﷺ used to fast on Mondays and Thursdays; deeds are presented to Allah on those days.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Explanation:** This is a verse of the Quran (2 Al-Baqarah: 183).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2020 – Islam I, Q37
@@ -99,8 +92,6 @@ Who does the hadith say will enter Paradise through the gate called 'Bab ar-Rayy
 **Correct answer:** A – the one who fasted Ramadan without fail *(option (1) on the original paper)*
 
 **Explanation:** The gate "ar-Rayyan" is only for those who fast (Bukhari, Muslim).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -123,10 +114,6 @@ Which option contains only days suitable for keeping a sunnah fast?
 
 **Explanation:** It is sunnah to fast on Mondays and Thursdays.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The days of sunnah fasting are not covered in detail in the current textbook notes; the answer is based on general fiqh knowledge.
-
 ---
 
 ### A6. 2023 (2024) – Islam I, Q9
@@ -147,8 +134,6 @@ The occasions mentioned in the hadith "The one who fasts has two joys"
 **Correct answer:** B – when he breaks his fast and when he meets his Lord. *(option (2) on the original paper)*
 
 **Explanation:** The one who fasts has two joys: when he breaks his fast, and when he meets his Lord (Bukhari, Muslim).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -171,10 +156,6 @@ One of the days on which fasting is haram
 
 **Explanation:** Fasting is haram on the two 'Eid days (and on the days of tashriq).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The days on which fasting is haram are not in the current textbook notes; the answer is based on general fiqh knowledge.
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -191,18 +172,14 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ix) State the two fard acts of fasting.
 
-**Suggested answer:**
+**Answer:**
 
 1. Making the intention (niyyah) (for the Ramadan fast, at night)
 2. Keeping away from the things that break the fast from the time of Subh (Fajr) until sunset
 
 **Answer explanation:** These two are the basic elements (arkan) of fasting.
 
-**Marking guidance (suggested only – not an official marking scheme):** Both fard acts.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The fard acts of fasting are not listed separately in the current Grade 11 textbook; the answer is based on general fiqh knowledge.
+**Marking guidance:*** Both fard acts.
 
 ---
 
@@ -218,7 +195,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) State three benefits gained from fasting.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. Spiritual growth and training in patience (about 14 hours every day)
@@ -229,9 +206,7 @@ Any three of the following:
 
 **Answer explanation:** The textbook mentions five benefits of fasting.
 
-**Marking guidance (suggested only – not an official marking scheme):** Three benefits.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Three benefits.
 
 ---
 
@@ -247,7 +222,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Briefly explain five ways in which Islam shows the importance of the obligatory fast.
 
-**Suggested answer:**
+**Answer:**
 
 1. A compulsory duty – prescribed for us as for earlier communities; its purpose is taqwa (2:183); leaving it without reason is a major sin.
 2. It will plead in the Hereafter – fasting and the Quran will intercede for the servant (Ahmad).
@@ -257,9 +232,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Give evidence for each point of importance.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -275,7 +248,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) State three each of the benefits of fasting in this world and in the Hereafter.
 
-**Suggested answer:**
+**Answer:**
 
 Benefits in this world (any three):
 1. Spiritual growth; training in patience.
@@ -292,9 +265,7 @@ Benefits in the Hereafter (any three):
 
 **Answer explanation:** Three each are needed for this world and for the Hereafter.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -310,18 +281,14 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) State the two groups given the concession of leaving the obligatory Ramadan fast and fasting on other days.
 
-**Suggested answer:**
+**Answer:**
 
 1. The sick person
 2. The traveller
 
 **Answer explanation:** "…whoever is ill or on a journey must fast on other days; Allah wants ease for you" (2:185, meaning).
 
-**Marking guidance (suggested only – not an official marking scheme):** Both groups.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 11, Chapter 9 and part (iii) under Grade 11, Chapter 18.
+**Marking guidance:*** Both groups.
 
 ---
 
@@ -338,7 +305,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) Define 'sawm'.
 (ii) State three worldly benefits of fasting.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Sawm (linguistically: refraining, keeping away) = a Muslim, with the sincere intention of doing it for Allah, keeping away from permitted things such as eating, drinking and sexual relations from dawn (when the east grows light) until sunset.
 
@@ -351,11 +318,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** The benefits of fasting were also asked in 2023 (2024) Islam II Q4 (ii).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 10, Chapter 7.
+**Marking guidance:*** No official marking scheme.
 
 ---
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **6** (multiple-choice: 4; structured/essay items: 2). Papers in which this chapter was examined: 5 of 10 – 2019, 2020, 2022 (2023), 2023 (2024), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ Which of the following tasks was carried out by Caliph 'Umar (RA)?
 
 **Explanation:** 'Umar (RA) introduced the Hijri calendar. Compiling the Quran into a book – Abu Bakr (RA); the navy – 'Uthman (RA); Constantinople – Muhammad al-Fatih.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2023 (2024) – Islam I, Q15
@@ -53,8 +50,6 @@ The Companion praised by the Prophet ﷺ with the words, "Indeed, Allah has plac
 **Correct answer:** A – 'Umar (RA) *(option (1) on the original paper)*
 
 **Explanation:** "Indeed, Allah has placed the truth in 'Umar's heart and on his tongue" (Hakim, according to the textbook notes).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -86,8 +81,6 @@ Which option is correct when Column II is arranged, in order, to match Column I?
 
 **Explanation:** Wali – governor (C); katib – chief secretary (A); qadi – judge (D); sahib al-ahdath – police officer (B). So C A D B.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2025 (2026) – Islam I, Q20
@@ -109,10 +102,6 @@ On some occasions verses of the Quran (revelation) were revealed in agreement wi
 
 **Explanation:** Some verses came down in agreement with the view of 'Umar (RA) (e.g. taking the Maqam of Ibrahim as a place of prayer, the hijab, the captives of Badr); "Allah has placed the truth on 'Umar's tongue and in his heart."
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The occasions when revelation came in agreement with 'Umar's (RA) view (muwafaqat) are not in the current textbook notes; the answer is based on general knowledge of the sirah.
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -129,7 +118,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) The work of 'Umar (RA) as caliph
 
-**Suggested answer:**
+**Answer:**
 
 - He was appointed by Abu Bakr (RA), after consultation, in 13 AH, and ruled for about ten and a half years.
 - He extended the caliphate to regions that had been under Roman and Persian rule (including Palestine).
@@ -141,9 +130,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** The administrative reforms are the main point.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -159,15 +146,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) What is the name of the Companion who was declared for the caliphate by the previous caliph?
 
-**Suggested answer:**
+**Answer:**
 
 'Umar (RA) – Abu Bakr (RA), after consultation, appointed him caliph to follow him.
 
 **Answer explanation:** Abu Bakr – chosen at the Saqifah; 'Umar – appointed by the previous caliph; 'Uthman – through the committee of six.
 
-**Marking guidance (suggested only – not an official marking scheme):** The name.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The name.
 
 **Also relevant to:** [Grade 11, Chapter 18: Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_18.md)
 

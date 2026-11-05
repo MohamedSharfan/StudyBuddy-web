@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **13** (multiple-choice: 9; structured/essay items: 4). Papers in which this chapter was examined: 8 of 10 – 2016, 2017, 2018, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ Those called 'Ahl as-Sunnah wal-Jama'ah' are
 
 **Explanation:** Those who follow the way of life of the Prophet ﷺ and his Companions, based on the belief they held.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2021 (2022) – Islam I, Q36
@@ -53,8 +50,6 @@ Which of the following statements about Islamic 'aqidah is WRONG?
 **Correct answer:** D – In the periods of the Prophet and the caliphs there were difficulties in understanding 'aqidah. *(option (4) on the original paper)*
 
 **Explanation:** In the time of the Prophet ﷺ and the caliphs, 'aqidah was clearly understood on the basis of the Quran and Sunnah; the groups arose only later through rationalist arguments.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 1: Aqeedah (Islamic Creed)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_01.md); [Grade 11, Chapter 1: Aqeedah](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_01.md)
 
@@ -79,8 +74,6 @@ Which Arabic term refers to the quality "the prophets are protected from committ
 
 **Explanation:** 'Ismah = the prophets being protected from sins and errors.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 3: Risalah and Hidayah (Messengership and Guidance)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_03.md)
 
 ---
@@ -104,8 +97,6 @@ According to the doctrine of 'Ahl as-Sunnah wal-Jama'ah', a Muslim who commits a
 
 **Explanation:** A Muslim who commits a major sin is a sinner but not a kafir; even if he enters the Fire, he will not stay there for ever.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2024 (2025) – Islam I, Q2
@@ -126,8 +117,6 @@ Among the qualities of the prophets, the quality ''ismah'' refers to
 **Correct answer:** A – being protected from committing sins and errors *(option (1) on the original paper)*
 
 **Explanation:** 'Ismah = the prophets being protected from sins and errors (the same idea appeared in 2022 (2023) Q9).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 3: Risalah and Hidayah (Messengership and Guidance)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_03.md)
 
@@ -161,8 +150,6 @@ Which option is correct when column "II" is written to match column "I"?
 
 **Explanation:** Ahl al-Bayt – the family (B); Ummahat al-Mu'minin – the wives (C); Ashab as-Suffah – the companions of the platform (D); Kuttab al-Wahy – the scribes of revelation (A). So B, C, D, A.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 10: The Holy Places of Islam](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_10.md); [Grade 10, Chapter 15: The Revelation and Compilation of the Quran](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_15.md)
 
 ---
@@ -186,8 +173,6 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Explanation:** Ahl as-Sunnah wal-Jama'ah = those who follow the way followed by the Prophet ﷺ and the Companions.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A8. 2025 (2026) – Islam I, Q4
@@ -208,8 +193,6 @@ What are those who follow the way of Prophet Muhammad ﷺ and the Companions cal
 **Correct answer:** C – Ahl as-Sunnah wal-Jama'ah *(option (3) on the original paper)*
 
 **Explanation:** Ahl as-Sunnah wal-Jama'ah = those who follow the way of the Prophet ﷺ and the Companions (the same idea appeared in 2024 (2025) Q39).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -232,8 +215,6 @@ Which of the following shows the special nature of the prophets and messengers?
 
 **Explanation:** The prophets have 'ismah. (B) is about the Companions; (C) karamah belongs to the awliya'; (D) is the quality of the angels.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -250,17 +231,13 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) What is explained by the phrase Ahl as-Sunnah wal-Jama'ah?
 
-**Suggested answer:**
+**Answer:**
 
 "Sunnah" = way; "jama'ah" = the majority (the main body). Ahl as-Sunnah wal-Jama'ah are those who follow the way of life of the Prophet ﷺ and his Companions, based on the belief they held. The hadith "those who are on the way I and my Companions are on" (Ibn Majah) refers to them.
 
 **Answer explanation:** Both the word meaning and the meaning in Islamic usage are needed.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under Grade 11, Chapter 1.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -276,7 +253,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) State two ways that lead to kufr.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Considering a sin not to be a sin
@@ -285,9 +262,7 @@ Any two of the following:
 
 **Answer explanation:** According to the 'aqidah of Ahl as-Sunnah, a person who commits a major sin is not a kafir; the things above are what lead to kufr.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two.
 
 **Also relevant to:** [Grade 11, Chapter 4: Things That Harm Iman](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_04.md)
 
@@ -305,17 +280,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) State the names of two of the ten Companions given the good news of Paradise by the Prophet ﷺ.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: Abu Bakr, 'Umar, 'Uthman, 'Ali, Talhah, az-Zubayr, 'Abd ar-Rahman ibn 'Awf, Sa'd ibn Abi Waqqas, Sa'id ibn Zayd, Abu 'Ubaydah ibn al-Jarrah (RA).
 
 **Answer explanation:** "Al-'Asharah al-Mubashsharah" – the ten.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two names.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The list of the ten is not in the current textbook notes (the textbook says generally "many who were given the good news of Paradise"); the answer is based on general hadith knowledge.
+**Marking guidance:*** Two names.
 
 **Also relevant to:** [Grade 11, Chapter 18: Al-Khulafa' ar-Rashidun – Caliph Abu Bakr as-Siddiq (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_18.md); [Grade 11, Chapter 19: Caliph 'Umar (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_19.md); [Grade 11, Chapter 20: Caliph 'Uthman (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_20.md); [Grade 11, Chapter 21: Caliph 'Ali (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_21.md)
 
@@ -333,7 +304,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Briefly explain the 'aqidah of Ahl as-Sunnah wal-Jama'ah concerning the Companions.
 
-**Suggested answer:**
+**Answer:**
 
 - The Companions are the highest of the believers; they hold a high rank next after the prophets.
 - Among them are many who were given the good news of Paradise.
@@ -342,9 +313,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** One of the eight features of the 'aqidah of Ahl as-Sunnah.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **4** (multiple-choice: 1; structured/essay items: 3). Papers in which this chapter was examined: 4 of 10 – 2018, 2020, 2022 (2023), 2023 (2024). Related questions placed in other chapters: 1.
 
@@ -31,8 +30,6 @@ According to the Prophet's ﷺ saying, the best of the dinars a person spends
 
 **Explanation:** "The best dinar a person spends is the dinar he spends on his family" (Bukhari – according to the textbook notes).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -49,7 +46,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (x) State two duties children must fulfil towards their parents.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Obeying parents and treating them with respect; not even saying "uff" to them (17:23)
@@ -59,9 +56,7 @@ Any two of the following:
 
 **Answer explanation:** The Quran mentions being good to parents next to tawhid.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two duties.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two duties.
 
 **Also relevant to:** [Grade 10, Chapter 12: The Islamic View of Good Character – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_12.md)
 
@@ -80,7 +75,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Write short notes on any two of the following.
 (i) The qualities of a model Islamic family
 
-**Suggested answer:**
+**Answer:**
 
 - A union filled with love and mercy (30:21); contentment, happiness and comfort of the eyes (25:74).
 - Its goal is Paradise – protecting oneself and one's family from the Fire (66:6).
@@ -92,9 +87,7 @@ Write short notes on any two of the following.
 
 **Answer explanation:** The Prophet's ﷺ family life (running races with 'A'ishah (RA), taking part in housework) may be given as an example.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; write equally on the two topics chosen.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme; write equally on the two topics chosen.
 
 ---
 
@@ -111,7 +104,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) What reward in the Hereafter did the Prophet ﷺ mention for a woman who dies while her husband is pleased with her?
 (ii) State three duties of the parents in a model Muslim family.
 
-**Suggested answer:**
+**Answer:**
 
 (i) She will enter Paradise (Ibn Majah).
 
@@ -124,11 +117,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (ii) one piece of evidence may be added for each duty.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 11, Chapter 31.
+**Marking guidance:*** No official marking scheme.
 
 ---
 

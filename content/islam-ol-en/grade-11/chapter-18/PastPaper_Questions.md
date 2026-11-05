@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **8** (multiple-choice: 4; structured/essay items: 4). Papers in which this chapter was examined: 7 of 10 – 2017, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 7.
 
@@ -31,8 +30,6 @@ Which of the following statements about al-Khulafa' ar-Rashidun is WRONG?
 
 **Explanation:** 'Ali (RA) had Kufa as his seat of government, so the statement that all four had Madinah as their capital is wrong. All four were given the good news of Paradise; all were related to the Prophet by marriage; they have titles such as as-Siddiq, al-Faruq, Dhun-Nurayn and Asadullah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 21: Caliph 'Ali (RA)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_21.md)
 
 ---
@@ -55,8 +52,6 @@ What task was carried out by Caliph Abu Bakr (RA)?
 **Correct answer:** B – compiling the Quran into a book *(option (2) on the original paper)*
 
 **Explanation:** Compiling the Quran into a book was the work of Abu Bakr (RA). The Hijri year, government departments and the conquest of Egypt – the time of 'Umar (RA).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 15: The Revelation and Compilation of the Quran](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_15.md)
 
@@ -81,8 +76,6 @@ As he had no chance to hear the complaint of a woman who came to him with her pr
 
 **Explanation:** "If you do not find me, go to Abu Bakr" (Bukhari) – one of the proofs that Abu Bakr (RA) was qualified for the caliphate.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2022 (2023) – Islam I, Q14
@@ -104,8 +97,6 @@ The place where Abu Bakr (RA) was chosen as caliph after the Prophet's ﷺ death
 
 **Explanation:** On the day the Prophet ﷺ died, the Ansar gathered at "Saqifat Bani Sa'idah" to consult; there they accepted Abu Bakr (RA) as caliph and gave him bay'ah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -122,7 +113,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Briefly explain five tasks Abu Bakr (RA) carried out during his caliphate.
 
-**Suggested answer:**
+**Answer:**
 
 1. Taking up the caliphate after the Prophet's ﷺ death and continuing good government.
 2. Defeating the challenges of the false prophets (such as Musaylimah) through experienced commanders.
@@ -133,11 +124,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** As five tasks are asked for, explain each in one line.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (i) and (ii) of this question are under Grade 10, Chapter 11.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 15: The Revelation and Compilation of the Quran](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_15.md)
 
@@ -155,15 +142,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (v) What is the reason Abu Bakr (RA) was given the title 'as-Siddiq'?
 
-**Suggested answer:**
+**Answer:**
 
 He confirmed the news of the Prophet's ﷺ Mi'raj (Isra') journey immediately and without any hesitation.
 
 **Answer explanation:** Siddiq = the one who confirmed the truth.
 
-**Marking guidance (suggested only – not an official marking scheme):** The reason.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The reason.
 
 ---
 
@@ -179,7 +164,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iii) Explain five tasks Abu Bakr (RA) carried out when he took up the caliphate.
 
-**Suggested answer:**
+**Answer:**
 
 Any five of the following:
 1. Taking up the caliphate after the Prophet's ﷺ death and continuing good government.
@@ -192,9 +177,7 @@ Any five of the following:
 
 **Answer explanation:** He stabilised the Islamic state within two years.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 15: The Revelation and Compilation of the Quran](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_15.md); [Grade 11, Chapter 5: The Finality of Prophethood](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_05.md)
 
@@ -212,7 +195,7 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) State two incidents that justify Abu Bakr (RA) being qualified to be appointed the first caliph.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. When the Prophet ﷺ was ill in his last days, he told Abu Bakr (RA) to lead the prayer, although many others including 'Umar (RA) were present.
@@ -222,11 +205,7 @@ Any two of the following:
 
 **Answer explanation:** The last incident was also asked in 2021 (2022) Q25 (MCQ).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two incidents.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 10, Chapter 12 and part (iii) under Grade 10, Chapter 6.
+**Marking guidance:*** Two incidents.
 
 ---
 

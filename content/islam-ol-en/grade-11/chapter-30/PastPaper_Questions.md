@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **2** (multiple-choice: 1; structured/essay items: 1). Papers in which this chapter was examined: 2 of 10 – 2016, 2017. Related questions placed in other chapters: 8.
 
@@ -31,8 +30,6 @@ The statement "The life of this world is only amusement and idle play. Surely th
 
 **Explanation:** This is a verse of the Quran (6 Al-An'am: 32).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -49,7 +46,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) The Islamic view of worldly life
 
-**Suggested answer:**
+**Answer:**
 
 - Renouncing the world and drowning in the world are two extremes; Islam presents the middle position between them.
 - Working for progress in this world is 'ibadah; developing the earth ('imarah) is man's task (67:15).
@@ -59,9 +56,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Explain the central idea of balance with evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 29: Keeping to Moderation](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_29.md)
 

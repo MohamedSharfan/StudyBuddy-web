@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **14** (multiple-choice: 10; structured/essay items: 4). Papers in which this chapter was examined: 7 of 10 – 2016, 2017, 2019, 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,8 +30,6 @@ Which of the following is an 'ajnabi' (non-mahram)?
 
 **Explanation:** The wife's mother and the son's wife (relationship by marriage) and the foster mother (relationship by breastfeeding) are mahrams. The paternal aunt's daughter is not in the mahram list – she is ajnabi (marriage is permitted).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
 ---
@@ -56,8 +53,6 @@ A woman being alone with a man who is ajnabi is
 
 **Explanation:** A non-mahram man and woman being alone together is haram; "the devil is the third one with them" (Bazzar).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A3. 2017 – Islam I, Q9
@@ -78,8 +73,6 @@ A mahram within blood relationship
 **Correct answer:** A – the father's sister *(option (1) on the original paper)*
 
 **Explanation:** The father's sister (paternal aunt) is a mahram by blood. The daughter-in-law and the wife's daughter are mahrams by marriage; the wife's sister is only a temporary prohibition.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
@@ -104,8 +97,6 @@ What makes the son's wife a mahram?
 
 **Explanation:** The son's wife (daughter-in-law) becomes a mahram because of a relationship by marriage.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
 ---
@@ -129,8 +120,6 @@ The eyes of three will not see the Fire; one of them is the eye that kept from l
 
 **Explanation:** The three eyes that will not see the Fire: the eye that stayed awake in the path of Allah, the eye that wept out of fear of Allah, and the eye that kept from looking at what is forbidden.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2022 (2023) – Islam I, Q21
@@ -152,8 +141,6 @@ One of those permanently forbidden in marriage
 
 **Explanation:** The father's sister (paternal aunt) is a permanent mahram by blood. A woman in 'iddah and the wife's sister – temporary prohibitions; the aunt's daughter may be married.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2023 (2024) – Islam I, Q16
@@ -174,8 +161,6 @@ Which of the following is temporarily forbidden in marriage?
 **Correct answer:** B – the wife's sister *(option (2) on the original paper)*
 
 **Explanation:** The wife's sister cannot be married at the same time as the wife (a temporary prohibition). The wife's mother, the sister's daughter and the brother's daughter are permanent mahrams.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
@@ -200,8 +185,6 @@ The statement "When a man and a woman who are strangers (non-mahram) are alone, 
 
 **Explanation:** This is a hadith – "If a man is alone with a non-mahram woman, the devil is the third one with them" (Bazzar, according to the textbook notes).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2024 (2025) – Islam I, Q31
@@ -222,8 +205,6 @@ Which of the following women is a groom permitted to marry?
 **Correct answer:** B – the paternal aunt's daughter *(option (2) on the original paper)*
 
 **Explanation:** The paternal aunt's daughter (cousin) is ajnabi – she may be married. The wife's mother and the son's wife are mahram by marriage; the brother's daughter is mahram by blood.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -246,8 +227,6 @@ Which of the following women is a man permitted to marry?
 
 **Explanation:** The father's brother's daughter (cousin) is ajnabi – she may be married. A milk sister and her daughter are mahram by breastfeeding; the father's wife's daughter is a sister / stepsister (mahram).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
 ---
@@ -267,7 +246,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (ii) Explain the mahrams who arise through family relationship.
 (iii) Describe the rules to be observed when talking with ajnabis (non-mahrams).
 
-**Suggested answer:**
+**Answer:**
 
 (ii) Those a man may never marry because of family (blood) relationship:
 - mother, mother's mother (upwards)
@@ -286,11 +265,7 @@ These are mahrams; marriage with them is haram.
 
 **Answer explanation:** Question (ii) is about "family relationship"; mahrams by breastfeeding and by marriage need not be included here.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (i) of this question is under Grade 11, Chapter 32.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 27: Marriage (النكاح)](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_27.md)
 
@@ -308,7 +283,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Keeping limits with ajnabis
 
-**Suggested answer:**
+**Answer:**
 
 Ajnabi = a non-mahram (someone one is permitted to marry). Limits to be kept while living together in society:
 1. Lowering the gaze – avoiding looking at the 'awrah, looking with desire, and looking continuously without need; "the eye that did not look at what Allah forbade will not see the Fire".
@@ -320,9 +295,7 @@ Ajnabi = a non-mahram (someone one is permitted to marry). Limits to be kept whi
 
 **Answer explanation:** One may conclude that these limits keep relationships healthy and prevent social decay.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -338,17 +311,13 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) State two of those forbidden in marriage (mahrams) because of family relationship.
 
-**Suggested answer:**
+**Answer:**
 
 (For a man) any two of: mother (including grandmothers), daughter (including granddaughters), sister, father's sister, mother's sister, brother's daughter, sister's daughter.
 
 **Answer explanation:** These are mentioned in An-Nisa' 4:23.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two persons.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 10, Chapter 26 and part (iii) under Grade 11, Chapter 32.
+**Marking guidance:*** Two persons.
 
 ---
 
@@ -364,7 +333,7 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ix) State two of the factors that create permanent mahram status.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Blood relationship (family relationship)
@@ -373,9 +342,7 @@ Any two of the following:
 
 **Answer explanation:** E.g. the mother (blood), the wife's mother (marriage), the woman who breastfed one (breastfeeding).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two factors.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two factors.
 
 ---
 

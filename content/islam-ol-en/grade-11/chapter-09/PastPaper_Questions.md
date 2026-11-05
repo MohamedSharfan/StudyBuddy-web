@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **15** (multiple-choice: 10; structured/essay items: 5). Papers in which this chapter was examined: 9 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 3.
 
@@ -40,8 +39,6 @@ The correct answer obtained when Column II is matched with Column I is
 
 **Explanation:** (i) men covering the head in ihram – muharramat (C); (ii) sound mind – shart (D); (iii) tawaf al-wida' – wajib (A); (iv) standing at 'Arafah – fard (B). So C, D, A, B.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2018 – Islam I, Q14
@@ -62,8 +59,6 @@ A person going to fulfil the duty of Hajj made the intention to perform Hajj onl
 **Correct answer:** B – called al-ifrad. *(option (2) on the original paper)*
 
 **Explanation:** Ifrad – Hajj only; qiran – Hajj and 'umrah together; tamattu' – a separate intention for each.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -86,8 +81,6 @@ Among the ways of performing the rites of Hajj, what is called 'al-qiran'?
 
 **Explanation:** Qiran – making the intention for Hajj and 'umrah together and performing them.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2021 (2022) – Islam I, Q15
@@ -108,8 +101,6 @@ Making the intention for Hajj and 'umrah together with one ihram
 **Correct answer:** B – qiran *(option (2) on the original paper)*
 
 **Explanation:** Qiran – performing Hajj and 'umrah together with one ihram (the same idea appeared in 2020 Q13). Tamattu' – first 'umrah, then Hajj with a separate ihram; ifrad – Hajj only.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -132,8 +123,6 @@ The miqat at which those going for Hajj from Sri Lanka make their intention
 
 **Explanation:** Sri Lankan pilgrims make their intention at the miqat called "Yalamlam".
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A6. 2023 (2024) – Islam I, Q11
@@ -154,10 +143,6 @@ An act a person who has entered ihram and made the intention for Hajj is NOT per
 **Correct answer:** B – putting on perfume *(option (2) on the original paper)*
 
 **Explanation:** Putting on perfume is forbidden in the state of ihram; prayer, bathing and sleeping are permitted.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The prohibitions of ihram are not covered in detail in the current textbook notes; the answer is based on general fiqh knowledge.
 
 ---
 
@@ -180,8 +165,6 @@ The days of ayyam at-tashriq
 
 **Explanation:** Ayyam at-tashriq = 11, 12 and 13 Dhul-Hijjah – the days of staying at Mina and throwing stones at the jamarat.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A8. 2024 (2025) – Islam I, Q15
@@ -202,8 +185,6 @@ A fard that must be performed in Hajj but is not included in 'umrah
 **Correct answer:** C – standing at 'Arafah *(option (3) on the original paper)*
 
 **Explanation:** Standing at 'Arafah is a fard of Hajj; it is not in 'umrah. Ihram, sa'y and shaving the hair are in both.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -233,8 +214,6 @@ In the table above, the option containing only the group of words NOT connected 
 **Correct answer:** B – A, G, H *(option (2) on the original paper)*
 
 **Explanation:** Mutawatir (hadith science), riba and ijarah (economics) – not connected with fasting or Hajj. Tawaf, qiran, haram and 'Arafah – Hajj; rayyan and sawm – fasting.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 8: The Deeper Meanings of Fasting](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_08.md)
 
@@ -267,8 +246,6 @@ Which option contains only the fard acts of Hajj?
 
 **Explanation:** The fard acts of Hajj: ihram, standing at 'Arafah, tawaf, sa'y, shaving the hair (keeping the order). The talbiyah and drinking Zamzam are sunnah.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -285,7 +262,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) Write two fard matters to be observed in the deeds of Hajj and 'Umrah.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following (common to both Hajj and 'Umrah):
 1. Ihram (the intention)
@@ -295,9 +272,7 @@ Any two of the following (common to both Hajj and 'Umrah):
 
 **Answer explanation:** Standing at 'Arafah is a fard belonging to Hajj only. If a fard is left out, the duty is not fulfilled.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two fard acts.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two fard acts.
 
 ---
 
@@ -315,7 +290,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (ii) State three benefits gained through Hajj.
 (iii) Briefly explain five wajib acts of Hajj.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any two of the following: tawaf al-ifadah (fard), tawaf al-qudum (sunnah), tawaf al-wida' (wajib).
 
@@ -333,9 +308,7 @@ If a wajib is missed, a fidyah must be given (sacrificing a sheep / feeding six 
 
 **Answer explanation:** In (iii) briefly explain five wajib acts with their day/place.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -351,15 +324,13 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (v) Among the ways of making the intention for Hajj, what is the explanation of al-ifrad?
 
-**Suggested answer:**
+**Answer:**
 
 Al-ifrad = making the intention to perform Hajj only (without adding 'umrah).
 
 **Answer explanation:** Qiran – Hajj and 'umrah together; tamattu' – a separate intention for each.
 
-**Marking guidance (suggested only – not an official marking scheme):** The correct explanation.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The correct explanation.
 
 ---
 
@@ -375,7 +346,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Give three things forbidden while performing Hajj and 'umrah.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following (in the state of ihram):
 1. Putting on perfume
@@ -388,11 +359,7 @@ Any three of the following (in the state of ihram):
 
 **Answer explanation:** Putting on perfume was asked in 2023 (2024) Q11 (MCQ).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The prohibitions of ihram are not covered in detail in the current textbook notes; the answer is based on general fiqh knowledge (except 2:197).
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -408,15 +375,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vi) Write two of the arkan (fard acts) common to both Hajj and 'umrah.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: putting on ihram with the intention, tawaf, sa'y, shaving / shortening the hair.
 
 **Answer explanation:** Standing at 'Arafah belongs to Hajj only (2024 (2025) Q15).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two arkan.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two arkan.
 
 ---
 

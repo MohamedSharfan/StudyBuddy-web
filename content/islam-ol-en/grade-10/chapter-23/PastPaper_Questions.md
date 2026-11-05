@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **6** (multiple-choice: 3; structured/essay items: 3). Papers in which this chapter was examined: 5 of 10 – 2020, 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 1.
 
@@ -31,8 +30,6 @@ The prophet who, according to the Quran, was given the technical knowledge of wo
 
 **Explanation:** Dawud (AS) was given the knowledge of softening iron and making coats of mail (34:10–11).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2023 (2024) – Islam I, Q14
@@ -53,8 +50,6 @@ When the Prophet was asked, "Which is the best occupation?", which of the follow
 **Correct answer:** B – handicraft and trade free of lies *(option (2) on the original paper)*
 
 **Explanation:** "Which is the best occupation?" – "A man's work with his own hands, and trade free of lies" (Ahmad).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,8 +72,6 @@ The Islamic historian who says that Prophet Idris (AS) introduced weaving
 
 **Explanation:** Imam Ibn Khaldun (Muqaddimah) says that Idris (AS) introduced weaving.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -95,7 +88,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Briefly explain five occupational skills the prophets had in history.
 
-**Suggested answer:**
+**Answer:**
 
 1. Farming and animal husbandry – begun by Adam (AS).
 2. Weaving – Imam Ibn Khaldun (Muqaddimah) says it was introduced by Idris (AS).
@@ -106,11 +99,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Mention the prophet's name, the occupation and the evidence.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The Prophet's trading journey is based on general knowledge of the sirah.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 22: The Importance of Work](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_22.md); [Grade 10, Chapter 24: Work – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_24.md)
 
@@ -128,7 +117,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (v) Give one of the Prophet's ﷺ teachings that stressed cultivation and developing land for it.
 
-**Suggested answer:**
+**Answer:**
 
 Any one of the following (meaning):
 1. "Whoever brings to life land that belongs to no one has the most right to it" (Bukhari).
@@ -137,9 +126,7 @@ Any one of the following (meaning):
 
 **Answer explanation:** The textbook mentions these hadiths on agriculture.
 
-**Marking guidance (suggested only – not an official marking scheme):** One teaching.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** One teaching.
 
 ---
 
@@ -155,18 +142,14 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ix) State the two crafts which the historian Ibn Khaldun says were introduced by Prophet Idris (AS) and Prophet Nuh (AS).
 
-**Suggested answer:**
+**Answer:**
 
 1. Weaving – Idris (AS)
 2. Carpentry – Nuh (AS)
 
 **Answer explanation:** Nuh (AS) built the ark with planks and nails (54:13).
 
-**Marking guidance (suggested only – not an official marking scheme):** Both crafts.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The textbook gives only weaving as Ibn Khaldun's statement; carpentry is given as possibly introduced by Nuh (AS) on the basis of 54:13.
+**Marking guidance:*** Both crafts.
 
 ---
 

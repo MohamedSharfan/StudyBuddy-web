@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **22** (multiple-choice: 13; structured/essay items: 9). Papers in which this chapter was examined: 10 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2022 (2023), 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 9.
 
@@ -31,8 +30,6 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Explanation:** Mahr = the obligatory gift (wajib) the groom gives the bride at marriage.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2016 – Islam I, Q35
@@ -53,8 +50,6 @@ An occasion other than marriage in which ijab and qabul take place
 **Correct answer:** B – buying and selling (transactions) *(option (2) on the original paper)*
 
 **Explanation:** Ijab (offer) and qabul (acceptance) also take place in transaction contracts such as buying and selling.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 26: Islamic Finance](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_26.md)
 
@@ -79,10 +74,6 @@ In which of the following situations is marriage haram?
 
 **Explanation:** Having two full sisters as wives at the same time is haram (a temporary prohibition). Because the groom must not have four wives at the same time, (B) is also haram.
 
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** According to the textbook both (B) and (D) are haram situations; no official answer is available, so confirm with the teacher.
-
 ---
 
 ### A4. 2017 – Islam I, Q21
@@ -104,8 +95,6 @@ The persons to whom ijab and qabul belong in marriage
 
 **Explanation:** Ijab – the words of giving said by the bride's wali; qabul – the words of acceptance said by the groom.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A5. 2018 – Islam I, Q28
@@ -126,8 +115,6 @@ The person NOT suitable to be wali in a marriage
 **Correct answer:** C – the mother's brother *(option (3) on the original paper)*
 
 **Explanation:** The right of wali belongs only to male relatives on the father's side; the mother's brother (maternal uncle) is not eligible to be wali.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -155,8 +142,6 @@ From the following Arabic terms, choose the group containing the words connected
 
 **Explanation:** Mahr, wali, mahram and walimah are connected with marriage. Rida and tawakkul are spiritual qualities; taqrir is the Prophet's approval.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A7. 2019 – Islam I, Q25
@@ -178,8 +163,6 @@ Haseena lost her father at a young age and lived in her mother's care. When she 
 
 **Explanation:** Only male relatives on the father's side can be wali; of those given, only the father's brother (paternal uncle) is eligible.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A8. 2019 – Islam I, Q34
@@ -200,8 +183,6 @@ What are the two activities in which the expressions ijab and qabul are used?
 **Correct answer:** C – transactions, marriage *(option (3) on the original paper)*
 
 **Explanation:** Ijab and qabul take place in the marriage contract and in transactions such as trade.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 24: Work – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_24.md)
 
@@ -235,8 +216,6 @@ Which option is correct when Column II is arranged, in order, to match Column I?
 
 **Explanation:** Shahid – witness (B); nikah – marriage (A); wali – the one entitled to give the bride (D); walimah – the feast (C). So B A D C.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A10. 2021 (2022) – Islam I, Q13
@@ -257,8 +236,6 @@ One of the conditions for a person who acts as shahid (witness) at a marriage
 **Correct answer:** D – soundness in the faculties of speech and hearing *(option (4) on the original paper)*
 
 **Explanation:** The conditions for a witness: the wali's conditions + knowing the language of the contract + the faculties of speech, hearing and sight. Being a relative is not a condition.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -281,8 +258,6 @@ If a man with physical strength and financial means fears that he will fall into
 
 **Explanation:** Marriage is sunnah for one with physical and financial means; if such a person fears he will fall into sin, it is wajib.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A12. 2023 (2024) – Islam I, Q28
@@ -303,8 +278,6 @@ The person NOT suitable to be the guardian (wali) in a marriage
 **Correct answer:** A – the mother's brother *(option (1) on the original paper)*
 
 **Explanation:** Those eligible to be wali are male relatives on the father's side (father, grandfather, brothers…); when there are none, the judge (qadi). The mother's brother (maternal uncle) cannot be wali.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -327,8 +300,6 @@ The word the Quran uses to explain the bond of husband and wife
 
 **Explanation:** The Quran explains the bond of husband and wife with the word "sakan" (tranquillity) (30:21).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -345,16 +316,14 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (viii) What are the meanings of the terms ijab and qabul?
 
-**Suggested answer:**
+**Answer:**
 
 - Ijab: the words said by the bride's wali to declare that he gives the bride to the groom (e.g. "ankahtuka", "zawwajtuka").
 - Qabul: the words said by the groom to declare that he accepts the bride given by the wali.
 
 **Answer explanation:** Both are among the essentials (fard) of nikah; there must be no delay between them.
 
-**Marking guidance (suggested only – not an official marking scheme):** The meaning of both terms.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The meaning of both terms.
 
 ---
 
@@ -370,7 +339,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ix) State two purposes of marriage from the point of view of the Shari'ah.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Producing righteous offspring
@@ -379,9 +348,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions these three purposes.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two.
 
 ---
 
@@ -397,7 +364,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) State three persons whom a man is temporarily forbidden to marry at the same time (as his wife).
 
-**Suggested answer:**
+**Answer:**
 
 1. The wife's full sister
 2. The wife's father's sister (the wife and her paternal aunt at the same time)
@@ -405,9 +372,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** This prohibition lasts only while the wife is alive and the marriage with her continues.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 25: Let Us Keep the Limits of Ajnabi and Mahram](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_25.md)
 
@@ -425,7 +390,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) Give two examples of temporary mahrams.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. The wife's full sister (at the same time)
@@ -436,9 +401,7 @@ Any two of the following:
 
 **Answer explanation:** It is "temporary" because the prohibition ends when its cause ends.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two examples.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two examples.
 
 ---
 
@@ -454,7 +417,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) State three reasons why polygamy is permitted.
 
-**Suggested answer:**
+**Answer:**
 
 Any three of the following:
 1. Giving protection and care to widows and orphans (4:3 – background concerning orphans).
@@ -464,11 +427,7 @@ Any three of the following:
 
 **Answer explanation:** Polygamy is limited to four; if a man cannot be just between his wives, one is enough (4:3).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** The reasons for polygamy are not explained in the current textbook (it only says the groom must not have more than four wives at the same time); the answer is based on general knowledge – confirm with the teacher.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -484,7 +443,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) State two purposes of marriage from the point of view of Islam.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Producing righteous offspring
@@ -493,11 +452,7 @@ Any two of the following:
 
 **Answer explanation:** The same question appeared in 2017 Q1 (ix).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two purposes.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 10 – Chapters 27 and 29).
+**Marking guidance:*** Two purposes.
 
 ---
 
@@ -513,15 +468,13 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vii) What does the word nikah refer to as an Islamic technical term?
 
-**Suggested answer:**
+**Answer:**
 
 The contract (marriage) by which a man and a woman join together to live as husband and wife in the way permitted by the Shari'ah (with a wali, witnesses and ijab–qabul).
 
 **Answer explanation:** Nikah is a sacred contract (mithaqan ghaliza – a firm covenant).
 
-**Marking guidance (suggested only – not an official marking scheme):** The technical meaning.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** The technical meaning.
 
 ---
 
@@ -537,7 +490,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (vi) State two purposes of marriage in Islam.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Producing righteous offspring
@@ -546,9 +499,7 @@ Any two of the following:
 
 **Answer explanation:** The same question was also asked in 2017 and 2020.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two purposes.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Two purposes.
 
 ---
 
@@ -565,7 +516,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) State two persons a man is temporarily forbidden to marry.
 (ii) State three purposes of marriage from the point of view of Islam.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Any two of the following:
 1. The wife's sister (two sisters at the same time)
@@ -582,11 +533,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** (ii) was also asked in 2017, 2020 and 2022 (2023).
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** "A woman in 'iddah" is not in the textbook list (it appeared as an option in 2022 (2023) MCQ 21). Part (iii) of this question is under Grade 11, Chapter 29.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 25: Let Us Keep the Limits of Ajnabi and Mahram](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_25.md)
 

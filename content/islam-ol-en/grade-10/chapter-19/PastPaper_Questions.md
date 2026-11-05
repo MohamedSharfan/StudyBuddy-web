@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **16** (multiple-choice: 10; structured/essay items: 6). Papers in which this chapter was examined: 8 of 10 – 2016, 2017, 2018, 2019, 2020, 2021 (2022), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ Those called 'Hanifs' were
 
 **Explanation:** The Hanifs – people who, even in the time of Jahiliyyah, did not worship idols and followed the monotheism of Ibrahim (AS).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 18: Arabia before Islam](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_18.md)
 
 ---
@@ -56,10 +53,6 @@ The first freed slave to accept Islam
 
 **Explanation:** Zayd ibn Harithah (RA), freed by the Prophet, was the first of the freed slaves to accept Islam.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** This information is based on general knowledge of the sirah; the current textbook does not mention the name.
-
 ---
 
 ### A3. 2017 – Islam I, Q34
@@ -81,8 +74,6 @@ Who was the member of the Prophet's family who strongly opposed his call to Isla
 
 **Explanation:** The Prophet's uncle Abu Lahab was one of the leaders of the opposition.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A4. 2019 – Islam I, Q17
@@ -103,8 +94,6 @@ What is the meaning of tarbiyah?
 **Correct answer:** C – spiritual and moral training *(option (3) on the original paper)*
 
 **Explanation:** Tarbiyah = spiritual and moral training; in Dar al-Arqam the early Muslims were given education and tarbiyah.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -134,8 +123,6 @@ Choose the answer that is correct when Column II in the table below is arranged 
 
 **Explanation:** Hudaybiyah – with the Quraysh (C); 'Aqabah – Aws and Khazraj (D); the Charter of Madinah – the people of Madinah including the Jews (B); Bay'at ar-Ridwan – the Companions (A). So C D B A.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 13: Ways of Spiritual Development](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_13.md); [Grade 10, Chapter 26: Human Rights](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_26.md)
 
 ---
@@ -158,8 +145,6 @@ Who are those called Hanifs?
 **Correct answer:** A – those who did not take part in shirk in the time of Jahiliyyah *(option (1) on the original paper)*
 
 **Explanation:** The Hanifs – those who did not take part in associating partners with Allah, even in the time of Jahiliyyah (the same question appeared in 2016 Q19).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 18: Arabia before Islam](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_18.md)
 
@@ -184,8 +169,6 @@ Where did the Prophet ﷺ stay on his way during the hijrah?
 
 **Explanation:** During the hijrah the Prophet ﷺ and Abu Bakr (RA) stayed three days in the cave of Thawr.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 31: Islam and the Media](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_31.md)
 
 ---
@@ -209,8 +192,6 @@ The person who is named and cursed in the Quran for showing strong opposition to
 
 **Explanation:** Surah al-Lahab (111) condemns Abu Lahab by name.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A9. 2024 (2025) – Islam I, Q24
@@ -231,8 +212,6 @@ The king who protected the Prophet's ﷺ Companions when he sent them to Abyssin
 **Correct answer:** B – the Najashi (Negus) *(option (2) on the original paper)*
 
 **Explanation:** The just ruler of Abyssinia, the Najashi, gave the Muslims protection.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -255,8 +234,6 @@ To which region did the Prophet ﷺ first send his Companions in hijrah, when th
 
 **Explanation:** The first hijrah was to Abyssinia in year 5 of prophethood; the Najashi gave them protection.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -275,7 +252,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (ii) Explain clearly the methods the Quraysh used to stop the Prophet's da'wah.
 (iii) Describe the second pledge of 'Aqabah.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Khadijah (RA), Abu Bakr (RA), 'Ali (RA), Zayd ibn Harithah (RA), his uncle Abu Talib, Hamzah (RA), 'Umar (RA), al-Arqam (RA) (who gave his house as "Dar al-Arqam").
 
@@ -290,11 +267,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** In (iii) the year, the number of people, the content of the pledge and its result should be mentioned.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme; all three sub-questions must be answered.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The list of supporters in (i) is based on general knowledge of the sirah; the textbook mentions Abu Talib, Khadijah (RA), Hamzah, 'Umar (RA) and al-Arqam (RA).
+**Marking guidance:*** No official marking scheme; all three sub-questions must be answered.
 
 ---
 
@@ -310,7 +283,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) Give three results of the conquest of Makkah.
 
-**Suggested answer:**
+**Answer:**
 
 1. The Ka'bah was cleansed of idols and monotheism was established.
 2. The Quraysh and the Arab tribes entered Islam in crowds (110:1–2); Islam spread quickly.
@@ -318,11 +291,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** The conquest of Makkah took place in 8 AH.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The textbook mentions the conquest of Makkah only briefly; the results are given from general knowledge of the sirah.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 10: The Holy Places of Islam](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_10.md)
 
@@ -342,7 +311,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 (ii) State three challenges the Prophet ﷺ faced during his da'wah in the Makkan period.
 (iii) Briefly explain the importance of the hijrah journey.
 
-**Suggested answer:**
+**Answer:**
 
 (i) Da'wah (دعوة) = calling people to Allah – the foremost task of the Prophet ﷺ; it began by Allah's command after prophethood was given (74:1–2).
 
@@ -360,11 +329,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** In (iii) mention the personal, social and political importance of the hijrah.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Some points in (iii) (the Hijri year, the brotherhood of the Muhajirun and Ansar) are based on general knowledge of the sirah.
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -380,7 +345,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) Present two factors for the Quraysh's opposition to the Prophet's da'wah.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. The message seemed new and bitter to them.
@@ -389,11 +354,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook mentions these three reasons.
 
-**Marking guidance (suggested only – not an official marking scheme):** Two factors.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Parts (ii) and (iii) of this question are under other chapters (Grade 10 – Chapters 20 and 16).
+**Marking guidance:*** Two factors.
 
 ---
 
@@ -409,7 +370,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iv) The Prophet's ﷺ work of calling to Islam in the Makkan period
 
-**Suggested answer:**
+**Answer:**
 
 - At the age of 40, da'wah began by Allah's command (74:1–2).
 - The first three years were secret da'wah – family members, friends, Hanifs and slaves accepted Islam; education and tarbiyah in Dar al-Arqam.
@@ -422,9 +383,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Write in stages, in chronological order.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -441,7 +400,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 (i) Who were the two who supported the Prophet's ﷺ da'wah in Makkah and whose deaths in the same year increased his grief?
 (ii) State three methods the Quraysh used to stop the Prophet's ﷺ preaching.
 
-**Suggested answer:**
+**Answer:**
 
 (i) His uncle Abu Talib and his wife Khadijah (RA) – that year is called "the Year of Sorrow".
 
@@ -455,11 +414,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** In (ii) stating the methods briefly is enough.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (iii) of this question is under Grade 10, Chapter 20.
+**Marking guidance:*** No official marking scheme.
 
 ---
 

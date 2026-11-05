@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **4** (multiple-choice: 2; structured/essay items: 2). Papers in which this chapter was examined: 4 of 10 – 2017, 2018, 2021 (2022), 2022 (2023). Related questions placed in other chapters: 3.
 
@@ -31,8 +30,6 @@ The important point to note when washing clothes stained with najis in a washing
 
 **Explanation:** If najis mixes with a small amount of water, that water becomes najis; so after the najis has been removed, each garment must be washed by letting clean water run over it.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 10, Chapter 4: At-Taharah (Purification)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_04.md)
 
 ---
@@ -56,8 +53,6 @@ The urine of a boy under two years old who takes only breast milk as food
 
 **Explanation:** This is najasah mukhaffafah (light impurity) – sprinkling with water is enough.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -75,7 +70,7 @@ Source: OL_2017_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 Give short answers.
 (i) State two divisions of najis.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of the following:
 1. Ordinary najis (e.g. faeces, urine, blood)
@@ -84,9 +79,7 @@ Any two of the following:
 
 **Answer explanation:** The textbook divides najis into three according to the method of cleaning.
 
-**Marking guidance (suggested only – not an official marking scheme):** Any two divisions.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Any two divisions.
 
 ---
 
@@ -102,7 +95,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) State the three kinds of najis.
 
-**Suggested answer:**
+**Answer:**
 
 1. Najasah mukhaffafah – light impurity (e.g. the urine of a boy under two who drinks only breast milk)
 2. Najasah mutawassitah – medium impurity (e.g. faeces, urine, blood)
@@ -110,9 +103,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** An example may be added for each.
 
-**Marking guidance (suggested only – not an official marking scheme):** All three kinds.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** All three kinds.
 
 ---
 

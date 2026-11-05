@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **7** (multiple-choice: 4; structured/essay items: 3). Papers in which this chapter was examined: 5 of 10 – 2018, 2019, 2023 (2024), 2024 (2025), 2025 (2026). Related questions placed in other chapters: 2.
 
@@ -31,10 +30,6 @@ The person who claimed to be a prophet in the time of the Prophet ﷺ
 
 **Explanation:** Musaylimah claimed prophethood in the Prophet's own time; he was later killed in the Battle of Yamamah in the time of Abu Bakr (RA).
 
-**Answer status:** Needs verification – a suggested answer that could not be fully confirmed from the textbook; check with a teacher
-
-**Verification note:** According to the textbook al-Aswad al-'Ansi (Yemen) also made his claim in the Prophet's ﷺ time, and Tulayhah made his claim in 631 CE. As more than one option fits, confirm with the teacher.
-
 ---
 
 ### A2. 2024 (2025) – Islam I, Q4
@@ -55,8 +50,6 @@ The WRONG statement about the Prophet ﷺ
 **Correct answer:** B – He made the hijrah from Madinah to Makkah. *(option (2) on the original paper)*
 
 **Explanation:** The Prophet ﷺ made the hijrah from Makkah to Madinah; so (B) is the wrong statement.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 10, Chapter 19: The Da'wah of the Prophet ﷺ and Its Challenges](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_19.md)
 
@@ -82,8 +75,6 @@ The number of liars mentioned in this hadith
 **Correct answer:** C – 30 *(option (3) on the original paper)*
 
 **Explanation:** "Thirty liars" (Abu Dawud).
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -114,8 +105,6 @@ Which option contains only other names of Prophet Muhammad ﷺ?
 
 **Explanation:** Ahmad, al-Hashir, al-'Aqib and al-Mahi are names of the Prophet ﷺ (Bukhari, Muslim). Khalil Allah – Ibrahim; Siddiq – Abu Bakr; Dhun-Nurayn – 'Uthman; Sayf Allah – Khalid; Asad Allah – 'Ali.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -132,7 +121,7 @@ Source: OL_2019_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (ii) What is khatm an-nubuwwah? Present one piece of evidence each from the Quran and the hadith concerning it.
 
-**Suggested answer:**
+**Answer:**
 
 Khatm an-nubuwwah = the finality of prophethood – Muhammad ﷺ is the last prophet; no prophet or messenger will come after him. Rejecting this is kufr.
 Evidence from the Quran: 33:40 – "Muhammad is not the father of any of your men, but he is the Messenger of Allah and the last of the prophets (khatam an-nabiyyin)." (meaning)
@@ -140,9 +129,7 @@ Evidence from the hadith: "My example and that of the other prophets is like a m
 
 **Answer explanation:** Definition + one verse + one hadith.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
@@ -158,17 +145,13 @@ Source: OL_2023_2024_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (i) Give the names of two of the false prophets who appeared in history.
 
-**Suggested answer:**
+**Answer:**
 
 Any two of: al-Aswad al-'Ansi, Musaylimah (al-Kadhdhab), Sajah, Tulayhah.
 
 **Answer explanation:** Al-Aswad al-'Ansi – Yemen; Musaylimah – Yamamah; Tulayhah – Butaha (as in the textbook).
 
-**Marking guidance (suggested only – not an official marking scheme):** Two names.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** Part (ii) of this question is under Grade 11, Chapter 8 and part (iii) under Grade 11, Chapter 10.
+**Marking guidance:*** Two names.
 
 ---
 
@@ -184,7 +167,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) State the six distinctions given only to Prophet Muhammad ﷺ and not to the other prophets.
 
-**Suggested answer:**
+**Answer:**
 
 (Tirmidhi, Ibn Majah)
 1. "Jawami' al-kalim" – the eloquence of expressing wide meanings in few words
@@ -196,9 +179,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** All six are needed.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 

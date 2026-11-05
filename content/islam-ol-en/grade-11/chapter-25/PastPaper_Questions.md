@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **5** (multiple-choice: 1; structured/essay items: 4). Papers in which this chapter was examined: 5 of 10 – 2016, 2017, 2018, 2021 (2022), 2024 (2025). Related questions placed in other chapters: 7.
 
@@ -31,8 +30,6 @@ The thing the Prophet warned "destroys the barakah in trade"
 
 **Explanation:** "A (false) oath may create demand for goods, but it destroys the barakah" (Bukhari).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -49,7 +46,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (x) State four Shari'ah principles to be considered when earning a living.
 
-**Suggested answer:**
+**Answer:**
 
 1. Earning only in a halal way
 2. Not cheating in measure and weight / avoiding fraud
@@ -59,9 +56,7 @@ Source: OL_2016_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** The textbook lists cheating, false oaths, hoarding, interest and trade in haram goods as things to avoid in work.
 
-**Marking guidance (suggested only – not an official marking scheme):** Four principles.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Four principles.
 
 **Also relevant to:** [Grade 10, Chapter 23: Work – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_23.md); [Grade 10, Chapter 24: Work – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_24.md)
 
@@ -79,7 +74,7 @@ Source: OL_2018_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (i) Give four of the major sins.
 
-**Suggested answer:**
+**Answer:**
 
 Any four of the seven destructive major sins (Bukhari):
 1. Associating partners with Allah
@@ -92,9 +87,7 @@ Any four of the seven destructive major sins (Bukhari):
 
 **Answer explanation:** It is best to write from the list in the hadith.
 
-**Marking guidance (suggested only – not an official marking scheme):** Four major sins.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Four major sins.
 
 ---
 
@@ -110,7 +103,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) Interest and its evils
 
-**Suggested answer:**
+**Answer:**
 
 - Definition: interest (riba) is any amount taken over and above the principal sum of money; both taking and giving it are condemned.
 - The Quran: give up what remains of interest; otherwise there is war from Allah and His Messenger (2:278–279); if you repent, your principal is yours (2:279); those who consume interest will rise like one struck by the devil (2:275); a painful punishment for those who took interest (4:161).
@@ -120,11 +113,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Write the social and economic evils together with evidence from the Quran and hadith.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The part on social and economic evils is a general explanation; the textbook mainly gives the warnings from the Quran and hadith.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 21: The Islamic View of Economics](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_21.md); [Grade 11, Chapter 26: Islamic Finance](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_26.md)
 
@@ -142,7 +131,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) Hoarding in trade
 
-**Suggested answer:**
+**Answer:**
 
 - Hoarding (ihtikar) = hoarding goods in expectation of a price rise in the market – haram.
 - Reasons: greed, no concern for others → great hardship for people.
@@ -155,9 +144,7 @@ Source: OL_2024_2025_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Include the definition, the ruling, the evidence and the results.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 24: Work – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_24.md)
 

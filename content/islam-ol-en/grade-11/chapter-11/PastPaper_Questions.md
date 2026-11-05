@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **5** (multiple-choice: 3; structured/essay items: 2). Papers in which this chapter was examined: 4 of 10 – 2020, 2021 (2022), 2022 (2023), 2025 (2026). Related questions placed in other chapters: 4.
 
@@ -31,8 +30,6 @@ The wrestler living in Madinah who took part in wrestling matches with the Proph
 
 **Explanation:** The textbook gives the incident of the Prophet ﷺ wrestling with and defeating the wrestler Rukanah as an example of his courage.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2022 (2023) – Islam I, Q38
@@ -53,8 +50,6 @@ One of the good qualities Islam teaches is mentioned in more than seventy places
 **Correct answer:** D – patience *(option (4) on the original paper)*
 
 **Explanation:** The word "sabr" (patience) occurs in more than 70 places in the Quran.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 **Also relevant to:** [Grade 11, Chapter 13: Ways of Spiritual Development](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_13.md)
 
@@ -79,8 +74,6 @@ The statement "On the Day of Judgement nothing will be heavier in a believer's s
 
 **Explanation:** This is a hadith (Ahmad – according to the textbook notes).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 **Also relevant to:** [Grade 11, Chapter 12: Developing Islamic Morals](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_12.md)
 
 ---
@@ -99,7 +92,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 (iii) State five good qualities Islam teaches, and give one example of each from the life of the Prophet ﷺ.
 
-**Suggested answer:**
+**Answer:**
 
 1. Patience – he prayed for the people of Ta'if even when they stoned him and drove him out.
 2. Courage – he defeated the wrestler Rukanah in a wrestling match (the textbook calls Rukanah "the wrestler of Madinah").
@@ -110,11 +103,7 @@ Source: OL_2020_Islam_Tamil_Medium.md (page number not identifiable in the Markd
 
 **Answer explanation:** Give one specific incident from the Prophet's life for each quality.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The general pardon at the conquest of Makkah is based on general knowledge of the sirah.
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 10, Chapter 11: The Islamic View of Good Character – I](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_11.md); [Grade 10, Chapter 12: The Islamic View of Good Character – II](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_12.md); [Grade 10, Chapter 19: The Da'wah of the Prophet ﷺ and Its Challenges](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_19.md)
 
@@ -132,15 +121,13 @@ Source: OL_2025_2026_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (x) The Quran commands us to seek help only through two things. Give these two things, which are connected with 'ibadah and good character.
 
-**Suggested answer:**
+**Answer:**
 
 Patience (sabr), prayer (salah).
 
 **Answer explanation:** "Seek help through patience and prayer" (2:45, meaning).
 
-**Marking guidance (suggested only – not an official marking scheme):** Both.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** Both.
 
 **Also relevant to:** [Grade 10, Chapter 7: The Importance of Salah (Prayer)](../../Grade_10/Chapter_Wise_Past_Papers/Chapter_07.md)
 

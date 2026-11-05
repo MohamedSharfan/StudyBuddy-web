@@ -4,7 +4,6 @@
 
 > **Wording.** These questions are **English renderings** of the Sri Lanka G.C.E. (O/L) Islam I and Islam II papers set in the **Tamil medium** (2016 – 2025 (2026), 10 papers). They are **not** the official English-medium wording, which was not supplied. Arabic text and Quran/hadith references are kept as printed; the original options (1)–(4) are shown as A–D.
 >
-> **Answers.** No official answers or marking schemes were supplied, so **no answer in this collection is official**. Every answer is a *suggested* answer based on the Grade 10/11 textbook content. Answers marked **Needs verification** should be checked with a teacher.
 
 Questions placed in this chapter: **5** (multiple-choice: 3; structured/essay items: 2). Papers in which this chapter was examined: 5 of 10 – 2016, 2019, 2021 (2022), 2022 (2023), 2025 (2026). Related questions placed in other chapters: 1.
 
@@ -31,8 +30,6 @@ The person who served the country as principal of Zahira College, Colombo, and a
 
 **Explanation:** Dr T. B. Jayah became principal of Zahira College in 1921; he was chosen for the Legislative Council in 1924 and later became Minister of Labour.
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
 ---
 
 ### A2. 2019 – Islam I, Q18
@@ -53,8 +50,6 @@ Who was praised as 'the Sir Sayyid Ahmad Khan of Sri Lanka'?
 **Correct answer:** D – Dr T. B. Jayah *(option (4) on the original paper)*
 
 **Explanation:** The newspaper "The Crescent – 1946" praised Dr T. B. Jayah as "the Sir Sayyid Ahmad Khan of Sri Lanka".
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
 
 ---
 
@@ -77,10 +72,6 @@ In 1981 the Sri Lankan government honoured one of the national Muslim pioneers b
 
 **Explanation:** 31.05.1981 – a stamp for T. B. Jayah (1977 for Siddi Lebbe).
 
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
-
-**Verification note:** The paper prints the initials as "D. B." (in Tamil script, transliterated "Di. Bi."); this refers to T. B. Jayah.
-
 ---
 
 ## Part B: Structured and Essay Questions (Islam II)
@@ -97,7 +88,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (ii) T. B. Jayah
 
-**Suggested answer:**
+**Answer:**
 
 - Tuan Burhanuddeen Jayah – of the Malay community; born in 1890 at Galagedara, Kandy; educated at St Paul's College, Kandy, and St Thomas' College, Kotahena.
 - Teacher at Dharmaraja, Prince of Wales' and Ananda colleges; B.A., University of London, 1916 – "an educationist".
@@ -109,9 +100,7 @@ Source: OL_2021_2022_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Mention his educational, political and diplomatic work in balance.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 **Also relevant to:** [Grade 11, Chapter 22: History and Contribution of Sri Lankan Muslims](../../Grade_11/Chapter_Wise_Past_Papers/Chapter_22.md)
 
@@ -129,7 +118,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 (iv) The educational contributions of T. B. Jayah
 
-**Suggested answer:**
+**Answer:**
 
 - Teacher at Dharmaraja, Prince of Wales' and Ananda colleges – the mark of "an educationist".
 - Aware of the educational backwardness of the Muslim community, he set out to make Siddi Lebbe's dream come true; social progress through English education.
@@ -140,9 +129,7 @@ Source: OL_2022_2023_Islam_Tamil_Medium.md (page number not identifiable in the 
 
 **Answer explanation:** Leave out his political work and focus on his educational contributions.
 
-**Marking guidance (suggested only – not an official marking scheme):** No official marking scheme.
-
-**Answer status:** Suggested – not an official answer (no official marking scheme was supplied); based on the Grade 10/11 textbook content
+**Marking guidance:*** No official marking scheme.
 
 ---
 
