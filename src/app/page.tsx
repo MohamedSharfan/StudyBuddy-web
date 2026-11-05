@@ -7,14 +7,17 @@ import { Logo } from "@/components/ui/Logo";
 import { FREE_OFFER, MEDIUMS, teacherWhatsAppLink } from "@/lib/config";
 import { OL_UPCOMING } from "@/lib/levels";
 import { getMedium, studyHref } from "@/lib/prefs";
+import { canonicalUrl } from "@/lib/seo";
 
-const SHARE_TEXT = `${FREE_OFFER} O/L Islam in Tamil and English medium: notes, flashcards, quizzes and past papers.`;
+const SHARE_TEXT = `Free Sri Lankan O/L Islam past papers, notes, flashcards and quizzes for Grade 10 and 11 in Tamil and English medium. ${FREE_OFFER}`;
 
 // Also used for link previews when the site is shared on WhatsApp / Facebook.
 export const metadata = {
-  title: { absolute: "StudyBuddy — O/L Islam, free" },
+  title: { absolute: "O/L Islam Past Papers, Notes & Quizzes in Sri Lanka | StudyBuddy" },
   description: SHARE_TEXT,
-  openGraph: { title: "StudyBuddy — O/L Islam", description: SHARE_TEXT, images: ["/logo.jpg"] },
+  alternates: { canonical: canonicalUrl("/") },
+  openGraph: { type: "website", siteName: "StudyBuddy", title: "O/L Islam Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, url: canonicalUrl("/"), locale: "en_LK", images: ["/logo.jpg"] },
+  twitter: { card: "summary_large_image", title: "O/L Islam Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, images: ["/logo.jpg"] },
 };
 
 /**
@@ -41,10 +44,12 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
         <div className="mt-4 sm:mt-10">
           <FreeOffer />
           <h1 className="display text-[1.9rem] sm:text-4xl font-bold leading-tight mt-5">
-            {pickMedium ? "Which medium do you study in?" : "What are you studying for?"}
+            {pickMedium ? "Choose your medium for O/L Islam past papers" : "Free O/L Islam past papers, notes and quizzes"}
           </h1>
           <p className="text-muted mt-2">
-            {pickMedium ? "We'll show your notes, quizzes and past papers in this medium." : "Notes, flashcards, quizzes and past papers, chapter by chapter."}
+            {pickMedium
+              ? "Choose Tamil or English medium for Grade 10 and 11 notes, flashcards, quizzes and Sri Lankan past papers."
+              : "Study Sri Lankan Grade 10 and 11 Islam with chapter-wise notes, flashcards, quizzes and past-paper questions from 2016–2025."}
           </p>
         </div>
 
@@ -94,6 +99,23 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
                 <p className="text-xs text-muted">Coming soon</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section className="mt-10 glass p-5 sm:p-6">
+          <h2 className="display text-xl font-bold">Browse O/L Islam past papers by grade and medium</h2>
+          <p className="text-sm text-muted mt-2" lang="ta">
+            தரம் 10 மற்றும் 11 இஸ்லாம் கடந்தகால வினாத்தாள்கள், குறிப்புகள், வினாடி வினாக்கள் — தமிழ் மற்றும் ஆங்கில மொழிமூலங்களில்.
+          </p>
+          <div className="grid grid-cols-2 gap-2 mt-4">
+            {[10, 11].flatMap((grade) => [
+              { id: "islam-ol", medium: "Tamil" },
+              { id: "islam-ol-en", medium: "English" },
+            ].map((item) => (
+              <Link key={`${grade}-${item.id}`} href={`/subjects/${item.id}?grade=${grade}`} className="chip justify-center hover:!text-white">
+                Grade {grade} · {item.medium} medium
+              </Link>
+            )))}
           </div>
         </section>
       </main>

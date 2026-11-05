@@ -3,13 +3,20 @@ import { ChevronLeft, ChevronRight, Lock } from "lucide-react";
 import { AskTeacher } from "@/components/AskTeacher";
 import { DoorTabs } from "@/components/DoorTabs";
 import { FREE_ACCESS, LOGIN_ENABLED } from "@/lib/config";
-import { chapterHref, getChapterSummary } from "@/lib/catalog";
+import { chapterHref } from "@/lib/catalog";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
+import { canonicalUrl, chapterSeo } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: ChapterParams }) {
   const { subjectId, grade, chapter } = await params;
-  const c = getChapterSummary(subjectId, Number(grade), Number(chapter));
-  return { title: c ? `G${c.grade} Ch ${c.number} · ${c.title}` : "Chapter" };
+  const seo = chapterSeo(subjectId, Number(grade), Number(chapter));
+  if (!seo) return { title: "Chapter" };
+  return {
+    title: seo.title,
+    description: seo.description,
+    alternates: { canonical: canonicalUrl(seo.path), languages: seo.languages },
+    openGraph: { type: "article", siteName: "StudyBuddy", title: seo.title, description: seo.description, url: canonicalUrl(seo.path), images: ["/logo.jpg"] },
+  };
 }
 
 export default async function ChapterLayout({ params, children }: { params: ChapterParams; children: React.ReactNode }) {

@@ -8,9 +8,14 @@ import { LOGIN_ENABLED, MEDIUMS } from "@/lib/config";
 import { AL_STREAMS, OL_UPCOMING, getStream, levelLabel } from "@/lib/levels";
 import { getMedium } from "@/lib/prefs";
 import { subjectProgress } from "@/lib/progress";
+import { canonicalUrl } from "@/lib/seo";
 import { completionSet, getViewer, hasSubjectAccess } from "@/lib/session";
 
-export const metadata = { title: "Subjects" };
+export const metadata = {
+  title: "O/L Islam Subjects · Grade 10 & 11",
+  description: "Browse free Sri Lankan O/L Islam Grade 10 and 11 subjects in Tamil and English medium, with chapter-wise notes, quizzes and past papers.",
+  alternates: { canonical: canonicalUrl("/subjects") },
+};
 
 export default async function Subjects() {
   const [viewer, medium] = await Promise.all([getViewer(), getMedium()]);

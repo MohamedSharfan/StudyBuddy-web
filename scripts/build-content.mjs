@@ -33,7 +33,7 @@ const SUBJECTS = [
     freeChapters: 1, // chapters 1..N of each grade are open without unlocking
     lang: "ta",
     pastPaperNote:
-      "From the Islam I & II papers 2016–2025 (Tamil medium). Answers are textbook-based suggestions; official marking schemes weren't available, so check flagged items with your teacher.",
+      "Past-paper questions are from the Sri Lankan O/L Islam I & II papers from 2016–2025 (Tamil medium).",
     relatedHeading: "தொடர்புடைய பிற வினாக்கள்",
   },
   {
@@ -49,7 +49,7 @@ const SUBJECTS = [
     freeChapters: 1,
     lang: "en",
     pastPaperNote:
-      "English renderings of the Islam I & II papers 2016–2025 (Tamil medium); the official English-medium wording wasn't available. Answers are textbook-based suggestions, so check flagged items with your teacher.",
+      "English-medium study questions use English renderings of Sri Lankan O/L Islam I & II papers from 2016–2025.",
     relatedHeading: "Related questions in other chapters",
   },
 ];

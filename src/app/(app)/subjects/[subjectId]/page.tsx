@@ -8,11 +8,21 @@ import { ProgressRing } from "@/components/ui/ProgressRing";
 import { catalog, getSubject, subjectTotals } from "@/lib/catalog";
 import { LOGIN_ENABLED, MEDIUMS } from "@/lib/config";
 import { starItems, subjectProgress } from "@/lib/progress";
+import { canonicalUrl, subjectSeo } from "@/lib/seo";
 import { canSeeSubject, completionSet, getViewer, hasSubjectAccess } from "@/lib/session";
 
-export async function generateMetadata({ params }: { params: Promise<{ subjectId: string }> }) {
+export async function generateMetadata({ params, searchParams }: { params: Promise<{ subjectId: string }>; searchParams: Promise<{ grade?: string }> }) {
   const s = getSubject((await params).subjectId);
-  return { title: s ? `${s.name} ${s.level} · ${s.medium} medium` : "Subject" };
+  if (!s) return { title: "Subject" };
+  const { grade: rawGrade } = await searchParams;
+  const seo = subjectSeo(s.id, Number(rawGrade) || s.grades[0]?.grade || 10);
+  if (!seo) return { title: "Subject" };
+  return {
+    title: seo.title,
+    description: seo.description,
+    alternates: { canonical: canonicalUrl(seo.path), languages: seo.languages },
+    openGraph: { type: "website", siteName: "StudyBuddy", title: seo.title, description: seo.description, url: canonicalUrl(seo.path), images: ["/logo.jpg"] },
+  };
 }
 
 export default async function SubjectPage({ params, searchParams }: { params: Promise<{ subjectId: string }>; searchParams: Promise<{ grade?: string }> }) {
