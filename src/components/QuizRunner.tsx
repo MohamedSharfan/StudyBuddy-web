@@ -57,6 +57,7 @@ export function QuizRunner({
   const q = questions[qi];
   const picked = answers[qi];
   const answerVisible = kind !== "pastpaper" || Boolean(revealed[qi]);
+  const correctOption = q?.options.find((option) => option.key === q.answer);
   const correctCount = order.filter((i) => answers[i] === questions[i].answer).length;
 
   const pick = useCallback(
@@ -261,23 +262,28 @@ export function QuizRunner({
           })}
         </div>
 
-        {picked && kind === "pastpaper" && !answerVisible && (
+        {kind === "pastpaper" && !answerVisible && (
           <button
+            type="button"
             onClick={() => setRevealed((current) => ({ ...current, [qi]: true }))}
             className="btn btn-ghost mt-6"
-            aria-expanded={answerVisible}
+            aria-expanded={false}
           >
             <Eye size={16} /> Reveal answer
           </button>
         )}
 
-        {picked && answerVisible && (
+        {((Boolean(picked) && answerVisible) || (kind === "pastpaper" && answerVisible)) && (
           <div className={`mt-6 rounded-2xl p-4 border pop bg-card-2 ${isRight ? "border-gold" : "border-lilac"}`}>
-            <p className={`font-extrabold ${isRight ? "text-gold" : "text-lilac"}`}>{isRight ? <><Check size={17} className="inline" /> Correct!</> : <><X size={17} className="inline" /> The answer is {q.answer}</>}</p>
+            {kind === "pastpaper" ? (
+              <p className="font-extrabold text-gold"><Check size={17} className="inline" /> Correct answer: {q.answer}{correctOption ? `. ${correctOption.text}` : ""}</p>
+            ) : (
+              <p className={`font-extrabold ${isRight ? "text-gold" : "text-lilac"}`}>{isRight ? <><Check size={17} className="inline" /> Correct!</> : <><X size={17} className="inline" /> The answer is {q.answer}</>}</p>
+            )}
             {q.explanation && <p className="text-[0.95rem] text-muted mt-1.5 leading-relaxed">{withArabic(q.explanation)}</p>}
             {q.note && <p className="text-xs text-faint mt-2">{q.note}</p>}
             {kind === "pastpaper" && (
-              <button onClick={() => setRevealed((current) => ({ ...current, [qi]: false }))} className="mt-3 text-sm font-bold text-lilac hover:text-white flex items-center gap-1.5">
+              <button type="button" onClick={() => setRevealed((current) => ({ ...current, [qi]: false }))} className="mt-3 text-sm font-bold text-lilac hover:text-white flex items-center gap-1.5" aria-expanded={true}>
                 <EyeOff size={14} /> Hide answer
               </button>
             )}
