@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { ArrowRight, Check, RotateCcw, Shuffle, X } from "lucide-react";
+import { ArrowRight, Check, Eye, EyeOff, RotateCcw, Shuffle, X } from "lucide-react";
 import type { CompletionKind } from "@/lib/gamification";
 import { withArabic } from "@/components/ArabicText";
 import { RichText } from "@/components/RichText";
@@ -49,12 +49,14 @@ export function QuizRunner({
   const [order, setOrder] = useState(baseOrder);
   const [pos, setPos] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [revealed, setRevealed] = useState<Record<number, boolean>>({});
   const [finished, setFinished] = useState(false);
   const { result, pending, claim, clear } = useAward(kind, itemId);
 
   const qi = order[pos];
   const q = questions[qi];
   const picked = answers[qi];
+  const answerVisible = kind !== "pastpaper" || Boolean(revealed[qi]);
   const correctCount = order.filter((i) => answers[i] === questions[i].answer).length;
 
   const pick = useCallback(
@@ -85,6 +87,7 @@ export function QuizRunner({
       }
     setOrder(o);
     setAnswers({});
+    setRevealed({});
     setPos(0);
     setFinished(false);
     clear();
@@ -152,6 +155,7 @@ export function QuizRunner({
                 const w = questions[i];
                 const yours = w.options.find((o) => o.key === answers[i]);
                 const right = w.options.find((o) => o.key === w.answer);
+                const showAnswer = Boolean(revealed[i]);
                 return (
                   <li key={i} className="rounded-2xl border border-line p-4">
                     <p className="font-bold whitespace-pre-wrap">{w.prompt}</p>
@@ -160,10 +164,21 @@ export function QuizRunner({
                         <X size={15} className="inline" /> {yours.key}. {yours.text}
                       </p>
                     )}
-                    <p className="text-sm mt-1 text-gold">
-                      <Check size={15} className="inline" /> {right?.key}. {right?.text}
-                    </p>
-                    {w.explanation && <p className="text-sm text-muted mt-2">{w.explanation}</p>}
+                    {showAnswer ? (
+                      <>
+                        <p className="text-sm mt-1 text-gold">
+                          <Check size={15} className="inline" /> {right?.key}. {right?.text}
+                        </p>
+                        {w.explanation && <p className="text-sm text-muted mt-2">{w.explanation}</p>}
+                        <button onClick={() => setRevealed((current) => ({ ...current, [i]: false }))} className="mt-3 text-sm font-bold text-lilac hover:text-white flex items-center gap-1.5">
+                          <EyeOff size={14} /> Hide answer
+                        </button>
+                      </>
+                    ) : (
+                      <button onClick={() => setRevealed((current) => ({ ...current, [i]: true }))} className="mt-3 text-sm font-bold text-lilac hover:text-white flex items-center gap-1.5">
+                        <Eye size={14} /> Reveal answer
+                      </button>
+                    )}
                   </li>
                 );
               })}
@@ -185,12 +200,12 @@ export function QuizRunner({
           {done && <span className="ml-2 text-gold">· completed before</span>}
         </p>
         <span className="chip !text-gold !border-gold/30">
-          <Check size={13} /> {correctCount}
+          <Check size={13} /> {kind === "pastpaper" ? `${Object.keys(answers).length} answered` : correctCount}
         </span>
       </div>
       <div className="flex flex-wrap gap-1.5 mb-6" aria-hidden>
         {order.map((i, k) => (
-          <Dot key={k} current={k === pos} state={answers[i] ? (answers[i] === questions[i].answer ? "right" : "wrong") : "todo"} />
+          <Dot key={k} current={k === pos} state={answers[i] && (kind !== "pastpaper" || revealed[i]) ? (answers[i] === questions[i].answer ? "right" : "wrong") : "todo"} />
         ))}
       </div>
 
@@ -213,8 +228,8 @@ export function QuizRunner({
         <div className="grid gap-3 mt-6" role="radiogroup">
           {q.options.map((o, i) => {
             const chosen = picked === o.key;
-            const correct = picked && o.key === q.answer;
-            const wrong = chosen && o.key !== q.answer;
+            const correct = picked && answerVisible && o.key === q.answer;
+            const wrong = chosen && answerVisible && o.key !== q.answer;
             return (
               <button
                 key={o.key}
@@ -246,11 +261,26 @@ export function QuizRunner({
           })}
         </div>
 
-        {picked && (
+        {picked && kind === "pastpaper" && !answerVisible && (
+          <button
+            onClick={() => setRevealed((current) => ({ ...current, [qi]: true }))}
+            className="btn btn-ghost mt-6"
+            aria-expanded={answerVisible}
+          >
+            <Eye size={16} /> Reveal answer
+          </button>
+        )}
+
+        {picked && answerVisible && (
           <div className={`mt-6 rounded-2xl p-4 border pop bg-card-2 ${isRight ? "border-gold" : "border-lilac"}`}>
             <p className={`font-extrabold ${isRight ? "text-gold" : "text-lilac"}`}>{isRight ? <><Check size={17} className="inline" /> Correct!</> : <><X size={17} className="inline" /> The answer is {q.answer}</>}</p>
             {q.explanation && <p className="text-[0.95rem] text-muted mt-1.5 leading-relaxed">{withArabic(q.explanation)}</p>}
             {q.note && <p className="text-xs text-faint mt-2">{q.note}</p>}
+            {kind === "pastpaper" && (
+              <button onClick={() => setRevealed((current) => ({ ...current, [qi]: false }))} className="mt-3 text-sm font-bold text-lilac hover:text-white flex items-center gap-1.5">
+                <EyeOff size={14} /> Hide answer
+              </button>
+            )}
           </div>
         )}
       </div>
