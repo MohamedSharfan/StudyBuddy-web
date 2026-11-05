@@ -22,7 +22,7 @@ export function StudySideNav({ studyHref }: { studyHref: string }) {
     <nav className="flex flex-col gap-1.5" aria-label="Main">
       {items.map(({ href, label, icon: I, active, external }) => {
         const cls = `flex items-center gap-3 rounded-xl px-3 py-2.5 font-semibold ${
-          active ? "bg-card-2 text-white" : external ? "text-gold hover:bg-card-2" : "text-muted hover:text-white hover:bg-white/[.04]"
+          active ? "bg-card-2 text-white" : "text-muted hover:text-white hover:bg-white/[.04]"
         }`;
         const inner = (
           <>
@@ -53,8 +53,8 @@ export function StudyBottomNav({ studyHref }: { studyHref: string }) {
       {items.map(({ href, label, icon: I, active, external }) => {
         const inner = (
           <>
-            <I size={22} className={active ? "text-gold" : external ? "text-gold" : "text-muted"} />
-            <span className={`text-[11px] font-semibold ${active ? "text-white" : external ? "text-gold" : "text-muted"}`}>{label}</span>
+            <I size={22} className={active ? "text-gold" : "text-muted"} />
+            <span className={`text-[11px] font-semibold ${active ? "text-white" : "text-muted"}`}>{label}</span>
           </>
         );
         const cls = "flex flex-col items-center gap-0.5 px-2 py-1.5 min-w-[68px] min-h-[52px] justify-center";
