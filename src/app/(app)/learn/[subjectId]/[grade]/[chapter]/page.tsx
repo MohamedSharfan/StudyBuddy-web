@@ -31,7 +31,7 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
                 href={chapterHref(subject.id, c.grade, c.number, d.slug)}
                 className={`glass glass-hover flex items-center gap-4 p-4 ${i === firstOpen ? "!border-gold/60" : ""}`}
               >
-                <span className={`grid place-items-center w-11 h-11 rounded-xl flex-none ${done ? "bg-green text-bg" : "bg-card-2"}`}>
+                <span className={`grid place-items-center w-11 h-11 rounded-xl flex-none ${done ? "bg-gold text-bg" : "bg-card-2"}`}>
                   {done ? <Check size={20} strokeWidth={3} /> : <I size={20} />}
                 </span>
                 <span className="flex-1 min-w-0">

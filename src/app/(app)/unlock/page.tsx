@@ -86,7 +86,7 @@ export default async function UnlockPage() {
               <CopyButton text={p.student_code} />
             </div>
             {wa ? (
-              <a href={wa} target="_blank" rel="noreferrer" className="btn btn-green w-full mt-4">
+              <a href={wa} target="_blank" rel="noreferrer" className="btn btn-gold w-full mt-4">
                 <MessageCircle size={18} /> Message us on WhatsApp
               </a>
             ) : (

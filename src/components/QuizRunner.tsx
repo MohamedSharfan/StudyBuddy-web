@@ -22,7 +22,7 @@ function Dot({ state, current }: { state: "right" | "wrong" | "todo"; current: b
   return (
     <span
       className={`block w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full flex-none ${current ? "ring-2 ring-white ring-offset-2 ring-offset-bg" : ""} ${
-        state === "right" ? "bg-green" : state === "wrong" ? "bg-pink" : "bg-white/15"
+        state === "right" ? "bg-gold" : state === "wrong" ? "bg-royal" : "bg-line"
       }`}
     />
   );
@@ -229,12 +229,12 @@ export function QuizRunner({
                       ? "border-lilac bg-card-2 shake"
                       : picked
                         ? "border-line opacity-60"
-                        : "border-line bg-white/[.03] hover:border-neon hover:bg-electric/15 hover:-translate-y-0.5"
+                        : "border-line bg-card hover:border-neon hover:bg-card-2 hover:-translate-y-0.5"
                 }`}
               >
                 <span
                   className={`grid place-items-center w-9 h-9 rounded-xl font-extrabold flex-none ${
-                    correct ? "bg-gold text-bg" : wrong ? "bg-royal text-white" : "bg-electric/40 group-hover:bg-electric"
+                    correct ? "bg-gold text-bg" : wrong ? "bg-royal text-white" : "bg-electric group-hover:bg-violet"
                   }`}
                 >
                   {correct ? <Check size={18} strokeWidth={3} /> : wrong ? <X size={18} strokeWidth={3} /> : o.key}

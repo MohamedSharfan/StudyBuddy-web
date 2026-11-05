@@ -38,7 +38,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
             {isSupabaseConfigured ? (
               <LoginForm next={safeNext} />
             ) : (
-              <p className="text-sm rounded-xl bg-gold/10 border border-gold/30 p-3">
+              <p className="text-sm rounded-xl bg-card-2 border border-gold p-3">
                 Supabase isn&apos;t configured yet. Add <code>NEXT_PUBLIC_SUPABASE_URL</code> and <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> to{" "}
                 <code>.env.local</code>.
               </p>

@@ -25,7 +25,7 @@ function Choice({ name, value, checked, onChange, title, sub }: { name: string; 
       <input type="radio" name={name} value={value} checked={checked} onChange={onChange} className="peer sr-only" />
       <span
         className={`flex items-center justify-between gap-3 rounded-xl border px-4 py-3 transition-colors peer-focus-visible:ring-2 ring-gold ${
-          checked ? "border-violet bg-violet/15" : "border-line bg-bg-2 hover:border-line-strong"
+          checked ? "border-gold bg-card-2" : "border-line bg-bg-2 hover:border-line-strong"
         }`}
       >
         <span>

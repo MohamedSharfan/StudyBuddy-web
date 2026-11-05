@@ -29,7 +29,7 @@ export function ChapterList({ items, showProgress = true }: { items: StarItem[];
             >
               <span
                 className={`grid place-items-center w-10 h-10 rounded-xl flex-none font-bold ${
-                  it.state === "done" ? "bg-green text-bg" : locked ? "bg-white/[.04] text-faint" : "bg-card-2 text-white"
+                  it.state === "done" ? "bg-gold text-bg" : locked ? "bg-line text-faint" : "bg-card-2 text-white"
                 }`}
               >
                 {it.state === "done" ? <Check size={18} strokeWidth={3} /> : locked ? <Lock size={16} /> : c.number}
@@ -47,7 +47,7 @@ export function ChapterList({ items, showProgress = true }: { items: StarItem[];
               {showProgress && (
                 <span className="hidden sm:flex gap-1 flex-none" aria-hidden>
                   {it.steps.map((s, k) => (
-                    <span key={k} className={`h-1.5 w-4 rounded-full ${s ? "bg-green" : "bg-white/10"}`} />
+                    <span key={k} className={`h-1.5 w-4 rounded-full ${s ? "bg-gold" : "bg-line"}`} />
                   ))}
                 </span>
               )}

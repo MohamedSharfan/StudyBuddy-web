@@ -38,7 +38,7 @@ export function SideNav({ isAdmin }: { isAdmin: boolean }) {
       {isAdmin && (
         <Link
           href="/admin"
-          className="mt-3 flex items-center gap-3 rounded-xl px-3 py-2.5 font-semibold text-gold hover:bg-gold/10 border border-gold/25"
+          className="mt-3 flex items-center gap-3 rounded-xl px-3 py-2.5 font-semibold text-gold hover:bg-card-2 border border-gold"
         >
           <ShieldCheck size={19} /> Admin panel
         </Link>

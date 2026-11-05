@@ -17,11 +17,7 @@
   --neon: #a855f7;
   --lilac: #c4b5fd;
   --gold: #fbbf24;
-  --cyan: #22d3ee;
-  --green: #34d399;
-  --orange: #fb923c;
-  --pink: #ec4899;
-  --red: #f87171;
+  --cyan: #c4b5fd;
   --radius: 18px;
   color-scheme: dark;
 }
@@ -42,9 +38,6 @@
   --color-lilac: var(--lilac);
   --color-gold: var(--gold);
   --color-cyan: var(--cyan);
-  --color-green: var(--green);
-  --color-orange: var(--orange);
-  --color-pink: var(--pink);
   --font-display: var(--font-jakarta), var(--font-tamil), system-ui, sans-serif;
   --font-sans: var(--font-jakarta), var(--font-tamil), system-ui, sans-serif;
   --font-arabic: var(--font-amiri), serif;
@@ -141,10 +134,6 @@ body {
   --b-dark: #b45309;
   color: #1a0b2e;
 }
-.btn-green {
-  --b: #10b981;
-  --b-dark: #047857;
-}
 .btn-tutor {
   --b: #fff;
   --b-dark: #d4d4d4;
@@ -161,8 +150,9 @@ body {
   background: rgba(255, 255, 255, 0.05);
 }
 .btn-danger {
-  --b: #ef4444;
-  --b-dark: #991b1b;
+  --b: #c4b5fd;
+  --b-dark: #5b21b6;
+  color: #120a26;
 }
 .btn-sm {
   min-height: 36px;
@@ -352,8 +342,9 @@ select.input {
   margin: 1.2em 0;
   padding: 1rem 1.15rem;
   border-radius: 18px;
-  background: rgba(139, 92, 246, 0.1);
-  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: var(--card-2);
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--violet);
 }
 .prose-sb blockquote p:first-child {
   margin-top: 0;
@@ -361,23 +352,22 @@ select.input {
 .prose-sb blockquote p:last-child {
   margin-bottom: 0;
 }
-/* Callout variants (detected from the leading emoji) */
+/* Callout variants use solid brand surfaces; the content marker renders as an icon. */
 .prose-sb blockquote.callout-remember {
-  background: rgba(251, 191, 36, 0.09);
-  border-color: rgba(251, 191, 36, 0.4);
+  background: var(--card-2);
+  border-color: var(--gold);
+  border-left-color: var(--gold);
 }
 .prose-sb blockquote.callout-quran {
-  background: rgba(52, 211, 153, 0.08);
-  border-color: rgba(52, 211, 153, 0.38);
+  border-left-color: var(--lilac);
 }
 .prose-sb blockquote.callout-exam {
-  background: rgba(236, 72, 153, 0.09);
-  border-color: rgba(236, 72, 153, 0.4);
+  border-left-color: var(--gold);
 }
 .prose-sb blockquote.callout-tip {
-  background: rgba(34, 211, 238, 0.08);
-  border-color: rgba(34, 211, 238, 0.38);
+  border-left-color: var(--violet);
 }
+.content-marker { display: inline-block; vertical-align: -0.18em; margin-right: 0.3rem; color: var(--gold); flex: none; }
 .prose-sb table {
   width: 100%;
   border-collapse: separate;

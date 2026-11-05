@@ -10,7 +10,7 @@ import { BADGES, type CompletionKind } from "@/lib/gamification";
 import { Panda } from "@/components/ui/Panda";
 
 export function burst() {
-  const colors = ["#fbbf24", "#a855f7", "#22d3ee", "#ec4899", "#ffffff"];
+  const colors = ["#fbbf24", "#a855f7", "#c4b5fd", "#7c3aed", "#ffffff"];
   confetti({ particleCount: 90, spread: 75, origin: { y: 0.65 }, colors, disableForReducedMotion: true });
   setTimeout(() => confetti({ particleCount: 50, spread: 110, origin: { y: 0.55 }, colors, scalar: 0.8, disableForReducedMotion: true }), 220);
 }
@@ -97,7 +97,7 @@ export function RewardModal({ kind, result, onClose, nextHref, nextLabel }: { ki
         <h2 className="display text-2xl font-bold mt-3">{title}</h2>
         <div className="mt-2">{body}</div>
         {badges.length > 0 && (
-          <div className="mt-5 rounded-2xl bg-gold/10 border border-gold/30 p-3">
+          <div className="mt-5 rounded-2xl bg-card-2 border border-gold p-3">
             <p className="text-xs font-bold text-gold">New badge{badges.length > 1 ? "s" : ""}</p>
             {badges.map((b) => (
               <p key={b.code} className="font-bold mt-1">

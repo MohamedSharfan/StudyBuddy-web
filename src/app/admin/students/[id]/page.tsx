@@ -60,7 +60,7 @@ export default async function AdminStudentDetail({ params }: { params: Promise<{
             </a>
           )}
           {wa && (
-            <a href={wa} target="_blank" rel="noreferrer" className="btn btn-green btn-sm">
+            <a href={wa} target="_blank" rel="noreferrer" className="btn btn-gold btn-sm">
               <MessageCircle size={14} /> {s.phone}
             </a>
           )}

@@ -6,7 +6,7 @@ import type { Viewer } from "@/lib/session";
 export function LockedPanel({ chapter, viewer }: { chapter: ChapterSummary; viewer: Viewer | null }) {
   return (
     <div className="glass p-6 sm:p-10 text-center max-w-[640px] mx-auto">
-      <span className="mx-auto grid place-items-center w-12 h-12 rounded-full bg-gold/15 text-gold">
+      <span className="mx-auto grid place-items-center w-12 h-12 rounded-full bg-card-2 text-gold border border-gold">
         <Lock size={22} />
       </span>
       <h2 className="display text-2xl font-bold mt-4">This chapter is locked</h2>

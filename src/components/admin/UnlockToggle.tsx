@@ -60,7 +60,7 @@ export function UnlockToggle({ userId, subjectId, unlocked, compact = false }: {
           />
           {err && <p className="text-xs text-lilac mt-2">{err}</p>}
           <div className="flex gap-2 mt-3">
-            <button className="btn btn-green btn-sm flex-1" onClick={() => run(true)} disabled={pending}>
+            <button className="btn btn-gold btn-sm flex-1" onClick={() => run(true)} disabled={pending}>
               {pending && <Loader2 size={14} className="animate-spin" />} Confirm unlock
             </button>
             <button className="btn btn-ghost btn-sm" onClick={() => setOpen(false)}>

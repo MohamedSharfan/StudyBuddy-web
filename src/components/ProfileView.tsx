@@ -59,7 +59,7 @@ export function ProfileStats({ p, lessons, quizzes }: { p: PublicProfile; lesson
       <div className="grid grid-cols-2 gap-3">
         {[
           [<span key="c" className="coin" />, p.coins.toLocaleString(), "Coins"],
-          [<Flame key="f" size={20} className="text-orange fill-orange/50" />, p.streak_days, "Day streak"],
+          [<Flame key="f" size={20} className="text-gold" />, p.streak_days, "Day streak"],
           [<BookOpen key="book" size={20} className="text-lilac" />, lessons, "Lessons read"],
           [<Trophy key="trophy" size={20} className="text-gold" />, quizzes, "Quizzes passed"],
         ].map(([icon, n, l], i) => (

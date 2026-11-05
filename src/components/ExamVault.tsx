@@ -30,13 +30,13 @@ function StructuredCard({ q, index }: { q: PastStructured; index: number }) {
             <RichText text={q.answer} />
           </div>
           {q.explanation && (
-            <div className="rounded-2xl p-4 bg-electric/10 border border-electric/30">
+            <div className="rounded-2xl p-4 bg-card-2 border border-lilac">
               <p className="text-xs font-bold text-lilac mb-1">Why</p>
               <RichText text={q.explanation} />
             </div>
           )}
           {q.guidance && (
-            <div className="rounded-2xl p-4 bg-gold/10 border border-gold/30">
+            <div className="rounded-2xl p-4 bg-card-2 border border-gold">
               <p className="text-xs font-bold text-gold mb-1">Marking guide</p>
               <RichText text={q.guidance} />
             </div>

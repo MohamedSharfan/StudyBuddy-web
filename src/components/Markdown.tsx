@@ -1,7 +1,8 @@
 import Link from "next/link";
+import React from "react";
 import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { ARABIC_RUN, isMostlyArabic } from "./ArabicText";
+import { ARABIC_RUN, isMostlyArabic, MARKERS } from "./ArabicText";
 
 type HastNode = { type: string; tagName?: string; value?: string; properties?: Record<string, unknown>; children?: HastNode[] };
 
@@ -11,13 +12,37 @@ function textOf(node: HastNode | undefined): string {
   return (node.children ?? []).map(textOf).join("");
 }
 
-function calloutClass(text: string) {
-  const t = text.trim();
-  if (t.startsWith("📌")) return "callout-remember";
-  if (t.startsWith("📖")) return "callout-quran";
-  if (t.startsWith("📝") || t.startsWith("🎓") || t.startsWith("⚠")) return "callout-exam";
-  if (t.startsWith("💡") || t.startsWith("✨")) return "callout-tip";
+function calloutClass(icon: string) {
+  if (icon === "📌") return "callout-remember";
+  if (icon === "📖") return "callout-quran";
+  if (["📝", "🎓", "⚠"].includes(icon)) return "callout-exam";
+  if (["💡", "✨"].includes(icon)) return "callout-tip";
   return "";
+}
+
+function rehypeContentMarkers() {
+  const iconPattern = new RegExp(Object.keys(MARKERS).sort((a, b) => b.length - a.length).join("|"), "gu");
+  const visit = (node: HastNode) => {
+    if (!node.children) return;
+    const out: HastNode[] = [];
+    for (const child of node.children) {
+      if (child.type === "text" && child.value) {
+        let last = 0;
+        for (const match of child.value.matchAll(iconPattern)) {
+          const index = match.index ?? 0;
+          if (index > last) out.push({ type: "text", value: child.value.slice(last, index) });
+          out.push({ type: "element", tagName: "span", properties: { dataContentIcon: match[0] }, children: [] });
+          last = index + match[0].length;
+        }
+        if (last < child.value.length) out.push({ type: "text", value: child.value.slice(last) });
+      } else {
+        visit(child);
+        out.push(child);
+      }
+    }
+    node.children = out;
+  };
+  return (tree: HastNode) => visit(tree);
 }
 
 export function slugify(text: string) {
@@ -88,7 +113,9 @@ function rehypeArabicSpans() {
 
 const components: Components = {
   blockquote({ node, children }) {
-    return <blockquote className={calloutClass(textOf(node as HastNode))}>{children}</blockquote>;
+    const marker = findAll(node as HastNode, "span").find((span) => span.properties?.dataContentIcon)?.properties?.dataContentIcon;
+    const markerKey = typeof marker === "string" ? marker.replace(/\ufe0f/g, "") : "";
+    return <blockquote className={calloutClass(markerKey)}>{children}</blockquote>;
   },
   p({ node, children }) {
     const text = textOf(node as HastNode);
@@ -105,6 +132,23 @@ const components: Components = {
   },
   h3({ node, children }) {
     return <h3 id={slugify(textOf(node as HastNode))}>{children}</h3>;
+  },
+  span({ node, children }) {
+    const props = node as HastNode | undefined;
+    const icon = props?.properties?.dataContentIcon;
+    if (typeof icon === "string") {
+      const Icon = MARKERS[icon] ?? MARKERS[icon.replace(/\ufe0f/g, "")];
+      if (Icon) return <Icon size={17} className="content-marker" aria-hidden="true" />;
+    }
+    const className = props?.properties?.className;
+    return (
+      <span
+        className={Array.isArray(className) ? className.join(" ") : typeof className === "string" ? className : undefined}
+        lang={typeof props?.properties?.lang === "string" ? props.properties.lang : undefined}
+      >
+        {children}
+      </span>
+    );
   },
   table({ node, children }) {
     const stack = (node as HastNode | undefined)?.properties?.dataStack !== undefined;
@@ -135,7 +179,7 @@ const components: Components = {
 export function Markdown({ children, className = "", size }: { children: string; className?: string; size?: number }) {
   return (
     <div className={`prose-sb ${className}`} style={size ? ({ "--fs": `${size}rem` } as React.CSSProperties) : undefined}>
-      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeTableLabels, rehypeArabicSpans]} components={components}>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeTableLabels, rehypeArabicSpans, rehypeContentMarkers]} components={components}>
         {children}
       </ReactMarkdown>
     </div>

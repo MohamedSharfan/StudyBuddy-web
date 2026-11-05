@@ -161,7 +161,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
             <button onClick={() => answer(false)} className="btn btn-ghost !min-h-[56px] !border-lilac hover:!bg-card-2">
               <X size={18} className="text-lilac" /> Again <kbd className="hidden sm:inline text-[10px] text-faint">←</kbd>
             </button>
-            <button onClick={() => answer(true)} className="btn btn-green !min-h-[56px]">
+            <button onClick={() => answer(true)} className="btn btn-gold !min-h-[56px]">
               <Check size={18} /> Got it <kbd className="hidden sm:inline text-[10px] opacity-70">→</kbd>
             </button>
           </div>
