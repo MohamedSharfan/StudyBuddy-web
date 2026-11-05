@@ -123,7 +123,7 @@ function parseFlashcards(md) {
   return cards;
 }
 
-const KEY_RE = /^(Year and Question Reference|Year|Question Reference|Marks|Correct Answer|Answer Text|Explanation|Difficulty|Answer Status|Also Relevant To|Verification Note|Original Question|Suggested Answer|Answer Explanation|Marking Guidance[^:]*)\s*:\s*(.*)$/;
+const KEY_RE = /^(Year and Question Reference|Year|Question Reference|Marks|Correct Answer|Answer Text|Answer Explanation|Answer|Explanation|Difficulty|Answer Status|Also Relevant To|Verification Note|Original Question|Suggested Answer|Marking Guidance[^:]*)\s*:\s*(.*)$/;
 
 // Generic "Key: value" block parser that also collects A–D options and the free-text prompt.
 function parseFieldBlock(block) {
@@ -194,6 +194,7 @@ const EN_FIELDS = {
   "also relevant to": "alsoRelevant",
   "verification note": "verification",
   question: "question",
+  answer: "answer",
   "suggested answer": "answer",
   "answer explanation": "answerExplanation",
   "marking guidance": "guidance",
@@ -369,7 +370,7 @@ function parsePastPapers(md, subjectId) {
       question: fields["Original Question"] || "",
       reference: fields["Year and Question Reference"] || heading,
       marks: fields["Marks"] || "",
-      answer: fields["Suggested Answer"] || "",
+      answer: fields["Answer"] || fields["Suggested Answer"] || "",
       explanation: fields["Answer Explanation"] || "",
       guidance: fields["Marking Guidance"] || "",
       status: fields["Answer Status"] || "",
