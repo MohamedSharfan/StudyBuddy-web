@@ -73,11 +73,12 @@ body {
 }
 
 .glass-hover {
-  transition: border-color 0.15s, background-color 0.15s;
+  transition: border-color 0.15s, background-color 0.15s, transform 0.18s ease;
 }
 .glass-hover:hover {
   border-color: var(--line-strong);
   background-color: var(--card-2);
+  transform: translateY(-2px);
 }
 
 .eyebrow {
@@ -110,7 +111,7 @@ body {
   color: #fff;
   background: var(--b);
   box-shadow: 0 2px 0 var(--b-dark);
-  transition: transform 0.08s, filter 0.15s;
+  transition: transform 0.16s ease, filter 0.18s ease, box-shadow 0.16s ease;
   cursor: pointer;
   border: 0;
   white-space: nowrap;
@@ -119,6 +120,7 @@ body {
 }
 .btn:hover {
   filter: brightness(1.1);
+  transform: translateY(-1px);
 }
 .btn:active {
   transform: translateY(2px);
@@ -244,6 +246,23 @@ select.input {
   border-radius: inherit;
   background: var(--gold);
   transition: width 0.4s ease-out;
+}
+
+/* Small page entrance and loading motion */
+.page-enter {
+  animation: page-enter 0.28s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+}
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.loading-shimmer {
+  background: linear-gradient(100deg, var(--card-2) 20%, var(--line-strong) 45%, var(--card-2) 70%);
+  background-size: 220% 100%;
+  animation: loading-shimmer 1.35s ease-in-out infinite;
+}
+@keyframes loading-shimmer {
+  to { background-position: -220% 0; }
 }
 
 /* Animations — kept short and only used for feedback */
@@ -562,6 +581,8 @@ select.input {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+  .page-enter { animation: none !important; }
+  .loading-shimmer { animation: none !important; background: var(--card-2); }
 }
 
 /* Focus mode (lesson reader) hides the app chrome */

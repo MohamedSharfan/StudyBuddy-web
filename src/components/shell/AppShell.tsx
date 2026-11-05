@@ -75,7 +75,7 @@ function StudyShell({ settings, studyHref, mediumName, children }: { settings: S
         </div>
       </header>
 
-      <main className="px-4 sm:px-6 pb-28 lg:pb-16 pt-5 max-w-[1200px] mx-auto">{children}</main>
+      <main className="page-enter px-4 sm:px-6 pb-28 lg:pb-16 pt-5 max-w-[1200px] mx-auto">{children}</main>
       <StudyBottomNav studyHref={studyHref} />
     </div>
   );
@@ -135,7 +135,7 @@ export function AppShell({
         </div>
       </header>
 
-      <main className="px-4 sm:px-6 pb-32 lg:pb-16 pt-6 max-w-[1200px] mx-auto">{children}</main>
+      <main className="page-enter px-4 sm:px-6 pb-32 lg:pb-16 pt-6 max-w-[1200px] mx-auto">{children}</main>
       <BottomNav />
       <FocusTimer />
     </div>

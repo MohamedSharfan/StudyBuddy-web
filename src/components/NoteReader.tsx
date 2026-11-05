@@ -164,7 +164,7 @@ export function NoteReader({
                     active === h.id ? "border-gold text-white font-bold" : "border-line text-muted hover:text-white"
                   }`}
                 >
-                  {h.text}
+                  {withArabic(h.text)}
                 </a>
               ))}
               <div className="mt-4">
