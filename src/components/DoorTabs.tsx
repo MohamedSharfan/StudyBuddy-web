@@ -30,7 +30,7 @@ export function DoorTabs({ base, steps }: { base: string; steps: boolean[] }) {
             }`}
           >
             {label}
-            {done && <Check size={14} strokeWidth={3} className="text-green" />}
+            {done && <Check size={14} strokeWidth={3} className="text-gold" />}
           </Link>
         );
       })}

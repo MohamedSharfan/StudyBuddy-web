@@ -175,8 +175,8 @@ export function ProfileForm({ initial, next, full = false, submitLabel = "Save" 
             </>
           )}
 
-          {state.error && <p className="text-sm rounded-xl px-3 py-2 bg-red-500/15 border border-red-400/30">{state.error}</p>}
-          {state.ok && state.message && <p className="text-sm rounded-xl px-3 py-2 bg-green/10 border border-green/30">{state.message}</p>}
+          {state.error && <p className="text-sm rounded-xl px-3 py-2 bg-card-2 border border-lilac">{state.error}</p>}
+          {state.ok && state.message && <p className="text-sm rounded-xl px-3 py-2 bg-card-2 border border-gold">{state.message}</p>}
 
           <button className="btn btn-gold w-full sm:w-auto" disabled={pending || !grade}>
             {pending && <Loader2 size={18} className="animate-spin" />} {submitLabel}

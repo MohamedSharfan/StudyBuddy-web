@@ -34,7 +34,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
           <div className="glass p-6 sm:p-8">
             <h2 className="display text-2xl font-bold">Sign in</h2>
             <p className="text-sm text-muted mt-1 mb-6">New here? Signing in creates your free account.</p>
-            {error && <p className="mb-4 rounded-xl bg-red-500/15 border border-red-400/30 px-3 py-2 text-sm">Sign-in failed: {error}</p>}
+            {error && <p className="mb-4 rounded-xl bg-card-2 border border-lilac px-3 py-2 text-sm">Sign-in failed: {error}</p>}
             {isSupabaseConfigured ? (
               <LoginForm next={safeNext} />
             ) : (

@@ -3,7 +3,7 @@ import { QuizRunner } from "@/components/QuizRunner";
 import { chapterHref } from "@/lib/catalog";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
 
-const DIFFICULTY: Record<string, string> = { Easy: "🟢 Easy", Medium: "🟡 Medium", Hard: "🔴 Hard" };
+const DIFFICULTY: Record<string, string> = { Easy: "Easy", Medium: "Medium", Hard: "Hard" };
 
 export default async function QuizPage({ params }: { params: ChapterParams }) {
   const { subject, summary: c, viewer, open, content, steps } = await resolveChapter(params, true);

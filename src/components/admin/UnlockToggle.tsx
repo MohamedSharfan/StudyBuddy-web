@@ -29,7 +29,7 @@ export function UnlockToggle({ userId, subjectId, unlocked, compact = false }: {
           if (confirm("Lock this subject for the student again?")) run(false);
         }}
         disabled={pending}
-        className={`btn btn-ghost btn-sm !border-green/40 !text-green hover:!border-pink/50 hover:!text-pink group ${compact ? "" : "min-w-[118px]"}`}
+        className={`btn btn-ghost btn-sm !border-gold !text-gold hover:!border-lilac hover:!text-lilac group ${compact ? "" : "min-w-[118px]"}`}
         title="Click to lock again"
       >
         {pending ? <Loader2 size={14} className="animate-spin" /> : <Unlock size={14} />}
@@ -58,7 +58,7 @@ export function UnlockToggle({ userId, subjectId, unlocked, compact = false }: {
             autoFocus
             onKeyDown={(e) => e.key === "Enter" && run(true)}
           />
-          {err && <p className="text-xs text-pink mt-2">{err}</p>}
+          {err && <p className="text-xs text-lilac mt-2">{err}</p>}
           <div className="flex gap-2 mt-3">
             <button className="btn btn-green btn-sm flex-1" onClick={() => run(true)} disabled={pending}>
               {pending && <Loader2 size={14} className="animate-spin" />} Confirm unlock

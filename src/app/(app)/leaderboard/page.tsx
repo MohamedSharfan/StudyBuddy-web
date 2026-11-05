@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Flame } from "lucide-react";
+import { Flame, Medal } from "lucide-react";
 import { Avatar } from "@/components/ui/Avatar";
 import { PROVINCES, rankFor } from "@/lib/gamification";
 import { gradesFor } from "@/lib/levels";
@@ -45,7 +45,6 @@ export default async function Leaderboard({ searchParams }: { searchParams: Prom
     .gt("coins", me.coins);
   const myPos = (ahead ?? 0) + 1;
 
-  const medals = ["🥇", "🥈", "🥉"];
   const filterHref = (p?: string, g?: string) => {
     const s = new URLSearchParams();
     if (p) s.set("province", p);
@@ -94,7 +93,7 @@ export default async function Leaderboard({ searchParams }: { searchParams: Prom
               return (
                 <li key={r.id}>
                   <Link href={r.username ? `/u/${r.username}` : "#"} className={`flex items-center gap-3 px-4 py-3 hover:bg-white/[.03] ${isMe ? "bg-card-2" : ""}`}>
-                    <span className="w-8 text-center font-bold text-muted">{i < 3 ? medals[i] : i + 1}</span>
+                    <span className={`w-8 text-center font-bold ${i < 3 ? "text-gold" : "text-muted"}`}>{i < 3 ? <Medal size={19} className="inline" /> : i + 1}</span>
                     <Avatar name={r.display_name} url={r.avatar_url} size={40} />
                     <span className="flex-1 min-w-0">
                       <span className="block font-bold truncate">

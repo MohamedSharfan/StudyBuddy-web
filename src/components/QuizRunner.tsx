@@ -156,12 +156,12 @@ export function QuizRunner({
                   <li key={i} className="rounded-2xl border border-line p-4">
                     <p className="font-bold whitespace-pre-wrap">{w.prompt}</p>
                     {yours && (
-                      <p className="text-sm mt-2 text-pink">
-                        ✗ {yours.key}. {yours.text}
+                      <p className="text-sm mt-2 text-lilac">
+                        <X size={15} className="inline" /> {yours.key}. {yours.text}
                       </p>
                     )}
-                    <p className="text-sm mt-1 text-green">
-                      ✓ {right?.key}. {right?.text}
+                    <p className="text-sm mt-1 text-gold">
+                      <Check size={15} className="inline" /> {right?.key}. {right?.text}
                     </p>
                     {w.explanation && <p className="text-sm text-muted mt-2">{w.explanation}</p>}
                   </li>
@@ -224,9 +224,9 @@ export function QuizRunner({
                 disabled={Boolean(picked)}
                 className={`group flex items-center gap-4 text-left rounded-2xl border-2 px-4 py-3.5 transition-all ${
                   correct
-                    ? "border-green bg-green/15"
+                    ? "border-gold bg-card-2"
                     : wrong
-                      ? "border-pink bg-pink/15 shake"
+                      ? "border-lilac bg-card-2 shake"
                       : picked
                         ? "border-line opacity-60"
                         : "border-line bg-white/[.03] hover:border-neon hover:bg-electric/15 hover:-translate-y-0.5"
@@ -234,7 +234,7 @@ export function QuizRunner({
               >
                 <span
                   className={`grid place-items-center w-9 h-9 rounded-xl font-extrabold flex-none ${
-                    correct ? "bg-green text-bg" : wrong ? "bg-pink text-white" : "bg-electric/40 group-hover:bg-electric"
+                    correct ? "bg-gold text-bg" : wrong ? "bg-royal text-white" : "bg-electric/40 group-hover:bg-electric"
                   }`}
                 >
                   {correct ? <Check size={18} strokeWidth={3} /> : wrong ? <X size={18} strokeWidth={3} /> : o.key}
@@ -247,8 +247,8 @@ export function QuizRunner({
         </div>
 
         {picked && (
-          <div className={`mt-6 rounded-2xl p-4 border pop ${isRight ? "bg-green/10 border-green/40" : "bg-pink/10 border-pink/40"}`}>
-            <p className="font-extrabold">{isRight ? "✓ Correct!" : `✗ The answer is ${q.answer}`}</p>
+          <div className={`mt-6 rounded-2xl p-4 border pop bg-card-2 ${isRight ? "border-gold" : "border-lilac"}`}>
+            <p className={`font-extrabold ${isRight ? "text-gold" : "text-lilac"}`}>{isRight ? <><Check size={17} className="inline" /> Correct!</> : <><X size={17} className="inline" /> The answer is {q.answer}</>}</p>
             {q.explanation && <p className="text-[0.95rem] text-muted mt-1.5 leading-relaxed">{withArabic(q.explanation)}</p>}
             {q.note && <p className="text-xs text-faint mt-2">{q.note}</p>}
           </div>

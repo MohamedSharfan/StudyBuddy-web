@@ -59,7 +59,7 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
                     {m.label}
                   </span>
                 </span>
-                {medium?.code === m.code && <Check size={20} className="text-green" />}
+                {medium?.code === m.code && <Check size={20} className="text-gold" />}
                 <ArrowRight size={20} className="text-muted" />
               </a>
             ))}
@@ -82,10 +82,10 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
         <section className="mt-10">
           <h2 className="text-sm font-semibold text-muted">O/L subjects</h2>
           <div className="grid grid-cols-3 gap-2.5 mt-3">
-            <div className="rounded-xl border border-green/40 p-3">
-              <Icon name="book-open" size={18} className="text-green" />
+            <div className="rounded-xl border border-gold p-3">
+              <Icon name="book-open" size={18} className="text-gold" />
               <p className="font-semibold text-sm mt-1.5">Islam</p>
-              <p className="text-xs text-green">Available</p>
+              <p className="text-xs text-gold">Available</p>
             </div>
             {OL_UPCOMING.map((s) => (
               <div key={s.name} className="rounded-xl border border-line p-3">

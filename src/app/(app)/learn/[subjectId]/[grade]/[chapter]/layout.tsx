@@ -43,7 +43,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
 
       <header className="mt-4">
         <p className="eyebrow">
-          Grade {c.grade} · Chapter {c.number} {c.free && !FREE_ACCESS && <span className="text-green">· Free</span>}
+          Grade {c.grade} · Chapter {c.number} {c.free && !FREE_ACCESS && <span className="text-gold">· Free</span>}
           {!open && (
             <span className="text-gold">
               {" "}

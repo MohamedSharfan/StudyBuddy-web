@@ -42,7 +42,7 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
                 </span>
                 <span className="text-sm font-semibold flex-none">
                   {done ? (
-                    <span className="text-green">Done</span>
+                    <span className="text-gold">Done</span>
                   ) : i === firstOpen ? (
                     <span className="text-gold">Start here</span>
                   ) : LOGIN_ENABLED ? (

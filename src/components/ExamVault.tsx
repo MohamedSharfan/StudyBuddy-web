@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ChevronDown, Eye, EyeOff, FileText, ListChecks, Target } from "lucide-react";
+import { CalendarDays, ChevronDown, Eye, EyeOff, FileText, ListChecks, Medal, Target } from "lucide-react";
 import type { PastMcq, PastStructured } from "@/lib/content";
 import { withArabic } from "@/components/ArabicText";
 import { RichText } from "@/components/RichText";
@@ -14,9 +14,9 @@ function StructuredCard({ q, index }: { q: PastStructured; index: number }) {
   return (
     <li className="glass p-5 sm:p-6">
       <div className="flex flex-wrap items-center gap-2 mb-3">
-        <span className="chip !text-gold !border-gold/40">📜 {q.year ?? "—"}</span>
+        <span className="chip !text-gold !border-gold/40"><CalendarDays size={14} /> {q.year ?? "—"}</span>
         <span className="chip">{q.reference}</span>
-        {q.marks && <span className="chip hidden sm:inline-flex max-w-full truncate">🎯 {q.marks}</span>}
+        {q.marks && <span className="chip hidden sm:inline-flex max-w-full truncate"><Target size={14} /> {q.marks}</span>}
       </div>
       <p className="text-xs font-bold text-muted mb-1">Q{index + 1}</p>
       <RichText text={q.question} className="font-semibold !text-white" />
@@ -25,8 +25,8 @@ function StructuredCard({ q, index }: { q: PastStructured; index: number }) {
       </button>
       {open && (
         <div className="mt-4 space-y-4">
-          <div className="rounded-2xl p-4 bg-green/10 border border-green/30">
-            <p className="text-xs font-bold text-green mb-1">Model answer</p>
+          <div className="rounded-2xl p-4 bg-card-2 border border-gold/50">
+            <p className="text-xs font-bold text-gold mb-1">Model answer</p>
             <RichText text={q.answer} />
           </div>
           {q.explanation && (
@@ -52,13 +52,13 @@ function BrowseMcq({ q }: { q: PastMcq }) {
   return (
     <li className="glass p-5">
       <div className="flex flex-wrap gap-2 mb-2">
-        <span className="chip !text-gold !border-gold/40">📜 {q.yearLabel || q.year}</span>
+        <span className="chip !text-gold !border-gold/40"><CalendarDays size={14} /> {q.yearLabel || q.year}</span>
         <span className="chip">{q.reference}</span>
       </div>
       <RichText text={q.prompt} className="font-bold !text-white" />
       <ul className="mt-3 grid sm:grid-cols-2 gap-2 text-sm">
         {q.options.map((o) => (
-          <li key={o.key} className={`rounded-xl px-3 py-2 border ${show && o.key === q.answer ? "border-green bg-green/15" : "border-line"}`}>
+          <li key={o.key} className={`rounded-xl px-3 py-2 border ${show && o.key === q.answer ? "border-gold bg-card-2" : "border-line"}`}>
             <b className="text-lilac">{o.key}.</b> {withArabic(o.text)}
           </li>
         ))}
@@ -69,7 +69,7 @@ function BrowseMcq({ q }: { q: PastMcq }) {
       {show && (
         <div className="mt-2 text-sm text-muted">
           <p>
-            <b className="text-green">✓ {q.answer}</b> — {withArabic(q.explanation)}
+            <b className="text-gold"><Medal size={15} className="inline" /> {q.answer}</b> — {withArabic(q.explanation)}
           </p>
         </div>
       )}
@@ -139,7 +139,7 @@ export function ExamVault({
               options: q.options,
               answer: q.answer,
               explanation: q.explanation,
-              meta: [`📜 ${q.yearLabel || q.year}`, q.reference],
+              meta: [`${q.yearLabel || q.year}`, q.reference],
             }))}
           />
         ) : (

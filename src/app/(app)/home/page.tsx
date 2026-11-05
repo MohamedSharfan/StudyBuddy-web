@@ -134,7 +134,7 @@ export default async function Home() {
               </h2>
               <ol className="flex flex-wrap gap-2 mt-4">
                 {STEP_LABELS.map((label, i) => (
-                  <li key={label} className={`chip ${nextSteps[i] ? "!text-green !border-green/40" : i === stepIdx ? "!text-white !border-white/40" : ""}`}>
+                  <li key={label} className={`chip ${nextSteps[i] ? "!text-gold !border-gold" : i === stepIdx ? "!text-white !border-white/40" : ""}`}>
                     {nextSteps[i] ? "✓" : `${i + 1}.`} {label}
                   </li>
                 ))}
@@ -173,7 +173,7 @@ export default async function Home() {
                 </p>
               </div>
               {a ? (
-                <span className="chip !text-green !border-green/40">Unlocked</span>
+                <span className="chip !text-gold !border-gold">Unlocked</span>
               ) : (
                 <span className="chip !text-gold !border-gold/40">
                   <Lock size={12} /> Free preview
@@ -211,7 +211,7 @@ export default async function Home() {
                         Grade {c.grade} · Ch {c.number} · {y} of 10 papers
                       </span>
                     </span>
-                    {finished ? <span className="text-green text-sm">✓</span> : !open && <Lock size={14} className="text-faint" />}
+                    {finished ? <span className="text-gold text-sm">✓</span> : !open && <Lock size={14} className="text-faint" />}
                   </Link>
                 </li>
               );

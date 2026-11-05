@@ -67,7 +67,7 @@ export default async function AdminStudents({ searchParams }: { searchParams: Pr
       </div>
 
       {error ? (
-        <p className="glass p-6 text-pink">{error.message}</p>
+        <p className="glass p-6 text-lilac">{error.message}</p>
       ) : rows.length === 0 ? (
         <p className="glass p-10 text-center text-muted">No students match.</p>
       ) : (
@@ -85,7 +85,7 @@ export default async function AdminStudents({ searchParams }: { searchParams: Pr
             </thead>
             <tbody className="divide-y divide-line">
               {rows.map((r) => (
-                <tr key={r.id} className={r.pending_requests > 0 ? "bg-pink/[.06]" : "hover:bg-white/[.02]"}>
+                <tr key={r.id} className={r.pending_requests > 0 ? "border-l-2 border-gold bg-card-2" : "hover:bg-white/[.02]"}>
                   <td className="px-4 py-3">
                     <Link href={`/admin/students/${r.id}`} className="flex items-center gap-3 group">
                       <Avatar name={r.display_name} url={r.avatar_url} size={38} />
@@ -111,11 +111,11 @@ export default async function AdminStudents({ searchParams }: { searchParams: Pr
                     <span className="flex items-center gap-1 font-bold">
                       <span className="coin" /> {r.coins}
                     </span>
-                    <span className="text-muted">{r.completions} activities · 🔥{r.streak_days}</span>
+                    <span className="text-muted">{r.completions} activities · {r.streak_days} day streak</span>
                   </td>
                   <td className="px-4 py-3 text-xs text-muted">
                     {new Date(r.created_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "2-digit" })}
-                    {r.pending_requests > 0 && <span className="block text-pink font-bold">Requested unlock</span>}
+                    {r.pending_requests > 0 && <span className="block text-lilac font-bold">Requested unlock</span>}
                   </td>
                   <td className="px-4 py-3">
                     <div className="flex flex-col items-end gap-1.5">

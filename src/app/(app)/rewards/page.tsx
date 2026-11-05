@@ -1,5 +1,6 @@
 import { Icon } from "@/components/ui/Icon";
 import { Panda } from "@/components/ui/Panda";
+import { BookOpen, Brain, Flame, Layers, ScrollText } from "lucide-react";
 import { REWARD_SHOP, REWARDS } from "@/lib/gamification";
 import { requireViewer } from "@/lib/session";
 
@@ -51,19 +52,19 @@ export default async function Rewards() {
         <p className="font-extrabold">How to earn coins</p>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4 text-center">
           {[
-            ["📖", "Read notes", REWARDS.lesson],
-            ["🃏", "Clear flashcards", REWARDS.flashcards],
-            ["🧠", "Pass a quiz (80%)", REWARDS.quiz],
-            ["📜", "Pass past papers (80%)", REWARDS.pastpaper],
-          ].map(([e, l, n]) => (
-            <div key={l} className="rounded-2xl border border-line p-4">
-              <p className="text-2xl">{e}</p>
-              <p className="text-sm font-bold mt-1">{l}</p>
-              <p className="text-gold font-extrabold mt-1">+{n}</p>
+            { icon: BookOpen, label: "Read notes", reward: REWARDS.lesson },
+            { icon: Layers, label: "Clear flashcards", reward: REWARDS.flashcards },
+            { icon: Brain, label: "Pass a quiz (80%)", reward: REWARDS.quiz },
+            { icon: ScrollText, label: "Pass past papers (80%)", reward: REWARDS.pastpaper },
+          ].map(({ icon: ActivityIcon, label, reward }) => (
+            <div key={label} className="rounded-2xl border border-line p-4">
+              <ActivityIcon size={24} className="mx-auto text-gold" />
+              <p className="text-sm font-bold mt-1">{label}</p>
+              <p className="text-gold font-extrabold mt-1">+{reward}</p>
             </div>
           ))}
         </div>
-        <p className="text-xs text-muted mt-4">Each chapter activity pays once. Study every day to grow your 🔥 streak.</p>
+        <p className="text-xs text-muted mt-4 flex items-center gap-1"><Flame size={14} className="text-gold" /> Each chapter activity pays once. Study every day to grow your streak.</p>
       </div>
     </div>
   );

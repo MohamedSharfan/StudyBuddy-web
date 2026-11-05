@@ -9,7 +9,7 @@ export function ConnectButton({ targetId, status }: { targetId: string; status: 
   if (status === "connected")
     return (
       <button className="btn btn-ghost btn-sm" disabled={pending} onClick={() => start(() => disconnect(targetId))}>
-        {pending ? <Loader2 size={14} className="animate-spin" /> : <UserCheck size={14} className="text-green" />} Connected
+        {pending ? <Loader2 size={14} className="animate-spin" /> : <UserCheck size={14} className="text-gold" />} Connected
       </button>
     );
   if (status === "outgoing")

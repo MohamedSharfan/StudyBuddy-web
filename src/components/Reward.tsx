@@ -3,6 +3,7 @@
 import { useCallback, useState, useTransition } from "react";
 import Link from "next/link";
 import confetti from "canvas-confetti";
+import { Award, Flame } from "lucide-react";
 import { awardActivity, type AwardResult } from "@/app/actions";
 import { LOGIN_ENABLED } from "@/lib/config";
 import { BADGES, type CompletionKind } from "@/lib/gamification";
@@ -83,7 +84,7 @@ export function RewardModal({ kind, result, onClose, nextHref, nextLabel }: { ki
           <span className="coin" /> +{result.coinsAwarded}
         </p>
         <p className="text-sm text-muted mt-2">
-          {result.coins} coins · 🔥 {result.streak} day streak · {result.rank}
+          {result.coins} coins · <Flame size={14} className="inline text-gold" /> {result.streak} day streak · {result.rank}
         </p>
       </>
     );
@@ -100,7 +101,7 @@ export function RewardModal({ kind, result, onClose, nextHref, nextLabel }: { ki
             <p className="text-xs font-bold text-gold">New badge{badges.length > 1 ? "s" : ""}</p>
             {badges.map((b) => (
               <p key={b.code} className="font-bold mt-1">
-                🏅 {b.title}
+                <Award size={14} className="inline text-gold" /> {b.title}
               </p>
             ))}
           </div>

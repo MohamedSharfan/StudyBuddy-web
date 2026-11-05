@@ -1,4 +1,4 @@
-import { Flame, MapPin } from "lucide-react";
+import { BookOpen, Flame, MapPin, Trophy } from "lucide-react";
 import { Avatar } from "@/components/ui/Avatar";
 import { Icon } from "@/components/ui/Icon";
 import { BADGES, RANKS, nextRank, rankFor } from "@/lib/gamification";
@@ -60,8 +60,8 @@ export function ProfileStats({ p, lessons, quizzes }: { p: PublicProfile; lesson
         {[
           [<span key="c" className="coin" />, p.coins.toLocaleString(), "Coins"],
           [<Flame key="f" size={20} className="text-orange fill-orange/50" />, p.streak_days, "Day streak"],
-          ["📖", lessons, "Lessons read"],
-          ["🏆", quizzes, "Quizzes passed"],
+          [<BookOpen key="book" size={20} className="text-lilac" />, lessons, "Lessons read"],
+          [<Trophy key="trophy" size={20} className="text-gold" />, quizzes, "Quizzes passed"],
         ].map(([icon, n, l], i) => (
           <div key={i} className="glass p-4">
             <span className="text-xl">{icon}</span>

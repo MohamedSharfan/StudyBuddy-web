@@ -44,7 +44,7 @@ export function RequestRow({ r }: { r: RequestItem }) {
             <DismissRequest id={r.id} />
           </>
         ) : (
-          <span className={`chip ${r.status === "done" ? "!text-green" : ""}`}>{r.status}</span>
+          <span className={`chip ${r.status === "done" ? "!text-gold" : ""}`}>{r.status}</span>
         )}
       </div>
     </li>

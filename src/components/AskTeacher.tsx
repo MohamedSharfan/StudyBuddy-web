@@ -11,8 +11,8 @@ export function AskTeacher({ context, compact = false }: { context?: string; com
       </a>
     );
   return (
-    <div className="glass p-4 flex items-center gap-4 !border-green/35">
-      <span className="grid place-items-center w-11 h-11 rounded-xl bg-green/15 text-green flex-none">
+    <div className="glass p-4 flex items-center gap-4 !border-gold">
+      <span className="grid place-items-center w-11 h-11 rounded-xl bg-royal text-gold flex-none">
         <MessageCircle size={21} />
       </span>
       <div className="flex-1 min-w-0">

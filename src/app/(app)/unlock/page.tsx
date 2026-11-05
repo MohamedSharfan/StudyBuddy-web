@@ -61,7 +61,7 @@ export default async function UnlockPage() {
               </div>
             </div>
             {unlocked ? (
-              <span className="chip !text-green !border-green/40 !text-base !py-2 !px-4">
+              <span className="chip !text-gold !border-gold !text-base !py-2 !px-4">
                 <CheckCircle2 size={18} /> Unlocked
               </span>
             ) : pending ? (

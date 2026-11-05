@@ -6,8 +6,8 @@ import { adminAddAdmin, adminRemoveAdmin, adminSaveSettings, type FormState } fr
 import type { SiteSettings } from "@/lib/settings";
 
 function Status({ state }: { state: FormState }) {
-  if (state.error) return <p className="text-sm rounded-xl px-3 py-2 bg-red-500/15 border border-red-400/30">{state.error}</p>;
-  if (state.ok) return <p className="text-sm rounded-xl px-3 py-2 bg-green/10 border border-green/30">✓ {state.message}</p>;
+  if (state.error) return <p className="text-sm rounded-xl px-3 py-2 bg-card-2 border border-lilac">{state.error}</p>;
+  if (state.ok) return <p className="text-sm rounded-xl px-3 py-2 bg-card-2 border border-gold">✓ {state.message}</p>;
   return null;
 }
 

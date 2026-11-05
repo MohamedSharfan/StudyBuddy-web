@@ -7,7 +7,7 @@ import { requestUnlock, type FormState } from "@/app/actions";
 export function UnlockRequestForm({ subjectId, phone }: { subjectId: string; phone: string }) {
   const [state, action, pending] = useActionState<FormState, FormData>(requestUnlock, {});
   if (state.ok)
-    return <p className="rounded-2xl bg-green/10 border border-green/30 p-4 text-sm font-semibold">✓ {state.message}</p>;
+    return <p className="rounded-2xl bg-card-2 border border-gold p-4 text-sm font-semibold">✓ {state.message}</p>;
   return (
     <form action={action} className="space-y-3">
       <input type="hidden" name="subject_id" value={subjectId} />
@@ -23,7 +23,7 @@ export function UnlockRequestForm({ subjectId, phone }: { subjectId: string; pho
         </label>
         <textarea id="req-msg" name="message" rows={3} maxLength={500} className="input" />
       </div>
-      {state.error && <p className="text-sm rounded-xl px-3 py-2 bg-red-500/15 border border-red-400/30">{state.error}</p>}
+      {state.error && <p className="text-sm rounded-xl px-3 py-2 bg-card-2 border border-lilac">{state.error}</p>}
       <button className="btn w-full" disabled={pending}>
         {pending ? <Loader2 size={16} className="animate-spin" /> : <Send size={16} />} Send unlock request
       </button>

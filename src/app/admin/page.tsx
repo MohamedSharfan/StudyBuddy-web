@@ -23,7 +23,7 @@ export default async function AdminOverview() {
     supabase.rpc("admin_stats"),
     supabase.from("unlock_requests").select("id, user_id, subject_id, phone, message, status, created_at").eq("status", "pending").order("created_at").limit(5),
   ]);
-  if (error) return <p className="glass p-6 text-pink">Could not load stats: {error.message}</p>;
+  if (error) return <p className="glass p-6 text-lilac">Could not load stats: {error.message}</p>;
   const s = statsRaw as Stats;
 
   const ids = [...new Set((reqs ?? []).map((r) => r.user_id))];
@@ -45,8 +45,8 @@ export default async function AdminOverview() {
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {[
           { icon: Users, label: "Students", value: s.students, sub: `+${s.new_this_week} this week`, c: "text-lilac" },
-          { icon: Unlock, label: "Unlocked", value: s.unlocked_students, sub: `${conversion}% of students`, c: "text-green" },
-          { icon: Inbox, label: "Pending requests", value: s.pending_requests, sub: "waiting for you", c: "text-pink" },
+          { icon: Unlock, label: "Unlocked", value: s.unlocked_students, sub: `${conversion}% of students`, c: "text-gold" },
+          { icon: Inbox, label: "Pending requests", value: s.pending_requests, sub: "waiting for you", c: "text-lilac" },
           { icon: Activity, label: "Active today", value: s.active_today, sub: `${s.completions_week} activities this week`, c: "text-gold" },
         ].map(({ icon: I, label, value, sub, c }) => (
           <div key={label} className="glass p-5">
@@ -107,7 +107,7 @@ export default async function AdminOverview() {
           </Link>
         </div>
         {items.length === 0 ? (
-          <p className="text-sm text-muted mt-3">All caught up 🎉</p>
+          <p className="text-sm text-muted mt-3">All caught up.</p>
         ) : (
           <ul className="mt-4 divide-y divide-line">
             {items.map((r) => (

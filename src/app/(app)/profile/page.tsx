@@ -145,7 +145,7 @@ export default async function ProfilePage() {
           )}
         </div>
         <form action="/auth/signout" method="post">
-          <button className="btn btn-ghost !text-pink !border-pink/30">
+          <button className="btn btn-ghost !text-lilac !border-lilac/30">
             <LogOut size={16} /> Sign out
           </button>
         </form>

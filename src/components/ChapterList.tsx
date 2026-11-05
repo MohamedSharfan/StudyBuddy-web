@@ -37,7 +37,7 @@ export function ChapterList({ items, showProgress = true }: { items: StarItem[];
               <span className="flex-1 min-w-0">
                 <span className="flex items-center gap-2 text-xs text-muted">
                   Chapter {c.number}
-                  {c.free && !FREE_ACCESS && <span className="text-green font-semibold">Free</span>}
+                  {c.free && !FREE_ACCESS && <span className="text-gold font-semibold">Free</span>}
                   {showProgress && it.next && <span className="text-gold font-semibold">Up next</span>}
                 </span>
                 <span className={`block font-semibold leading-snug truncate ${locked ? "text-muted" : ""}`}>

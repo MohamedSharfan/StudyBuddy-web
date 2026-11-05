@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { Check, LayoutList, RotateCcw, Shuffle, Undo2, X } from "lucide-react";
+import { Check, LayoutList, RotateCcw, Shuffle, Sparkles, Undo2, X } from "lucide-react";
 import type { Flashcard } from "@/lib/content";
 import { withArabic } from "@/components/ArabicText";
 import { RewardModal, useAward } from "@/components/Reward";
@@ -103,7 +103,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
         </div>
       ) : finished ? (
         <div className="glass p-10 text-center pop">
-          <p className="text-6xl">🌟</p>
+          <Sparkles size={48} className="mx-auto text-gold" />
           <h2 className="display text-3xl font-bold mt-3">Deck cleared!</h2>
           <p className="text-muted mt-2">
             All {cards.length} cards mastered in {rounds} round{rounds > 1 ? "s" : ""}.
@@ -158,8 +158,8 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
             </button>
           </div>
           <div className="grid grid-cols-2 gap-3 mt-8">
-            <button onClick={() => answer(false)} className="btn btn-ghost !min-h-[56px] !border-pink/40 hover:!bg-pink/10">
-              <X size={18} className="text-pink" /> Again <kbd className="hidden sm:inline text-[10px] text-faint">←</kbd>
+            <button onClick={() => answer(false)} className="btn btn-ghost !min-h-[56px] !border-lilac hover:!bg-card-2">
+              <X size={18} className="text-lilac" /> Again <kbd className="hidden sm:inline text-[10px] text-faint">←</kbd>
             </button>
             <button onClick={() => answer(true)} className="btn btn-green !min-h-[56px]">
               <Check size={18} /> Got it <kbd className="hidden sm:inline text-[10px] opacity-70">→</kbd>

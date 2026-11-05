@@ -37,7 +37,7 @@ export default async function AdminRequests({ searchParams }: { searchParams: Pr
       </div>
       <div className="glass px-5">
         {items.length === 0 ? (
-          <p className="py-10 text-center text-muted">{st === "pending" ? "No pending requests — all caught up 🎉" : "Nothing here."}</p>
+          <p className="py-10 text-center text-muted">{st === "pending" ? "No pending requests — all caught up." : "Nothing here."}</p>
         ) : (
           <ul className="divide-y divide-line">
             {items.map((r) => (

@@ -17,7 +17,7 @@ export function CopyButton({ text, label = "Copy", className = "" }: { text: str
       }}
       className={`btn btn-ghost btn-sm ${className}`}
     >
-      {copied ? <Check size={14} className="text-green" /> : <Copy size={14} />} {copied ? "Copied" : label}
+      {copied ? <Check size={14} className="text-gold" /> : <Copy size={14} />} {copied ? "Copied" : label}
     </button>
   );
 }

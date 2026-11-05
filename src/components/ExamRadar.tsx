@@ -6,7 +6,7 @@ export function ExamRadar({ years, compact = false }: { years: Record<string, nu
   const asked = Object.keys(years).length;
   const total = Object.values(years).reduce((a, b) => a + b, 0);
   const verdict =
-    asked >= 7 ? { t: "Very frequently asked", c: "text-pink" } : asked >= 4 ? { t: "Often asked", c: "text-gold" } : asked >= 1 ? { t: "Sometimes asked", c: "text-cyan" } : { t: "Not yet asked (2016–2025)", c: "text-muted" };
+    asked >= 7 ? { t: "Very frequently asked", c: "text-lilac" } : asked >= 4 ? { t: "Often asked", c: "text-gold" } : asked >= 1 ? { t: "Sometimes asked", c: "text-cyan" } : { t: "Not yet asked (2016–2025)", c: "text-muted" };
   return (
     <div className={`glass ${compact ? "p-4" : "p-6"}`}>
       <div className="flex items-center justify-between gap-2">

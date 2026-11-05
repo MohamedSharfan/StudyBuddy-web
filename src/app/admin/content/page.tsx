@@ -80,7 +80,7 @@ export default async function AdminContent() {
                 <tr key={c.id}>
                   <td className="px-5 py-2 text-muted">{c.number}</td>
                   <td className="px-5 py-2" lang="ta">
-                    {c.title} {c.free && <span className="chip !py-0 !text-green ml-1">free</span>}
+                    {c.title} {c.free && <span className="chip !py-0 !text-gold ml-1">free</span>}
                   </td>
                   <td className="px-3 py-2 text-right">{c.counts.flashcards}</td>
                   <td className="px-3 py-2 text-right">{c.counts.quiz}</td>

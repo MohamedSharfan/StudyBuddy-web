@@ -66,9 +66,9 @@ export default async function Subjects() {
                     <span className="font-semibold text-gold">Start studying →</span>
                   )}
                   {!LOGIN_ENABLED ? (
-                    <span className="chip !text-green !border-green/40">Free</span>
+                    <span className="chip !text-gold !border-gold">Free</span>
                   ) : access ? (
-                    <span className="chip !text-green !border-green/40">Unlocked</span>
+                    <span className="chip !text-gold !border-gold">Unlocked</span>
                   ) : (
                     <span className="chip !text-gold !border-gold/40">
                       <Lock size={12} /> Chapter 1 free

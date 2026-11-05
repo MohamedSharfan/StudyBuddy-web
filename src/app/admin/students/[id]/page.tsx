@@ -98,8 +98,8 @@ export default async function AdminStudentDetail({ params }: { params: Promise<{
           ) : (
             <ul className="mt-3 space-y-2.5 text-sm">
               {[
-                ...d.events.map((e) => ({ at: e.created_at, text: `${e.action === "unlock" ? "🔓 Unlocked" : "🔒 Locked"} ${e.subject_id}${e.note ? ` — ${e.note}` : ""}` })),
-                ...d.requests.map((r) => ({ at: r.created_at, text: `📨 Requested ${r.subject_id} (${r.status})${r.message ? ` — “${r.message}”` : ""}` })),
+                ...d.events.map((e) => ({ at: e.created_at, text: `${e.action === "unlock" ? "Unlocked" : "Locked"} ${e.subject_id}${e.note ? ` — ${e.note}` : ""}` })),
+                ...d.requests.map((r) => ({ at: r.created_at, text: `Requested ${r.subject_id} (${r.status})${r.message ? ` — “${r.message}”` : ""}` })),
               ]
                 .sort((a, b) => b.at.localeCompare(a.at))
                 .map((e, i) => (
