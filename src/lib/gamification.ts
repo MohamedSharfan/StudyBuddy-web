@@ -5,8 +5,8 @@ export const RANKS = [
   { name: "Bronze", min: 0, color: "#D97706" },
   { name: "Silver", min: 1000, color: "#CBD5E1" },
   { name: "Gold", min: 2500, color: "#FBBF24" },
-  { name: "Platinum", min: 5000, color: "#67E8F9" },
-  { name: "Champion", min: 8000, color: "#F472B6" },
+  { name: "Platinum", min: 5000, color: "#C4B5FD" },
+  { name: "Champion", min: 8000, color: "#8B5CF6" },
 ] as const;
 
 export function rankFor(coins: number) {

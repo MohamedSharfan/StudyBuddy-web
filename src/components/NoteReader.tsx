@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { Check, Eye, EyeOff, ListTree, Loader2, Minus, Plus } from "lucide-react";
+import { withArabic } from "@/components/ArabicText";
 import { RewardModal, useAward } from "@/components/Reward";
 import { LOGIN_ENABLED } from "@/lib/config";
 
@@ -110,7 +111,7 @@ export function NoteReader({
             <nav className="xl:hidden glass !rounded-2xl p-3 mb-4 text-sm">
               {toc.map((h) => (
                 <a key={h.id} href={`#${h.id}`} onClick={() => setTocOpen(false)} className="block py-1.5 px-2 rounded-lg hover:bg-white/5 text-muted">
-                  {h.text}
+                  {withArabic(h.text)}
                 </a>
               ))}
             </nav>

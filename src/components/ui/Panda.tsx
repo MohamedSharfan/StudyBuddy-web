@@ -27,7 +27,7 @@ export function Panda({ size = 64, mood = "happy", className = "" }: { size?: nu
       {mood === "think" ? (
         <path d="M52 92 H68" stroke="#150b2e" strokeWidth="3.5" strokeLinecap="round" />
       ) : (
-        <path d="M50 88 Q60 100 70 88" stroke="#150b2e" strokeWidth="3.5" fill="#f472b6" strokeLinecap="round" />
+        <path d="M50 88 Q60 100 70 88" stroke="#150b2e" strokeWidth="3.5" fill="#fbbf24" strokeLinecap="round" />
       )}
       <path d="M10 66 Q10 14 60 12 Q110 14 110 66" stroke="#7c3aed" strokeWidth="7" fill="none" strokeLinecap="round" />
       <rect x="2" y="56" width="16" height="26" rx="8" fill="#5b21b6" stroke="#a855f7" strokeWidth="2" />

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-const TINTS = ["#7c3aed", "#ec4899", "#0ea5e9", "#10b981", "#f59e0b", "#6366f1", "#d946ef"];
+const TINTS = ["#7c3aed", "#fbbf24", "#a855f7", "#c4b5fd", "#5b21b6", "#d97706", "#8b5cf6"];
 
 export function Avatar({ name, url, size = 40, ring = false }: { name: string; url?: string | null; size?: number; ring?: boolean }) {
   const initials = name
