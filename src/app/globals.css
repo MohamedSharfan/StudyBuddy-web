@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 /* ─────────── StudyBuddy tokens (purple + gold, like the app) ───────────
-   The page is crystal white; cards, the header, sidebar and bottom nav stay brand purple.
+   The page is a soft lavender; cards, the header, sidebar and bottom nav stay brand purple.
    Text colours are surface-aware: on the white page they're deep purple-ink, and on a purple
    surface (see the "purple surfaces" rule below) the same classes switch back to light colours.
    Tailwind's `white` is mapped to --ink, so `text-white` always means "strongest text here". */
 :root {
-  --page: #ffffff;
-  --page-tint: #f6f3ff;
+  --page: #efe9fc;
+  --page-tint: #e2d6fb;
   --bg: #120a26; /* deep brand purple: header, nav, and dark text on gold */
   --bg-2: #170e30;
   --card: #1f1440;
@@ -21,10 +21,10 @@
   /* on the white page */
   --ink: #1a1033;
   --text: #1a1033;
-  --muted: #5b5378;
-  --faint: #857ea3;
-  --line: #e7e2f5;
-  --line-strong: #d4ccef;
+  --muted: #554b75;
+  --faint: #7d7499;
+  --line: #dcd2f3;
+  --line-strong: #c7b9ec;
   --lilac: #6d28d9;
   --cyan: #6d28d9;
   --gold: #a86b00;
