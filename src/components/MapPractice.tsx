@@ -347,7 +347,7 @@ export function MapPractice({ map, setId, lang: rawLang }: { map: PreparedMap; s
       <div className="relative">
         <div
           ref={boxRef}
-          className="rounded-2xl border border-line overflow-auto no-scrollbar bg-[#0d0720] touch-pan-x touch-pan-y"
+          className="on-dark rounded-2xl border border-line overflow-auto no-scrollbar bg-[#0d0720] touch-pan-x touch-pan-y"
           style={{ aspectRatio: `${map.width} / ${map.height}`, maxHeight: "72vh", width: "100%" }}
         >
           <svg
