@@ -68,7 +68,6 @@ export const OL_UPCOMING: UpcomingSubject[] = [
   { name: "Science", icon: "atom" },
   { name: "English", icon: "book-a" },
   { name: "Tamil", icon: "languages" },
-  { name: "History", icon: "landmark" },
 ];
 
 export function isLevel(v: unknown): v is Level {

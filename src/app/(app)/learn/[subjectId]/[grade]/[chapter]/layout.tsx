@@ -3,7 +3,8 @@ import { ChevronLeft, ChevronRight, Lock } from "lucide-react";
 import { AskTeacher } from "@/components/AskTeacher";
 import { DoorTabs } from "@/components/DoorTabs";
 import { FREE_ACCESS, LOGIN_ENABLED } from "@/lib/config";
-import { chapterHref } from "@/lib/catalog";
+import { chapterHref, hasPastPapers } from "@/lib/catalog";
+import { mapSetsForChapter } from "@/lib/maps/sets";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
 import { canonicalUrl, chapterSeo } from "@/lib/seo";
 
@@ -27,6 +28,8 @@ export default async function ChapterLayout({ params, children }: { params: Chap
   const nextC = grade.chapters[idx + 1];
   const base = chapterHref(subject.id, c.grade, c.number);
   const doneCount = steps.filter(Boolean).length;
+  const papers = hasPastPapers(c);
+  const map = Boolean(subject.maps) && mapSetsForChapter(c.grade, c.number).length > 0;
 
   return (
     <div lang={subject.lang}>
@@ -62,12 +65,15 @@ export default async function ChapterLayout({ params, children }: { params: Chap
           {c.title}
         </h1>
         <p className="text-sm text-muted mt-1">
-          {LOGIN_ENABLED && `${doneCount}/4 steps done · `}{c.minutes} min read · {c.counts.quiz} quiz · {c.counts.mcq + c.counts.structured} past-paper questions
+          {LOGIN_ENABLED && `${doneCount}/4 steps done · `}
+          {c.minutes} min read · {c.counts.quiz} quiz
+          {papers && ` · ${c.counts.mcq + c.counts.structured} past-paper questions`}
+          {map && " · map practice"}
         </p>
       </header>
 
       <div className="mt-4 mb-6 border-b border-line">
-        <DoorTabs base={base} steps={steps} />
+        <DoorTabs base={base} steps={steps} pastPapers={papers} map={map} />
       </div>
       {children}
       <div className="mt-8">

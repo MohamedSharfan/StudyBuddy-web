@@ -9,7 +9,7 @@ const DIFFICULTY: Record<string, string> = { Easy: "Easy", Medium: "Medium", Har
 export async function generateMetadata({ params }: { params: ChapterParams }) {
   const { subjectId, grade, chapter } = await params;
   const seo = chapterSeo(subjectId, Number(grade), Number(chapter), "/quiz");
-  if (!seo) return { title: "O/L Islam Quiz" };
+  if (!seo) return { title: "O/L Quiz" };
   return {
     title: seo.title,
     description: seo.description,

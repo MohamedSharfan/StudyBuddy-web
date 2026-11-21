@@ -15,10 +15,10 @@ export async function studySubjects(): Promise<SubjectSummary[]> {
   return subjectsFor({ education_level: "O/L", medium: medium?.name });
 }
 
-/** Where "study" goes: the first live subject in the student's medium. */
+/** Where "study" goes: the student's subject, or the subject list when there's more than one. */
 export async function studyHref() {
   const medium = await getMedium();
   if (!medium) return "/";
-  const [subject] = await studySubjects();
-  return subject ? `/subjects/${subject.id}` : "/subjects";
+  const subjects = await studySubjects();
+  return subjects.length === 1 ? `/subjects/${subjects[0].id}` : "/subjects";
 }

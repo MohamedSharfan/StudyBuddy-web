@@ -7,7 +7,7 @@ import { canonicalUrl, chapterSeo } from "@/lib/seo";
 export async function generateMetadata({ params }: { params: ChapterParams }) {
   const { subjectId, grade, chapter } = await params;
   const seo = chapterSeo(subjectId, Number(grade), Number(chapter), "/flashcards");
-  if (!seo) return { title: "O/L Islam Flashcards" };
+  if (!seo) return { title: "O/L Flashcards" };
   return {
     title: seo.title,
     description: seo.description,

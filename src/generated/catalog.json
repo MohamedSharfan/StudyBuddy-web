@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T08:21:10.423Z",
+ "generatedAt": "2026-11-21T07:23:02.760Z",
  "subjects": [
   {
    "id": "islam-ol",
@@ -3627,6 +3627,985 @@
         "2022": 1,
         "2024": 2
        },
+       "free": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "history-ol",
+   "name": "History",
+   "nameLocal": "வரலாறு",
+   "level": "O/L",
+   "streams": [],
+   "icon": "landmark",
+   "medium": "Tamil",
+   "tagline": "Grade 10 & 11 · Tamil medium",
+   "color": "#8B5CF6",
+   "freeChapters": 1,
+   "lang": "ta",
+   "maps": true,
+   "pastPaperNote": "Past-paper questions are from the Sri Lankan O/L History papers from 2016–2025 (Tamil medium).",
+   "relatedHeading": "தொடர்புடைய பிற வினாக்கள்",
+   "grades": [
+    {
+     "grade": 10,
+     "chapters": [
+      {
+       "id": "history-ol-10-01",
+       "grade": 10,
+       "number": 1,
+       "title": "வரலாற்றைக் கற்பதற்கான மூலாதாரங்கள்",
+       "objectives": [
+        "மூலாதாரங்களை வகைப்படுத்தல்",
+        "வரலாற்றைக் கற்பதன் முக்கியத்துவம்",
+        "தொல்பொருள் மூலாதாரங்களைப் பாதுகாத்தல்"
+       ],
+       "minutes": 18,
+       "counts": {
+        "flashcards": 33,
+        "quiz": 20,
+        "mcq": 35,
+        "structured": 5
+       },
+       "years": {
+        "2016": 6,
+        "2017": 6,
+        "2018": 5,
+        "2019": 4,
+        "2020": 6,
+        "2021": 2,
+        "2022": 2,
+        "2023": 4,
+        "2024": 3,
+        "2025": 2
+       },
+       "free": true
+      },
+      {
+       "id": "history-ol-10-02",
+       "grade": 10,
+       "number": 2,
+       "title": "இலங்கையின் குடியேற்றங்கள்",
+       "objectives": [
+        "வரலாற்றுக்கு முற்பட்ட காலக் குடியேற்றங்கள்",
+        "முன் வரலாற்றுக் காலக் குடியேற்றங்கள்",
+        "ஆரம்ப வரலாற்றுக் காலக் குடியிருப்புகள்"
+       ],
+       "minutes": 29,
+       "counts": {
+        "flashcards": 45,
+        "quiz": 30,
+        "mcq": 22,
+        "structured": 12
+       },
+       "years": {
+        "2016": 6,
+        "2017": 4,
+        "2018": 3,
+        "2019": 2,
+        "2020": 4,
+        "2021": 2,
+        "2022": 2,
+        "2023": 3,
+        "2024": 5,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-03",
+       "grade": 10,
+       "number": 3,
+       "title": "இலங்கையின் அரசியல் அதிகார வளர்ச்சி",
+       "objectives": [
+        "அரசுகளுக்கு முற்பட்ட காலம்",
+        "அரசக் கோட்பாடு",
+        "இந்நாட்டை ஆண்ட முக்கியமான மன்னர்கள்"
+       ],
+       "minutes": 18,
+       "counts": {
+        "flashcards": 36,
+        "quiz": 25,
+        "mcq": 32,
+        "structured": 7
+       },
+       "years": {
+        "2016": 5,
+        "2017": 4,
+        "2018": 1,
+        "2019": 4,
+        "2020": 4,
+        "2021": 4,
+        "2022": 4,
+        "2023": 5,
+        "2024": 4,
+        "2025": 4
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-04",
+       "grade": 10,
+       "number": 4,
+       "title": "பண்டைய சமூகம்",
+       "objectives": [
+        "நிர்வாக அமைப்பு",
+        "பொருளாதாரம்",
+        "கலாசாரம்"
+       ],
+       "minutes": 20,
+       "counts": {
+        "flashcards": 44,
+        "quiz": 28,
+        "mcq": 27,
+        "structured": 7
+       },
+       "years": {
+        "2016": 3,
+        "2017": 5,
+        "2018": 3,
+        "2019": 2,
+        "2020": 5,
+        "2021": 2,
+        "2022": 3,
+        "2023": 2,
+        "2024": 5,
+        "2025": 4
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-05",
+       "grade": 10,
+       "number": 5,
+       "title": "இலங்கையின் புராதன விஞ்ஞானமும் தொழினுட்பமும்",
+       "objectives": [
+        "விஞ்ஞானக் கருத்துக்களின் ஆரம்பக் கட்டம்",
+        "விஞ்ஞானப் பிரயோகத்தின் வளர்ச்சி (நீர் முகாமைத்துவம், கட்டட நிர்மாணக் கலை, உள்நாட்டுச் சம்பிரதாயங்கள், தேசிய அறிவு)"
+       ],
+       "minutes": 22,
+       "counts": {
+        "flashcards": 48,
+        "quiz": 27,
+        "mcq": 34,
+        "structured": 9
+       },
+       "years": {
+        "2016": 4,
+        "2017": 3,
+        "2018": 5,
+        "2019": 5,
+        "2020": 4,
+        "2021": 5,
+        "2022": 5,
+        "2023": 3,
+        "2024": 7,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-06",
+       "grade": 10,
+       "number": 6,
+       "title": "வரலாற்று அறிவும் அதன் நடைமுறைப் பிரயோகமும்",
+       "objectives": [
+        "வரலாற்றுக் கால சமுதாய அமைப்பு",
+        "சட்டமும் பாரம்பரியங்களும்",
+        "பணமும் செலவாணியும்",
+        "பெண்களின் பிரதிநிதித்துவம்",
+        "சுதேச உணவு",
+        "சூழல் பாதுகாப்பு"
+       ],
+       "minutes": 17,
+       "counts": {
+        "flashcards": 35,
+        "quiz": 22,
+        "mcq": 15,
+        "structured": 1
+       },
+       "years": {
+        "2018": 1,
+        "2019": 3,
+        "2021": 2,
+        "2022": 2,
+        "2023": 3,
+        "2024": 2,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-07",
+       "grade": 10,
+       "number": 7,
+       "title": "உலர் வலய புராதன நகரங்களின் வீழ்ச்சியும் தென்மேற்கில் புதிய இராச்சியங்களின் தோற்றமும்",
+       "objectives": [
+        "நகர வாழ்க்கையின் பின்னணி",
+        "முதலாவது நகராக்கம்",
+        "பொலன்னறுவை இராசதானி வீழ்ச்சியடைதல்",
+        "இரண்டாவது நகரமயமாக்கம் (தம்பதெனியா, யாப்பகுவ, குருணாகல், கம்பளை, கோட்டை, யாழ்ப்பாணம், வன்னியர்)",
+        "வன்னியர், பொருளாதாரம், சமயம், கலை"
+       ],
+       "minutes": 20,
+       "counts": {
+        "flashcards": 37,
+        "quiz": 22,
+        "mcq": 15,
+        "structured": 4
+       },
+       "years": {
+        "2016": 3,
+        "2017": 2,
+        "2018": 3,
+        "2019": 2,
+        "2020": 1,
+        "2021": 2,
+        "2022": 2,
+        "2024": 1,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-08",
+       "grade": 10,
+       "number": 8,
+       "title": "கண்டி இராச்சியம்",
+       "objectives": [
+        "ஆரம்பமும் பரவலும்",
+        "கண்டி இராச்சியத்தின் நிர்வாகக் கட்டமைப்பு",
+        "பிராந்திய நிர்வாகம் (ரட்டவசம்)",
+        "சமூக அமைப்பு"
+       ],
+       "minutes": 16,
+       "counts": {
+        "flashcards": 35,
+        "quiz": 20,
+        "mcq": 15,
+        "structured": 9
+       },
+       "years": {
+        "2016": 3,
+        "2017": 2,
+        "2018": 3,
+        "2019": 2,
+        "2020": 2,
+        "2021": 3,
+        "2022": 3,
+        "2023": 2,
+        "2024": 2,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-09",
+       "grade": 10,
+       "number": 9,
+       "title": "மறுமலர்ச்சி",
+       "objectives": [
+        "மறுமலர்ச்சி தோன்றுவதற்கான காரணங்கள்",
+        "மறுமலர்ச்சி இலங்கை மீது செலுத்திய தாக்கம்"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 30,
+        "quiz": 18,
+        "mcq": 11,
+        "structured": 5
+       },
+       "years": {
+        "2016": 1,
+        "2018": 2,
+        "2020": 3,
+        "2021": 3,
+        "2022": 2,
+        "2023": 3,
+        "2024": 1,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-10-10",
+       "grade": 10,
+       "number": 10,
+       "title": "இலங்கையும் மேற்குலகமும்",
+       "objectives": [
+        "போர்த்துக்கேயர் ஆசியாவுக்கு வருதல்",
+        "போர்த்துக்கேயர் இலங்கைக்கு வரும்போது இலங்கையின் அரசியல் நிலைமை",
+        "இலங்கையும் ஒல்லாந்தரும்"
+       ],
+       "minutes": 19,
+       "counts": {
+        "flashcards": 35,
+        "quiz": 21,
+        "mcq": 26,
+        "structured": 6
+       },
+       "years": {
+        "2016": 4,
+        "2017": 6,
+        "2018": 2,
+        "2019": 5,
+        "2020": 3,
+        "2021": 3,
+        "2022": 1,
+        "2023": 2,
+        "2024": 3,
+        "2025": 3
+       },
+       "free": false
+      }
+     ]
+    },
+    {
+     "grade": 11,
+     "chapters": [
+      {
+       "id": "history-ol-11-01",
+       "grade": 11,
+       "number": 1,
+       "title": "கைத்தொழிற் புரட்சி",
+       "objectives": [
+        "கைத்தொழிற் புரட்சியின் ஆரம்பமும் வளர்ச்சியும்",
+        "கைத்தொழிற் புரட்சியின் வளர்ச்சி",
+        "கைத்தொழிற் புரட்சி இலங்கையில் செல்வாக்குச் செலுத்திய விதம்"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 32,
+        "quiz": 20,
+        "mcq": 16,
+        "structured": 6
+       },
+       "years": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 1,
+        "2019": 3,
+        "2020": 2,
+        "2021": 2,
+        "2022": 3,
+        "2023": 2,
+        "2024": 2,
+        "2025": 3
+       },
+       "free": true
+      },
+      {
+       "id": "history-ol-11-02",
+       "grade": 11,
+       "number": 2,
+       "title": "இலங்கையில் பிரித்தானியர் அதிகாரத்தை நிலைநாட்டல்",
+       "objectives": [
+        "பிரித்தானியரின் ஆசிய வருகை",
+        "இலங்கை மீது பிரித்தானியரின் கவனம் ஈர்க்கப்படல்",
+        "பிரித்தானியர் ஆதிக்கத்தை நிலைநாட்டுதல்",
+        "அந்நியர் ஆட்சிக்கு எதிரான போராட்டங்கள்"
+       ],
+       "minutes": 20,
+       "counts": {
+        "flashcards": 36,
+        "quiz": 24,
+        "mcq": 20,
+        "structured": 5
+       },
+       "years": {
+        "2016": 2,
+        "2017": 4,
+        "2018": 3,
+        "2019": 1,
+        "2020": 2,
+        "2021": 2,
+        "2022": 4,
+        "2023": 2,
+        "2024": 2,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-11-03",
+       "grade": 11,
+       "number": 3,
+       "title": "இலங்கையில் தேசிய மறுமலர்ச்சி",
+       "objectives": [
+        "தேசிய மறுமலர்ச்சியின் பின்னணி (மிஷனரி இயக்கங்கள்)",
+        "பௌத்த மறுமலர்ச்சி",
+        "தேசப்பற்றை வளர்க்கும் இயக்கம்",
+        "மது ஒழிப்பு",
+        "இந்து சமய மறுமலர்ச்சி",
+        "இஸ்லாமிய சமய மறுமலர்ச்சி"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 28,
+        "quiz": 20,
+        "mcq": 16,
+        "structured": 2
+       },
+       "years": {
+        "2016": 1,
+        "2018": 3,
+        "2019": 2,
+        "2021": 3,
+        "2022": 2,
+        "2023": 3,
+        "2024": 1,
+        "2025": 3
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-11-04",
+       "grade": 11,
+       "number": 4,
+       "title": "பிரித்தானியரின் ஆட்சியில் இலங்கையின் அரசியல் மாற்றங்கள்",
+       "objectives": [
+        "1833 கோல்புறூக் சீர்திருத்தங்கள்",
+        "1910 ஆம் ஆண்டுச் சீர்திருத்தங்களும் பின்னணியும்",
+        "டொனமூர் அரசியல் யாப்பு – 1931",
+        "சுதந்திரத்திற்கான போராட்டம்"
+       ],
+       "minutes": 15,
+       "counts": {
+        "flashcards": 27,
+        "quiz": 18,
+        "mcq": 16,
+        "structured": 2
+       },
+       "years": {
+        "2016": 2,
+        "2018": 1,
+        "2019": 1,
+        "2020": 2,
+        "2021": 3,
+        "2022": 3,
+        "2023": 2,
+        "2024": 2,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-11-05",
+       "grade": 11,
+       "number": 5,
+       "title": "பிரித்தானியரின் கீழ் இலங்கையில் சமூக மாற்றங்கள்",
+       "objectives": [
+        "பொருளாதார மாற்றம்",
+        "சமூக மாற்றம்",
+        "பிரித்தானியர் ஆட்சி காரணமாக ஏற்பட்ட விளைவுகள்"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 25,
+        "quiz": 18,
+        "mcq": 10,
+        "structured": 4
+       },
+       "years": {
+        "2019": 1,
+        "2020": 1,
+        "2021": 1,
+        "2022": 4,
+        "2023": 3,
+        "2024": 3,
+        "2025": 1
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-11-06",
+       "grade": 11,
+       "number": 6,
+       "title": "இலங்கை சுதந்திரம் அடைதல்",
+       "objectives": [
+        "சோல்பரி யாப்பும் சுதந்திரம் பெறலும்",
+        "சுதந்திரத்தின் பின்னரான அபிவிருத்திச் செயற்பாடுகள்",
+        "சமூக நலன்புரி நடவடிக்கைகள்"
+       ],
+       "minutes": 22,
+       "counts": {
+        "flashcards": 43,
+        "quiz": 25,
+        "mcq": 28,
+        "structured": 6
+       },
+       "years": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 3,
+        "2019": 6,
+        "2020": 2,
+        "2021": 6,
+        "2022": 3,
+        "2023": 4,
+        "2024": 1,
+        "2025": 5
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-11-07",
+       "grade": 11,
+       "number": 7,
+       "title": "உலகில் இடம்பெற்ற பிரதான புரட்சிகள்",
+       "objectives": [
+        "அமெரிக்க சுதந்திரப் போர்",
+        "பிரான்சியப் புரட்சி",
+        "ரஷ்யப் புரட்சி"
+       ],
+       "minutes": 15,
+       "counts": {
+        "flashcards": 32,
+        "quiz": 22,
+        "mcq": 17,
+        "structured": 7
+       },
+       "years": {
+        "2016": 1,
+        "2018": 2,
+        "2019": 5,
+        "2020": 2,
+        "2021": 2,
+        "2022": 2,
+        "2023": 4,
+        "2024": 4,
+        "2025": 2
+       },
+       "free": false
+      },
+      {
+       "id": "history-ol-11-08",
+       "grade": 11,
+       "number": 8,
+       "title": "உலக மகாயுத்தங்களும் இணக்கப்பாடுகளும்",
+       "objectives": [
+        "முதலாம் உலக மகாயுத்தம்",
+        "சர்வதேச சங்கம்",
+        "இரண்டாம் உலக மகாயுத்தம்",
+        "ஐக்கிய நாடுகள் சபை"
+       ],
+       "minutes": 21,
+       "counts": {
+        "flashcards": 47,
+        "quiz": 28,
+        "mcq": 38,
+        "structured": 11
+       },
+       "years": {
+        "2016": 6,
+        "2017": 2,
+        "2018": 10,
+        "2019": 3,
+        "2020": 8,
+        "2021": 4,
+        "2022": 4,
+        "2023": 4,
+        "2024": 3,
+        "2025": 5
+       },
+       "free": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "history-ol-en",
+   "name": "History",
+   "nameLocal": "",
+   "level": "O/L",
+   "streams": [],
+   "icon": "landmark",
+   "medium": "English",
+   "tagline": "Grade 10 & 11 · English medium",
+   "color": "#8B5CF6",
+   "freeChapters": 1,
+   "lang": "en",
+   "maps": true,
+   "pastPaperNote": "",
+   "relatedHeading": "Related questions in other chapters",
+   "grades": [
+    {
+     "grade": 10,
+     "chapters": [
+      {
+       "id": "history-ol-en-10-01",
+       "grade": 10,
+       "number": 1,
+       "title": "Sources of Studying History",
+       "objectives": [
+        "Classification of Sources",
+        "Importance of Learning History",
+        "Protecting Archaeological Sources"
+       ],
+       "minutes": 18,
+       "counts": {
+        "flashcards": 39,
+        "quiz": 20,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": true
+      },
+      {
+       "id": "history-ol-en-10-02",
+       "grade": 10,
+       "number": 2,
+       "title": "Ancient Settlements",
+       "objectives": [
+        "Settlements in the Pre-historic Era",
+        "Settlements in the Proto-historic Era",
+        "Settlements in the Early Historic Era"
+       ],
+       "minutes": 19,
+       "counts": {
+        "flashcards": 42,
+        "quiz": 24,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-03",
+       "grade": 10,
+       "number": 3,
+       "title": "Evolution of Political Power in Sri Lanka",
+       "objectives": [
+        "The Pre-State Era",
+        "The Concept of State",
+        "Great Kings"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 42,
+        "quiz": 28,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-04",
+       "grade": 10,
+       "number": 4,
+       "title": "The Ancient Society of Sri Lanka",
+       "objectives": [
+        "The Nature of Ruling",
+        "Economy",
+        "Culture"
+       ],
+       "minutes": 14,
+       "counts": {
+        "flashcards": 50,
+        "quiz": 40,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-05",
+       "grade": 10,
+       "number": 5,
+       "title": "The Ancient Science and Technology in Sri Lanka",
+       "objectives": [
+        "Early Stages of Scientific Ideas",
+        "Maturity of Scientific Usage"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 42,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-06",
+       "grade": 10,
+       "number": 6,
+       "title": "Historical Knowledge and Its Practical Application",
+       "objectives": [
+        "Social Organization in the Historical Era",
+        "Law and Tradition",
+        "Finance and Exchange",
+        "Representation of Women",
+        "Local Food",
+        "Protecting the Environment"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 46,
+        "quiz": 30,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-07",
+       "grade": 10,
+       "number": 7,
+       "title": "Decline of Ancient Cities in the Dry Zone and Origin of New Kingdoms in the South West",
+       "objectives": [
+        "Background of Urban Life",
+        "The First Urbanization",
+        "Downfall of Polonnaruwa",
+        "The Second Urbanization"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 54,
+        "quiz": 35,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-08",
+       "grade": 10,
+       "number": 8,
+       "title": "Kandyan Kingdom",
+       "objectives": [
+        "Beginning and Expansion",
+        "Administration",
+        "Economy",
+        "Social organization"
+       ],
+       "minutes": 10,
+       "counts": {
+        "flashcards": 43,
+        "quiz": 32,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-09",
+       "grade": 10,
+       "number": 9,
+       "title": "Renaissance",
+       "objectives": [
+        "Reasons for the Renaissance",
+        "Influence of the Renaissance on Sri Lanka"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 42,
+        "quiz": 28,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-10-10",
+       "grade": 10,
+       "number": 10,
+       "title": "Sri Lanka and the Western World",
+       "objectives": [
+        "Arrival of the Portuguese in Asia",
+        "Political Condition of Sri Lanka at the Portuguese arrival",
+        "Sri Lanka and the Dutch"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 43,
+        "quiz": 34,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      }
+     ]
+    },
+    {
+     "grade": 11,
+     "chapters": [
+      {
+       "id": "history-ol-en-11-01",
+       "grade": 11,
+       "number": 1,
+       "title": "Industrial Revolution",
+       "objectives": [
+        "Beginning and Development",
+        "Rise of the Industrial Revolution",
+        "Effects on Sri Lanka"
+       ],
+       "minutes": 11,
+       "counts": {
+        "flashcards": 44,
+        "quiz": 30,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": true
+      },
+      {
+       "id": "history-ol-en-11-02",
+       "grade": 11,
+       "number": 2,
+       "title": "Establishment of British Power in Sri Lanka",
+       "objectives": [
+        "Arrival of the British in Asia",
+        "British Attention on Sri Lanka",
+        "Establishment of British Power – three stages",
+        "Protests against Foreign Rule"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 48,
+        "quiz": 34,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-11-03",
+       "grade": 11,
+       "number": 3,
+       "title": "National Renaissance in Sri Lanka",
+       "objectives": [
+        "Background of the National Renaissance",
+        "Buddhist Renaissance",
+        "Hindu Religious Renaissance",
+        "Islamic Renaissance"
+       ],
+       "minutes": 7,
+       "counts": {
+        "flashcards": 33,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-11-04",
+       "grade": 11,
+       "number": 4,
+       "title": "Political Changes in Sri Lanka under the British",
+       "objectives": [
+        "Colebrooke–Cameron Reforms (1833)",
+        "Crewe–McCallum Reforms (1910)",
+        "Donoughmore Constitution (1931)",
+        "Protests for Independence"
+       ],
+       "minutes": 9,
+       "counts": {
+        "flashcards": 35,
+        "quiz": 27,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-11-05",
+       "grade": 11,
+       "number": 5,
+       "title": "Social Changes in Sri Lanka under the British",
+       "objectives": [
+        "Economic Changes",
+        "Social Change",
+        "Advantages of British rule",
+        "Disadvantages"
+       ],
+       "minutes": 8,
+       "counts": {
+        "flashcards": 36,
+        "quiz": 22,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-11-06",
+       "grade": 11,
+       "number": 6,
+       "title": "Receiving of Independence to Sri Lanka",
+       "objectives": [
+        "Soulbury Reforms and Independence",
+        "Development after Independence",
+        "Social Welfare"
+       ],
+       "minutes": 16,
+       "counts": {
+        "flashcards": 52,
+        "quiz": 34,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-11-07",
+       "grade": 11,
+       "number": 7,
+       "title": "Significant Revolutions in the World",
+       "objectives": [
+        "American Independence Struggle",
+        "French Revolution (1789)",
+        "Russian Revolution (1917)"
+       ],
+       "minutes": 12,
+       "counts": {
+        "flashcards": 47,
+        "quiz": 33,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "history-ol-en-11-08",
+       "grade": 11,
+       "number": 8,
+       "title": "World Wars and Conventions",
+       "objectives": [
+        "World War I (1914–1918)",
+        "League of Nations",
+        "World War II (September 1939 – August 1945)",
+        "United Nations Organization (UN)"
+       ],
+       "minutes": 13,
+       "counts": {
+        "flashcards": 53,
+        "quiz": 42,
+        "mcq": 0,
+        "structured": 0
+       },
+       "years": {},
        "free": false
       }
      ]

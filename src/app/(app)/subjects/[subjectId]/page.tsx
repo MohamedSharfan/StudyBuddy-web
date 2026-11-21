@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { Lock } from "lucide-react";
+import { ChevronRight, Lock, MapPinned } from "lucide-react";
 import { AskTeacher } from "@/components/AskTeacher";
 import { ChapterList } from "@/components/ChapterList";
 import { FreeOffer } from "@/components/FreeOffer";
 import { ProgressRing } from "@/components/ui/ProgressRing";
-import { catalog, getSubject, subjectTotals } from "@/lib/catalog";
+import { getSubject, subjectTotals, subjectVersions } from "@/lib/catalog";
 import { LOGIN_ENABLED, MEDIUMS } from "@/lib/config";
+import { PAST_MAP_SETS, TEXTBOOK_MAP_SETS } from "@/lib/maps/sets";
 import { starItems, subjectProgress } from "@/lib/progress";
 import { canonicalUrl, subjectSeo } from "@/lib/seo";
 import { canSeeSubject, completionSet, getViewer, hasSubjectAccess } from "@/lib/session";
@@ -42,7 +43,9 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
   const gradeDone = items.filter((i) => i.state === "done").length;
 
   // The same subject in the other medium(s), for the Tamil / English switch.
-  const versions = catalog.subjects.filter((s) => s.name === subject.name && s.level === subject.level);
+  const versions = subjectVersions(subject);
+  const en = subject.lang === "en";
+  const gradeMaps = TEXTBOOK_MAP_SETS.filter((m) => m.grade === grade).length;
 
   return (
     <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-6 items-start">
@@ -68,7 +71,7 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
                     {v.medium}
                   </Link>
                 ) : (
-                  <a key={v.id} href={`/choose?medium=${code}&grade=${grade}`} aria-current={current ? "page" : undefined} className={cls}>
+                  <a key={v.id} href={`/choose?medium=${code}&subject=${encodeURIComponent(v.name)}&grade=${grade}`} aria-current={current ? "page" : undefined} className={cls}>
                     {v.medium}
                   </a>
                 );
@@ -92,6 +95,23 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
         </div>
 
         <FreeOffer className="mt-4" />
+
+        {subject.maps && (
+          <Link href={`/subjects/${subject.id}/maps?grade=${grade}`} className="glass glass-hover !border-gold/60 flex items-center gap-3.5 p-4 mt-4">
+            <span className="grid place-items-center w-11 h-11 rounded-xl flex-none bg-gold text-bg">
+              <MapPinned size={22} />
+            </span>
+            <span className="flex-1 min-w-0">
+              <span className="block font-bold">{en ? "Map marking practice" : "தேசப்படம் குறித்தல் பயிற்சி"}</span>
+              <span className="block text-sm text-muted">
+                {en
+                  ? `Tap the places on a real map · ${PAST_MAP_SETS.length / 2} past papers (2016–2025) · ${gradeMaps} Grade ${grade} maps`
+                  : `உண்மையான தேசப்படத்தில் இடங்களைத் தொட்டுக் குறியுங்கள் · ${PAST_MAP_SETS.length / 2} கடந்தகால வினாத்தாள்கள் (2016–2025) · தரம் ${grade} – ${gradeMaps} படங்கள்`}
+              </span>
+            </span>
+            <ChevronRight size={20} className="text-gold flex-none" />
+          </Link>
+        )}
 
         <p className="text-muted mt-4 mb-3 text-sm">
           {LOGIN_ENABLED ? `${gradeDone} of ${items.length} chapters done` : `${items.length} chapters · tap a chapter to start`}
@@ -135,7 +155,9 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
             ["Quiz questions", totals.quiz],
             ["Past-paper MCQs", totals.mcq],
             ["Structured questions", totals.structured],
-          ].map(([l, n]) => (
+          ]
+            .filter(([, n]) => n)
+            .map(([l, n]) => (
             <div key={l} className="flex justify-between">
               <span className="text-muted">{l}</span>
               <b>{n}</b>

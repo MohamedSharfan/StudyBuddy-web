@@ -1,10 +1,12 @@
 // Parses the markdown in /content into structured JSON the site renders.
 //   content/<subject>/grade-XX/chapter-YY/{Notes,Flashcards,Quiz,PastPaper_Questions}.md
+//   or, for layout "grade-files" (History), one file per grade and type — see readGradeFiles().
 // Past papers come in two layouts: the Tamil "Q1. … Correct Answer: B" layout and the
 // English "### A1. … **Correct answer:** B – …" layout. The parser detects which one a file uses.
 // Output:
 //   src/generated/catalog.json        – lightweight index (titles, counts) safe for the client
 //   generated/chapters/<id>.json      – full chapter payloads, read server-side only
+//   generated/map-guides/<id>.json    – History map-learning guides per grade (markdown)
 //
 // To update content: replace the markdown files and run `npm run content` (dev/build do it automatically).
 
@@ -15,6 +17,7 @@ const ROOT = process.cwd();
 const CONTENT = path.join(ROOT, "content");
 const OUT_CHAPTERS = path.join(ROOT, "generated", "chapters");
 const OUT_CATALOG = path.join(ROOT, "src", "generated", "catalog.json");
+const OUT_GUIDES = path.join(ROOT, "generated", "map-guides");
 
 // Subjects the site knows about. Add a new folder in /content and an entry here.
 // level is "O/L" or "A/L". For A/L subjects, `streams` limits who sees it
@@ -50,6 +53,44 @@ const SUBJECTS = [
     lang: "en",
     pastPaperNote:
       "English-medium study questions use English renderings of Sri Lankan O/L Islam I & II papers from 2016–2025.",
+    relatedHeading: "Related questions in other chapters",
+  },
+  // History comes as one file per grade and type ("grade 10/Notes grade 10.md", …), split into units here.
+  {
+    id: "history-ol",
+    dir: "history-ol",
+    layout: "grade-files",
+    name: "History",
+    nameLocal: "வரலாறு",
+    level: "O/L",
+    streams: [],
+    icon: "landmark",
+    medium: "Tamil",
+    tagline: "Grade 10 & 11 · Tamil medium",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "ta",
+    maps: true,
+    pastPaperNote:
+      "Past-paper questions are from the Sri Lankan O/L History papers from 2016–2025 (Tamil medium).",
+    relatedHeading: "தொடர்புடைய பிற வினாக்கள்",
+  },
+  {
+    id: "history-ol-en",
+    dir: "history-ol-english",
+    layout: "grade-files",
+    name: "History",
+    nameLocal: "",
+    level: "O/L",
+    streams: [],
+    icon: "landmark",
+    medium: "English",
+    tagline: "Grade 10 & 11 · English medium",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "en",
+    maps: true,
+    pastPaperNote: "",
     relatedHeading: "Related questions in other chapters",
   },
 ];
@@ -391,6 +432,251 @@ function parsePastPapers(md, subjectId) {
   };
 }
 
+// ── Grade-file layout (History) ──
+// content/<dir>/grade 10/{Notes,Flashcards,Quizzes} grade 10.md and content/<dir>/Grade_10_Chapter_Wise_Past_Papers.md.
+// Each file holds every unit of the grade; units start with "# அலகு 01 – …", "# Unit 1 – …" or "# Chapter 03 – …"
+// (notes, past papers) or "## Chapter 01 – …" (flashcards, quizzes).
+
+/** Splits a file into { number → { title, body } } on headings matched by `re` (group 1 = number, group 2 = title). */
+function splitUnits(md, re) {
+  const units = new Map();
+  const heads = [...md.matchAll(re)];
+  heads.forEach((m, i) => {
+    const end = i + 1 < heads.length ? heads[i + 1].index : md.length;
+    let body = md.slice(m.index + m[0].length, end);
+    // a unit ends where the next top-level heading starts (appendices, map guides)
+    const nextTop = body.search(/^# /m);
+    if (nextTop >= 0) body = body.slice(0, nextTop);
+    units.set(Number(m[1]), { title: plain(m[2]).trim(), body: body.replace(/\n-{3,}\s*$/, "").trim() });
+  });
+  return units;
+}
+
+const NOTES_UNIT = /^# (?:அலகு|Unit|Chapter)\s+0*(\d+)\s*[–-]\s*(.+)$/gm;
+const SECTION_UNIT = /^## Chapter\s+0*(\d+)\s*[–-]\s*(.+)$/gm;
+const PAPER_UNIT = /^# அலகு\s+0*(\d+)\s*[–-]\s*(.+)$/gm;
+
+/** Drops "verify / unclear" authoring notes, which aren't meant for students. */
+const dropDoubts = (t) =>
+  t
+    // an answer the author couldn't confirm: point the student to the tutor instead of leaving a gap
+    .replace(/\*சரிபார்க்க(?:\s*\([^)]*\))?\*/g, "*ஆசிரியரிடம் கேளுங்கள்*")
+    .replace(/\s*\*\([^()*]*சரிபார்க்க[^()*]*\)\*/g, "")
+    .replace(/\s*\([^()]*சரிபார்க்க[^()]*\)/g, "")
+    .replace(/^> \*\*(?:குறிப்பு \(தெளிவின்மை\)|எழுத்து\/ஆண்டு தொடர்பான குறிப்பு):\*\*[^\n]*\n?/gm, "")
+    .replace(/^> \*\*குறிப்பு:\*\*[^\n]*தெளிவ[^\n]*\n?/gm, "");
+
+/** Notes body: textbook map images become a link to the interactive map; other images are not available. */
+function historyNotesBody(body, subjectId, grade, number) {
+  const lang = subjectId.endsWith("-en") ? "en" : "ta";
+  return dropDoubts(body)
+    .replace(/^!\[([^\]]*)\]\(Assets\/[^)]*_Map_\d+\.png\)\s*$/gm, (_, alt) =>
+      lang === "en"
+        ? `> 🗺️ **${alt.trim()}** — practise it on the [interactive map](/learn/${subjectId}/${grade}/${number}/map).`
+        : `> 🗺️ **${alt.trim()}** — [ஊடாடும் தேசப்படத்தில்](/learn/${subjectId}/${grade}/${number}/map) பயிற்சி செய்யுங்கள்.`,
+    )
+    .replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+function historyNotes(title, body) {
+  const objectives = [];
+  // "> **Textbook pages:** 1 – 9 | **Lessons:** 1.1 A · 1.2 B" / "**உப தலைப்புகள்:** 1.1 A · 1.2 B"
+  const lessons = body.match(/\*\*(?:Lessons|உப தலைப்புகள்):\*\*\s*([^\n]+)/);
+  if (lessons) for (const l of lessons[1].split(/\s+·\s+/)) objectives.push(plain(l.replace(/^\d+\.\d+\s*/, "")));
+  const headings = [];
+  for (const l of body.split("\n")) {
+    const m = l.match(/^(##|###)\s+(.*)/);
+    if (m) headings.push({ depth: m[1].length, text: plain(m[2]) });
+  }
+  if (!objectives.length)
+    for (const h of headings) if (h.depth === 2 && /^\d+\.[1-9]/.test(h.text)) objectives.push(h.text.replace(/^\d+\.\d+\s*/, ""));
+  const words = body.split(/\s+/).filter(Boolean).length;
+  return { title, body, objectives, headings, minutes: Math.max(3, Math.round(words / 110)) };
+}
+
+function historyFlashcards(body) {
+  const cards = [];
+  for (const m of body.matchAll(/\*\*Front:\*\*\s*([\s\S]*?)\n\*\*Back:\*\*\s*([\s\S]*?)(?=\n\s*\*\*Card\b|\n-{3,}|\n#|$)/g))
+    cards.push({ front: m[1].trim(), back: m[2].trim() });
+  return cards;
+}
+
+function historyQuiz(body) {
+  const questions = [];
+  for (const block of body.split(/^\*\*Question\s+\d+:\*\*\s*$/m).slice(1)) {
+    const lines = block.trim().split("\n");
+    const prompt = [];
+    const options = [];
+    const fields = {};
+    let current = null;
+    for (const raw of lines) {
+      const line = raw.trimEnd();
+      const f = line.match(/^\*\*(Correct Answer|Explanation|Difficulty):\*\*\s*(.*)$/);
+      if (f) {
+        current = f[1];
+        fields[current] = f[2];
+        continue;
+      }
+      const opt = !current && line.match(/^([A-D])\.\s+(.*)$/);
+      if (opt) {
+        options.push({ key: opt[1], text: opt[2].trim() });
+        continue;
+      }
+      if (current) fields[current] += "\n" + line;
+      else if (!options.length) prompt.push(line);
+    }
+    const answer = (fields["Correct Answer"] || "").trim().charAt(0).toUpperCase();
+    if (options.length < 2 || !answer) continue;
+    questions.push({
+      prompt: prompt.join("\n").trim(),
+      options,
+      answer,
+      explanation: dropDoubts((fields.Explanation || "").trim()),
+      difficulty: (fields.Difficulty || "Medium").trim(),
+    });
+  }
+  return questions;
+}
+
+/** The answer part of a past-paper item: what's inside <details>, without the summary, source notes and images. */
+function revealOf(item) {
+  const m = item.match(/<details>([\s\S]*?)<\/details>/);
+  if (!m) return "";
+  return dropDoubts(m[1])
+    .replace(/<summary>[\s\S]*?<\/summary>/, "")
+    .replace(/^\*மூலம்:[^\n]*\*\s*$/gm, "")
+    .replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+// Tamil chapter-wise past papers:
+// **【2016 • பகுதி I • வினா 1】**  **1.** prompt  - (1) option …  <details> **சரியான விடை:** (2) … **விளக்கம்:** … </details>
+function historyPastPapers(body) {
+  const part = (re) => {
+    const m = body.match(re);
+    return m ? m.index : -1;
+  };
+  const p1 = part(/^## பகுதி I\b.*$/m);
+  const p2 = part(/^## பகுதி II\b.*$/m);
+  const cut = (a, b) => (a < 0 ? "" : body.slice(a, b > a ? b : body.length).replace(/^## .*\n/, ""));
+  const items = (text) =>
+    text
+      .split(/\n-{3,}\n/)
+      .map((s) => s.trim())
+      .filter((s) => s.startsWith("**【"));
+  const head = (item) => {
+    const m = item.match(/^\*\*【([^】]+)】\*\*/);
+    return m ? m[1].trim() : "";
+  };
+
+  const mcq = [];
+  for (const item of items(cut(p1, p2))) {
+    const ref = head(item);
+    const qText = item.replace(/^\*\*【[^】]+】\*\*\s*/, "").split("<details>")[0];
+    const options = [...qText.matchAll(/^-\s+\((\d)\)\s+(.*)$/gm)].map((o) => ({ key: o[1], text: o[2].trim() }));
+    const prompt = qText
+      .split(/^-\s+\(\d\)\s+/m)[0]
+      .replace(/^\*\*\d+\.\*\*\s*/, "")
+      .replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")
+      .trim();
+    const reveal = revealOf(item);
+    const correct = reveal.match(/\*\*சரியான விடை:\*\*\s*\((\d)\)\s*([^\n]*)/);
+    if (options.length < 2 || !correct) continue;
+    const field = (label) => {
+      const m = reveal.match(new RegExp(`\\*\\*${label}:\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\*\\*[^*\\n]+:\\*\\*|$)`));
+      return m ? m[1].trim() : "";
+    };
+    mcq.push({
+      prompt,
+      options,
+      answer: correct[1],
+      year: yearOf(ref),
+      yearLabel: String(yearOf(ref) ?? ""),
+      reference: ref.replace(/^20\d\d\s*•\s*/, "").replace(/\s*•\s*/g, " · "),
+      answerText: correct[2].trim(),
+      explanation: field("விளக்கம்"),
+      status: "",
+      alsoRelevant: "",
+      verification: "",
+      difficulty: field("கடினத்தன்மை") || "Medium",
+    });
+  }
+
+  const structured = [];
+  for (const item of items(cut(p2, -1))) {
+    const ref = head(item);
+    const question = item
+      .replace(/^\*\*【[^】]+】\*\*\s*/, "")
+      .split("<details>")[0]
+      .replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+    const answer = revealOf(item);
+    if (!question || !answer) continue;
+    const marks = [...question.matchAll(/\((\d+)\s*புள்ளிகள்\)/g)].reduce((n, m) => n + Number(m[1]), 0);
+    structured.push({
+      heading: ref,
+      year: yearOf(ref),
+      question,
+      reference: ref.replace(/^20\d\d\s*•\s*/, "").replace(/\s*•\s*/g, " · "),
+      marks: marks ? `${marks} புள்ளிகள்` : "",
+      answer,
+      explanation: "",
+      guidance: "",
+      status: "",
+      verification: "",
+      alsoRelevant: "",
+    });
+  }
+
+  const years = {};
+  for (const q of [...mcq, ...structured]) if (q.year) years[q.year] = (years[q.year] || 0) + 1;
+  return { mcq, structured, related: "", pattern: "", years };
+}
+
+/** Reads one History grade: { chapters: [{ number, title, notes, flashcards, quiz, pastPapers }], mapGuide }. */
+function readGradeFiles(subject, gradeDir, grade) {
+  const dir = path.join(CONTENT, subject.dir, gradeDir);
+  const file = (re) => fs.readdirSync(dir).find((f) => re.test(f));
+  const load = (re) => {
+    const f = file(re);
+    return f ? read(path.join(dir, f)) : "";
+  };
+  const notesMd = load(/^notes/i);
+  const notes = splitUnits(notesMd, NOTES_UNIT);
+  const cards = splitUnits(load(/^flashcards/i), SECTION_UNIT);
+  const quiz = splitUnits(load(/^quiz/i), SECTION_UNIT);
+  const paperFile = path.join(CONTENT, subject.dir, `Grade_${grade}_Chapter_Wise_Past_Papers.md`);
+  const papers = exists(paperFile) ? splitUnits(read(paperFile), PAPER_UNIT) : new Map();
+
+  const guide = notesMd.match(/^# (?:இணைப்பு – தேசப்படம்|🗺️ Map-Learning Guide)[^\n]*\n([\s\S]*?)(?=^# |\n-{3,}\s*\n+\*முற்றும்|(?![\s\S]))/m);
+  const mapGuide = guide
+    ? dropDoubts(guide[1])
+        .replace(/[^\n]*`Assets\/`[^\n]*\n?/g, "")
+        .replace(/\s*–\s*(?:see\s+)?`Chapter_[^`]+`(?:\s*(?:,|to|and)\s*`[^`]+`)*/g, "")
+        .replace(/\n-{3,}\s*$/, "")
+        .trim()
+    : "";
+
+  const chapters = [...notes.keys()].sort((a, b) => a - b).map((number) => {
+    const n = notes.get(number);
+    return {
+      number,
+      title: n.title,
+      notes: historyNotes(n.title, historyNotesBody(n.body, subject.id, grade, number)),
+      flashcards: cards.has(number) ? historyFlashcards(cards.get(number).body) : [],
+      quiz: quiz.has(number) ? historyQuiz(quiz.get(number).body) : [],
+      pastPapers: papers.has(number)
+        ? historyPastPapers(papers.get(number).body)
+        : { mcq: [], structured: [], related: "", pattern: "", years: {} },
+    };
+  });
+  return { chapters, mapGuide };
+}
+
 function build() {
   fs.mkdirSync(OUT_CHAPTERS, { recursive: true });
   fs.mkdirSync(path.dirname(OUT_CATALOG), { recursive: true });
@@ -399,32 +685,47 @@ function build() {
   const catalog = { generatedAt: new Date().toISOString(), subjects: [] };
   const totals = { chapters: 0, quiz: 0, flashcards: 0, mcq: 0, structured: 0 };
 
+  fs.mkdirSync(OUT_GUIDES, { recursive: true });
+
   for (const subject of SUBJECTS) {
-    const dir = path.join(CONTENT, subject.id);
+    const { dir: dirName = subject.id, layout, ...meta } = subject;
+    const dir = path.join(CONTENT, dirName);
     if (!exists(dir)) continue;
+    const gradeFiles = layout === "grade-files";
     const grades = fs
       .readdirSync(dir)
-      .filter((d) => /^grade-\d+$/.test(d))
+      .filter((d) => (gradeFiles ? /^grade[ _-]?\d+$/i : /^grade-\d+$/).test(d))
       .sort();
-    const subjectEntry = { ...subject, grades: [] };
+    const subjectEntry = { ...meta, grades: [] };
+    const guides = {};
 
     for (const g of grades) {
-      const grade = Number(g.split("-")[1]);
+      const grade = Number(g.match(/\d+/)[0]);
       const chapters = [];
-      const chapterDirs = fs
-        .readdirSync(path.join(dir, g))
-        .filter((d) => /^chapter-\d+$/.test(d))
-        .sort();
-      for (const c of chapterDirs) {
-        const number = Number(c.split("-")[1]);
-        const base = path.join(dir, g, c);
-        const notes = exists(path.join(base, "Notes.md")) ? parseNotes(read(path.join(base, "Notes.md"))) : null;
-        const flashcards = exists(path.join(base, "Flashcards.md")) ? parseFlashcards(read(path.join(base, "Flashcards.md"))) : [];
-        const quiz = exists(path.join(base, "Quiz.md")) ? parseQuiz(read(path.join(base, "Quiz.md"))) : [];
-        const pastPapers = exists(path.join(base, "PastPaper_Questions.md"))
-          ? parsePastPapers(read(path.join(base, "PastPaper_Questions.md")), subject.id)
-          : { mcq: [], structured: [], related: "", pattern: "", years: {} };
-
+      let units;
+      if (gradeFiles) {
+        const parsed = readGradeFiles({ ...subject, dir: dirName }, g, grade);
+        units = parsed.chapters;
+        if (parsed.mapGuide) guides[grade] = parsed.mapGuide;
+      } else {
+        units = fs
+          .readdirSync(path.join(dir, g))
+          .filter((d) => /^chapter-\d+$/.test(d))
+          .sort()
+          .map((c) => {
+            const base = path.join(dir, g, c);
+            return {
+              number: Number(c.split("-")[1]),
+              notes: exists(path.join(base, "Notes.md")) ? parseNotes(read(path.join(base, "Notes.md"))) : null,
+              flashcards: exists(path.join(base, "Flashcards.md")) ? parseFlashcards(read(path.join(base, "Flashcards.md"))) : [],
+              quiz: exists(path.join(base, "Quiz.md")) ? parseQuiz(read(path.join(base, "Quiz.md"))) : [],
+              pastPapers: exists(path.join(base, "PastPaper_Questions.md"))
+                ? parsePastPapers(read(path.join(base, "PastPaper_Questions.md")), subject.id)
+                : { mcq: [], structured: [], related: "", pattern: "", years: {} },
+            };
+          });
+      }
+      for (const { number, notes, flashcards, quiz, pastPapers } of units) {
         const id = `${subject.id}-${grade}-${String(number).padStart(2, "0")}`;
         const title = notes?.title || `Chapter ${number}`;
         const payload = { id, subjectId: subject.id, grade, number, title, notes, flashcards, quiz, pastPapers };
@@ -455,6 +756,7 @@ function build() {
       subjectEntry.grades.push({ grade, chapters });
     }
     catalog.subjects.push(subjectEntry);
+    if (Object.keys(guides).length) fs.writeFileSync(path.join(OUT_GUIDES, `${subject.id}.json`), JSON.stringify(guides));
     const all = subjectEntry.grades.flatMap((g) => g.chapters);
     const sum = (k) => all.reduce((n, c) => n + c.counts[k], 0);
     console.log(

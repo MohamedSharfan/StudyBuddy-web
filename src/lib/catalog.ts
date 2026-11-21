@@ -31,6 +31,8 @@ export type SubjectSummary = {
   /** Shown above the past-paper questions (where the questions come from). */
   pastPaperNote: string;
   relatedHeading: string;
+  /** History: has map-marking practice. */
+  maps?: boolean;
   grades: GradeSummary[];
 };
 
@@ -57,9 +59,19 @@ export function subjectsFor(profile: StudentLevel) {
   return mine.length ? mine : forLevel;
 }
 
-/** "Islam O/L · English medium" — distinguishes the same subject in different mediums. */
+/** "History O/L · English medium" — distinguishes the same subject in different mediums. */
 export function subjectLabel(s: Pick<SubjectSummary, "name" | "level" | "medium">) {
   return `${s.name} ${s.level} · ${s.medium} medium`;
+}
+
+/** The same subject in the other medium(s), e.g. History Tamil ↔ History English. */
+export function subjectVersions(s: Pick<SubjectSummary, "name" | "level">) {
+  return catalog.subjects.filter((v) => v.name === s.name && v.level === s.level);
+}
+
+/** Does this chapter have past-paper questions? (English-medium History has none yet.) */
+export function hasPastPapers(c: Pick<ChapterSummary, "counts">) {
+  return c.counts.mcq + c.counts.structured > 0;
 }
 
 export function getSubject(id: string) {

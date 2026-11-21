@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { BookOpen, Brain, Check, ChevronRight, Layers, Lock, ScrollText } from "lucide-react";
+import { BookOpen, Brain, Check, ChevronRight, Layers, Lock, MapPinned, ScrollText } from "lucide-react";
 import { LockedPanel } from "@/components/LockedPanel";
 import { ExamRadar } from "@/components/ExamRadar";
-import { chapterHref } from "@/lib/catalog";
+import { chapterHref, getChapterSummary, hasPastPapers, subjectVersions } from "@/lib/catalog";
+import { mapSetsForChapter } from "@/lib/maps/sets";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
 import { LOGIN_ENABLED } from "@/lib/config";
 import { REWARDS } from "@/lib/gamification";
@@ -16,7 +17,15 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
     { slug: "flashcards", t: "Flashcards", sub: `${c.counts.flashcards} cards`, icon: Layers, coins: REWARDS.flashcards },
     { slug: "quiz", t: "Quiz", sub: `${c.counts.quiz} questions · pass with 80%`, icon: Brain, coins: REWARDS.quiz },
     { slug: "past-papers", t: "Past papers", sub: `${c.counts.mcq} MCQ · ${c.counts.structured} structured`, icon: ScrollText, coins: REWARDS.pastpaper },
-  ];
+  ].filter((d) => d.slug !== "past-papers" || hasPastPapers(c));
+  const maps = subject.maps ? mapSetsForChapter(c.grade, c.number) : [];
+  const en = subject.lang === "en";
+  // Same exam in every medium: without past papers here, show how often the other medium's chapter was asked.
+  const years = hasPastPapers(c)
+    ? c.years
+    : subjectVersions(subject)
+        .map((v) => getChapterSummary(v.id, c.grade, c.number))
+        .find((x) => x && hasPastPapers(x))?.years;
   const firstOpen = steps.findIndex((s) => !s);
 
   return (
@@ -57,6 +66,22 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
             </li>
           );
         })}
+        {maps.length > 0 && (
+          <li>
+            <Link href={chapterHref(subject.id, c.grade, c.number, "map")} className="glass glass-hover flex items-center gap-4 p-4">
+              <span className="grid place-items-center w-11 h-11 rounded-xl flex-none bg-card-2 text-gold">
+                <MapPinned size={20} />
+              </span>
+              <span className="flex-1 min-w-0">
+                <span className="block font-bold">{en ? "Map practice" : "தேசப்படப் பயிற்சி"}</span>
+                <span className="block text-sm text-muted">
+                  {en ? `${maps.length} ${maps.length === 1 ? "map" : "maps"} · tap the places` : `${maps.length} தேசப்படம் · இடங்களைத் தொட்டுக் குறியுங்கள்`}
+                </span>
+              </span>
+              <ChevronRight size={18} className="text-muted flex-none" />
+            </Link>
+          </li>
+        )}
       </ol>
 
       <div className="grid lg:grid-cols-2 gap-5">
@@ -79,7 +104,7 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
             </p>
           )}
         </div>
-        <ExamRadar years={c.years} />
+        {years && <ExamRadar years={years} />}
       </div>
     </div>
   );

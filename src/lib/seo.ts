@@ -24,8 +24,8 @@ export function subjectSeo(subjectId: string, grade: number) {
   if (!subject) return null;
   const availableGrade = subject.grades.some((g) => g.grade === grade) ? grade : subject.grades[0]?.grade ?? 10;
   const path = `/subjects/${subjectId}?grade=${availableGrade}`;
-  const title = `O/L Islam Grade ${availableGrade} · ${subject.medium} Medium`;
-  const description = `Study Sri Lankan O/L Islam Grade ${availableGrade} in ${subject.medium}. Free chapter-wise notes, flashcards, quizzes and past-paper questions for Tamil and English medium students.`;
+  const title = `O/L ${subject.name} Grade ${availableGrade} · ${subject.medium} Medium`;
+  const description = `Study Sri Lankan O/L ${subject.name} Grade ${availableGrade} in ${subject.medium}. Free chapter-wise notes, flashcards, quizzes${subject.grades.some((g) => g.chapters.some((c) => c.counts.mcq + c.counts.structured)) ? " and past-paper questions" : ""}${subject.maps ? ", plus map-marking practice" : ""}.`;
   return {
     title,
     description,
@@ -40,24 +40,29 @@ export function chapterSeo(subjectId: string, grade: number, chapter: number, su
   if (!subject || !summary) return null;
   const path = `/learn/${subjectId}/${grade}/${chapter}${suffix}`;
   const lang = subject.medium === "Tamil" ? "Tamil" : "English";
+  const s = `O/L ${subject.name}`;
   const title = suffix === "/past-papers"
-    ? `O/L Islam Past Papers Grade ${grade}, Chapter ${chapter} · ${lang}`
+    ? `${s} Past Papers Grade ${grade}, Chapter ${chapter} · ${lang}`
     : suffix === "/notes"
-      ? `O/L Islam Notes Grade ${grade}, Chapter ${chapter} · ${lang}`
+      ? `${s} Notes Grade ${grade}, Chapter ${chapter} · ${lang}`
       : suffix === "/quiz"
-        ? `O/L Islam Quiz Grade ${grade}, Chapter ${chapter} · ${lang}`
+        ? `${s} Quiz Grade ${grade}, Chapter ${chapter} · ${lang}`
         : suffix === "/flashcards"
-          ? `O/L Islam Flashcards Grade ${grade}, Chapter ${chapter} · ${lang}`
-          : `O/L Islam Grade ${grade}, Chapter ${chapter}: ${summary.title}`;
+          ? `${s} Flashcards Grade ${grade}, Chapter ${chapter} · ${lang}`
+          : suffix === "/map"
+            ? `${s} Map Practice Grade ${grade}, Chapter ${chapter} · ${lang}`
+            : `${s} Grade ${grade}, Chapter ${chapter}: ${summary.title}`;
   const section = suffix === "/past-papers"
-    ? `Practice chapter-wise MCQs and structured questions from Sri Lankan O/L Islam past papers (2016–2025).`
+    ? `Practice chapter-wise MCQs and structured questions from Sri Lankan ${s} past papers (2016–2025).`
     : suffix === "/notes"
-      ? `Read chapter-wise ${lang} medium notes for Sri Lankan O/L Islam.`
+      ? `Read chapter-wise ${lang} medium notes for Sri Lankan ${s}.`
       : suffix === "/quiz"
-        ? `Test your knowledge with a free chapter-wise ${lang} medium O/L Islam quiz.`
+        ? `Test your knowledge with a free chapter-wise ${lang} medium ${s} quiz.`
         : suffix === "/flashcards"
-          ? `Revise O/L Islam Grade ${grade}, Chapter ${chapter} with free ${lang} medium flashcards.`
-          : `Free O/L Islam Grade ${grade} ${lang} medium study resources for Chapter ${chapter}: ${summary.title}.`;
+          ? `Revise ${s} Grade ${grade}, Chapter ${chapter} with free ${lang} medium flashcards.`
+          : suffix === "/map"
+            ? `Practise marking the places of ${s} Grade ${grade}, Chapter ${chapter} on an interactive map.`
+            : `Free ${s} Grade ${grade} ${lang} medium study resources for Chapter ${chapter}: ${summary.title}.`;
   return {
     title,
     description: `${section} StudyBuddy has free notes, flashcards, quizzes and past-paper practice for Grade 10 and 11 students.`,

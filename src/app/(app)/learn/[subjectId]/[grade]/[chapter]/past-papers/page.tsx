@@ -2,13 +2,15 @@ import { ExamRadar } from "@/components/ExamRadar";
 import { ExamVault } from "@/components/ExamVault";
 import { LockedPanel } from "@/components/LockedPanel";
 import { Markdown } from "@/components/Markdown";
+import { redirect } from "next/navigation";
+import { chapterHref, hasPastPapers } from "@/lib/catalog";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
 import { canonicalUrl, chapterSeo } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: ChapterParams }) {
   const { subjectId, grade, chapter } = await params;
   const seo = chapterSeo(subjectId, Number(grade), Number(chapter), "/past-papers");
-  if (!seo) return { title: "O/L Islam Past Papers" };
+  if (!seo) return { title: "O/L Past Papers" };
   return {
     title: seo.title,
     description: seo.description,
@@ -19,6 +21,7 @@ export async function generateMetadata({ params }: { params: ChapterParams }) {
 
 export default async function PastPapersPage({ params }: { params: ChapterParams }) {
   const { subject, summary: c, viewer, open, content, steps } = await resolveChapter(params, true);
+  if (!hasPastPapers(c)) redirect(chapterHref(subject.id, c.grade, c.number));
   if (!open || !content) return <LockedPanel chapter={c} viewer={viewer} />;
   const pp = content.pastPapers;
   const pattern = [pp.pattern, pp.related ? `## ${subject.relatedHeading}\n\n${pp.related}` : ""].filter(Boolean).join("\n\n---\n\n");
@@ -27,7 +30,9 @@ export default async function PastPapersPage({ params }: { params: ChapterParams
     <div className="space-y-6">
       <div className="grid lg:grid-cols-[1fr_360px] gap-5 items-start">
         <div className="glass p-5 sm:p-6">
-          <h2 className="display text-xl font-bold">O/L Islam Grade {c.grade} Chapter {c.number} past-paper questions</h2>
+          <h2 className="display text-xl font-bold">
+            O/L {subject.name} Grade {c.grade} Chapter {c.number} past-paper questions
+          </h2>
           <p className="text-sm text-muted mt-2">
             {subject.pastPaperNote} Score 80% in the MCQ practice to complete this step.
           </p>
@@ -40,7 +45,7 @@ export default async function PastPapersPage({ params }: { params: ChapterParams
         itemId={c.id}
         done={steps[3]}
         nextHref={`/subjects/${subject.id}?grade=${c.grade}`}
-        pattern={pattern ? <Markdown>{pattern}</Markdown> : <p className="text-muted">No exam pattern notes yet.</p>}
+        pattern={pattern ? <Markdown>{pattern}</Markdown> : null}
       />
     </div>
   );

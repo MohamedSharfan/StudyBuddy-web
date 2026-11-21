@@ -1,5 +1,5 @@
 import React from "react";
-import { Apple, ArrowLeftRight, ArrowRight, BookOpen, Bookmark, Brain, Circle, CircleCheck, CircleX, ClipboardList, Dumbbell, Eye, Gift, GraduationCap, HandHeart, Handshake, Hammer, Heart, Hourglass, Landmark, Library, Lightbulb, ListOrdered, Map, Moon, School, ScrollText, Scale, Shield, ShoppingCart, Sparkles, Sprout, Star, Swords, Target, TriangleAlert, UserRound, Users, Waves, Wheat } from "lucide-react";
+import { Apple, ArrowLeftRight, ArrowRight, BookOpen, Bookmark, Brain, ChartColumn, Circle, CircleAlert, CircleCheck, CircleX, Clock, ClipboardList, Dumbbell, Eye, Gift, GraduationCap, HandHeart, Handshake, Hammer, Heart, Hourglass, Landmark, Library, Lightbulb, ListOrdered, Map, Moon, RefreshCw, School, ScrollText, Scale, Shield, ShoppingCart, Sparkles, Sprout, Star, Swords, Target, TriangleAlert, User, UserRound, Users, Waves, Wheat } from "lucide-react";
 
 // Arabic letters (and harakat) — a run of Arabic words, possibly with spaces between them.
 export const ARABIC_RUN = /([\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF](?:[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF\s]*[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF])?)/;
@@ -53,6 +53,11 @@ export const MARKERS: Record<string, React.ComponentType<{ size?: number; classN
   "↔": ArrowLeftRight,
   "⚔️": Swords,
   "⏳": Hourglass,
+  "🕒": Clock,
+  "🔄": RefreshCw,
+  "👤": User,
+  "📊": ChartColumn,
+  "❗": CircleAlert,
 };
 
 const MARKER_PATTERN = new RegExp(Object.keys(MARKERS).sort((a, b) => b.length - a.length).join("|"), "gu");

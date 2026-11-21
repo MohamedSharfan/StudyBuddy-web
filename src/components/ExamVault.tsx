@@ -100,12 +100,13 @@ export function ExamVault({
   }, [mcq, structured]);
   const [year, setYear] = useState<number | null>(null);
 
-  const tabs: { id: Tab; label: string; icon: typeof Target; count?: number }[] = [
+  const allTabs: { id: Tab; label: string; icon: typeof Target; count?: number }[] = [
     { id: "practice", label: "MCQ practice", icon: Target, count: mcq.length },
     { id: "structured", label: "Structured", icon: FileText, count: structured.length },
     { id: "browse", label: "By year", icon: ListChecks },
     { id: "pattern", label: "Exam pattern", icon: ChevronDown },
   ];
+  const tabs = allTabs.filter((t) => t.id !== "pattern" || pattern);
 
   return (
     <div>

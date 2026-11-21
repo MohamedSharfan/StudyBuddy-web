@@ -1,23 +1,30 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { ArrowRight, Check, ChevronLeft, MessageCircle } from "lucide-react";
+import { ArrowRight, Check, ChevronLeft, MapPinned, MessageCircle } from "lucide-react";
 import { FreeOffer } from "@/components/FreeOffer";
 import { Icon } from "@/components/ui/Icon";
 import { Logo } from "@/components/ui/Logo";
+import { catalog } from "@/lib/catalog";
 import { FREE_OFFER, MEDIUMS, teacherWhatsAppLink } from "@/lib/config";
 import { OL_UPCOMING } from "@/lib/levels";
 import { getMedium, studyHref } from "@/lib/prefs";
 import { canonicalUrl } from "@/lib/seo";
 
-const SHARE_TEXT = `Free Sri Lankan O/L Islam past papers, notes, flashcards and quizzes for Grade 10 and 11 in Tamil and English medium. ${FREE_OFFER}`;
+const SHARE_TEXT = `Free Sri Lankan O/L Islam and History past papers, notes, flashcards, quizzes and map-marking practice for Grade 10 and 11 in Tamil and English medium. ${FREE_OFFER}`;
+
+// One entry per live subject (Islam, History, …), with its Tamil and English versions.
+const LIVE = [...new Set(catalog.subjects.filter((s) => s.level === "O/L").map((s) => s.name))].map((name) => {
+  const versions = catalog.subjects.filter((s) => s.level === "O/L" && s.name === name);
+  return { name, icon: versions[0].icon ?? "book-open", maps: versions.some((v) => v.maps), versions };
+});
 
 // Also used for link previews when the site is shared on WhatsApp / Facebook.
 export const metadata = {
-  title: { absolute: "O/L Islam Past Papers, Notes & Quizzes in Sri Lanka | StudyBuddy" },
+  title: { absolute: "O/L Islam & History Past Papers, Notes & Quizzes in Sri Lanka | StudyBuddy" },
   description: SHARE_TEXT,
   alternates: { canonical: canonicalUrl("/") },
-  openGraph: { type: "website", siteName: "StudyBuddy", title: "O/L Islam Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, url: canonicalUrl("/"), locale: "en_LK", images: ["/logo.jpg"] },
-  twitter: { card: "summary_large_image", title: "O/L Islam Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, images: ["/logo.jpg"] },
+  openGraph: { type: "website", siteName: "StudyBuddy", title: "O/L Islam & History Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, url: canonicalUrl("/"), locale: "en_LK", images: ["/logo.jpg"] },
+  twitter: { card: "summary_large_image", title: "O/L Islam & History Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, images: ["/logo.jpg"] },
 };
 
 /**
@@ -44,12 +51,12 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
         <div className="mt-4 sm:mt-10">
           <FreeOffer />
           <h1 className="display text-[1.9rem] sm:text-4xl font-bold leading-tight mt-5">
-            {pickMedium ? "Choose your medium for O/L Islam past papers" : "Free O/L Islam past papers, notes and quizzes"}
+            {pickMedium ? "Choose your medium" : "Free O/L Islam & History past papers, notes and quizzes"}
           </h1>
           <p className="text-muted mt-2">
             {pickMedium
-              ? "Choose Tamil or English medium for Grade 10 and 11 notes, flashcards, quizzes and Sri Lankan past papers."
-              : "Study Sri Lankan Grade 10 and 11 Islam with chapter-wise notes, flashcards, quizzes and past-paper questions from 2016–2025."}
+              ? "Choose Tamil or English medium for Grade 10 and 11 notes, flashcards, quizzes, past papers and map practice."
+              : "Study Sri Lankan Grade 10 and 11 Islam and History with chapter-wise notes, flashcards, quizzes, past-paper questions from 2016–2025 and map-marking practice."}
           </p>
         </div>
 
@@ -87,11 +94,13 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
         <section className="mt-10">
           <h2 className="text-sm font-semibold text-muted">O/L subjects</h2>
           <div className="grid grid-cols-3 gap-2.5 mt-3">
-            <div className="rounded-xl border border-gold p-3">
-              <Icon name="book-open" size={18} className="text-gold" />
-              <p className="font-semibold text-sm mt-1.5">Islam</p>
-              <p className="text-xs text-gold">Available</p>
-            </div>
+            {LIVE.map((s) => (
+              <div key={s.name} className="rounded-xl border border-gold p-3">
+                <Icon name={s.icon} size={18} className="text-gold" />
+                <p className="font-semibold text-sm mt-1.5">{s.name}</p>
+                <p className="text-xs text-gold">Available</p>
+              </div>
+            ))}
             {OL_UPCOMING.map((s) => (
               <div key={s.name} className="rounded-xl border border-line p-3">
                 <Icon name={s.icon} size={18} className="text-muted" />
@@ -102,22 +111,29 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
           </div>
         </section>
 
-        <section className="mt-10 glass p-5 sm:p-6">
-          <h2 className="display text-xl font-bold">Browse O/L Islam past papers by grade and medium</h2>
-          <p className="text-sm text-muted mt-2" lang="ta">
-            தரம் 10 மற்றும் 11 இஸ்லாம் கடந்தகால வினாத்தாள்கள், குறிப்புகள், வினாடி வினாக்கள் — தமிழ் மற்றும் ஆங்கில மொழிமூலங்களில்.
-          </p>
-          <div className="grid grid-cols-2 gap-2 mt-4">
-            {[10, 11].flatMap((grade) => [
-              { id: "islam-ol", medium: "Tamil" },
-              { id: "islam-ol-en", medium: "English" },
-            ].map((item) => (
-              <Link key={`${grade}-${item.id}`} href={`/subjects/${item.id}?grade=${grade}`} className="chip justify-center hover:!text-white">
-                Grade {grade} · {item.medium} medium
-              </Link>
-            )))}
-          </div>
-        </section>
+        {LIVE.map((subject) => (
+          <section key={subject.name} className="mt-6 glass p-5 sm:p-6">
+            <h2 className="display text-xl font-bold">Browse O/L {subject.name} by grade and medium</h2>
+            <div className="grid grid-cols-2 gap-2 mt-4">
+              {[10, 11].flatMap((grade) =>
+                subject.versions.map((v) => (
+                  <Link key={`${grade}-${v.id}`} href={`/subjects/${v.id}?grade=${grade}`} className="chip justify-center hover:!text-white">
+                    Grade {grade} · {v.medium} medium
+                  </Link>
+                )),
+              )}
+            </div>
+            {subject.maps && (
+              <div className="grid grid-cols-2 gap-2 mt-2">
+                {subject.versions.map((v) => (
+                  <Link key={v.id} href={`/subjects/${v.id}/maps`} className="chip justify-center !text-gold !border-gold/40 hover:!text-white">
+                    <MapPinned size={14} /> Map practice · {v.medium}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </section>
+        ))}
       </main>
     </div>
   );

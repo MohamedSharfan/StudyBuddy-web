@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { catalog } from "@/lib/catalog";
+import { catalog, hasPastPapers } from "@/lib/catalog";
+import { MAP_SETS, mapSetsForChapter } from "@/lib/maps/sets";
 import { canonicalUrl } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -9,6 +10,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   for (const subject of catalog.subjects) {
+    if (subject.maps) {
+      entries.push({ url: canonicalUrl(`/subjects/${subject.id}/maps`), changeFrequency: "monthly", priority: 0.8 });
+      for (const set of MAP_SETS)
+        entries.push({ url: canonicalUrl(`/subjects/${subject.id}/maps/${set.id}`), changeFrequency: "yearly", priority: set.kind === "past" ? 0.7 : 0.6 });
+    }
     for (const grade of subject.grades) {
       entries.push({
         url: canonicalUrl(`/subjects/${subject.id}?grade=${grade.grade}`),
@@ -16,7 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       });
       for (const chapter of grade.chapters) {
-        for (const suffix of ["", "/notes", "/flashcards", "/quiz", "/past-papers"]) {
+        const suffixes = ["", "/notes", "/flashcards", "/quiz"];
+        if (hasPastPapers(chapter)) suffixes.push("/past-papers");
+        if (subject.maps && mapSetsForChapter(grade.grade, chapter.number).length) suffixes.push("/map");
+        for (const suffix of suffixes) {
           entries.push({
             url: canonicalUrl(`/learn/${subject.id}/${grade.grade}/${chapter.number}${suffix}`),
             changeFrequency: "monthly",

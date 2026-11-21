@@ -12,8 +12,8 @@ import { canonicalUrl } from "@/lib/seo";
 import { completionSet, getViewer, hasSubjectAccess } from "@/lib/session";
 
 export const metadata = {
-  title: "O/L Islam Subjects · Grade 10 & 11",
-  description: "Browse free Sri Lankan O/L Islam Grade 10 and 11 subjects in Tamil and English medium, with chapter-wise notes, quizzes and past papers.",
+  title: "O/L Subjects · Islam & History · Grade 10 & 11",
+  description: "Browse free Sri Lankan O/L Islam and History for Grade 10 and 11 in Tamil and English medium, with chapter-wise notes, quizzes, past papers and map-marking practice.",
   alternates: { canonical: canonicalUrl("/subjects") },
 };
 
@@ -58,7 +58,9 @@ export default async function Subjects() {
                     </h2>
                     <p className="text-sm text-muted">{s.tagline}</p>
                     <p className="text-sm text-muted mt-2">
-                      {t.chapters} chapters · {t.quiz} quiz questions · {t.mcq + t.structured} past-paper questions
+                      {t.chapters} chapters · {t.quiz} quiz questions
+                      {t.mcq + t.structured > 0 && ` · ${t.mcq + t.structured} past-paper questions`}
+                      {s.maps && " · map practice"}
                     </p>
                   </div>
                 </div>
@@ -98,7 +100,7 @@ export default async function Subjects() {
             {otherMediums.map((s) => (
               <a
                 key={s.id}
-                href={LOGIN_ENABLED ? `/subjects/${s.id}` : `/choose?medium=${MEDIUMS.find((m) => m.name === s.medium)?.code ?? ""}`}
+                href={LOGIN_ENABLED ? `/subjects/${s.id}` : `/choose?medium=${MEDIUMS.find((m) => m.name === s.medium)?.code ?? ""}&subject=${encodeURIComponent(s.name)}`}
                 className="chip hover:!text-white"
               >
                 <Icon name={s.icon ?? "book-open"} size={13} /> {s.name} · {s.medium} medium
