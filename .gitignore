@@ -9,3 +9,6 @@ next-env.d.ts
 /generated/
 .vercel
 .DS_Store
+
+# History source files (Word catalogues, original scans); the web images are extracted to public/history
+/content/history-sources/

@@ -7,7 +7,8 @@ export type ChapterSummary = {
   title: string;
   objectives: string[];
   minutes: number;
-  counts: { flashcards: number; quiz: number; mcq: number; structured: number };
+  /** pictures: textbook pictures (History); paperPictures: past-paper picture questions in this chapter. */
+  counts: { flashcards: number; quiz: number; mcq: number; structured: number; pictures?: number; paperPictures?: number };
   years: Record<string, number>;
   free: boolean;
 };
@@ -33,6 +34,8 @@ export type SubjectSummary = {
   relatedHeading: string;
   /** History: has map-marking practice. */
   maps?: boolean;
+  /** History: picture study — past-paper picture questions (Part II Q1 (b)) and textbook pictures per grade. */
+  pictures?: { papers: number; years: number[]; textbook: Record<string, number> };
   grades: GradeSummary[];
 };
 

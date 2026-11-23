@@ -7,6 +7,7 @@
 //   src/generated/catalog.json        – lightweight index (titles, counts) safe for the client
 //   generated/chapters/<id>.json      – full chapter payloads, read server-side only
 //   generated/map-guides/<id>.json    – History map-learning guides per grade (markdown)
+//   generated/pictures/<id>.json      – History picture study: textbook pictures per chapter + past-paper picture questions
 //
 // To update content: replace the markdown files and run `npm run content` (dev/build do it automatically).
 
@@ -18,6 +19,7 @@ const CONTENT = path.join(ROOT, "content");
 const OUT_CHAPTERS = path.join(ROOT, "generated", "chapters");
 const OUT_CATALOG = path.join(ROOT, "src", "generated", "catalog.json");
 const OUT_GUIDES = path.join(ROOT, "generated", "map-guides");
+const OUT_PICTURES = path.join(ROOT, "generated", "pictures");
 
 // Subjects the site knows about. Add a new folder in /content and an entry here.
 // level is "O/L" or "A/L". For A/L subjects, `streams` limits who sees it
@@ -466,7 +468,129 @@ const dropDoubts = (t) =>
     .replace(/^> \*\*(?:குறிப்பு \(தெளிவின்மை\)|எழுத்து\/ஆண்டு தொடர்பான குறிப்பு):\*\*[^\n]*\n?/gm, "")
     .replace(/^> \*\*குறிப்பு:\*\*[^\n]*தெளிவ[^\n]*\n?/gm, "");
 
-/** Notes body: textbook map images become a link to the interactive map; other images are not available. */
+// ── History pictures ──
+// Images are extracted to /public by scripts/extract-history-pictures.py, which also writes their sizes here.
+const PICTURE_SIZES_FILE = path.join(CONTENT, "history-pictures.json");
+const PICTURE_SIZES = exists(PICTURE_SIZES_FILE) ? JSON.parse(read(PICTURE_SIZES_FILE)) : {};
+
+/** { src, w, h } for an image under /public, or null when it hasn't been extracted. */
+function publicImage(rel) {
+  const size = PICTURE_SIZES[rel];
+  return size ? { src: `/${rel}`, w: size[0], h: size[1] } : null;
+}
+const textbookImage = (lang, grade, id) => publicImage(`history/pictures/${lang}/${grade}/${id}.webp`);
+
+/** A few source notes stop mid-quote ('… எழுத்தில், "பிர'): drop the cut-off fragment. */
+function endCleanly(note) {
+  if ((note.match(/"/g) || []).length % 2 === 0) return note;
+  const cut = note.lastIndexOf('"');
+  return note.length - cut < 20 ? note.slice(0, cut).replace(/[\s,;:–-]+$/, "") : note;
+}
+
+const PICTURE_FIELDS = {
+  "What it shows": "shows",
+  "படம் காட்டுவது": "shows",
+  Section: "section",
+  பகுதி: "section",
+  "Info notes": "notes",
+  குறிப்புகள்: "notes",
+};
+
+/**
+ * content/<dir>/pictures/Grade_<g>_Picture_Notes.md: units ("# Unit 1 – …" / "# அலகு 01 – …") of
+ *   ### 1. Chapter_01_Figure_01  (Figure)
+ *   ![Fig 1.1 – caption](Assets/Chapter_01_Figure_01.png)
+ *   **What it shows:** …   **Section:** …   **Info notes:** - bullet …
+ * Returns Map(unit number → pictures). Textbook maps are left out: they have the interactive map.
+ */
+function parsePictureNotes(md, lang, grade) {
+  const out = new Map();
+  for (const [number, unit] of splitUnits(md, NOTES_UNIT)) {
+    const pictures = [];
+    for (const entry of unit.body.split(/^(?=### \d+\.)/m)) {
+      const head = entry.match(/^### \d+\.\s+(\S+)\s+\(([^)]+)\)/);
+      if (!head || head[2] === "Map") continue;
+      const image = textbookImage(lang, grade, head[1]);
+      if (!image) continue;
+      const alt = (entry.match(/^!\[([^\]]*)\]/m)?.[1] ?? "").trim();
+      const fig = alt.match(/^((?:Fig|உரு)\.?\s*[\d.]*)\s*[–-]\s*/);
+      const fields = {};
+      let current = null;
+      for (const line of entry.split("\n")) {
+        const f = line.match(/^\*\*([^*]+):\*\*\s*(.*)$/);
+        if (f && PICTURE_FIELDS[f[1].trim()]) {
+          current = PICTURE_FIELDS[f[1].trim()];
+          fields[current] = current === "notes" ? [] : f[2].trim();
+          continue;
+        }
+        if (/^\*(File|கோப்பு):/.test(line)) current = null;
+        const bullet = current === "notes" && line.match(/^\s*[-*]\s+(.+)$/);
+        if (bullet) fields.notes.push(endCleanly(plain(bullet[1])));
+      }
+      pictures.push({
+        id: head[1],
+        type: head[2],
+        fig: fig ? fig[1].trim() : "",
+        title: plain(fields.shows || (fig ? alt.slice(fig[0].length) : alt)),
+        section: plain(fields.section || ""),
+        notes: fields.notes || [],
+        ...image,
+      });
+    }
+    if (pictures.length) out.set(number, pictures);
+  }
+  return out;
+}
+
+const PAPER_PICTURE = /^\*\*【(20\d\d) • [^•】]+ • (?:Question|வினா) 1 \((?:b|ஆ)\)\((ii|iii)\) – [^】]*?([AB])】\*\*/;
+
+/**
+ * Past-paper picture questions (Part II, Q1 (b)(ii) and (iii)): a picture and four short questions.
+ * Read from the chapter-wise past papers of either medium; `chapter` is null for the old-syllabus appendix.
+ */
+function parsePaperPictures(md, grade) {
+  const out = [];
+  const tops = [...md.matchAll(/^# (.+)$/gm)];
+  tops.forEach((top, i) => {
+    const unit = top[1].match(/^(?:அலகு|Unit)\s+0*(\d+)\s*[–-]/);
+    if (!unit && !/(பிற்சேர்க்கை|Old-syllabus)/.test(top[1])) return; // skips the title and the map appendix
+    const text = md.slice(top.index, i + 1 < tops.length ? tops[i + 1].index : md.length);
+    // the first item of a part comes right after its "## Part II …" heading
+    for (const item of text.split(/\n-{3,}\n/).map((s) => s.slice(Math.max(0, s.indexOf("**【"))).trim())) {
+      const head = item.match(PAPER_PICTURE);
+      if (!head) continue;
+      const [qText, rest = ""] = item.replace(PAPER_PICTURE, "").split("<details>");
+      const file = qText.match(/!\[[^\]]*\]\(Assets\/Original\/(\d{4})\/([^)]+)\.png\)/);
+      const image = file && publicImage(`history/past-papers/${file[1]}/${file[2]}.webp`);
+      if (!image) continue;
+      const questions = [...qText.matchAll(/^\d\.\s+(.+)$/gm)].map((m) => m[1].trim());
+      const line = dropDoubts(rest).match(/^\*\*\((?:b|ஆ)\)\((?:ii|iii)\)[^*]*\*\*\s*[–-]\s*(.+)$/m);
+      const answers = line
+        ? line[1]
+            .replace(/\s*\*\([^()*]*verify[^()*]*\)\*/gi, "") // authoring notes, not for students
+            .replace(/\s*\(0?1\s*[×x]\s*4\s*=\s*0?4\)\s*\.?\s*$/, "")
+            .split(/;\s*(?=\d\.\s)/)
+            .map((a) => a.replace(/^\d\.\s*/, "").replace(/\.\s*$/, "").trim())
+        : [];
+      out.push({
+        year: Number(head[1]),
+        part: head[2],
+        label: head[3],
+        grade,
+        chapter: unit ? Number(unit[1]) : null,
+        intro: (qText.match(/^●\s*(.+)$/m)?.[1] ?? "").trim(),
+        questions,
+        answers: answers.length === questions.length ? answers : [],
+        answerText: answers.length === questions.length ? "" : revealOf(`<details>${rest}`),
+        marks: Number(qText.match(/\((\d+)\s*(?:marks|புள்ளிகள்)\)/)?.[1] ?? 4),
+        ...image,
+      });
+    }
+  });
+  return out;
+}
+
+/** Notes body: textbook map images become a link to the interactive map; other pictures are shown from /public. */
 function historyNotesBody(body, subjectId, grade, number) {
   const lang = subjectId.endsWith("-en") ? "en" : "ta";
   return dropDoubts(body)
@@ -475,7 +599,11 @@ function historyNotesBody(body, subjectId, grade, number) {
         ? `> 🗺️ **${alt.trim()}** — practise it on the [interactive map](/learn/${subjectId}/${grade}/${number}/map).`
         : `> 🗺️ **${alt.trim()}** — [ஊடாடும் தேசப்படத்தில்](/learn/${subjectId}/${grade}/${number}/map) பயிற்சி செய்யுங்கள்.`,
     )
-    .replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")
+    .replace(/^!\[([^\]]*)\]\(Assets\/([^)/]+)\.png\)\s*$/gm, (all, alt, id) => {
+      const image = textbookImage(lang, grade, id);
+      return image ? `![${alt.replace(/[[\]]/g, "")}](${image.src}#${image.w}x${image.h})` : "";
+    })
+    .replace(/^!\[[^\]]*\]\((?!\/history\/)[^)]*\)\s*$/gm, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 }
@@ -616,6 +744,7 @@ function historyPastPapers(body) {
       .trim();
     const answer = revealOf(item);
     if (!question || !answer) continue;
+    const pic = item.split("<details>")[0].match(/!\[[^\]]*\]\(Assets\/Original\/(\d{4})\/(Q1_b_[^)]+)\.png\)/);
     const marks = [...question.matchAll(/\((\d+)\s*புள்ளிகள்\)/g)].reduce((n, m) => n + Number(m[1]), 0);
     structured.push({
       heading: ref,
@@ -629,6 +758,7 @@ function historyPastPapers(body) {
       status: "",
       verification: "",
       alsoRelevant: "",
+      image: (pic && publicImage(`history/past-papers/${pic[1]}/${pic[2]}.webp`)) || undefined,
     });
   }
 
@@ -637,7 +767,7 @@ function historyPastPapers(body) {
   return { mcq, structured, related: "", pattern: "", years };
 }
 
-/** Reads one History grade: { chapters: [{ number, title, notes, flashcards, quiz, pastPapers }], mapGuide }. */
+/** Reads one History grade: { chapters: [{ number, title, notes, flashcards, quiz, pastPapers, pictures }], mapGuide, paperPictures }. */
 function readGradeFiles(subject, gradeDir, grade) {
   const dir = path.join(CONTENT, subject.dir, gradeDir);
   const file = (re) => fs.readdirSync(dir).find((f) => re.test(f));
@@ -651,6 +781,11 @@ function readGradeFiles(subject, gradeDir, grade) {
   const quiz = splitUnits(load(/^quiz/i), SECTION_UNIT);
   const paperFile = path.join(CONTENT, subject.dir, `Grade_${grade}_Chapter_Wise_Past_Papers.md`);
   const papers = exists(paperFile) ? splitUnits(read(paperFile), PAPER_UNIT) : new Map();
+  const pictureFile = path.join(CONTENT, subject.dir, "pictures", `Grade_${grade}_Picture_Notes.md`);
+  const pictures = exists(pictureFile) ? parsePictureNotes(read(pictureFile), subject.lang, grade) : new Map();
+  // English-medium past papers are only used for their picture questions so far.
+  const pictureSource = [paperFile, path.join(CONTENT, subject.dir, `Grade_${grade}_Chapter_Wise_Past_Papers_English.md`)].find(exists);
+  const paperPictures = pictureSource ? parsePaperPictures(read(pictureSource), grade) : [];
 
   const guide = notesMd.match(/^# (?:இணைப்பு – தேசப்படம்|🗺️ Map-Learning Guide)[^\n]*\n([\s\S]*?)(?=^# |\n-{3,}\s*\n+\*முற்றும்|(?![\s\S]))/m);
   const mapGuide = guide
@@ -672,9 +807,11 @@ function readGradeFiles(subject, gradeDir, grade) {
       pastPapers: papers.has(number)
         ? historyPastPapers(papers.get(number).body)
         : { mcq: [], structured: [], related: "", pattern: "", years: {} },
+      pictures: pictures.get(number) ?? [],
+      paperPictures: paperPictures.filter((p) => p.chapter === number).length,
     };
   });
-  return { chapters, mapGuide };
+  return { chapters, mapGuide, paperPictures };
 }
 
 function build() {
@@ -686,6 +823,7 @@ function build() {
   const totals = { chapters: 0, quiz: 0, flashcards: 0, mcq: 0, structured: 0 };
 
   fs.mkdirSync(OUT_GUIDES, { recursive: true });
+  fs.mkdirSync(OUT_PICTURES, { recursive: true });
 
   for (const subject of SUBJECTS) {
     const { dir: dirName = subject.id, layout, ...meta } = subject;
@@ -698,6 +836,7 @@ function build() {
       .sort();
     const subjectEntry = { ...meta, grades: [] };
     const guides = {};
+    const pictureBook = { textbook: {}, papers: [] };
 
     for (const g of grades) {
       const grade = Number(g.match(/\d+/)[0]);
@@ -707,6 +846,10 @@ function build() {
         const parsed = readGradeFiles({ ...subject, dir: dirName }, g, grade);
         units = parsed.chapters;
         if (parsed.mapGuide) guides[grade] = parsed.mapGuide;
+        pictureBook.papers.push(...parsed.paperPictures);
+        const withPictures = units.filter((u) => u.pictures.length);
+        if (withPictures.length)
+          pictureBook.textbook[grade] = withPictures.map((u) => ({ number: u.number, title: u.notes?.title || "", pictures: u.pictures }));
       } else {
         units = fs
           .readdirSync(path.join(dir, g))
@@ -725,7 +868,7 @@ function build() {
             };
           });
       }
-      for (const { number, notes, flashcards, quiz, pastPapers } of units) {
+      for (const { number, notes, flashcards, quiz, pastPapers, pictures = [], paperPictures = 0 } of units) {
         const id = `${subject.id}-${grade}-${String(number).padStart(2, "0")}`;
         const title = notes?.title || `Chapter ${number}`;
         const payload = { id, subjectId: subject.id, grade, number, title, notes, flashcards, quiz, pastPapers };
@@ -743,6 +886,8 @@ function build() {
             quiz: quiz.length,
             mcq: pastPapers.mcq.length,
             structured: pastPapers.structured.length,
+            pictures: pictures.length,
+            paperPictures,
           },
           years: pastPapers.years,
           free: number <= subject.freeChapters,
@@ -757,10 +902,20 @@ function build() {
     }
     catalog.subjects.push(subjectEntry);
     if (Object.keys(guides).length) fs.writeFileSync(path.join(OUT_GUIDES, `${subject.id}.json`), JSON.stringify(guides));
+    if (pictureBook.papers.length || Object.keys(pictureBook.textbook).length) {
+      pictureBook.papers.sort((a, b) => a.year - b.year || a.part.localeCompare(b.part));
+      fs.writeFileSync(path.join(OUT_PICTURES, `${subject.id}.json`), JSON.stringify(pictureBook));
+      subjectEntry.pictures = {
+        papers: pictureBook.papers.length,
+        years: [...new Set(pictureBook.papers.map((p) => p.year))],
+        textbook: Object.fromEntries(Object.entries(pictureBook.textbook).map(([g, cs]) => [g, cs.reduce((n, c) => n + c.pictures.length, 0)])),
+      };
+    }
     const all = subjectEntry.grades.flatMap((g) => g.chapters);
     const sum = (k) => all.reduce((n, c) => n + c.counts[k], 0);
     console.log(
-      `  ${subject.id}: ${all.length} chapters · ${sum("quiz")} quiz · ${sum("flashcards")} flashcards · ${sum("mcq")} past MCQ · ${sum("structured")} structured`,
+      `  ${subject.id}: ${all.length} chapters · ${sum("quiz")} quiz · ${sum("flashcards")} flashcards · ${sum("mcq")} past MCQ · ${sum("structured")} structured` +
+        (subjectEntry.pictures ? ` · ${sum("pictures")} pictures · ${subjectEntry.pictures.papers} past-paper pictures` : ""),
     );
   }
 

@@ -120,6 +120,21 @@ Past-paper files can use either layout: the Tamil one (`Q1.` … `Correct Answer
 2. Run `npm run content` to check the counts (it prints chapters, questions and cards).
 3. Commit and push. The next deploy publishes it.
 
+### History pictures (picture questions)
+
+O/L History Part II, Q1 (b) shows two pictures with four short questions each. The site has a **Picture questions** section for both mediums: every past-paper picture 2016–2025 with answers, and every textbook picture (except maps, which have the interactive map) with the facts to remember, a gallery and a "name the picture" test. The same pictures also appear inside the History notes.
+
+```
+content/history-ol/pictures/Grade_10_Picture_Notes.md          ← Tamil: "### 1. Chapter_01_Figure_01  (Figure)" + notes
+content/history-ol-english/pictures/Grade_10_Picture_Notes.md  ← English
+content/history-ol-english/Grade_10_Chapter_Wise_Past_Papers_English.md  ← used for the English picture questions
+content/history-sources/       ← the Word catalogues and original past-paper images (not in git)
+content/history-pictures.json  ← image sizes, written by the extract script
+public/history/pictures/<ta|en>/<grade>/<id>.webp, public/history/past-papers/<year>/<file>.webp
+```
+
+The images come out of the Word catalogues (in the same order as the `###` entries of the matching `Picture_Notes.md`). When they change, put the new `.docx` files in `content/history-sources/` and run `python scripts/extract-history-pictures.py` (needs `pip install pillow`), then `npm run content`.
+
 Locked chapters are never sent to the browser. The server checks access before it loads any chapter content.
 
 **Adding a subject:** add `content/<subject-id>/grade-XX/chapter-YY/...`, add an entry to `SUBJECTS` in [`scripts/build-content.mjs`](scripts/build-content.mjs) with its `level` (`"O/L"` or `"A/L"`) and, for A/L, the `streams` that take it. Then insert a row into the `subjects` table with its chapter counts. Remove it from the "coming soon" lists in [`src/lib/levels.ts`](src/lib/levels.ts).

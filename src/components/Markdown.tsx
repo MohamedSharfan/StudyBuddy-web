@@ -171,8 +171,18 @@ const components: Components = {
       </a>
     );
   },
-  img() {
-    return null;
+  // Only the History textbook pictures are shown; their size is in the hash ("…/Fig.webp#640x480").
+  img({ src, alt }) {
+    if (typeof src !== "string" || !src.startsWith("/history/")) return null;
+    const [url, size = ""] = src.split("#");
+    const [w, h] = size.split("x").map(Number);
+    return (
+      <span className="note-figure">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={url} alt={alt ?? ""} width={w || undefined} height={h || undefined} loading="lazy" decoding="async" />
+        {alt && <span className="note-figure-caption">{alt}</span>}
+      </span>
+    );
   },
 };
 

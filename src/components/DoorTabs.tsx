@@ -4,13 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Check } from "lucide-react";
 
-// step: index into the chapter's steps (notes, flashcards, quiz, past papers); the map has no step.
+// step: index into the chapter's steps (notes, flashcards, quiz, past papers); the map and pictures have no step.
 const TABS = [
   { slug: "", label: "Overview" },
   { slug: "notes", label: "Notes", step: 0 },
   { slug: "flashcards", label: "Flashcards", step: 1 },
   { slug: "quiz", label: "Quiz", step: 2 },
   { slug: "past-papers", label: "Past papers", step: 3 },
+  { slug: "pictures", label: "Pictures" },
   { slug: "map", label: "Map" },
 ];
 
@@ -19,14 +20,16 @@ export function DoorTabs({
   steps,
   pastPapers = true,
   map = false,
+  pictures = false,
 }: {
   base: string;
   steps: boolean[];
   pastPapers?: boolean;
   map?: boolean;
+  pictures?: boolean;
 }) {
   const path = usePathname();
-  const tabs = TABS.filter((t) => (t.slug === "past-papers" ? pastPapers : t.slug === "map" ? map : true));
+  const tabs = TABS.filter((t) => (t.slug === "past-papers" ? pastPapers : t.slug === "map" ? map : t.slug === "pictures" ? pictures : true));
   return (
     <nav className="flex gap-1 overflow-x-auto no-scrollbar -mx-4 px-4 sm:mx-0 sm:px-0" aria-label="Chapter sections">
       {tabs.map(({ slug, label, step }) => {

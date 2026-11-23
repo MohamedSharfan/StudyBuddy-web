@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { ChevronRight, Lock, MapPinned } from "lucide-react";
+import { ChevronRight, Images, Lock, MapPinned } from "lucide-react";
 import { AskTeacher } from "@/components/AskTeacher";
 import { ChapterList } from "@/components/ChapterList";
 import { FreeOffer } from "@/components/FreeOffer";
@@ -107,6 +107,23 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
                 {en
                   ? `Tap the places on a real map · ${PAST_MAP_SETS.length / 2} past papers (2016–2025) · ${gradeMaps} Grade ${grade} maps`
                   : `உண்மையான தேசப்படத்தில் இடங்களைத் தொட்டுக் குறியுங்கள் · ${PAST_MAP_SETS.length / 2} கடந்தகால வினாத்தாள்கள் (2016–2025) · தரம் ${grade} – ${gradeMaps} படங்கள்`}
+              </span>
+            </span>
+            <ChevronRight size={20} className="text-gold flex-none" />
+          </Link>
+        )}
+
+        {subject.pictures && (
+          <Link href={`/subjects/${subject.id}/pictures?grade=${grade}`} className="glass glass-hover !border-gold/60 flex items-center gap-3.5 p-4 mt-3">
+            <span className="grid place-items-center w-11 h-11 rounded-xl flex-none bg-gold text-bg">
+              <Images size={22} />
+            </span>
+            <span className="flex-1 min-w-0">
+              <span className="block font-bold">{en ? "Picture questions" : "படம் சார்ந்த வினாக்கள்"}</span>
+              <span className="block text-sm text-muted">
+                {en
+                  ? `Name the picture · ${subject.pictures.papers} past-paper pictures (2016–2025) · ${subject.pictures.textbook[grade] ?? 0} Grade ${grade} textbook pictures`
+                  : `படத்தை அடையாளம் காணுங்கள் · ${subject.pictures.papers} கடந்தகாலப் படங்கள் (2016–2025) · தரம் ${grade} – ${subject.pictures.textbook[grade] ?? 0} பாடநூல் படங்கள்`}
               </span>
             </span>
             <ChevronRight size={20} className="text-gold flex-none" />

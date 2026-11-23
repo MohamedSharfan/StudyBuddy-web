@@ -30,6 +30,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
   const doneCount = steps.filter(Boolean).length;
   const papers = hasPastPapers(c);
   const map = Boolean(subject.maps) && mapSetsForChapter(c.grade, c.number).length > 0;
+  const pictures = Boolean(subject.pictures) && (c.counts.pictures ?? 0) + (c.counts.paperPictures ?? 0) > 0;
 
   return (
     <div lang={subject.lang}>
@@ -68,12 +69,13 @@ export default async function ChapterLayout({ params, children }: { params: Chap
           {LOGIN_ENABLED && `${doneCount}/4 steps done · `}
           {c.minutes} min read · {c.counts.quiz} quiz
           {papers && ` · ${c.counts.mcq + c.counts.structured} past-paper questions`}
+          {pictures && ` · ${c.counts.pictures} pictures`}
           {map && " · map practice"}
         </p>
       </header>
 
       <div className="mt-4 mb-6 border-b border-line">
-        <DoorTabs base={base} steps={steps} pastPapers={papers} map={map} />
+        <DoorTabs base={base} steps={steps} pastPapers={papers} map={map} pictures={pictures} />
       </div>
       {children}
       <div className="mt-8">

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T07:23:02.760Z",
+ "generatedAt": "2026-11-23T17:24:30.395Z",
  "subjects": [
   {
    "id": "islam-ol",
@@ -36,7 +36,9 @@
         "flashcards": 15,
         "quiz": 13,
         "mcq": 11,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -66,7 +68,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 4,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -92,7 +96,9 @@
         "flashcards": 15,
         "quiz": 13,
         "mcq": 6,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -121,7 +127,9 @@
         "flashcards": 17,
         "quiz": 14,
         "mcq": 17,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -153,7 +161,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 2,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -181,7 +191,9 @@
         "flashcards": 15,
         "quiz": 14,
         "mcq": 11,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -212,7 +224,9 @@
         "flashcards": 15,
         "quiz": 14,
         "mcq": 11,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -244,7 +258,9 @@
         "flashcards": 17,
         "quiz": 15,
         "mcq": 13,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -276,7 +292,9 @@
         "flashcards": 17,
         "quiz": 14,
         "mcq": 4,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -302,7 +320,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 7,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -332,7 +352,9 @@
         "flashcards": 13,
         "quiz": 12,
         "mcq": 1,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -354,7 +376,9 @@
         "flashcards": 20,
         "quiz": 18,
         "mcq": 6,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -384,7 +408,9 @@
         "flashcards": 17,
         "quiz": 16,
         "mcq": 9,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 4,
@@ -414,7 +440,9 @@
         "flashcards": 12,
         "quiz": 14,
         "mcq": 6,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -441,7 +469,9 @@
         "flashcards": 17,
         "quiz": 16,
         "mcq": 21,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 4,
@@ -474,7 +504,9 @@
         "flashcards": 13,
         "quiz": 14,
         "mcq": 2,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2019": 1,
@@ -501,7 +533,9 @@
         "flashcards": 18,
         "quiz": 15,
         "mcq": 9,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -532,7 +566,9 @@
         "flashcards": 15,
         "quiz": 15,
         "mcq": 4,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -561,7 +597,9 @@
         "flashcards": 18,
         "quiz": 17,
         "mcq": 10,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -592,7 +630,9 @@
         "flashcards": 14,
         "quiz": 15,
         "mcq": 3,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -619,7 +659,9 @@
         "flashcards": 15,
         "quiz": 16,
         "mcq": 0,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -647,7 +689,9 @@
         "flashcards": 13,
         "quiz": 16,
         "mcq": 1,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -670,7 +714,9 @@
         "flashcards": 15,
         "quiz": 17,
         "mcq": 3,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2020": 1,
@@ -692,7 +738,9 @@
         "flashcards": 15,
         "quiz": 16,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -719,7 +767,9 @@
         "flashcards": 12,
         "quiz": 13,
         "mcq": 10,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -748,7 +798,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 5,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -778,7 +830,9 @@
         "flashcards": 14,
         "quiz": 16,
         "mcq": 5,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -807,7 +861,9 @@
         "flashcards": 13,
         "quiz": 16,
         "mcq": 4,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -836,7 +892,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 3,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -866,7 +924,9 @@
         "flashcards": 14,
         "quiz": 16,
         "mcq": 4,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -898,7 +958,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 5,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -925,7 +987,9 @@
         "flashcards": 16,
         "quiz": 15,
         "mcq": 9,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -954,7 +1018,9 @@
         "flashcards": 12,
         "quiz": 13,
         "mcq": 6,
-        "structured": 0
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -977,7 +1043,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 8,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1009,7 +1077,9 @@
         "flashcards": 16,
         "quiz": 18,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -1037,7 +1107,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1067,7 +1139,9 @@
         "flashcards": 18,
         "quiz": 22,
         "mcq": 17,
-        "structured": 8
+        "structured": 8,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -1099,7 +1173,9 @@
         "flashcards": 12,
         "quiz": 15,
         "mcq": 7,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -1131,7 +1207,9 @@
         "flashcards": 16,
         "quiz": 17,
         "mcq": 10,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1162,7 +1240,9 @@
         "flashcards": 17,
         "quiz": 20,
         "mcq": 9,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1193,7 +1273,9 @@
         "flashcards": 16,
         "quiz": 20,
         "mcq": 3,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2020": 1,
@@ -1219,7 +1301,9 @@
         "flashcards": 12,
         "quiz": 17,
         "mcq": 2,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2023": 1,
@@ -1244,7 +1328,9 @@
         "flashcards": 17,
         "quiz": 20,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -1266,7 +1352,9 @@
         "flashcards": 15,
         "quiz": 20,
         "mcq": 5,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -1297,7 +1385,9 @@
         "flashcards": 15,
         "quiz": 18,
         "mcq": 8,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -1329,7 +1419,9 @@
         "flashcards": 10,
         "quiz": 13,
         "mcq": 6,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -1357,7 +1449,9 @@
         "flashcards": 15,
         "quiz": 20,
         "mcq": 11,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -1389,7 +1483,9 @@
         "flashcards": 11,
         "quiz": 15,
         "mcq": 4,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -1419,7 +1515,9 @@
         "flashcards": 14,
         "quiz": 15,
         "mcq": 4,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2019": 1,
@@ -1447,7 +1545,9 @@
         "flashcards": 12,
         "quiz": 17,
         "mcq": 3,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2019": 1,
@@ -1473,7 +1573,9 @@
         "flashcards": 12,
         "quiz": 16,
         "mcq": 6,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -1501,7 +1603,9 @@
         "flashcards": 13,
         "quiz": 18,
         "mcq": 8,
-        "structured": 9
+        "structured": 9,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1534,7 +1638,9 @@
         "flashcards": 14,
         "quiz": 19,
         "mcq": 5,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1565,7 +1671,9 @@
         "flashcards": 13,
         "quiz": 19,
         "mcq": 3,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1592,7 +1700,9 @@
         "flashcards": 14,
         "quiz": 19,
         "mcq": 1,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1620,7 +1730,9 @@
         "flashcards": 12,
         "quiz": 16,
         "mcq": 9,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -1653,7 +1765,9 @@
         "flashcards": 14,
         "quiz": 20,
         "mcq": 13,
-        "structured": 9
+        "structured": 9,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -1686,7 +1800,9 @@
         "flashcards": 12,
         "quiz": 16,
         "mcq": 1,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -1714,7 +1830,9 @@
         "flashcards": 14,
         "quiz": 20,
         "mcq": 18,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1747,7 +1865,9 @@
         "flashcards": 11,
         "quiz": 15,
         "mcq": 1,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1773,7 +1893,9 @@
         "flashcards": 14,
         "quiz": 20,
         "mcq": 4,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -1801,7 +1923,9 @@
         "flashcards": 12,
         "quiz": 19,
         "mcq": 2,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1852,7 +1976,9 @@
         "flashcards": 15,
         "quiz": 13,
         "mcq": 11,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1882,7 +2008,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 4,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -1908,7 +2036,9 @@
         "flashcards": 15,
         "quiz": 13,
         "mcq": 6,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -1937,7 +2067,9 @@
         "flashcards": 17,
         "quiz": 14,
         "mcq": 17,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -1969,7 +2101,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 2,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -1997,7 +2131,9 @@
         "flashcards": 15,
         "quiz": 14,
         "mcq": 11,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2028,7 +2164,9 @@
         "flashcards": 15,
         "quiz": 14,
         "mcq": 11,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2060,7 +2198,9 @@
         "flashcards": 17,
         "quiz": 15,
         "mcq": 13,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2092,7 +2232,9 @@
         "flashcards": 17,
         "quiz": 14,
         "mcq": 4,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2118,7 +2260,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 7,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2148,7 +2292,9 @@
         "flashcards": 13,
         "quiz": 12,
         "mcq": 1,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -2170,7 +2316,9 @@
         "flashcards": 20,
         "quiz": 18,
         "mcq": 6,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -2200,7 +2348,9 @@
         "flashcards": 17,
         "quiz": 16,
         "mcq": 9,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 4,
@@ -2230,7 +2380,9 @@
         "flashcards": 12,
         "quiz": 14,
         "mcq": 6,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2257,7 +2409,9 @@
         "flashcards": 17,
         "quiz": 16,
         "mcq": 21,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 4,
@@ -2290,7 +2444,9 @@
         "flashcards": 13,
         "quiz": 14,
         "mcq": 2,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2019": 1,
@@ -2317,7 +2473,9 @@
         "flashcards": 18,
         "quiz": 15,
         "mcq": 9,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2348,7 +2506,9 @@
         "flashcards": 15,
         "quiz": 15,
         "mcq": 4,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2377,7 +2537,9 @@
         "flashcards": 18,
         "quiz": 17,
         "mcq": 10,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2408,7 +2570,9 @@
         "flashcards": 14,
         "quiz": 15,
         "mcq": 3,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2435,7 +2599,9 @@
         "flashcards": 15,
         "quiz": 16,
         "mcq": 0,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -2463,7 +2629,9 @@
         "flashcards": 13,
         "quiz": 16,
         "mcq": 1,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -2486,7 +2654,9 @@
         "flashcards": 15,
         "quiz": 17,
         "mcq": 3,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2020": 1,
@@ -2508,7 +2678,9 @@
         "flashcards": 15,
         "quiz": 16,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -2535,7 +2707,9 @@
         "flashcards": 12,
         "quiz": 13,
         "mcq": 10,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -2564,7 +2738,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 5,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2594,7 +2770,9 @@
         "flashcards": 14,
         "quiz": 16,
         "mcq": 5,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -2623,7 +2801,9 @@
         "flashcards": 13,
         "quiz": 16,
         "mcq": 4,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -2652,7 +2832,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 3,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2682,7 +2864,9 @@
         "flashcards": 14,
         "quiz": 16,
         "mcq": 4,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2714,7 +2898,9 @@
         "flashcards": 13,
         "quiz": 13,
         "mcq": 5,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2741,7 +2927,9 @@
         "flashcards": 16,
         "quiz": 15,
         "mcq": 9,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2770,7 +2958,9 @@
         "flashcards": 12,
         "quiz": 13,
         "mcq": 6,
-        "structured": 0
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -2793,7 +2983,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 8,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2825,7 +3017,9 @@
         "flashcards": 16,
         "quiz": 18,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -2853,7 +3047,9 @@
         "flashcards": 13,
         "quiz": 15,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2883,7 +3079,9 @@
         "flashcards": 18,
         "quiz": 22,
         "mcq": 17,
-        "structured": 8
+        "structured": 8,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -2915,7 +3113,9 @@
         "flashcards": 12,
         "quiz": 15,
         "mcq": 7,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -2947,7 +3147,9 @@
         "flashcards": 16,
         "quiz": 17,
         "mcq": 10,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -2978,7 +3180,9 @@
         "flashcards": 17,
         "quiz": 20,
         "mcq": 9,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3009,7 +3213,9 @@
         "flashcards": 16,
         "quiz": 20,
         "mcq": 3,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2020": 1,
@@ -3035,7 +3241,9 @@
         "flashcards": 12,
         "quiz": 17,
         "mcq": 2,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2023": 1,
@@ -3060,7 +3268,9 @@
         "flashcards": 17,
         "quiz": 20,
         "mcq": 4,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -3082,7 +3292,9 @@
         "flashcards": 15,
         "quiz": 20,
         "mcq": 5,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -3113,7 +3325,9 @@
         "flashcards": 15,
         "quiz": 18,
         "mcq": 8,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -3145,7 +3359,9 @@
         "flashcards": 10,
         "quiz": 13,
         "mcq": 6,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -3173,7 +3389,9 @@
         "flashcards": 15,
         "quiz": 20,
         "mcq": 11,
-        "structured": 6
+        "structured": 6,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -3205,7 +3423,9 @@
         "flashcards": 11,
         "quiz": 15,
         "mcq": 4,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 2,
@@ -3235,7 +3455,9 @@
         "flashcards": 14,
         "quiz": 15,
         "mcq": 4,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2019": 1,
@@ -3263,7 +3485,9 @@
         "flashcards": 12,
         "quiz": 17,
         "mcq": 3,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2019": 1,
@@ -3289,7 +3513,9 @@
         "flashcards": 12,
         "quiz": 16,
         "mcq": 6,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -3317,7 +3543,9 @@
         "flashcards": 13,
         "quiz": 18,
         "mcq": 8,
-        "structured": 9
+        "structured": 9,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3350,7 +3578,9 @@
         "flashcards": 14,
         "quiz": 19,
         "mcq": 5,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3381,7 +3611,9 @@
         "flashcards": 13,
         "quiz": 19,
         "mcq": 3,
-        "structured": 2
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3408,7 +3640,9 @@
         "flashcards": 14,
         "quiz": 19,
         "mcq": 1,
-        "structured": 4
+        "structured": 4,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3436,7 +3670,9 @@
         "flashcards": 12,
         "quiz": 16,
         "mcq": 9,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -3469,7 +3705,9 @@
         "flashcards": 14,
         "quiz": 20,
         "mcq": 13,
-        "structured": 9
+        "structured": 9,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -3502,7 +3740,9 @@
         "flashcards": 12,
         "quiz": 16,
         "mcq": 1,
-        "structured": 3
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -3530,7 +3770,9 @@
         "flashcards": 14,
         "quiz": 20,
         "mcq": 18,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3563,7 +3805,9 @@
         "flashcards": 11,
         "quiz": 15,
         "mcq": 1,
-        "structured": 1
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3589,7 +3833,9 @@
         "flashcards": 14,
         "quiz": 20,
         "mcq": 4,
-        "structured": 5
+        "structured": 5,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2017": 1,
@@ -3617,7 +3863,9 @@
         "flashcards": 12,
         "quiz": 19,
         "mcq": 2,
-        "structured": 7
+        "structured": 7,
+        "pictures": 0,
+        "paperPictures": 0
        },
        "years": {
         "2016": 1,
@@ -3667,7 +3915,9 @@
         "flashcards": 33,
         "quiz": 20,
         "mcq": 35,
-        "structured": 5
+        "structured": 5,
+        "pictures": 6,
+        "paperPictures": 1
        },
        "years": {
         "2016": 6,
@@ -3693,12 +3943,14 @@
         "முன் வரலாற்றுக் காலக் குடியேற்றங்கள்",
         "ஆரம்ப வரலாற்றுக் காலக் குடியிருப்புகள்"
        ],
-       "minutes": 29,
+       "minutes": 30,
        "counts": {
         "flashcards": 45,
         "quiz": 30,
         "mcq": 22,
-        "structured": 12
+        "structured": 12,
+        "pictures": 15,
+        "paperPictures": 2
        },
        "years": {
         "2016": 6,
@@ -3729,7 +3981,9 @@
         "flashcards": 36,
         "quiz": 25,
         "mcq": 32,
-        "structured": 7
+        "structured": 7,
+        "pictures": 10,
+        "paperPictures": 0
        },
        "years": {
         "2016": 5,
@@ -3755,12 +4009,14 @@
         "பொருளாதாரம்",
         "கலாசாரம்"
        ],
-       "minutes": 20,
+       "minutes": 21,
        "counts": {
         "flashcards": 44,
         "quiz": 28,
         "mcq": 27,
-        "structured": 7
+        "structured": 7,
+        "pictures": 10,
+        "paperPictures": 4
        },
        "years": {
         "2016": 3,
@@ -3785,12 +4041,14 @@
         "விஞ்ஞானக் கருத்துக்களின் ஆரம்பக் கட்டம்",
         "விஞ்ஞானப் பிரயோகத்தின் வளர்ச்சி (நீர் முகாமைத்துவம், கட்டட நிர்மாணக் கலை, உள்நாட்டுச் சம்பிரதாயங்கள், தேசிய அறிவு)"
        ],
-       "minutes": 22,
+       "minutes": 23,
        "counts": {
         "flashcards": 48,
         "quiz": 27,
         "mcq": 34,
-        "structured": 9
+        "structured": 9,
+        "pictures": 9,
+        "paperPictures": 1
        },
        "years": {
         "2016": 4,
@@ -3819,12 +4077,14 @@
         "சுதேச உணவு",
         "சூழல் பாதுகாப்பு"
        ],
-       "minutes": 17,
+       "minutes": 18,
        "counts": {
         "flashcards": 35,
         "quiz": 22,
         "mcq": 15,
-        "structured": 1
+        "structured": 1,
+        "pictures": 7,
+        "paperPictures": 0
        },
        "years": {
         "2018": 1,
@@ -3854,7 +4114,9 @@
         "flashcards": 37,
         "quiz": 22,
         "mcq": 15,
-        "structured": 4
+        "structured": 4,
+        "pictures": 6,
+        "paperPictures": 0
        },
        "years": {
         "2016": 3,
@@ -3885,7 +4147,9 @@
         "flashcards": 35,
         "quiz": 20,
         "mcq": 15,
-        "structured": 9
+        "structured": 9,
+        "pictures": 4,
+        "paperPictures": 2
        },
        "years": {
         "2016": 3,
@@ -3915,7 +4179,9 @@
         "flashcards": 30,
         "quiz": 18,
         "mcq": 11,
-        "structured": 5
+        "structured": 5,
+        "pictures": 3,
+        "paperPictures": 2
        },
        "years": {
         "2016": 1,
@@ -3944,7 +4210,9 @@
         "flashcards": 35,
         "quiz": 21,
         "mcq": 26,
-        "structured": 6
+        "structured": 6,
+        "pictures": 2,
+        "paperPictures": 0
        },
        "years": {
         "2016": 4,
@@ -3975,12 +4243,14 @@
         "கைத்தொழிற் புரட்சியின் வளர்ச்சி",
         "கைத்தொழிற் புரட்சி இலங்கையில் செல்வாக்குச் செலுத்திய விதம்"
        ],
-       "minutes": 14,
+       "minutes": 15,
        "counts": {
         "flashcards": 32,
         "quiz": 20,
         "mcq": 16,
-        "structured": 6
+        "structured": 6,
+        "pictures": 16,
+        "paperPictures": 1
        },
        "years": {
         "2016": 2,
@@ -4007,12 +4277,14 @@
         "பிரித்தானியர் ஆதிக்கத்தை நிலைநாட்டுதல்",
         "அந்நியர் ஆட்சிக்கு எதிரான போராட்டங்கள்"
        ],
-       "minutes": 20,
+       "minutes": 21,
        "counts": {
         "flashcards": 36,
         "quiz": 24,
         "mcq": 20,
-        "structured": 5
+        "structured": 5,
+        "pictures": 9,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -4046,7 +4318,9 @@
         "flashcards": 28,
         "quiz": 20,
         "mcq": 16,
-        "structured": 2
+        "structured": 2,
+        "pictures": 10,
+        "paperPictures": 1
        },
        "years": {
         "2016": 1,
@@ -4076,7 +4350,9 @@
         "flashcards": 27,
         "quiz": 18,
         "mcq": 16,
-        "structured": 2
+        "structured": 2,
+        "pictures": 6,
+        "paperPictures": 0
        },
        "years": {
         "2016": 2,
@@ -4106,7 +4382,9 @@
         "flashcards": 25,
         "quiz": 18,
         "mcq": 10,
-        "structured": 4
+        "structured": 4,
+        "pictures": 5,
+        "paperPictures": 0
        },
        "years": {
         "2019": 1,
@@ -4134,7 +4412,9 @@
         "flashcards": 43,
         "quiz": 25,
         "mcq": 28,
-        "structured": 6
+        "structured": 6,
+        "pictures": 8,
+        "paperPictures": 1
        },
        "years": {
         "2016": 2,
@@ -4160,12 +4440,14 @@
         "பிரான்சியப் புரட்சி",
         "ரஷ்யப் புரட்சி"
        ],
-       "minutes": 15,
+       "minutes": 16,
        "counts": {
         "flashcards": 32,
         "quiz": 22,
         "mcq": 17,
-        "structured": 7
+        "structured": 7,
+        "pictures": 9,
+        "paperPictures": 2
        },
        "years": {
         "2016": 1,
@@ -4196,7 +4478,9 @@
         "flashcards": 47,
         "quiz": 28,
         "mcq": 38,
-        "structured": 11
+        "structured": 11,
+        "pictures": 16,
+        "paperPictures": 2
        },
        "years": {
         "2016": 6,
@@ -4214,7 +4498,26 @@
       }
      ]
     }
-   ]
+   ],
+   "pictures": {
+    "papers": 20,
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "textbook": {
+     "10": 72,
+     "11": 79
+    }
+   }
   },
   {
    "id": "history-ol-en",
@@ -4245,12 +4548,14 @@
         "Importance of Learning History",
         "Protecting Archaeological Sources"
        ],
-       "minutes": 18,
+       "minutes": 19,
        "counts": {
         "flashcards": 39,
         "quiz": 20,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 6,
+        "paperPictures": 1
        },
        "years": {},
        "free": true
@@ -4265,12 +4570,14 @@
         "Settlements in the Proto-historic Era",
         "Settlements in the Early Historic Era"
        ],
-       "minutes": 19,
+       "minutes": 21,
        "counts": {
         "flashcards": 42,
         "quiz": 24,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 15,
+        "paperPictures": 2
        },
        "years": {},
        "free": false
@@ -4285,12 +4592,14 @@
         "The Concept of State",
         "Great Kings"
        ],
-       "minutes": 14,
+       "minutes": 15,
        "counts": {
         "flashcards": 42,
         "quiz": 28,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 7,
+        "paperPictures": 0
        },
        "years": {},
        "free": false
@@ -4305,12 +4614,14 @@
         "Economy",
         "Culture"
        ],
-       "minutes": 14,
+       "minutes": 15,
        "counts": {
         "flashcards": 50,
         "quiz": 40,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 10,
+        "paperPictures": 4
        },
        "years": {},
        "free": false
@@ -4324,12 +4635,14 @@
         "Early Stages of Scientific Ideas",
         "Maturity of Scientific Usage"
        ],
-       "minutes": 12,
+       "minutes": 13,
        "counts": {
         "flashcards": 42,
         "quiz": 25,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 9,
+        "paperPictures": 1
        },
        "years": {},
        "free": false
@@ -4347,12 +4660,14 @@
         "Local Food",
         "Protecting the Environment"
        ],
-       "minutes": 11,
+       "minutes": 12,
        "counts": {
         "flashcards": 46,
         "quiz": 30,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 7,
+        "paperPictures": 0
        },
        "years": {},
        "free": false
@@ -4368,12 +4683,14 @@
         "Downfall of Polonnaruwa",
         "The Second Urbanization"
        ],
-       "minutes": 12,
+       "minutes": 13,
        "counts": {
         "flashcards": 54,
         "quiz": 35,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 6,
+        "paperPictures": 0
        },
        "years": {},
        "free": false
@@ -4389,12 +4706,14 @@
         "Economy",
         "Social organization"
        ],
-       "minutes": 10,
+       "minutes": 11,
        "counts": {
         "flashcards": 43,
         "quiz": 32,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 4,
+        "paperPictures": 2
        },
        "years": {},
        "free": false
@@ -4413,7 +4732,9 @@
         "flashcards": 42,
         "quiz": 28,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 3,
+        "paperPictures": 2
        },
        "years": {},
        "free": false
@@ -4428,12 +4749,14 @@
         "Political Condition of Sri Lanka at the Portuguese arrival",
         "Sri Lanka and the Dutch"
        ],
-       "minutes": 12,
+       "minutes": 13,
        "counts": {
         "flashcards": 43,
         "quiz": 34,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 2,
+        "paperPictures": 0
        },
        "years": {},
        "free": false
@@ -4453,12 +4776,14 @@
         "Rise of the Industrial Revolution",
         "Effects on Sri Lanka"
        ],
-       "minutes": 11,
+       "minutes": 12,
        "counts": {
         "flashcards": 44,
         "quiz": 30,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 18,
+        "paperPictures": 1
        },
        "years": {},
        "free": true
@@ -4474,12 +4799,14 @@
         "Establishment of British Power – three stages",
         "Protests against Foreign Rule"
        ],
-       "minutes": 12,
+       "minutes": 13,
        "counts": {
         "flashcards": 48,
         "quiz": 34,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 9,
+        "paperPictures": 0
        },
        "years": {},
        "free": false
@@ -4495,12 +4822,14 @@
         "Hindu Religious Renaissance",
         "Islamic Renaissance"
        ],
-       "minutes": 7,
+       "minutes": 8,
        "counts": {
         "flashcards": 33,
         "quiz": 25,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 10,
+        "paperPictures": 1
        },
        "years": {},
        "free": false
@@ -4516,12 +4845,14 @@
         "Donoughmore Constitution (1931)",
         "Protests for Independence"
        ],
-       "minutes": 9,
+       "minutes": 10,
        "counts": {
         "flashcards": 35,
         "quiz": 27,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 6,
+        "paperPictures": 0
        },
        "years": {},
        "free": false
@@ -4537,12 +4868,14 @@
         "Advantages of British rule",
         "Disadvantages"
        ],
-       "minutes": 8,
+       "minutes": 9,
        "counts": {
         "flashcards": 36,
         "quiz": 22,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 6,
+        "paperPictures": 0
        },
        "years": {},
        "free": false
@@ -4557,12 +4890,14 @@
         "Development after Independence",
         "Social Welfare"
        ],
-       "minutes": 16,
+       "minutes": 17,
        "counts": {
         "flashcards": 52,
         "quiz": 34,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 8,
+        "paperPictures": 1
        },
        "years": {},
        "free": false
@@ -4582,7 +4917,9 @@
         "flashcards": 47,
         "quiz": 33,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 14,
+        "paperPictures": 2
        },
        "years": {},
        "free": false
@@ -4598,19 +4935,40 @@
         "World War II (September 1939 – August 1945)",
         "United Nations Organization (UN)"
        ],
-       "minutes": 13,
+       "minutes": 15,
        "counts": {
         "flashcards": 53,
         "quiz": 42,
         "mcq": 0,
-        "structured": 0
+        "structured": 0,
+        "pictures": 23,
+        "paperPictures": 2
        },
        "years": {},
        "free": false
       }
      ]
     }
-   ]
+   ],
+   "pictures": {
+    "papers": 20,
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "textbook": {
+     "10": 69,
+     "11": 94
+    }
+   }
   }
  ]
 }

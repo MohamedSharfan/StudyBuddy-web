@@ -19,6 +19,17 @@ function StructuredCard({ q, index }: { q: PastStructured; index: number }) {
         {q.marks && <span className="chip hidden sm:inline-flex max-w-full truncate"><Target size={14} /> {q.marks}</span>}
       </div>
       <p className="text-xs font-bold text-muted mb-1">Q{index + 1}</p>
+      {q.image && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={q.image.src}
+          width={q.image.w}
+          height={q.image.h}
+          alt=""
+          loading="lazy"
+          className="block w-auto max-w-full max-h-[420px] h-auto rounded-xl bg-white mb-3"
+        />
+      )}
       <RichText text={q.question} className="font-semibold !text-white" />
       <button onClick={() => setOpen((o) => !o)} className={`btn btn-sm mt-4 ${open ? "btn-ghost" : ""}`} aria-expanded={open}>
         {open ? <EyeOff size={15} /> : <Eye size={15} />} {open ? "Hide model answer" : "Reveal model answer"}

@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Chapter JSON is read from disk at request time (so locked content never ships to the browser).
   outputFileTracingIncludes: {
-    "/**": ["./generated/chapters/**/*.json", "./generated/map-guides/*.json", "./content/**/Questions_To_Verify.md"],
+    "/**": ["./generated/chapters/**/*.json", "./generated/map-guides/*.json", "./generated/pictures/*.json", "./content/**/Questions_To_Verify.md"],
   },
   images: {
     remotePatterns: [

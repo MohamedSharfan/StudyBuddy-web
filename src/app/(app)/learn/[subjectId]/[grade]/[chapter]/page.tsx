@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookOpen, Brain, Check, ChevronRight, Layers, Lock, MapPinned, ScrollText } from "lucide-react";
+import { BookOpen, Brain, Check, ChevronRight, Images, Layers, Lock, MapPinned, ScrollText } from "lucide-react";
 import { LockedPanel } from "@/components/LockedPanel";
 import { ExamRadar } from "@/components/ExamRadar";
 import { chapterHref, getChapterSummary, hasPastPapers, subjectVersions } from "@/lib/catalog";
@@ -20,6 +20,8 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
   ].filter((d) => d.slug !== "past-papers" || hasPastPapers(c));
   const maps = subject.maps ? mapSetsForChapter(c.grade, c.number) : [];
   const en = subject.lang === "en";
+  const pictureCount = subject.pictures ? c.counts.pictures ?? 0 : 0;
+  const paperPictures = subject.pictures ? c.counts.paperPictures ?? 0 : 0;
   // Same exam in every medium: without past papers here, show how often the other medium's chapter was asked.
   const years = hasPastPapers(c)
     ? c.years
@@ -66,6 +68,24 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
             </li>
           );
         })}
+        {pictureCount + paperPictures > 0 && (
+          <li>
+            <Link href={chapterHref(subject.id, c.grade, c.number, "pictures")} className="glass glass-hover flex items-center gap-4 p-4">
+              <span className="grid place-items-center w-11 h-11 rounded-xl flex-none bg-card-2 text-gold">
+                <Images size={20} />
+              </span>
+              <span className="flex-1 min-w-0">
+                <span className="block font-bold">{en ? "Picture questions" : "படம் சார்ந்த வினாக்கள்"}</span>
+                <span className="block text-sm text-muted">
+                  {en
+                    ? `${pictureCount} textbook pictures${paperPictures ? ` · ${paperPictures} from past papers` : ""}`
+                    : `${pictureCount} பாடநூல் படங்கள்${paperPictures ? ` · கடந்தகால வினாத்தாள்களில் ${paperPictures}` : ""}`}
+                </span>
+              </span>
+              <ChevronRight size={18} className="text-muted flex-none" />
+            </Link>
+          </li>
+        )}
         {maps.length > 0 && (
           <li>
             <Link href={chapterHref(subject.id, c.grade, c.number, "map")} className="glass glass-hover flex items-center gap-4 p-4">

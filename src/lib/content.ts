@@ -15,6 +15,7 @@ export type PastMcq = QuizQuestion & {
   alsoRelevant: string;
   verification: string;
 };
+export type WebImage = { src: string; w: number; h: number };
 export type PastStructured = {
   heading: string;
   year: number | null;
@@ -27,6 +28,8 @@ export type PastStructured = {
   status: string;
   verification: string;
   alsoRelevant: string;
+  /** History Part II Q1 (b): the picture the question is about. */
+  image?: WebImage;
 };
 export type ChapterContent = {
   id: string;

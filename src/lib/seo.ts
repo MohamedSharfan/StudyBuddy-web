@@ -25,7 +25,7 @@ export function subjectSeo(subjectId: string, grade: number) {
   const availableGrade = subject.grades.some((g) => g.grade === grade) ? grade : subject.grades[0]?.grade ?? 10;
   const path = `/subjects/${subjectId}?grade=${availableGrade}`;
   const title = `O/L ${subject.name} Grade ${availableGrade} · ${subject.medium} Medium`;
-  const description = `Study Sri Lankan O/L ${subject.name} Grade ${availableGrade} in ${subject.medium}. Free chapter-wise notes, flashcards, quizzes${subject.grades.some((g) => g.chapters.some((c) => c.counts.mcq + c.counts.structured)) ? " and past-paper questions" : ""}${subject.maps ? ", plus map-marking practice" : ""}.`;
+  const description = `Study Sri Lankan O/L ${subject.name} Grade ${availableGrade} in ${subject.medium}. Free chapter-wise notes, flashcards, quizzes${subject.grades.some((g) => g.chapters.some((c) => c.counts.mcq + c.counts.structured)) ? " and past-paper questions" : ""}${subject.maps ? ", plus map-marking practice" : ""}${subject.pictures ? " and picture questions" : ""}.`;
   return {
     title,
     description,
@@ -51,7 +51,9 @@ export function chapterSeo(subjectId: string, grade: number, chapter: number, su
           ? `${s} Flashcards Grade ${grade}, Chapter ${chapter} · ${lang}`
           : suffix === "/map"
             ? `${s} Map Practice Grade ${grade}, Chapter ${chapter} · ${lang}`
-            : `${s} Grade ${grade}, Chapter ${chapter}: ${summary.title}`;
+            : suffix === "/pictures"
+              ? `${s} Picture Questions Grade ${grade}, Chapter ${chapter} · ${lang}`
+              : `${s} Grade ${grade}, Chapter ${chapter}: ${summary.title}`;
   const section = suffix === "/past-papers"
     ? `Practice chapter-wise MCQs and structured questions from Sri Lankan ${s} past papers (2016–2025).`
     : suffix === "/notes"
@@ -62,7 +64,9 @@ export function chapterSeo(subjectId: string, grade: number, chapter: number, su
           ? `Revise ${s} Grade ${grade}, Chapter ${chapter} with free ${lang} medium flashcards.`
           : suffix === "/map"
             ? `Practise marking the places of ${s} Grade ${grade}, Chapter ${chapter} on an interactive map.`
-            : `Free ${s} Grade ${grade} ${lang} medium study resources for Chapter ${chapter}: ${summary.title}.`;
+            : suffix === "/pictures"
+              ? `Learn the textbook pictures of ${s} Grade ${grade}, Chapter ${chapter} and practise the past-paper picture questions.`
+              : `Free ${s} Grade ${grade} ${lang} medium study resources for Chapter ${chapter}: ${summary.title}.`;
   return {
     title,
     description: `${section} StudyBuddy has free notes, flashcards, quizzes and past-paper practice for Grade 10 and 11 students.`,
