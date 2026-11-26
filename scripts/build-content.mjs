@@ -92,7 +92,8 @@ const SUBJECTS = [
     freeChapters: 1,
     lang: "en",
     maps: true,
-    pastPaperNote: "",
+    pastPaperNote:
+      "Past-paper questions are English renderings of the Sri Lankan O/L History papers from 2016–2025.",
     relatedHeading: "Related questions in other chapters",
   },
 ];
@@ -456,7 +457,7 @@ function splitUnits(md, re) {
 
 const NOTES_UNIT = /^# (?:அலகு|Unit|Chapter)\s+0*(\d+)\s*[–-]\s*(.+)$/gm;
 const SECTION_UNIT = /^## Chapter\s+0*(\d+)\s*[–-]\s*(.+)$/gm;
-const PAPER_UNIT = /^# அலகு\s+0*(\d+)\s*[–-]\s*(.+)$/gm;
+const PAPER_UNIT = /^# (?:அலகு|Unit)\s+0*(\d+)\s*[–-]\s*(.+)$/gm;
 
 /** Drops "verify / unclear" authoring notes, which aren't meant for students. */
 const dropDoubts = (t) =>
@@ -674,21 +675,28 @@ function revealOf(item) {
   if (!m) return "";
   return dropDoubts(m[1])
     .replace(/<summary>[\s\S]*?<\/summary>/, "")
-    .replace(/^\*மூலம்:[^\n]*\*\s*$/gm, "")
+    .replace(/^\*(?:மூலம்|Source):[^\n]*\*\s*$/gm, "")
     .replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 }
 
-// Tamil chapter-wise past papers:
+// Chapter-wise past papers (Tamil, or the English-medium file with the same layout):
 // **【2016 • பகுதி I • வினா 1】**  **1.** prompt  - (1) option …  <details> **சரியான விடை:** (2) … **விளக்கம்:** … </details>
-function historyPastPapers(body) {
+// **【2016 • Part I • Question 1】**  **1.** prompt  - (1) option …  <details> **Correct answer:** (2) … **Explanation:** … </details>
+const PAPER_LABELS = {
+  ta: { part1: "பகுதி I", part2: "பகுதி II", correct: "சரியான விடை", explanation: "விளக்கம்", difficulty: "கடினத்தன்மை", marks: "புள்ளிகள்" },
+  en: { part1: "Part I", part2: "Part II", correct: "Correct answer", explanation: "Explanation", difficulty: "Difficulty", marks: "marks" },
+};
+
+function historyPastPapers(body, lang) {
+  const L = PAPER_LABELS[lang] ?? PAPER_LABELS.ta;
   const part = (re) => {
     const m = body.match(re);
     return m ? m.index : -1;
   };
-  const p1 = part(/^## பகுதி I\b.*$/m);
-  const p2 = part(/^## பகுதி II\b.*$/m);
+  const p1 = part(new RegExp(`^## ${L.part1}\\b.*$`, "m"));
+  const p2 = part(new RegExp(`^## ${L.part2}\\b.*$`, "m"));
   const cut = (a, b) => (a < 0 ? "" : body.slice(a, b > a ? b : body.length).replace(/^## .*\n/, ""));
   const items = (text) =>
     text
@@ -711,7 +719,7 @@ function historyPastPapers(body) {
       .replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")
       .trim();
     const reveal = revealOf(item);
-    const correct = reveal.match(/\*\*சரியான விடை:\*\*\s*\((\d)\)\s*([^\n]*)/);
+    const correct = reveal.match(new RegExp(`\\*\\*${L.correct}:\\*\\*\\s*\\((\\d)\\)\\s*([^\\n]*)`));
     if (options.length < 2 || !correct) continue;
     const field = (label) => {
       const m = reveal.match(new RegExp(`\\*\\*${label}:\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\*\\*[^*\\n]+:\\*\\*|$)`));
@@ -725,11 +733,11 @@ function historyPastPapers(body) {
       yearLabel: String(yearOf(ref) ?? ""),
       reference: ref.replace(/^20\d\d\s*•\s*/, "").replace(/\s*•\s*/g, " · "),
       answerText: correct[2].trim(),
-      explanation: field("விளக்கம்"),
+      explanation: field(L.explanation),
       status: "",
       alsoRelevant: "",
       verification: "",
-      difficulty: field("கடினத்தன்மை") || "Medium",
+      difficulty: field(L.difficulty) || "Medium",
     });
   }
 
@@ -745,13 +753,13 @@ function historyPastPapers(body) {
     const answer = revealOf(item);
     if (!question || !answer) continue;
     const pic = item.split("<details>")[0].match(/!\[[^\]]*\]\(Assets\/Original\/(\d{4})\/(Q1_b_[^)]+)\.png\)/);
-    const marks = [...question.matchAll(/\((\d+)\s*புள்ளிகள்\)/g)].reduce((n, m) => n + Number(m[1]), 0);
+    const marks = [...question.matchAll(new RegExp(`\\((\\d+)\\s*${L.marks}\\)`, "g"))].reduce((n, m) => n + Number(m[1]), 0);
     structured.push({
       heading: ref,
       year: yearOf(ref),
       question,
       reference: ref.replace(/^20\d\d\s*•\s*/, "").replace(/\s*•\s*/g, " · "),
-      marks: marks ? `${marks} புள்ளிகள்` : "",
+      marks: marks ? `${marks} ${L.marks}` : "",
       answer,
       explanation: "",
       guidance: "",
@@ -779,13 +787,13 @@ function readGradeFiles(subject, gradeDir, grade) {
   const notes = splitUnits(notesMd, NOTES_UNIT);
   const cards = splitUnits(load(/^flashcards/i), SECTION_UNIT);
   const quiz = splitUnits(load(/^quiz/i), SECTION_UNIT);
-  const paperFile = path.join(CONTENT, subject.dir, `Grade_${grade}_Chapter_Wise_Past_Papers.md`);
-  const papers = exists(paperFile) ? splitUnits(read(paperFile), PAPER_UNIT) : new Map();
+  const paperFile = [`Grade_${grade}_Chapter_Wise_Past_Papers.md`, `Grade_${grade}_Chapter_Wise_Past_Papers_English.md`]
+    .map((f) => path.join(CONTENT, subject.dir, f))
+    .find(exists);
+  const papers = paperFile ? splitUnits(read(paperFile), PAPER_UNIT) : new Map();
   const pictureFile = path.join(CONTENT, subject.dir, "pictures", `Grade_${grade}_Picture_Notes.md`);
   const pictures = exists(pictureFile) ? parsePictureNotes(read(pictureFile), subject.lang, grade) : new Map();
-  // English-medium past papers are only used for their picture questions so far.
-  const pictureSource = [paperFile, path.join(CONTENT, subject.dir, `Grade_${grade}_Chapter_Wise_Past_Papers_English.md`)].find(exists);
-  const paperPictures = pictureSource ? parsePaperPictures(read(pictureSource), grade) : [];
+  const paperPictures = paperFile ? parsePaperPictures(read(paperFile), grade) : [];
 
   const guide = notesMd.match(/^# (?:இணைப்பு – தேசப்படம்|🗺️ Map-Learning Guide)[^\n]*\n([\s\S]*?)(?=^# |\n-{3,}\s*\n+\*முற்றும்|(?![\s\S]))/m);
   const mapGuide = guide
@@ -805,7 +813,7 @@ function readGradeFiles(subject, gradeDir, grade) {
       flashcards: cards.has(number) ? historyFlashcards(cards.get(number).body) : [],
       quiz: quiz.has(number) ? historyQuiz(quiz.get(number).body) : [],
       pastPapers: papers.has(number)
-        ? historyPastPapers(papers.get(number).body)
+        ? historyPastPapers(papers.get(number).body, subject.lang)
         : { mcq: [], structured: [], related: "", pattern: "", years: {} },
       pictures: pictures.get(number) ?? [],
       paperPictures: paperPictures.filter((p) => p.chapter === number).length,

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T04:12:02.867Z",
+ "generatedAt": "2026-11-26T04:27:25.417Z",
  "subjects": [
   {
    "id": "islam-ol",
@@ -4532,7 +4532,7 @@
    "freeChapters": 1,
    "lang": "en",
    "maps": true,
-   "pastPaperNote": "",
+   "pastPaperNote": "Past-paper questions are English renderings of the Sri Lankan O/L History papers from 2016–2025.",
    "relatedHeading": "Related questions in other chapters",
    "grades": [
     {
@@ -4552,12 +4552,23 @@
        "counts": {
         "flashcards": 39,
         "quiz": 20,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 35,
+        "structured": 5,
         "pictures": 6,
         "paperPictures": 1
        },
-       "years": {},
+       "years": {
+        "2016": 6,
+        "2017": 6,
+        "2018": 5,
+        "2019": 4,
+        "2020": 6,
+        "2021": 2,
+        "2022": 2,
+        "2023": 4,
+        "2024": 3,
+        "2025": 2
+       },
        "free": true
       },
       {
@@ -4574,12 +4585,23 @@
        "counts": {
         "flashcards": 42,
         "quiz": 24,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 22,
+        "structured": 12,
         "pictures": 15,
         "paperPictures": 2
        },
-       "years": {},
+       "years": {
+        "2016": 6,
+        "2017": 4,
+        "2018": 3,
+        "2019": 2,
+        "2020": 4,
+        "2021": 2,
+        "2022": 2,
+        "2023": 3,
+        "2024": 5,
+        "2025": 3
+       },
        "free": false
       },
       {
@@ -4596,12 +4618,23 @@
        "counts": {
         "flashcards": 42,
         "quiz": 28,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 32,
+        "structured": 7,
         "pictures": 7,
         "paperPictures": 0
        },
-       "years": {},
+       "years": {
+        "2016": 5,
+        "2017": 4,
+        "2018": 1,
+        "2019": 4,
+        "2020": 4,
+        "2021": 4,
+        "2022": 4,
+        "2023": 5,
+        "2024": 4,
+        "2025": 4
+       },
        "free": false
       },
       {
@@ -4618,12 +4651,23 @@
        "counts": {
         "flashcards": 50,
         "quiz": 40,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 27,
+        "structured": 7,
         "pictures": 10,
         "paperPictures": 4
        },
-       "years": {},
+       "years": {
+        "2016": 3,
+        "2017": 5,
+        "2018": 3,
+        "2019": 2,
+        "2020": 5,
+        "2021": 2,
+        "2022": 3,
+        "2023": 2,
+        "2024": 5,
+        "2025": 4
+       },
        "free": false
       },
       {
@@ -4639,12 +4683,23 @@
        "counts": {
         "flashcards": 42,
         "quiz": 25,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 34,
+        "structured": 9,
         "pictures": 9,
         "paperPictures": 1
        },
-       "years": {},
+       "years": {
+        "2016": 4,
+        "2017": 3,
+        "2018": 5,
+        "2019": 5,
+        "2020": 4,
+        "2021": 5,
+        "2022": 5,
+        "2023": 3,
+        "2024": 7,
+        "2025": 2
+       },
        "free": false
       },
       {
@@ -4664,12 +4719,20 @@
        "counts": {
         "flashcards": 46,
         "quiz": 30,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 15,
+        "structured": 1,
         "pictures": 7,
         "paperPictures": 0
        },
-       "years": {},
+       "years": {
+        "2018": 1,
+        "2019": 3,
+        "2021": 2,
+        "2022": 2,
+        "2023": 3,
+        "2024": 2,
+        "2025": 3
+       },
        "free": false
       },
       {
@@ -4687,12 +4750,22 @@
        "counts": {
         "flashcards": 54,
         "quiz": 35,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 15,
+        "structured": 4,
         "pictures": 6,
         "paperPictures": 0
        },
-       "years": {},
+       "years": {
+        "2016": 3,
+        "2017": 2,
+        "2018": 3,
+        "2019": 2,
+        "2020": 1,
+        "2021": 2,
+        "2022": 2,
+        "2024": 1,
+        "2025": 3
+       },
        "free": false
       },
       {
@@ -4710,12 +4783,23 @@
        "counts": {
         "flashcards": 43,
         "quiz": 32,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 15,
+        "structured": 9,
         "pictures": 4,
         "paperPictures": 2
        },
-       "years": {},
+       "years": {
+        "2016": 3,
+        "2017": 2,
+        "2018": 3,
+        "2019": 2,
+        "2020": 2,
+        "2021": 3,
+        "2022": 3,
+        "2023": 2,
+        "2024": 2,
+        "2025": 2
+       },
        "free": false
       },
       {
@@ -4731,12 +4815,21 @@
        "counts": {
         "flashcards": 42,
         "quiz": 28,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 11,
+        "structured": 5,
         "pictures": 3,
         "paperPictures": 2
        },
-       "years": {},
+       "years": {
+        "2016": 1,
+        "2018": 2,
+        "2020": 3,
+        "2021": 3,
+        "2022": 2,
+        "2023": 3,
+        "2024": 1,
+        "2025": 1
+       },
        "free": false
       },
       {
@@ -4753,12 +4846,23 @@
        "counts": {
         "flashcards": 43,
         "quiz": 34,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 26,
+        "structured": 6,
         "pictures": 2,
         "paperPictures": 0
        },
-       "years": {},
+       "years": {
+        "2016": 4,
+        "2017": 6,
+        "2018": 2,
+        "2019": 5,
+        "2020": 3,
+        "2021": 3,
+        "2022": 1,
+        "2023": 2,
+        "2024": 3,
+        "2025": 3
+       },
        "free": false
       }
      ]
@@ -4780,12 +4884,23 @@
        "counts": {
         "flashcards": 44,
         "quiz": 30,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 16,
+        "structured": 6,
         "pictures": 18,
         "paperPictures": 1
        },
-       "years": {},
+       "years": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 1,
+        "2019": 3,
+        "2020": 2,
+        "2021": 2,
+        "2022": 3,
+        "2023": 2,
+        "2024": 2,
+        "2025": 3
+       },
        "free": true
       },
       {
@@ -4803,12 +4918,23 @@
        "counts": {
         "flashcards": 48,
         "quiz": 34,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 20,
+        "structured": 5,
         "pictures": 9,
         "paperPictures": 0
        },
-       "years": {},
+       "years": {
+        "2016": 2,
+        "2017": 4,
+        "2018": 3,
+        "2019": 1,
+        "2020": 2,
+        "2021": 2,
+        "2022": 4,
+        "2023": 2,
+        "2024": 2,
+        "2025": 3
+       },
        "free": false
       },
       {
@@ -4826,12 +4952,21 @@
        "counts": {
         "flashcards": 33,
         "quiz": 25,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 16,
+        "structured": 2,
         "pictures": 10,
         "paperPictures": 1
        },
-       "years": {},
+       "years": {
+        "2016": 1,
+        "2018": 3,
+        "2019": 2,
+        "2021": 3,
+        "2022": 2,
+        "2023": 3,
+        "2024": 1,
+        "2025": 3
+       },
        "free": false
       },
       {
@@ -4849,12 +4984,22 @@
        "counts": {
         "flashcards": 35,
         "quiz": 27,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 16,
+        "structured": 2,
         "pictures": 6,
         "paperPictures": 0
        },
-       "years": {},
+       "years": {
+        "2016": 2,
+        "2018": 1,
+        "2019": 1,
+        "2020": 2,
+        "2021": 3,
+        "2022": 3,
+        "2023": 2,
+        "2024": 2,
+        "2025": 2
+       },
        "free": false
       },
       {
@@ -4872,12 +5017,20 @@
        "counts": {
         "flashcards": 36,
         "quiz": 22,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 10,
+        "structured": 4,
         "pictures": 6,
         "paperPictures": 0
        },
-       "years": {},
+       "years": {
+        "2019": 1,
+        "2020": 1,
+        "2021": 1,
+        "2022": 4,
+        "2023": 3,
+        "2024": 3,
+        "2025": 1
+       },
        "free": false
       },
       {
@@ -4894,12 +5047,23 @@
        "counts": {
         "flashcards": 52,
         "quiz": 34,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 28,
+        "structured": 6,
         "pictures": 8,
         "paperPictures": 1
        },
-       "years": {},
+       "years": {
+        "2016": 2,
+        "2017": 2,
+        "2018": 3,
+        "2019": 6,
+        "2020": 2,
+        "2021": 6,
+        "2022": 3,
+        "2023": 4,
+        "2024": 1,
+        "2025": 5
+       },
        "free": false
       },
       {
@@ -4916,12 +5080,22 @@
        "counts": {
         "flashcards": 47,
         "quiz": 33,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 17,
+        "structured": 7,
         "pictures": 14,
         "paperPictures": 2
        },
-       "years": {},
+       "years": {
+        "2016": 1,
+        "2018": 2,
+        "2019": 5,
+        "2020": 2,
+        "2021": 2,
+        "2022": 2,
+        "2023": 4,
+        "2024": 4,
+        "2025": 2
+       },
        "free": false
       },
       {
@@ -4939,12 +5113,23 @@
        "counts": {
         "flashcards": 53,
         "quiz": 42,
-        "mcq": 0,
-        "structured": 0,
+        "mcq": 38,
+        "structured": 11,
         "pictures": 23,
         "paperPictures": 2
        },
-       "years": {},
+       "years": {
+        "2016": 6,
+        "2017": 2,
+        "2018": 10,
+        "2019": 3,
+        "2020": 8,
+        "2021": 4,
+        "2022": 4,
+        "2023": 4,
+        "2024": 3,
+        "2025": 5
+       },
        "free": false
       }
      ]
