@@ -59,7 +59,29 @@ const MAP = {
   trophy: Trophy,
 } as const;
 
+// Subject icons that are pictures rather than Lucide line icons (files in /public/subjects).
+const IMAGES: Record<string, string> = {
+  islam: "/subjects/islam.png",
+  history: "/subjects/history.png",
+};
+
 export function Icon({ name, ...props }: { name: string } & LucideProps) {
+  const src = IMAGES[name];
+  if (src) {
+    const size = props.size ?? 24;
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={src}
+        alt=""
+        aria-hidden
+        width={Number(size)}
+        height={Number(size)}
+        className={`${props.className ?? ""} inline-block shrink-0 rounded-md object-contain`}
+        style={{ width: size, height: size }}
+      />
+    );
+  }
   const C = MAP[name as keyof typeof MAP] ?? BookOpen;
   return <C {...props} />;
 }
