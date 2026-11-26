@@ -162,7 +162,7 @@ export default async function Home() {
           {withNext.map(({ s, access: a, prog }) => (
             <Link key={s.id} href={`/subjects/${s.id}`} className="glass glass-hover p-4 flex items-center gap-4">
               <ProgressRing value={prog.percent} size={64}>
-                <Icon name={s.icon ?? "book-open"} size={22} className="text-lilac" />
+                <Icon name={s.icon ?? "book-open"} size={22} ringSize={64 - 14} className="text-lilac" />
               </ProgressRing>
               <div className="flex-1 min-w-0">
                 <p className="font-bold">

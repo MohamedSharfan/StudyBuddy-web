@@ -65,10 +65,11 @@ const IMAGES: Record<string, string> = {
   history: "/subjects/history.png",
 };
 
-export function Icon({ name, ...props }: { name: string } & LucideProps) {
+// `ringSize`: diameter for a picture icon placed inside a ring, so it fills the circle. Line icons ignore it.
+export function Icon({ name, ringSize, ...props }: { name: string; ringSize?: number } & LucideProps) {
   const src = IMAGES[name];
   if (src) {
-    const size = props.size ?? 24;
+    const size = ringSize ?? props.size ?? 24;
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
@@ -77,7 +78,7 @@ export function Icon({ name, ...props }: { name: string } & LucideProps) {
         aria-hidden
         width={Number(size)}
         height={Number(size)}
-        className={`${props.className ?? ""} inline-block shrink-0 rounded-md object-contain`}
+        className={`${props.className ?? ""} block shrink-0 rounded-full object-cover`}
         style={{ width: size, height: size }}
       />
     );
