@@ -46,7 +46,7 @@ export const AL_STREAMS: { id: string; name: string; subjects: UpcomingSubject[]
     subjects: [
       { name: "Political Science", icon: "landmark" },
       { name: "Geography", icon: "globe" },
-      { name: "History", icon: "scroll-text" },
+      { name: "History", icon: "history" },
       { name: "Tamil", icon: "languages" },
     ],
   },

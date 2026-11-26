@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T17:24:30.395Z",
+ "generatedAt": "2026-11-26T04:12:02.867Z",
  "subjects": [
   {
    "id": "islam-ol",
@@ -7,7 +7,7 @@
    "nameLocal": "இஸ்லாம்",
    "level": "O/L",
    "streams": [],
-   "icon": "book-open",
+   "icon": "islam",
    "medium": "Tamil",
    "tagline": "Grade 10 & 11 · Tamil medium",
    "color": "#8B5CF6",
@@ -1947,7 +1947,7 @@
    "nameLocal": "",
    "level": "O/L",
    "streams": [],
-   "icon": "book-open",
+   "icon": "islam",
    "medium": "English",
    "tagline": "Grade 10 & 11 · English medium",
    "color": "#8B5CF6",
@@ -3887,7 +3887,7 @@
    "nameLocal": "வரலாறு",
    "level": "O/L",
    "streams": [],
-   "icon": "landmark",
+   "icon": "history",
    "medium": "Tamil",
    "tagline": "Grade 10 & 11 · Tamil medium",
    "color": "#8B5CF6",
@@ -4525,7 +4525,7 @@
    "nameLocal": "",
    "level": "O/L",
    "streams": [],
-   "icon": "landmark",
+   "icon": "history",
    "medium": "English",
    "tagline": "Grade 10 & 11 · English medium",
    "color": "#8B5CF6",
