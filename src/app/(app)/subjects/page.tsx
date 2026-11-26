@@ -50,7 +50,7 @@ export default async function Subjects() {
               <Link key={s.id} href={`/subjects/${s.id}`} className="glass glass-hover p-5">
                 <div className="flex items-start gap-4">
                   <ProgressRing value={prog.percent} size={72}>
-                    <Icon name={s.icon ?? "book-open"} size={26} className="text-lilac" />
+                    <Icon name={s.icon ?? "book-open"} size={26} ringSize={72 - 14} className="text-lilac" />
                   </ProgressRing>
                   <div className="flex-1 min-w-0">
                     <h2 className="text-xl font-bold">
