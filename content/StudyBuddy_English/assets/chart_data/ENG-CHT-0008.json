@@ -1,0 +1,27 @@
+{
+ "id": "ENG-CHT-0008",
+ "type": "bar",
+ "title": "Hours spent on activities in a week",
+ "x_label": "Activity",
+ "y_label": "Hours",
+ "categories": [
+  "Studying",
+  "Sports",
+  "Television",
+  "Reading",
+  "Helping at home"
+ ],
+ "series": [
+  {
+   "name": "Hours",
+   "values": [
+    20,
+    6,
+    8,
+    4,
+    6
+   ]
+  }
+ ],
+ "orientation": "horizontal"
+}

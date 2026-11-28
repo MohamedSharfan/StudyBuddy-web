@@ -1,0 +1,27 @@
+{
+ "id": "ENG-CHT-0009",
+ "type": "bar",
+ "title": "Visitors to a museum",
+ "x_label": "Day",
+ "y_label": "Number of visitors",
+ "categories": [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday"
+ ],
+ "series": [
+  {
+   "name": "Visitors",
+   "values": [
+    90,
+    75,
+    110,
+    60,
+    140
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

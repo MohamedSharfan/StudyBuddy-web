@@ -1,0 +1,32 @@
+{
+ "id": "ENG-CHT-0036",
+ "type": "table",
+ "title": "Nutrition in 100 g of food",
+ "columns": [
+  "Food",
+  "Protein (g)",
+  "Fat (g)"
+ ],
+ "rows": [
+  [
+   "Rice",
+   7,
+   1
+  ],
+  [
+   "Dhal",
+   24,
+   1
+  ],
+  [
+   "Fish",
+   20,
+   5
+  ],
+  [
+   "Egg",
+   13,
+   10
+  ]
+ ]
+}

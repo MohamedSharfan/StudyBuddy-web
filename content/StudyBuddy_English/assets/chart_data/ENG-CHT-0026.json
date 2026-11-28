@@ -1,0 +1,29 @@
+{
+ "id": "ENG-CHT-0026",
+ "type": "line",
+ "title": "Price of 1 kg of rice (Rs.)",
+ "x_label": "Month",
+ "y_label": "Price (Rs.)",
+ "categories": [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June"
+ ],
+ "series": [
+  {
+   "name": "Price",
+   "values": [
+    220,
+    230,
+    260,
+    260,
+    240,
+    210
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

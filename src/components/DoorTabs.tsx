@@ -19,17 +19,20 @@ export function DoorTabs({
   base,
   steps,
   pastPapers = true,
+  quiz = true,
   map = false,
   pictures = false,
 }: {
   base: string;
   steps: boolean[];
   pastPapers?: boolean;
+  /** False when the chapter has no quiz questions (some English chapters only have practice cards). */
+  quiz?: boolean;
   map?: boolean;
   pictures?: boolean;
 }) {
   const path = usePathname();
-  const tabs = TABS.filter((t) => (t.slug === "past-papers" ? pastPapers : t.slug === "map" ? map : t.slug === "pictures" ? pictures : true));
+  const tabs = TABS.filter((t) => (t.slug === "past-papers" ? pastPapers : t.slug === "quiz" ? quiz : t.slug === "map" ? map : t.slug === "pictures" ? pictures : true));
   return (
     <nav className="flex gap-1 overflow-x-auto no-scrollbar -mx-4 px-4 sm:mx-0 sm:px-0" aria-label="Chapter sections">
       {tabs.map(({ slug, label, step }) => {

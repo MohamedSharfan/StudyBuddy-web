@@ -1,0 +1,19 @@
+{
+ "id": "ENG-CHT-0018",
+ "type": "pie",
+ "title": "Favourite drinks of students",
+ "categories": [
+  "Milk",
+  "Fruit juice",
+  "Tea",
+  "Water"
+ ],
+ "values": [
+  25,
+  35,
+  15,
+  25
+ ],
+ "unit": "%",
+ "total": 100
+}

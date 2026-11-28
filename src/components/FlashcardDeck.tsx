@@ -96,7 +96,11 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
         <div className="grid sm:grid-cols-2 gap-3">
           {cards.map((c, i) => (
             <div key={i} className="glass p-4">
-              <p className="font-bold">{withArabic(c.front)}</p>
+              <p className="font-bold whitespace-pre-line">{withArabic(c.front)}</p>
+              {c.image && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={c.image.src} width={c.image.w} height={c.image.h} alt="" loading="lazy" className="block w-auto max-w-full max-h-[200px] h-auto rounded-xl bg-white mt-2" />
+              )}
               <p className="text-sm text-muted mt-2 border-t border-line pt-2 whitespace-pre-line">{withArabic(c.back)}</p>
             </div>
           ))}
@@ -142,14 +146,24 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
               <div className="flip-inner">
                 <div className="flip-face glass !bg-card-2 p-7 sm:p-10 flex flex-col">
                   <span className="eyebrow">{queue.length} left · Question</span>
-                  <p className="flex-1 grid place-items-center text-center display text-2xl sm:text-3xl font-bold leading-snug">
-                    <span>{withArabic(cards[current].front)}</span>
+                  <p
+                    className={`flex-1 grid place-items-center text-center display font-bold leading-snug overflow-y-auto whitespace-pre-line ${
+                      cards[current].image || cards[current].front.length > 120 ? "text-lg sm:text-xl" : "text-2xl sm:text-3xl"
+                    }`}
+                  >
+                    <span>
+                      {withArabic(cards[current].front)}
+                      {cards[current].image && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={cards[current].image.src} width={cards[current].image.w} height={cards[current].image.h} alt="" className="block mx-auto w-auto max-w-full max-h-[170px] h-auto rounded-xl bg-white mt-3" />
+                      )}
+                    </span>
                   </p>
                   <span className="text-center text-xs text-muted">Tap or press Space to flip</span>
                 </div>
                 <div className="flip-face flip-back glass p-7 sm:p-10 flex flex-col !border-gold/50">
                   <span className="eyebrow !text-gold">Answer</span>
-                  <p className="flex-1 grid place-items-center text-center text-lg sm:text-xl font-semibold leading-relaxed">
+                  <p className="flex-1 grid place-items-center text-center text-lg sm:text-xl font-semibold leading-relaxed overflow-y-auto">
                     <span className="whitespace-pre-line">{withArabic(cards[current].back)}</span>
                   </p>
                   <span className="text-center text-xs text-muted">Did you know it?</span>

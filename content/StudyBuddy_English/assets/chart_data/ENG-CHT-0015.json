@@ -1,0 +1,31 @@
+{
+ "id": "ENG-CHT-0015",
+ "type": "bar",
+ "title": "Students using the canteen and bringing lunch",
+ "x_label": "Grade",
+ "y_label": "Number of students",
+ "categories": [
+  "Grade 9",
+  "Grade 10",
+  "Grade 11"
+ ],
+ "series": [
+  {
+   "name": "Canteen",
+   "values": [
+    40,
+    55,
+    60
+   ]
+  },
+  {
+   "name": "Home lunch",
+   "values": [
+    80,
+    65,
+    50
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

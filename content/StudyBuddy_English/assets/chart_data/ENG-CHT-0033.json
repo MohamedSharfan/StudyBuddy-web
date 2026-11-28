@@ -1,0 +1,32 @@
+{
+ "id": "ENG-CHT-0033",
+ "type": "table",
+ "title": "Bus fares from Kandy",
+ "columns": [
+  "Destination",
+  "Normal (Rs.)",
+  "Luxury (Rs.)"
+ ],
+ "rows": [
+  [
+   "Colombo",
+   250,
+   450
+  ],
+  [
+   "Jaffna",
+   900,
+   1500
+  ],
+  [
+   "Nuwara Eliya",
+   200,
+   350
+  ],
+  [
+   "Galle",
+   450,
+   800
+  ]
+ ]
+}

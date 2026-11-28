@@ -63,10 +63,7 @@ export const AL_STREAMS: { id: string; name: string; subjects: UpcomingSubject[]
 ];
 
 /** O/L subjects that are not live yet. */
-export const OL_UPCOMING: UpcomingSubject[] = [
-  { name: "Science", icon: "atom" },
-  { name: "English", icon: "book-a" },
-];
+export const OL_UPCOMING: UpcomingSubject[] = [];
 
 export function isLevel(v: unknown): v is Level {
   return v === "O/L" || v === "A/L";

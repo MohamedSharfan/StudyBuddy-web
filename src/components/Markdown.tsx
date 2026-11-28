@@ -174,9 +174,9 @@ const components: Components = {
       </a>
     );
   },
-  // Only the History textbook pictures are shown; their size is in the hash ("…/Fig.webp#640x480").
+  // Only the site's own pictures are shown (History, Maths, Science, English); their size is in the hash ("…/Fig.webp#640x480").
   img({ src, alt }) {
-    if (typeof src !== "string" || !src.startsWith("/history/")) return null;
+    if (typeof src !== "string" || !/^\/(?:history|maths|science|english)\//.test(src)) return null;
     const [url, size = ""] = src.split("#");
     const [w, h] = size.split("x").map(Number);
     return (

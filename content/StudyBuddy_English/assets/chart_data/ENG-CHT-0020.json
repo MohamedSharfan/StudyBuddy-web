@@ -1,0 +1,17 @@
+{
+ "id": "ENG-CHT-0020",
+ "type": "pie",
+ "title": "Languages spoken at home by students",
+ "categories": [
+  "Tamil",
+  "Sinhala",
+  "English"
+ ],
+ "values": [
+  60,
+  30,
+  10
+ ],
+ "unit": "%",
+ "total": 100
+}

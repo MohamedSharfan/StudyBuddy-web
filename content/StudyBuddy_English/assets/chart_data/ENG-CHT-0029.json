@@ -1,0 +1,29 @@
+{
+ "id": "ENG-CHT-0029",
+ "type": "line",
+ "title": "Dengue cases in a district",
+ "x_label": "Month",
+ "y_label": "Number of cases",
+ "categories": [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June"
+ ],
+ "series": [
+  {
+   "name": "Cases",
+   "values": [
+    120,
+    90,
+    60,
+    40,
+    80,
+    150
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

@@ -1,0 +1,37 @@
+{
+ "id": "ENG-CHT-0031",
+ "type": "line",
+ "title": "Sales of ice cream and hot drinks at a canteen",
+ "x_label": "Month",
+ "y_label": "Cups sold",
+ "categories": [
+  "March",
+  "April",
+  "May",
+  "June",
+  "July"
+ ],
+ "series": [
+  {
+   "name": "Ice cream",
+   "values": [
+    100,
+    140,
+    160,
+    120,
+    90
+   ]
+  },
+  {
+   "name": "Hot drinks",
+   "values": [
+    80,
+    60,
+    50,
+    70,
+    95
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

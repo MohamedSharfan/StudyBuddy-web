@@ -14,11 +14,11 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
   if (!open) return <LockedPanel chapter={c} viewer={viewer} />;
 
   const doors = [
-    { slug: "notes", t: "Notes", sub: `${c.minutes} min read`, icon: BookOpen, coins: REWARDS.lesson },
-    { slug: "flashcards", t: "Flashcards", sub: `${c.counts.flashcards} cards`, icon: Layers, coins: REWARDS.flashcards },
-    { slug: "quiz", t: "Quiz", sub: `${c.counts.quiz} questions · pass with 80%`, icon: Brain, coins: REWARDS.quiz },
-    { slug: "past-papers", t: "Past papers", sub: `${c.counts.mcq} MCQ · ${c.counts.structured} structured`, icon: ScrollText, coins: REWARDS.pastpaper },
-  ].filter((d) => d.slug !== "past-papers" || hasPastPapers(c));
+    { step: 0, slug: "notes", t: "Notes", sub: `${c.minutes} min read`, icon: BookOpen, coins: REWARDS.lesson },
+    { step: 1, slug: "flashcards", t: "Flashcards", sub: `${c.counts.flashcards} cards`, icon: Layers, coins: REWARDS.flashcards },
+    { step: 2, slug: "quiz", t: "Quiz", sub: `${c.counts.quiz} questions · pass with 80%`, icon: Brain, coins: REWARDS.quiz },
+    { step: 3, slug: "past-papers", t: "Past papers", sub: `${c.counts.mcq} MCQ · ${c.counts.structured} structured`, icon: ScrollText, coins: REWARDS.pastpaper },
+  ].filter((d) => (d.slug !== "past-papers" || hasPastPapers(c)) && (d.slug !== "quiz" || c.counts.quiz > 0));
   const maps = subject.maps ? mapSetsForChapter(c.grade, c.number) : [];
   const en = subject.lang === "en";
   const pictureCount = subject.pictures ? c.counts.pictures ?? 0 : 0;
@@ -29,13 +29,13 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
     : subjectVersions(subject)
         .map((v) => getChapterSummary(v.id, c.grade, c.number))
         .find((x) => x && hasPastPapers(x))?.years;
-  const firstOpen = steps.findIndex((s) => !s);
+  const firstOpen = doors.findIndex((d) => !steps[d.step]);
 
   return (
     <div className="space-y-6">
       <ol className="grid sm:grid-cols-2 gap-3">
         {doors.map((d, i) => {
-          const done = steps[i];
+          const done = steps[d.step];
           const I = d.icon;
           return (
             <li key={d.slug}>

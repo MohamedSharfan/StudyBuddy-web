@@ -10,24 +10,24 @@ const amiri = Amiri({ subsets: ["arabic"], variable: "--font-amiri", weight: ["4
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes | StudyBuddy", template: "%s · StudyBuddy" },
+  title: { default: "O/L Islam, History, Maths, Science, Tamil & English Past Papers, Notes & Quizzes | StudyBuddy", template: "%s · StudyBuddy" },
   description:
-    "Free Sri Lankan O/L Islam, History, Mathematics and Tamil past papers, notes, flashcards, quizzes and map-marking practice for Grade 10 and 11 in Tamil and English medium. Practise chapter by chapter with StudyBuddy.",
+    "Free Sri Lankan O/L Islam, History, Mathematics, Science, Tamil and English past papers, notes, flashcards, quizzes and map-marking practice for Grade 10 and 11 in Tamil and English medium. Practise chapter by chapter with StudyBuddy.",
   icons: { icon: "/logo.jpg", apple: "/logo.jpg" },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     siteName: "StudyBuddy",
-    title: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes | StudyBuddy",
-    description: "Free Sri Lankan O/L Islam, History, Mathematics and Tamil study resources for Grade 10 and 11 in Tamil and English medium.",
+    title: "O/L Islam, History, Maths, Science, Tamil & English Past Papers, Notes & Quizzes | StudyBuddy",
+    description: "Free Sri Lankan O/L Islam, History, Mathematics, Science, Tamil and English study resources for Grade 10 and 11 in Tamil and English medium.",
     url: SITE_URL,
     locale: "en_LK",
     images: ["/logo.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes | StudyBuddy",
-    description: "Free Sri Lankan O/L Islam, History, Mathematics and Tamil study resources for Grade 10 and 11 in Tamil and English medium.",
+    title: "O/L Islam, History, Maths, Science, Tamil & English Past Papers, Notes & Quizzes | StudyBuddy",
+    description: "Free Sri Lankan O/L Islam, History, Mathematics, Science, Tamil and English study resources for Grade 10 and 11 in Tamil and English medium.",
     images: ["/logo.jpg"],
   },
 };

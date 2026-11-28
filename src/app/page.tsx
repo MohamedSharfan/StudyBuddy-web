@@ -10,7 +10,7 @@ import { OL_UPCOMING } from "@/lib/levels";
 import { getMedium, studyHref } from "@/lib/prefs";
 import { canonicalUrl } from "@/lib/seo";
 
-const SHARE_TEXT = `Free Sri Lankan O/L Islam, History, Mathematics and Tamil past papers, notes, flashcards, quizzes and map-marking practice for Grade 10 and 11 in Tamil and English medium. ${FREE_OFFER}`;
+const SHARE_TEXT = `Free Sri Lankan O/L Islam, History, Mathematics, Science, Tamil and English past papers, notes, flashcards, quizzes and map-marking practice for Grade 10 and 11 in Tamil and English medium. ${FREE_OFFER}`;
 
 // One entry per live subject (Islam, History, …), with its Tamil and English versions.
 const LIVE = [...new Set(catalog.subjects.filter((s) => s.level === "O/L").map((s) => s.name))].map((name) => {
@@ -20,11 +20,11 @@ const LIVE = [...new Set(catalog.subjects.filter((s) => s.level === "O/L").map((
 
 // Also used for link previews when the site is shared on WhatsApp / Facebook.
 export const metadata = {
-  title: { absolute: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes in Sri Lanka | StudyBuddy" },
+  title: { absolute: "O/L Islam, History, Maths, Science, Tamil & English Past Papers, Notes & Quizzes in Sri Lanka | StudyBuddy" },
   description: SHARE_TEXT,
   alternates: { canonical: canonicalUrl("/") },
-  openGraph: { type: "website", siteName: "StudyBuddy", title: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, url: canonicalUrl("/"), locale: "en_LK", images: ["/logo.jpg"] },
-  twitter: { card: "summary_large_image", title: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, images: ["/logo.jpg"] },
+  openGraph: { type: "website", siteName: "StudyBuddy", title: "O/L Islam, History, Maths, Science, Tamil & English Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, url: canonicalUrl("/"), locale: "en_LK", images: ["/logo.jpg"] },
+  twitter: { card: "summary_large_image", title: "O/L Islam, History, Maths, Science, Tamil & English Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, images: ["/logo.jpg"] },
 };
 
 /**
@@ -51,12 +51,12 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
         <div className="mt-4 sm:mt-10">
           <FreeOffer />
           <h1 className="display text-[1.9rem] sm:text-4xl font-bold leading-tight mt-5">
-            {pickMedium ? "Choose your medium" : "Free O/L Islam, History, Maths & Tamil past papers, notes and quizzes"}
+            {pickMedium ? "Choose your medium" : "Free O/L Islam, History, Maths, Science, Tamil & English past papers, notes and quizzes"}
           </h1>
           <p className="text-muted mt-2">
             {pickMedium
               ? "Choose Tamil or English medium for Grade 10 and 11 notes, flashcards, quizzes, past papers and map practice."
-              : "Study Sri Lankan Grade 10 and 11 Islam, History, Mathematics and Tamil with chapter-wise notes, flashcards, quizzes, past-paper questions from 2016–2025 and map-marking practice."}
+              : "Study Sri Lankan Grade 10 and 11 Islam, History, Mathematics, Science, Tamil and English with chapter-wise notes, flashcards, quizzes, past-paper questions from 2016–2025 and map-marking practice."}
           </p>
         </div>
 

@@ -1,0 +1,29 @@
+{
+ "id": "ENG-CHT-0025",
+ "type": "line",
+ "title": "Number of students in a school (2019–2024)",
+ "x_label": "Year",
+ "y_label": "Number of students",
+ "categories": [
+  "2019",
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024"
+ ],
+ "series": [
+  {
+   "name": "Students",
+   "values": [
+    600,
+    650,
+    640,
+    720,
+    800,
+    850
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

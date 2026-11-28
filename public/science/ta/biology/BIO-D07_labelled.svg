@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-87 0 843 440" width="843" height="440" role="img" aria-label="Nephron (schematic)">
+<style>
+.o{fill:none;stroke:#1f2937;stroke-width:2} .t{fill:none;stroke:#1f2937;stroke-width:1.2}
+.f1{fill:#dcfce7;stroke:#166534;stroke-width:1.6} .f2{fill:#fee2e2;stroke:#991b1b;stroke-width:1.6} .f3{fill:#dbeafe;stroke:#1e40af;stroke-width:1.6}
+.f4{fill:#fef9c3;stroke:#854d0e;stroke-width:1.6} .f5{fill:#ede9fe;stroke:#5b21b6;stroke-width:1.6} .f6{fill:#f3f4f6;stroke:#374151;stroke-width:1.6}
+.k{fill:#1f2937} .ld{stroke:#6b7280;stroke-width:1;fill:none} .lt{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:13px;fill:#111827}
+.le{font-family:sans-serif;font-size:10.5px;fill:#4b5563} .num{font-family:sans-serif;font-size:12px;font-weight:bold;fill:#1e3a8a}
+.box{fill:#fff;stroke:#1e3a8a;stroke-width:1.3} .cap{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:14px;font-weight:bold;fill:#111827}
+.sm{font-family:sans-serif;font-size:12px;fill:#111827} .ar{fill:none;stroke:#b91c1c;stroke-width:2;marker-end:url(#ah)}
+.ray{fill:none;stroke:#c2410c;stroke-width:1.6;marker-mid:url(#ah2)} .dash{fill:none;stroke:#6b7280;stroke-width:1.2;stroke-dasharray:5 4}
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker></defs>
+<rect x="-87" y="0" width="843" height="440" fill="#ffffff"/>
+<g id="BIO-D07-art">
+<path d="M190,90 A45,45 0 1,0 190,170" class="f6"/>
+<circle cx="205.0" cy="130.0" r="26.0" class="f2"/>
+<path d="M190,90 L260,90 C300,90 300,130 270,130 C240,130 240,170 290,170 L330,170" class="o"/>
+<path d="M330,170 L330,360 C330,385 370,385 370,360 L370,180" class="o"/>
+<path d="M370,180 C370,120 420,120 420,160 C420,190 450,190 460,150 L470,90" class="o"/>
+<path d="M470,60 L470,400" class="f3"/>
+<path d="M150,110 L180,120 M150,150 L180,140" class="f2"/>
+</g>
+<g id="BIO-D07-labels">
+<g id="BIO-D07-L01" data-key="glom">
+<line x1="205.0" y1="130.0" x2="70.0" y2="220.0" class="ld"/><circle cx="205.0" cy="130.0" r="2.5" class="k"/>
+<text x="66.0" y="219.0" text-anchor="end" class="lt">கலனுருச்சிறுதிரள்</text>
+<text x="66.0" y="231.0" text-anchor="end" class="le">(glomerulus)</text>
+</g>
+<g id="BIO-D07-L02" data-key="bowman">
+<line x1="160.0" y1="110.0" x2="70.0" y2="70.0" class="ld"/><circle cx="160.0" cy="110.0" r="2.5" class="k"/>
+<text x="66.0" y="69.0" text-anchor="end" class="lt">போமனின் உறை</text>
+<text x="66.0" y="81.0" text-anchor="end" class="le">(Bowman's capsule)</text>
+</g>
+<g id="BIO-D07-L03" data-key="pct">
+<line x1="280.0" y1="130.0" x2="120.0" y2="300.0" class="ld"/><circle cx="280.0" cy="130.0" r="2.5" class="k"/>
+<text x="116.0" y="299.0" text-anchor="end" class="lt">அண்மைச் சுருண்ட சிறுகுழாய்</text>
+<text x="116.0" y="311.0" text-anchor="end" class="le">(proximal convoluted tubule)</text>
+</g>
+<g id="BIO-D07-L04" data-key="loop">
+<line x1="350.0" y1="380.0" x2="160.0" y2="400.0" class="ld"/><circle cx="350.0" cy="380.0" r="2.5" class="k"/>
+<text x="156.0" y="399.0" text-anchor="end" class="lt">என்லேயின் தடம்</text>
+<text x="156.0" y="411.0" text-anchor="end" class="le">(loop of Henle)</text>
+</g>
+<g id="BIO-D07-L05" data-key="dct">
+<line x1="420.0" y1="160.0" x2="540.0" y2="230.0" class="ld"/><circle cx="420.0" cy="160.0" r="2.5" class="k"/>
+<text x="544.0" y="229.0" text-anchor="start" class="lt">சேய்மைச் சுருண்ட சிறுகுழாய்</text>
+<text x="544.0" y="241.0" text-anchor="start" class="le">(distal convoluted tubule)</text>
+</g>
+<g id="BIO-D07-L06" data-key="cd">
+<line x1="470.0" y1="300.0" x2="540.0" y2="330.0" class="ld"/><circle cx="470.0" cy="300.0" r="2.5" class="k"/>
+<text x="544.0" y="329.0" text-anchor="start" class="lt">சேகரிக்கும் கான்</text>
+<text x="544.0" y="341.0" text-anchor="start" class="le">(collecting duct)</text>
+</g>
+</g></svg>

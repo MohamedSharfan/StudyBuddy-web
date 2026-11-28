@@ -1,0 +1,34 @@
+{
+ "id": "ENG-CHT-0014",
+ "type": "bar",
+ "title": "Marks of two students in four subjects",
+ "x_label": "Subjects",
+ "y_label": "Marks",
+ "categories": [
+  "English",
+  "Maths",
+  "Science",
+  "Tamil"
+ ],
+ "series": [
+  {
+   "name": "Kavin",
+   "values": [
+    75,
+    60,
+    80,
+    85
+   ]
+  },
+  {
+   "name": "Nila",
+   "values": [
+    70,
+    90,
+    80,
+    65
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

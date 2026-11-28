@@ -12,8 +12,8 @@ import { canonicalUrl } from "@/lib/seo";
 import { completionSet, getViewer, hasSubjectAccess } from "@/lib/session";
 
 export const metadata = {
-  title: "O/L Subjects · Islam, History, Maths & Tamil · Grade 10 & 11",
-  description: "Browse free Sri Lankan O/L Islam, History, Mathematics and Tamil for Grade 10 and 11 in Tamil and English medium, with chapter-wise notes, quizzes, past papers and map-marking practice.",
+  title: "O/L Subjects · Islam, History, Maths, Science, Tamil & English · Grade 10 & 11",
+  description: "Browse free Sri Lankan O/L Islam, History, Mathematics, Science, Tamil and English for Grade 10 and 11 in Tamil and English medium, with chapter-wise notes, quizzes, past papers and map-marking practice.",
   alternates: { canonical: canonicalUrl("/subjects") },
 };
 
@@ -110,7 +110,7 @@ export default async function Subjects() {
         </div>
       )}
 
-      <div>
+      {comingSoon.length > 0 && <div>
         <h2 className="text-sm font-semibold text-muted mb-3">Coming soon</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
           {comingSoon.map((s) => (
@@ -120,7 +120,7 @@ export default async function Subjects() {
             </div>
           ))}
         </div>
-      </div>
+      </div>}
 
       {!isAL && (
         <div>

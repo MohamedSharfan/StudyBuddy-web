@@ -1,6 +1,6 @@
 # StudyBuddy Web
 
-The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L and A/L students. Live O/L subjects (Grade 10 & 11): **Islam**, **History** and **Mathematics** in the **Tamil** and **English** mediums, and **Tamil** (language & literature) in the Tamil medium. More O/L subjects and the A/L streams come next.
+The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L and A/L students. Live O/L subjects (Grade 10 & 11): **Islam**, **History**, **Mathematics** and **Science** in the **Tamil** and **English** mediums, **Tamil** (language & literature) in the Tamil medium, and **English** (one version, shown to students of every medium). More O/L subjects and the A/L streams come next.
 
 - At sign-up, students choose **O/L or A/L**. A/L students also pick their **stream** (Physical Science, Biological Science, Commerce, Arts, Technology). Each student only sees subjects for their level, stream and **medium** (students in a medium we don't have yet see every medium). A/L students see a "coming soon" view until their subjects launch.
 - **62 chapters**, each with four steps: **Notes** → **Flashcards** → **Quiz** → **Past papers** (2016–2025)
@@ -39,6 +39,7 @@ The schema lives in [`supabase/migrations/`](supabase/migrations/). Run the file
 3. [`20261030000003_islam_english_medium.sql`](supabase/migrations/20261030000003_islam_english_medium.sql): adds O/L Islam in the English medium
 4. [`20261121000004_history.sql`](supabase/migrations/20261121000004_history.sql): adds O/L History (Tamil and English)
 5. [`20261128000005_maths_and_tamil.sql`](supabase/migrations/20261128000005_maths_and_tamil.sql): adds O/L Mathematics (Tamil and English) and O/L Tamil
+6. [`20261129000006_science_and_english.sql`](supabase/migrations/20261129000006_science_and_english.sql): adds O/L Science (Tamil and English) and O/L English
 
 All files are safe to run more than once.
 
@@ -153,6 +154,22 @@ Each chapter (`## G10C01 …`, 32 in Grade 10 and 25 in Grade 11) gets Notes (co
 ### Tamil (language & literature)
 
 `content/tamil-ol/01_Tamil_Notes.md` … `08_Tamil_Literature_Mastery.md` (extracted from `StudyBuddy_OL_Tamil_Final.zip`, which isn't committed). The topics `N00`–`N34` become chapters 1–35. The files don't split them by grade, so they're one list shown as "Grade 10 & 11". Quiz units named `GR-xx` go to their matching grammar topic. The past papers (file 04) are shown **by year and paper** on the subject page (2016–2025, papers I, II and III), and literature questions also appear in their topic's Past papers tab. Files 05–08 (grammar, essay bank, writing skills, literature) are study guides.
+
+### Science
+
+`content/StudyBuddy_OL_Science_Both_Mediums/StudyBuddy_OL_Science_Both_Mediums/`, kept as delivered, with one folder per medium (`…_Tamil_Complete`, `…_English_Complete`). The two folders have the same 35 chapters and IDs:
+
+```
+science_notes.md            "## SC10-01: Title" → 20 Grade 10 and 15 Grade 11 chapters
+science_flashcards.md, science_quizzes.md   items with <!-- meta {"chapter_id": "SC10-01", "answer": 2, "image": …} -->
+science_chapterwise_past_papers.md          2019 references: Paper I items become MCQ practice with their linked original question
+science_calculation_mastery.md … science_mock_exams.md   study guides (calculations, diagrams, equations, experiments, mock exams)
+science_assets/             SVG diagrams, copied to public/science/<ta|en> by the build (the Tamil ones have Tamil labels)
+```
+
+### English
+
+`content/StudyBuddy_English/`. English is one subject for students of every medium (`allMediums` in `scripts/build-content.mjs`), so Tamil-medium students see it in their own list. Chapter 1 is Section A of the notes ("English From Zero") and chapters 2–27 are the Section B chapters. Every quiz, flashcard, grammar-practice and past-paper item has a `topic_id` (`ENG-TOP-…`), which puts it in its chapter; topics without their own chapter go to the closest one (`ENGLISH_TOPIC_HOME`). Multiple-choice and true/false items are the Quiz. Items where students write the answer become practice flashcards, and chapters without multiple-choice items have no Quiz tab. Past papers (2016, 2017, 2020) show the official answers per test and model answers for the writing tasks. The grammar, vocabulary, reading, writing and essay files are study guides. Images in `assets/` are copied to `public/english`.
 
 Locked chapters are never sent to the browser. The server checks access before it loads any chapter content.
 

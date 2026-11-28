@@ -1,0 +1,37 @@
+{
+ "id": "ENG-CHT-0032",
+ "type": "table",
+ "title": "Results of the inter-house sports meet",
+ "columns": [
+  "House",
+  "Gold",
+  "Silver",
+  "Bronze"
+ ],
+ "rows": [
+  [
+   "Vijaya",
+   5,
+   3,
+   2
+  ],
+  [
+   "Tissa",
+   3,
+   6,
+   4
+  ],
+  [
+   "Gemunu",
+   7,
+   2,
+   1
+  ],
+  [
+   "Parakrama",
+   2,
+   4,
+   6
+  ]
+ ]
+}

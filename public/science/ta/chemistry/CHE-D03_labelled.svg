@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 776 440" width="776" height="440" role="img" aria-label="Preparation of hydrogen — collection over water">
+<style>
+.o{fill:none;stroke:#1f2937;stroke-width:2} .t{fill:none;stroke:#1f2937;stroke-width:1.2}
+.f1{fill:#dcfce7;stroke:#166534;stroke-width:1.6} .f2{fill:#fee2e2;stroke:#991b1b;stroke-width:1.6} .f3{fill:#dbeafe;stroke:#1e40af;stroke-width:1.6}
+.f4{fill:#fef9c3;stroke:#854d0e;stroke-width:1.6} .f5{fill:#ede9fe;stroke:#5b21b6;stroke-width:1.6} .f6{fill:#f3f4f6;stroke:#374151;stroke-width:1.6}
+.k{fill:#1f2937} .ld{stroke:#6b7280;stroke-width:1;fill:none} .lt{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:13px;fill:#111827}
+.le{font-family:sans-serif;font-size:10.5px;fill:#4b5563} .num{font-family:sans-serif;font-size:12px;font-weight:bold;fill:#1e3a8a}
+.box{fill:#fff;stroke:#1e3a8a;stroke-width:1.3} .cap{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:14px;font-weight:bold;fill:#111827}
+.sm{font-family:sans-serif;font-size:12px;fill:#111827} .ar{fill:none;stroke:#b91c1c;stroke-width:2;marker-end:url(#ah)}
+.ray{fill:none;stroke:#c2410c;stroke-width:1.6;marker-mid:url(#ah2)} .dash{fill:none;stroke:#6b7280;stroke-width:1.2;stroke-dasharray:5 4}
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker></defs>
+<rect x="-64" y="0" width="776" height="440" fill="#ffffff"/>
+<g id="CHE-D03-art">
+<path d="M120,380 L170,200 L170,150 L210,150 L210,200 L260,380 Z" class="f6"/>
+<path d="M135,330 L245,330 L260,380 L120,380 Z" class="f3"/>
+<circle cx="150.0" cy="365.0" r="5.0" class="f6"/>
+<circle cx="175.0" cy="365.0" r="5.0" class="f6"/>
+<circle cx="200.0" cy="365.0" r="5.0" class="f6"/>
+<circle cx="225.0" cy="365.0" r="5.0" class="f6"/>
+<path d="M185,40 L185,340 M175,40 C165,20 205,20 195,40 Z" class="o"/>
+<path d="M200,170 L330,170 L330,300 L470,300 L470,250" class="o"/>
+<rect x="320.0" y="260.0" width="260.0" height="130.0" rx="0" class="f3"/>
+<rect x="440.0" y="140.0" width="60.0" height="170.0" rx="0" class="f6"/>
+<rect x="442.0" y="142.0" width="56.0" height="60.0" rx="0" class="t"/>
+</g>
+<g id="CHE-D03-labels">
+<g id="CHE-D03-L01" data-key="thistle">
+<line x1="185.0" y1="60.0" x2="60.0" y2="60.0" class="ld"/><circle cx="185.0" cy="60.0" r="2.5" class="k"/>
+<text x="56.0" y="59.0" text-anchor="end" class="lt">முட்புனல்</text>
+<text x="56.0" y="71.0" text-anchor="end" class="le">(thistle funnel)</text>
+</g>
+<g id="CHE-D03-L02" data-key="acid">
+<line x1="210.0" y1="345.0" x2="60.0" y2="320.0" class="ld"/><circle cx="210.0" cy="345.0" r="2.5" class="k"/>
+<text x="56.0" y="319.0" text-anchor="end" class="lt">ஐதான HCl</text>
+<text x="56.0" y="331.0" text-anchor="end" class="le">(dilute HCl)</text>
+</g>
+<g id="CHE-D03-L03" data-key="zinc">
+<line x1="175.0" y1="365.0" x2="60.0" y2="400.0" class="ld"/><circle cx="175.0" cy="365.0" r="2.5" class="k"/>
+<text x="56.0" y="399.0" text-anchor="end" class="lt">நாகத் துண்டுகள்</text>
+<text x="56.0" y="411.0" text-anchor="end" class="le">(zinc granules)</text>
+</g>
+<g id="CHE-D03-L04" data-key="tube">
+<line x1="330.0" y1="230.0" x2="270.0" y2="120.0" class="ld"/><circle cx="330.0" cy="230.0" r="2.5" class="k"/>
+<text x="266.0" y="119.0" text-anchor="end" class="lt">விநியோகக் குழாய்</text>
+<text x="266.0" y="131.0" text-anchor="end" class="le">(delivery tube)</text>
+</g>
+<g id="CHE-D03-L05" data-key="jar">
+<line x1="470.0" y1="170.0" x2="580.0" y2="120.0" class="ld"/><circle cx="470.0" cy="170.0" r="2.5" class="k"/>
+<text x="584.0" y="119.0" text-anchor="start" class="lt">வாயுச் சாடி (H₂)</text>
+<text x="584.0" y="131.0" text-anchor="start" class="le">(gas jar)</text>
+</g>
+<g id="CHE-D03-L06" data-key="trough">
+<line x1="560.0" y1="360.0" x2="600.0" y2="410.0" class="ld"/><circle cx="560.0" cy="360.0" r="2.5" class="k"/>
+<text x="604.0" y="409.0" text-anchor="start" class="lt">நீர்த் தொட்டி</text>
+<text x="604.0" y="421.0" text-anchor="start" class="le">(water trough)</text>
+</g>
+</g></svg>

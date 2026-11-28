@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { LockedPanel } from "@/components/LockedPanel";
 import { QuizRunner } from "@/components/QuizRunner";
 import { chapterHref } from "@/lib/catalog";
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: { params: ChapterParams }) {
 export default async function QuizPage({ params }: { params: ChapterParams }) {
   const { subject, summary: c, viewer, open, content, steps } = await resolveChapter(params, true);
   if (!open || !content) return <LockedPanel chapter={c} viewer={viewer} />;
+  if (!content.quiz.length) redirect(chapterHref(subject.id, c.grade, c.number, "flashcards"));
   return (
     <QuizRunner
       kind="quiz"

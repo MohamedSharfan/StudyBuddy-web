@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-127 0 830 420" width="830" height="420" role="img" aria-label="Oxygen released in photosynthesis">
+<style>
+.o{fill:none;stroke:#1f2937;stroke-width:2} .t{fill:none;stroke:#1f2937;stroke-width:1.2}
+.f1{fill:#dcfce7;stroke:#166534;stroke-width:1.6} .f2{fill:#fee2e2;stroke:#991b1b;stroke-width:1.6} .f3{fill:#dbeafe;stroke:#1e40af;stroke-width:1.6}
+.f4{fill:#fef9c3;stroke:#854d0e;stroke-width:1.6} .f5{fill:#ede9fe;stroke:#5b21b6;stroke-width:1.6} .f6{fill:#f3f4f6;stroke:#374151;stroke-width:1.6}
+.k{fill:#1f2937} .ld{stroke:#6b7280;stroke-width:1;fill:none} .lt{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:13px;fill:#111827}
+.le{font-family:sans-serif;font-size:10.5px;fill:#4b5563} .num{font-family:sans-serif;font-size:12px;font-weight:bold;fill:#1e3a8a}
+.box{fill:#fff;stroke:#1e3a8a;stroke-width:1.3} .cap{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:14px;font-weight:bold;fill:#111827}
+.sm{font-family:sans-serif;font-size:12px;fill:#111827} .ar{fill:none;stroke:#b91c1c;stroke-width:2;marker-end:url(#ah)}
+.ray{fill:none;stroke:#c2410c;stroke-width:1.6;marker-mid:url(#ah2)} .dash{fill:none;stroke:#6b7280;stroke-width:1.2;stroke-dasharray:5 4}
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker></defs>
+<rect x="-127" y="0" width="830" height="420" fill="#ffffff"/>
+<g id="EXP-D02-art">
+<path d="M180,120 L180,380 L440,380 L440,120" class="o"/>
+<rect x="182.0" y="150.0" width="256.0" height="228.0" rx="0" class="f3"/>
+<path d="M230,370 L310,250 L390,370 Z" class="f6"/>
+<rect x="300.0" y="140.0" width="20.0" height="110.0" rx="0" class="f6"/>
+<rect x="302.0" y="142.0" width="16.0" height="30.0" rx="0" class="t"/>
+<ellipse cx="280.0" cy="340.0" rx="14.0" ry="5.0" class="f1" transform="rotate(30 280.0 340.0)"/>
+<ellipse cx="310.0" cy="320.0" rx="14.0" ry="5.0" class="f1" transform="rotate(30 310.0 320.0)"/>
+<ellipse cx="340.0" cy="345.0" rx="14.0" ry="5.0" class="f1" transform="rotate(30 340.0 345.0)"/>
+<ellipse cx="300.0" cy="300.0" rx="14.0" ry="5.0" class="f1" transform="rotate(30 300.0 300.0)"/>
+<circle cx="310.0" cy="200.0" r="3.0" class="f6"/>
+<circle cx="310.0" cy="220.0" r="3.0" class="f6"/>
+<circle cx="310.0" cy="235.0" r="3.0" class="f6"/>
+<circle cx="520.0" cy="120.0" r="22.0" class="f4"/>
+<line x1="546.0" y1="120.0" x2="556.0" y2="120.0" class="t"/>
+<line x1="538.4" y1="138.4" x2="545.5" y2="145.5" class="t"/>
+<line x1="520.0" y1="146.0" x2="520.0" y2="156.0" class="t"/>
+<line x1="501.6" y1="138.4" x2="494.5" y2="145.5" class="t"/>
+<line x1="494.0" y1="120.0" x2="484.0" y2="120.0" class="t"/>
+<line x1="501.6" y1="101.6" x2="494.5" y2="94.5" class="t"/>
+<line x1="520.0" y1="94.0" x2="520.0" y2="84.0" class="t"/>
+<line x1="538.4" y1="101.6" x2="545.5" y2="94.5" class="t"/>
+</g>
+<g id="EXP-D02-labels">
+<g id="EXP-D02-L01" data-key="plant">
+<line x1="300.0" y1="330.0" x2="80.0" y2="330.0" class="ld"/><circle cx="300.0" cy="330.0" r="2.5" class="k"/>
+<text x="76.0" y="329.0" text-anchor="end" class="lt">நீர்வாழ் தாவரம் (Hydrilla)</text>
+<text x="76.0" y="341.0" text-anchor="end" class="le">(aquatic plant)</text>
+</g>
+<g id="EXP-D02-L02" data-key="funnel">
+<line x1="250.0" y1="340.0" x2="80.0" y2="260.0" class="ld"/><circle cx="250.0" cy="340.0" r="2.5" class="k"/>
+<text x="76.0" y="259.0" text-anchor="end" class="lt">புனல்</text>
+<text x="76.0" y="271.0" text-anchor="end" class="le">(inverted funnel)</text>
+</g>
+<g id="EXP-D02-L03" data-key="tube">
+<line x1="310.0" y1="160.0" x2="480.0" y2="220.0" class="ld"/><circle cx="310.0" cy="160.0" r="2.5" class="k"/>
+<text x="484.0" y="219.0" text-anchor="start" class="lt">சோதனைக் குழாய் — சேரும் வாயு</text>
+<text x="484.0" y="231.0" text-anchor="start" class="le">(test tube (gas))</text>
+</g>
+<g id="EXP-D02-L04" data-key="light">
+<line x1="520.0" y1="120.0" x2="560.0" y2="60.0" class="ld"/><circle cx="520.0" cy="120.0" r="2.5" class="k"/>
+<text x="564.0" y="59.0" text-anchor="start" class="lt">ஒளி மூலம்</text>
+<text x="564.0" y="71.0" text-anchor="start" class="le">(light source)</text>
+</g>
+<g id="EXP-D02-L05" data-key="water">
+<line x1="420.0" y1="300.0" x2="520.0" y2="350.0" class="ld"/><circle cx="420.0" cy="300.0" r="2.5" class="k"/>
+<text x="524.0" y="349.0" text-anchor="start" class="lt">நீர் (+ NaHCO₃)</text>
+<text x="524.0" y="361.0" text-anchor="start" class="le">(water with NaHCO₃)</text>
+</g>
+</g></svg>

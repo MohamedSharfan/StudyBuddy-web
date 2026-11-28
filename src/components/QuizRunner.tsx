@@ -16,6 +16,8 @@ export type RunnerQuestion = {
   explanation: string;
   meta?: string[];
   note?: string;
+  /** A diagram or picture the question is about. */
+  image?: { src: string; w: number; h: number };
 };
 
 function Dot({ state, current }: { state: "right" | "wrong" | "todo"; current: boolean }) {
@@ -211,6 +213,10 @@ export function QuizRunner({
           <RichText text={q.prompt} className="font-bold !text-white" />
         ) : (
           <h2 className="text-lg sm:text-xl font-bold leading-relaxed whitespace-pre-wrap">{withArabic(q.prompt)}</h2>
+        )}
+        {q.image && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={q.image.src} width={q.image.w} height={q.image.h} alt="" className="block w-auto max-w-full max-h-[360px] h-auto rounded-xl bg-white mt-4" />
         )}
         <div className="grid gap-3 mt-6" role="radiogroup">
           {q.options.map((o, i) => {

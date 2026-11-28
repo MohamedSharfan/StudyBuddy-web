@@ -1,0 +1,27 @@
+{
+ "id": "ENG-CHT-0005",
+ "type": "bar",
+ "title": "Rainfall in a town (2024)",
+ "x_label": "Month",
+ "y_label": "Rainfall (mm)",
+ "categories": [
+  "May",
+  "June",
+  "July",
+  "August",
+  "September"
+ ],
+ "series": [
+  {
+   "name": "Rainfall",
+   "values": [
+    250,
+    180,
+    60,
+    60,
+    120
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

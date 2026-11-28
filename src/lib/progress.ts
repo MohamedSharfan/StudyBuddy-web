@@ -5,7 +5,9 @@ export const STEP_KINDS = ["lesson", "flashcards", "quiz", "pastpaper"] as const
 export const STEP_LABELS = ["Notes", "Flashcards", "Quiz", "Past papers"] as const;
 
 export function chapterSteps(chapter: ChapterSummary, done: Set<string>) {
-  return STEP_KINDS.map((k) => done.has(`${chapter.id}:${k}`) || (k === "pastpaper" && chapter.counts.mcq === 0 && done.has(`${chapter.id}:quiz`)));
+  // A chapter without quiz questions (some English chapters) counts its quiz step done once the flashcards are.
+  const quizDone = done.has(`${chapter.id}:quiz`) || (chapter.counts.quiz === 0 && done.has(`${chapter.id}:flashcards`));
+  return STEP_KINDS.map((k) => (k === "quiz" ? quizDone : done.has(`${chapter.id}:${k}`) || (k === "pastpaper" && chapter.counts.mcq === 0 && quizDone)));
 }
 
 export function isChapterOpen(chapter: ChapterSummary, hasAccess: boolean) {

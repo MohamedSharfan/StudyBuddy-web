@@ -1,0 +1,25 @@
+{
+ "id": "ENG-CHT-0004",
+ "type": "bar",
+ "title": "Books borrowed from the school library",
+ "x_label": "Month",
+ "y_label": "Number of books",
+ "categories": [
+  "January",
+  "February",
+  "March",
+  "April"
+ ],
+ "series": [
+  {
+   "name": "Books",
+   "values": [
+    150,
+    210,
+    180,
+    90
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

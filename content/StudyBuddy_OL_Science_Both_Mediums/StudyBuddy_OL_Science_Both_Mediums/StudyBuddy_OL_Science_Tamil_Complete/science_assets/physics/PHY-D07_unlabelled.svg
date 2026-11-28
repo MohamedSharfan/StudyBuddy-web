@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Transformer">
+<style>
+.o{fill:none;stroke:#1f2937;stroke-width:2} .t{fill:none;stroke:#1f2937;stroke-width:1.2}
+.f1{fill:#dcfce7;stroke:#166534;stroke-width:1.6} .f2{fill:#fee2e2;stroke:#991b1b;stroke-width:1.6} .f3{fill:#dbeafe;stroke:#1e40af;stroke-width:1.6}
+.f4{fill:#fef9c3;stroke:#854d0e;stroke-width:1.6} .f5{fill:#ede9fe;stroke:#5b21b6;stroke-width:1.6} .f6{fill:#f3f4f6;stroke:#374151;stroke-width:1.6}
+.k{fill:#1f2937} .ld{stroke:#6b7280;stroke-width:1;fill:none} .lt{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:13px;fill:#111827}
+.le{font-family:sans-serif;font-size:10.5px;fill:#4b5563} .num{font-family:sans-serif;font-size:12px;font-weight:bold;fill:#1e3a8a}
+.box{fill:#fff;stroke:#1e3a8a;stroke-width:1.3} .cap{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:14px;font-weight:bold;fill:#111827}
+.sm{font-family:sans-serif;font-size:12px;fill:#111827} .ar{fill:none;stroke:#b91c1c;stroke-width:2;marker-end:url(#ah)}
+.ray{fill:none;stroke:#c2410c;stroke-width:1.6;marker-mid:url(#ah2)} .dash{fill:none;stroke:#6b7280;stroke-width:1.2;stroke-dasharray:5 4}
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker></defs>
+<rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+<g id="PHY-D07-art">
+<rect x="200.0" y="90.0" width="240.0" height="220.0" rx="0" class="f6"/>
+<rect x="250.0" y="140.0" width="140.0" height="120.0" rx="0" class="o"/>
+<rect x="250" y="140" width="140" height="120" fill="#ffffff"/>
+<ellipse cx="225.0" cy="110.0" rx="30.0" ry="9.0" class="f2" transform="rotate(0 225.0 110.0)"/>
+<ellipse cx="225.0" cy="140.0" rx="30.0" ry="9.0" class="f2" transform="rotate(0 225.0 140.0)"/>
+<ellipse cx="225.0" cy="170.0" rx="30.0" ry="9.0" class="f2" transform="rotate(0 225.0 170.0)"/>
+<ellipse cx="225.0" cy="200.0" rx="30.0" ry="9.0" class="f2" transform="rotate(0 225.0 200.0)"/>
+<ellipse cx="225.0" cy="230.0" rx="30.0" ry="9.0" class="f2" transform="rotate(0 225.0 230.0)"/>
+<ellipse cx="225.0" cy="260.0" rx="30.0" ry="9.0" class="f2" transform="rotate(0 225.0 260.0)"/>
+<ellipse cx="225.0" cy="290.0" rx="30.0" ry="9.0" class="f2" transform="rotate(0 225.0 290.0)"/>
+<ellipse cx="415.0" cy="135.0" rx="30.0" ry="9.0" class="f3" transform="rotate(0 415.0 135.0)"/>
+<ellipse cx="415.0" cy="175.0" rx="30.0" ry="9.0" class="f3" transform="rotate(0 415.0 175.0)"/>
+<ellipse cx="415.0" cy="215.0" rx="30.0" ry="9.0" class="f3" transform="rotate(0 415.0 215.0)"/>
+<ellipse cx="415.0" cy="255.0" rx="30.0" ry="9.0" class="f3" transform="rotate(0 415.0 255.0)"/>
+<line x1="195.0" y1="110.0" x2="120.0" y2="110.0" class="o"/>
+<line x1="195.0" y1="290.0" x2="120.0" y2="290.0" class="o"/>
+<line x1="445.0" y1="135.0" x2="520.0" y2="135.0" class="o"/>
+<line x1="445.0" y1="255.0" x2="520.0" y2="255.0" class="o"/>
+<text x="110.0" y="205.0" text-anchor="middle" class="cap">AC</text>
+<text x="540.0" y="200.0" text-anchor="middle" class="cap">Vs</text>
+</g>
+<g id="PHY-D07-labels">
+<g id="PHY-D07-L01" data-key="core">
+<line x1="320.0" y1="100.0" x2="320.0" y2="40.0" class="ld"/><circle cx="320.0" cy="100.0" r="2.5" class="k"/>
+<rect id="PHY-D07-L01-target" x="320.0" y="30.0" width="22" height="18" rx="3" class="box"/>
+<text x="331.0" y="43.5" text-anchor="middle" class="num">1</text>
+</g>
+<g id="PHY-D07-L02" data-key="prim">
+<line x1="225.0" y1="200.0" x2="70.0" y2="340.0" class="ld"/><circle cx="225.0" cy="200.0" r="2.5" class="k"/>
+<rect id="PHY-D07-L02-target" x="48.0" y="330.0" width="22" height="18" rx="3" class="box"/>
+<text x="59.0" y="343.5" text-anchor="middle" class="num">2</text>
+</g>
+<g id="PHY-D07-L03" data-key="sec">
+<line x1="415.0" y1="215.0" x2="560.0" y2="340.0" class="ld"/><circle cx="415.0" cy="215.0" r="2.5" class="k"/>
+<rect id="PHY-D07-L03-target" x="560.0" y="330.0" width="22" height="18" rx="3" class="box"/>
+<text x="571.0" y="343.5" text-anchor="middle" class="num">3</text>
+</g>
+</g></svg>

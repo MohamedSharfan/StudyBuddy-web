@@ -1,0 +1,21 @@
+{
+ "id": "ENG-CHT-0022",
+ "type": "pie",
+ "title": "Uses of water in a home",
+ "categories": [
+  "Bathing",
+  "Cooking",
+  "Washing clothes",
+  "Gardening",
+  "Drinking"
+ ],
+ "values": [
+  35,
+  15,
+  25,
+  15,
+  10
+ ],
+ "unit": "%",
+ "total": 100
+}

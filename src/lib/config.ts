@@ -1,7 +1,7 @@
 /**
  * Launch settings. Safe to import from client and server code.
  *
- * Free launch: no student sign-in, every chapter open, only O/L Islam, History, Mathematics and Tamil live.
+ * Free launch: no student sign-in, every chapter open, only O/L Islam, History, Mathematics, Science, Tamil and English live.
  * To bring back accounts, coins, ranks and paid unlocks later, set LOGIN_ENABLED = true and
  * FREE_ACCESS = false. Admins can still sign in at /login and use /admin while these are off.
  */

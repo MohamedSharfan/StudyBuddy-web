@@ -1,0 +1,21 @@
+{
+ "id": "ENG-CHT-0017",
+ "type": "pie",
+ "title": "How a family spends its monthly income",
+ "categories": [
+  "Food",
+  "Education",
+  "Transport",
+  "Savings",
+  "Other"
+ ],
+ "values": [
+  40,
+  20,
+  15,
+  10,
+  15
+ ],
+ "unit": "%",
+ "total": 100
+}

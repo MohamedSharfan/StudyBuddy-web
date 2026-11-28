@@ -36,6 +36,8 @@ export type SubjectSummary = {
   maps?: boolean;
   /** History: picture study — past-paper picture questions (Part II Q1 (b)) and textbook pictures per grade. */
   pictures?: { papers: number; years: number[]; textbook: Record<string, number> };
+  /** English: one version for students of every medium. */
+  allMediums?: boolean;
   /** Display names for grades that aren't one school grade, e.g. Tamil: { "10": "Grade 10 & 11" }. */
   gradeLabels?: Record<string, string>;
   /** Tamil, Maths: past papers by year and paper, and subject-wide reading guides (full text in generated/extras). */
@@ -65,7 +67,7 @@ export function subjectsForLevel(profile: StudentLevel) {
 export function subjectsFor(profile: StudentLevel) {
   const forLevel = subjectsForLevel(profile);
   if (!profile?.medium) return forLevel;
-  const mine = forLevel.filter((s) => s.medium === profile.medium);
+  const mine = forLevel.filter((s) => s.medium === profile.medium || s.allMediums);
   return mine.length ? mine : forLevel;
 }
 

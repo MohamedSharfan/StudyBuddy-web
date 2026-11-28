@@ -1,0 +1,19 @@
+{
+ "id": "ENG-CHT-0024",
+ "type": "pie",
+ "title": "Types of books in a class library",
+ "categories": [
+  "Story books",
+  "Science books",
+  "Dictionaries",
+  "Magazines"
+ ],
+ "values": [
+  50,
+  20,
+  5,
+  25
+ ],
+ "unit": "%",
+ "total": 100
+}

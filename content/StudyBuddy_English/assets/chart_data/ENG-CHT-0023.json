@@ -1,0 +1,19 @@
+{
+ "id": "ENG-CHT-0023",
+ "type": "pie",
+ "title": "Reasons for being late to school",
+ "categories": [
+  "Traffic",
+  "Waking up late",
+  "Bad weather",
+  "Other"
+ ],
+ "values": [
+  45,
+  30,
+  15,
+  10
+ ],
+ "unit": "%",
+ "total": 100
+}

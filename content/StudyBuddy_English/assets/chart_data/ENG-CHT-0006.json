@@ -1,0 +1,27 @@
+{
+ "id": "ENG-CHT-0006",
+ "type": "bar",
+ "title": "Favourite school subjects",
+ "x_label": "Subjects",
+ "y_label": "Number of students",
+ "categories": [
+  "Maths",
+  "Science",
+  "English",
+  "History",
+  "ICT"
+ ],
+ "series": [
+  {
+   "name": "Students",
+   "values": [
+    18,
+    22,
+    15,
+    8,
+    22
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

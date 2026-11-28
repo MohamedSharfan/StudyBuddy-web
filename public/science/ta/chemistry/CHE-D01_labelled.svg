@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-18 0 708 420" width="708" height="420" role="img" aria-label="Sodium atom electron arrangement (2,8,1)">
+<style>
+.o{fill:none;stroke:#1f2937;stroke-width:2} .t{fill:none;stroke:#1f2937;stroke-width:1.2}
+.f1{fill:#dcfce7;stroke:#166534;stroke-width:1.6} .f2{fill:#fee2e2;stroke:#991b1b;stroke-width:1.6} .f3{fill:#dbeafe;stroke:#1e40af;stroke-width:1.6}
+.f4{fill:#fef9c3;stroke:#854d0e;stroke-width:1.6} .f5{fill:#ede9fe;stroke:#5b21b6;stroke-width:1.6} .f6{fill:#f3f4f6;stroke:#374151;stroke-width:1.6}
+.k{fill:#1f2937} .ld{stroke:#6b7280;stroke-width:1;fill:none} .lt{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:13px;fill:#111827}
+.le{font-family:sans-serif;font-size:10.5px;fill:#4b5563} .num{font-family:sans-serif;font-size:12px;font-weight:bold;fill:#1e3a8a}
+.box{fill:#fff;stroke:#1e3a8a;stroke-width:1.3} .cap{font-family:'Noto Sans Tamil','Latha','Nirmala UI','FreeSerif',sans-serif;font-size:14px;font-weight:bold;fill:#111827}
+.sm{font-family:sans-serif;font-size:12px;fill:#111827} .ar{fill:none;stroke:#b91c1c;stroke-width:2;marker-end:url(#ah)}
+.ray{fill:none;stroke:#c2410c;stroke-width:1.6;marker-mid:url(#ah2)} .dash{fill:none;stroke:#6b7280;stroke-width:1.2;stroke-dasharray:5 4}
+</style>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+<marker id="ah2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2937"/></marker></defs>
+<rect x="-18" y="0" width="708" height="420" fill="#ffffff"/>
+<g id="CHE-D01-art">
+<circle cx="300.0" cy="210.0" r="28.0" class="f2"/>
+<text x="300.0" y="208.0" text-anchor="middle" class="sm">11p</text>
+<text x="300.0" y="222.0" text-anchor="middle" class="sm">12n</text>
+<circle cx="300.0" cy="210.0" r="60.0" class="t"/>
+<circle cx="300.0" cy="150.0" r="6.0" class="f3"/>
+<circle cx="300.0" cy="270.0" r="6.0" class="f3"/>
+<circle cx="300.0" cy="210.0" r="110.0" class="t"/>
+<circle cx="300.0" cy="100.0" r="6.0" class="f3"/>
+<circle cx="222.2" cy="132.2" r="6.0" class="f3"/>
+<circle cx="190.0" cy="210.0" r="6.0" class="f3"/>
+<circle cx="222.2" cy="287.8" r="6.0" class="f3"/>
+<circle cx="300.0" cy="320.0" r="6.0" class="f3"/>
+<circle cx="377.8" cy="287.8" r="6.0" class="f3"/>
+<circle cx="410.0" cy="210.0" r="6.0" class="f3"/>
+<circle cx="377.8" cy="132.2" r="6.0" class="f3"/>
+<circle cx="300.0" cy="210.0" r="160.0" class="t"/>
+<circle cx="300.0" cy="50.0" r="6.0" class="f3"/>
+</g>
+<g id="CHE-D01-labels">
+<g id="CHE-D01-L01" data-key="nucleus">
+<line x1="300.0" y1="230.0" x2="90.0" y2="380.0" class="ld"/><circle cx="300.0" cy="230.0" r="2.5" class="k"/>
+<text x="86.0" y="379.0" text-anchor="end" class="lt">கரு</text>
+<text x="86.0" y="391.0" text-anchor="end" class="le">(nucleus)</text>
+</g>
+<g id="CHE-D01-L02" data-key="e">
+<line x1="300.0" y1="50.0" x2="480.0" y2="40.0" class="ld"/><circle cx="300.0" cy="50.0" r="2.5" class="k"/>
+<text x="484.0" y="39.0" text-anchor="start" class="lt">இலத்திரன்</text>
+<text x="484.0" y="51.0" text-anchor="start" class="le">(electron)</text>
+</g>
+<g id="CHE-D01-L03" data-key="shell1">
+<line x1="360.0" y1="210.0" x2="520.0" y2="230.0" class="ld"/><circle cx="360.0" cy="210.0" r="2.5" class="k"/>
+<text x="524.0" y="229.0" text-anchor="start" class="lt">முதலாம் சக்தி மட்டம்</text>
+<text x="524.0" y="241.0" text-anchor="start" class="le">(first shell (K))</text>
+</g>
+<g id="CHE-D01-L04" data-key="shell2">
+<line x1="378.1" y1="288.1" x2="520.0" y2="330.0" class="ld"/><circle cx="378.1" cy="288.1" r="2.5" class="k"/>
+<text x="524.0" y="329.0" text-anchor="start" class="lt">இரண்டாம் சக்தி மட்டம்</text>
+<text x="524.0" y="341.0" text-anchor="start" class="le">(second shell (L))</text>
+</g>
+<g id="CHE-D01-L05" data-key="valence">
+<line x1="188.0" y1="98.0" x2="80.0" y2="60.0" class="ld"/><circle cx="188.0" cy="98.0" r="2.5" class="k"/>
+<text x="76.0" y="59.0" text-anchor="end" class="lt">வலுவளவு ஓடு</text>
+<text x="76.0" y="71.0" text-anchor="end" class="le">(valence shell)</text>
+</g>
+</g></svg>

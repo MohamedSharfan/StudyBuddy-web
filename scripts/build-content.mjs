@@ -23,6 +23,9 @@ const OUT_PICTURES = path.join(ROOT, "generated", "pictures");
 const OUT_EXTRAS = path.join(ROOT, "generated", "extras");
 
 const MATHS_DIR = "StudyBuddy_Mathematics_Complete/StudyBuddy_Mathematics";
+const SCIENCE_DIR = "StudyBuddy_OL_Science_Both_Mediums/StudyBuddy_OL_Science_Both_Mediums";
+const SCIENCE_PAPER_NOTE =
+  "Exam topics from the 2019 O/L Science papers, sorted by chapter. Each one comes with a practice question of the same type; the original wording isn't reproduced.";
 const MATHS_PAPER_NOTE =
   "Exam questions from the 2018 and 2019 O/L papers and two MOE practice tests, sorted by chapter. Each one comes with a practice question of the same type and a full worked answer.";
 
@@ -155,6 +158,62 @@ const SUBJECTS = [
     gradeLabels: { 10: "Grade 10 & 11" },
     pastPaperNote: "Past-paper questions are from the Sri Lankan O/L Tamil Language & Literature papers I, II and III (2016–2025).",
     relatedHeading: "தொடர்புடைய பிற வினாக்கள்",
+  },
+  // Science: the StudyBuddy O/L Science package, one folder per medium (see readScience()).
+  {
+    id: "science-ol",
+    dir: SCIENCE_DIR + "/StudyBuddy_OL_Science_Tamil_Complete",
+    layout: "science",
+    name: "Science",
+    nameLocal: "விஞ்ஞானம்",
+    level: "O/L",
+    streams: [],
+    icon: "atom",
+    medium: "Tamil",
+    tagline: "Grade 10 & 11 · Tamil medium",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "ta",
+    pastPaperNote: SCIENCE_PAPER_NOTE,
+    relatedHeading: "தொடர்புடைய பிற வினாக்கள்",
+  },
+  {
+    id: "science-ol-en",
+    dir: SCIENCE_DIR + "/StudyBuddy_OL_Science_English_Complete",
+    layout: "science",
+    name: "Science",
+    nameLocal: "",
+    level: "O/L",
+    streams: [],
+    icon: "atom",
+    medium: "English",
+    tagline: "Grade 10 & 11 · English medium",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "en",
+    pastPaperNote: SCIENCE_PAPER_NOTE,
+    relatedHeading: "Related questions in other chapters",
+  },
+  // English language: one version, taught in English, shown to students of every medium (allMediums).
+  {
+    id: "english-ol",
+    dir: "StudyBuddy_English",
+    layout: "english",
+    name: "English",
+    nameLocal: "",
+    level: "O/L",
+    streams: [],
+    icon: "book-a",
+    medium: "English",
+    allMediums: true,
+    tagline: "Grade 10 & 11 · English language",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "en",
+    gradeLabels: { 10: "Grade 10 & 11" },
+    pastPaperNote:
+      "Official answers from the 2016, 2017 and 2020 O/L English marking schemes, with model answers for the writing tasks. The question wording isn't reproduced.",
+    relatedHeading: "Related questions in other chapters",
   },
 ];
 
@@ -1063,23 +1122,437 @@ function mathsPastPapers(body, bank, lang) {
   return { ...EMPTY_PAPERS(), structured, years };
 }
 
-/** Subject-wide reading (pattern mastery, visual maths, exam tricks): one guide per file, one section per "## " heading. */
-function guideFrom(slug, md, clean, skip = /^$/) {
-  const title = (md.match(/^# (.+)$/m)?.[1] ?? slug).replace(/^.*?(?:·\s*\d+\s+|–\s*)/, "").trim();
+/** "VIS-GEO-01 — Title", "EQ-001: Title", "CL-SPEED: Title" → "Title". */
+const dropId = (t) => t.replace(/^(?:[A-Z]{2,5}|ENG-[A-Z]+)-[\w-]+\s*(?:[—–:·]|-\s)\s*/, "").trim();
+
+/**
+ * Subject-wide reading (pattern mastery, exam tricks, essay bank, …): one guide per file, one section per "## " heading.
+ * A very long "## " section with "### " parts (an essay bank, an equation bank) is split into one section per part.
+ */
+function guideFrom(slug, md, clean, skip = /^$/, title = "") {
+  const h1 = md.match(/^# (.+)$/m)?.[1] ?? slug;
+  title ||= (/^StudyBuddy\s*[—–-]/.test(h1) ? h1.replace(/^StudyBuddy\s*[—–-]\s*/, "").replace(/^.*·\s*\d+\s+/, "") : h1.replace(/^.*?–\s*/, "")).trim();
   const heads = [...md.matchAll(/^## (.+)$/gm)];
   const intro = clean(md.slice(0, heads[0]?.index ?? md.length).replace(/^[\s\S]*?^# .+$/m, "").replace(/^meta:\n(?:- [^\n]*\n)*/m, ""))
     .replace(/^\*[^*\n]+\*\s*$/m, "")
     .replace(/^-{3,}\s*$/gm, "")
+    .replace(/^# .*$/gm, "")
     .trim();
   const sections = [];
+  const add = (heading, body) => {
+    body = clean(body.replace(/\n-{3,}\s*$/, "")).replace(/^(?:\s*-{3,}\s*\n)+/, "").trim();
+    if (body) sections.push({ slug: String(sections.length + 1), title: dropId(heading), body });
+  };
   heads.forEach((m, i) => {
     const heading = plain(m[1]).trim();
     if (skip.test(heading)) return;
-    const body = clean(md.slice(m.index + m[0].length, i + 1 < heads.length ? heads[i + 1].index : md.length).replace(/\n-{3,}\s*$/, ""));
-    if (body) sections.push({ slug: String(sections.length + 1), title: heading.replace(/^(?:VIS|P[12][AB]|ESS|WS|GR)-[\w-]+\s+[—–-]\s+/, ""), body });
+    const raw = md.slice(m.index + m[0].length, i + 1 < heads.length ? heads[i + 1].index : md.length).replace(/^# .*$/gm, "");
+    const parts = [...raw.matchAll(/^### (.+)$/gm)];
+    if (raw.length < 25000 || parts.length < 2) return add(heading, raw);
+    const lead = raw.slice(0, parts[0].index);
+    if (clean(lead).replace(/^[\s-]*$/gm, "").trim().length > 200) add(heading, lead);
+    parts.forEach((p, j) => add(plain(p[1]), raw.slice(p.index + p[0].length, j + 1 < parts.length ? parts[j + 1].index : raw.length)));
   });
   return { slug, title, intro, sections };
 }
+
+// ── Shared helpers for the Science and English packages ──
+
+/** Copies every SVG under `srcDir` to /public/<publicRel> and returns relative path → [w, h]. */
+function copySvgs(srcDir, publicRel) {
+  const sizes = new Map();
+  if (!exists(srcDir)) return sizes;
+  const walk = (dir) => {
+    for (const f of fs.readdirSync(dir)) {
+      const abs = path.join(dir, f);
+      if (fs.statSync(abs).isDirectory()) walk(abs);
+      else if (f.endsWith(".svg")) {
+        const rel = path.relative(srcDir, abs).split(path.sep).join("/");
+        const svg = read(abs);
+        const target = path.join(ROOT, "public", publicRel, rel);
+        fs.mkdirSync(path.dirname(target), { recursive: true });
+        if (!exists(target) || read(target) !== svg) fs.writeFileSync(target, svg);
+        const box = svg.match(/viewBox="\s*[-\d.]+[\s,]+[-\d.]+[\s,]+([\d.]+)[\s,]+([\d.]+)/);
+        sizes.set(rel, box ? [Math.round(+box[1]), Math.round(+box[2])] : [400, 300]);
+      }
+    }
+  };
+  walk(srcDir);
+  return sizes;
+}
+
+/** Image and link paths into an asset folder ("science_assets/biology/x.svg") → the copy in /public. */
+function rewriteAssets(md, prefix, publicRel, sizes) {
+  const re = new RegExp(`(!?)\\[([^\\]]*)\\]\\((?:\\.\\./)?${prefix}/([^)\\s]+)\\)`, "g");
+  return md.replace(re, (all, bang, alt, rel) => {
+    const size = sizes.get(rel);
+    if (!size) return bang ? "" : alt;
+    return bang ? `![${alt}](/${publicRel}/${rel}#${size[0]}x${size[1]})` : `[${alt}](/${publicRel}/${rel})`;
+  });
+}
+
+/** { src, w, h } for an asset path, or undefined. */
+function assetImage(rel, prefix, publicRel, sizes) {
+  const r = (rel || "").replace(new RegExp(`^(?:\\.\\./)?${prefix}/`), "");
+  const size = sizes.get(r);
+  return size ? { src: `/${publicRel}/${r}`, w: size[0], h: size[1] } : undefined;
+}
+
+/** "<details><summary>Answer</summary> … </details>" → a bold "Answer" line and the text (markdown can't hide it). */
+const openDetails = (md) =>
+  md
+    .replace(/<details>\s*<summary>([\s\S]*?)<\/summary>/g, (_, s) => `\n**${s.trim()}**\n`)
+    .replace(/<\/details>/g, "\n")
+    .replace(/<a id="[^"]*"><\/a>\s*/g, "")
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<br\s*\/?>/g, "  \n");
+
+/** Splits a file on its "<!-- meta {json} -->" comments: [{ meta, body }] (body = text up to the next meta or heading). */
+function metaBlocks(md, type) {
+  const out = [];
+  const marks = [...md.matchAll(/<!-- meta (\{[\s\S]*?\}) -->/g)];
+  marks.forEach((m, i) => {
+    let meta;
+    try {
+      meta = JSON.parse(m[1]);
+    } catch {
+      return;
+    }
+    if (type && meta.type !== type) return;
+    let body = md.slice(m.index + m[0].length, i + 1 < marks.length ? marks[i + 1].index : md.length);
+    const stop = body.search(/^#{1,4} /m);
+    if (stop >= 0) body = body.slice(0, stop);
+    out.push({ meta, body: body.replace(/\n-{3,}\s*$/, "").trim() });
+  });
+  return out;
+}
+
+/** The text inside the first <details> of a block (the hidden answer), and the text before it. */
+function revealSplit(body) {
+  const [before, rest = ""] = body.split(/<details>/);
+  const inside = rest.split("</details>")[0].replace(/<summary>[\s\S]*?<\/summary>/, "").trim();
+  return { before: before.trim(), inside };
+}
+
+/** Plain lines for flashcards and quiz text: no markdown emphasis or trailing hard breaks. */
+const textLines = (t) =>
+  t
+    .split("\n")
+    .map((l) => plain(l.replace(/\s+$/, "")))
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+// ── Science (StudyBuddy O/L Science package) ──
+// <dir>/science_notes.md "## SC10-01: Title" · science_flashcards.md · science_quizzes.md · science_chapterwise_past_papers.md
+// and five mastery files shown as guides. Every item has a "<!-- meta {json} -->" comment (type, id, chapter_id, answer, image).
+const SCIENCE_GUIDES = [
+  ["science_calculation_mastery.md", "calculations"],
+  ["science_diagram_mastery.md", "diagrams"],
+  ["science_chemical_equation_mastery.md", "equations"],
+  ["science_practical_experiments.md", "experiments"],
+  ["science_mock_exams.md", "mock-exams"],
+];
+const SCIENCE_LABELS = {
+  en: { topic: "Exam topic", practice: "Practice question of the same type", mock: "in the Mock exams guide", guides: { "File 3": "Quiz", "File 5": "Calculations", "File 6": "Diagrams", "File 7": "Equations", "File 8": "Experiments", "File 9": "Mock exams" } },
+  ta: { topic: "தேர்வுத் தலைப்பு", practice: "அதே வகைப் பயிற்சி வினா", mock: "மாதிரிப் பரீட்சைகள் வழிகாட்டியில்", guides: {} },
+};
+
+function readScience(subject, dir) {
+  const L = SCIENCE_LABELS[subject.lang];
+  const publicRel = `science/${subject.lang}`;
+  const sizes = copySvgs(path.join(dir, "science_assets"), publicRel);
+  const assets = (md) => rewriteAssets(md, "science_assets", publicRel, sizes);
+  const image = (rel) => assetImage(rel, "science_assets", publicRel, sizes);
+  const file = (name) => (exists(path.join(dir, name)) ? read(path.join(dir, name)) : "");
+  const clean = (md) =>
+    assets(openDetails(md))
+      .replace(/\s*\((?:File|கோப்பு)\s*\d\)/g, "")
+      .replace(/`(ORIGINAL|PAST_PAPER_REFERENCE|INDEPENDENT_EXPLANATION|ORIGINAL_EQUIVALENT)`/g, "")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+
+  // Notes
+  const notesMd = file("science_notes.md");
+  const heads = [...notesMd.matchAll(/^## (SC1([01])-(\d\d)):\s*(.+)$/gm)];
+  const units = new Map();
+  heads.forEach((m, i) => {
+    let body = notesMd.slice(m.index + m[0].length, i + 1 < heads.length ? heads[i + 1].index : notesMd.length);
+    body = clean(body.replace(/<a id="[^"]*"><\/a>/g, "").replace(/\n-{3,}\s*$/, ""));
+    const objectives = [];
+    const list = body.match(/^### [^\n]+\n+((?:- [^\n]+\n?)+)/m);
+    if (list) for (const l of list[1].trim().split("\n")) objectives.push(plain(l.replace(/^- /, "")));
+    units.set(m[1], {
+      grade: Number(`1${m[2]}`),
+      number: Number(m[3]),
+      notes: { ...historyNotes(plain(m[4]), body), objectives },
+      flashcards: [],
+      quiz: [],
+      pastPapers: EMPTY_PAPERS(),
+    });
+  });
+
+  for (const { meta, body } of metaBlocks(file("science_flashcards.md"), "flashcard")) {
+    const unit = units.get(meta.chapter_id);
+    const { before, inside } = revealSplit(body);
+    const front = before.match(/^\*\*[^*\n]+:\*\*\s*([^\n]+)/m)?.[1];
+    if (!unit || !front || !inside) continue;
+    unit.flashcards.push({ front: textLines(front), back: textLines(assets(inside).replace(/^!\[[^\]]*\]\([^)]*\)\s*$/gm, "")), ...(image(meta.image) ? { image: image(meta.image) } : {}) });
+  }
+
+  const quizById = new Map();
+  for (const { meta, body } of metaBlocks(file("science_quizzes.md"), "mcq")) {
+    const unit = units.get(meta.chapter_id);
+    const { before, inside } = revealSplit(body);
+    const lines = before.split("\n").slice(1); // the first line is "**SCQ-…** · Basic · Recall"
+    const options = [];
+    const prompt = [];
+    for (const l of lines) {
+      const o = l.match(/^(\d)\.\s+(.*)$/);
+      if (o) options.push({ key: o[1], text: textLines(o[2]) });
+      else if (!options.length && !/^!\[/.test(l)) prompt.push(l);
+    }
+    if (!unit || options.length < 2 || !meta.answer) continue;
+    const q = {
+      prompt: textLines(prompt.join("\n")),
+      options,
+      answer: String(meta.answer),
+      explanation: textLines(inside.replace(/^\*\*[^\n]*\*\*\s*\n?/, "")),
+      difficulty: ["", "Easy", "Medium", "Hard"][meta.difficulty] || "Medium",
+      ...(image(meta.image) ? { image: image(meta.image) } : {}),
+    };
+    unit.quiz.push(q);
+    quizById.set(meta.id, q);
+  }
+
+  // Past papers: 2019 references. Paper I items become MCQ practice with their linked original question.
+  for (const { meta, body } of metaBlocks(file("science_chapterwise_past_papers.md"), "past_paper_reference")) {
+    const bullets = [...body.matchAll(/^- \*\*`?([^*`]+?)`?:\*\*\s*(.+)$/gm)].map((b) => [b[1].trim(), b[2].trim()]);
+    const topic = bullets[0]?.[1] ?? "";
+    const ref = body.split("\n")[0].replace(/^\*\*[^*]+\*\*\s*·\s*/, "").replace(/\s*·\s*`[^`]*`\s*$/, "");
+    for (const chapterId of meta.chapter_ids ?? [meta.chapter_id]) {
+      const unit = units.get(chapterId);
+      if (!unit) continue;
+      const eq = meta.equivalent && quizById.get(meta.equivalent);
+      if (eq) {
+        const why = bullets.find(([k]) => /INDEPENDENT_EXPLANATION/.test(k))?.[1] ?? "";
+        unit.pastPapers.mcq.push({
+          prompt: `${L.topic}: ${textLines(topic)}\n\n${L.practice}:\n${eq.prompt}`,
+          options: eq.options,
+          answer: eq.answer,
+          year: meta.year,
+          yearLabel: String(meta.year),
+          reference: ref,
+          answerText: eq.options.find((o) => o.key === eq.answer)?.text ?? "",
+          explanation: [textLines(why), eq.explanation].filter(Boolean).join("\n"),
+          status: "",
+          alsoRelevant: "",
+          verification: "",
+        });
+      } else {
+        unit.pastPapers.structured.push({
+          heading: meta.id,
+          year: meta.year,
+          question: `**${L.topic}:** ${textLines(topic)}`,
+          reference: ref,
+          marks: meta.total_marks ? `${meta.total_marks} marks` : meta.marks ? `${meta.marks} marks` : "",
+          answer: textLines(bullets.slice(1).map(([k, v]) => `${k.replace(/`/g, "")}: ${v}`).join("\n")).replace(/\s*(?:in\s+)?(?:File|கோப்பு)\s*9(?:\s*இல்)?/g, ` ${L.mock}`),
+          explanation: "",
+          guidance: "",
+          status: "",
+          verification: "",
+          alsoRelevant: "",
+        });
+      }
+      unit.pastPapers.years[meta.year] = (unit.pastPapers.years[meta.year] || 0) + 1;
+    }
+  }
+
+  const grades = new Map();
+  for (const u of units.values()) {
+    if (!grades.has(u.grade)) grades.set(u.grade, []);
+    grades.get(u.grade).push(u);
+  }
+  const guides = SCIENCE_GUIDES.filter(([name]) => file(name)).map(([name, slug]) => {
+    let md = file(name);
+    // Mock exams: each "# Mock Exam N" has its own "## Paper I / Paper II / Answer key" sections.
+    if (slug === "mock-exams") {
+      let mock = "";
+      md = md.replace(/^(#{1,2}) (.+)$/gm, (line, hashes, text) => {
+        if (hashes === "#" && /\d/.test(text)) mock = text.replace(/\s*\([^)]*\)\s*$/, "");
+        return hashes === "##" && mock && !text.startsWith(mock.split(" ").slice(0, 2).join(" ")) ? `## ${mock} · ${text}` : line;
+      });
+    }
+    return guideFrom(slug, md, clean, /^(?:Contents|உள்ளடக்கம்)/);
+  });
+  return { grades, extras: { papers: [], guides } };
+}
+
+// ── English (StudyBuddy O/L English package) ──
+// English_Notes.md: "Section A — English From Zero" (chapter 1) and "### 1. …" chapters of Section B (chapters 2–27).
+// Every quiz, flashcard and past-paper item has a topic_id (ENG-TOP-…), which decides its chapter.
+// Topics without their own notes chapter go to the closest one.
+const ENGLISH_TOPIC_HOME = {
+  "ENG-TOP-SPELL": "ENG-TOP-VOC",
+  "ENG-TOP-CONF": "ENG-TOP-VOC",
+  "ENG-TOP-PHRV": "ENG-TOP-VOC",
+  "ENG-TOP-ERR": "ENG-TOP-SENT",
+  "ENG-TOP-TRANS": "ENG-TOP-PASS",
+  ...Object.fromEntries(["PIC", "DIAL", "LETTER", "STORY", "ESSAY", "SPEECH", "PIE", "NOTICE", "CHART", "ARTICLE", "PARA"].map((t) => [`ENG-TOP-${t}`, "ENG-TOP-WRIT"])),
+};
+const ENGLISH_GUIDES = [
+  ["English_Grammar_Mastery.md", "grammar", "Grammar Mastery"],
+  ["English_Vocabulary_Mastery.md", "vocabulary", "Vocabulary Mastery"],
+  ["English_Reading_Mastery.md", "reading", "Reading Mastery"],
+  ["English_Writing_Mastery.md", "writing", "Writing Mastery"],
+  ["English_Essay_Bank.md", "essays", "Essay Bank (extended writing)"],
+];
+
+const ENGLISH_FILE_NAMES = { Grammar_Mastery: "Grammar", Vocabulary_Mastery: "Vocabulary", Reading_Mastery: "Reading", Writing_Mastery: "Writing", Essay_Bank: "Essay bank", Quizzes: "Quiz", Flashcards: "Flashcards", Notes: "Notes", Past_Papers: "Exam" };
+/** "English_Writing_Mastery.md" → "the Writing guide". */
+const englishRefs = (t) => t.replace(/(?:the\s+)?English_([A-Za-z_]+)\.md/g, (_, n) => `the ${ENGLISH_FILE_NAMES[n] ?? n.replace(/_/g, " ")} guide`);
+
+function readEnglish(subject, dir) {
+  const publicRel = "english";
+  const sizes = copySvgs(path.join(dir, "assets"), publicRel);
+  const assets = (md) => rewriteAssets(md, "assets", publicRel, sizes);
+  const file = (name) => (exists(path.join(dir, name)) ? read(path.join(dir, name)) : "");
+  const clean = (md) =>
+    englishRefs(assets(openDetails(md)))
+      .replace(/^(\*\*ENG-[A-Z]+-[\w-]+\*\*)\s*·\s*/gm, "")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+
+  // Chapters
+  const notesMd = file("English_Notes.md");
+  const units = [];
+  const home = new Map(); // topic_id → unit
+  const a = notesMd.match(/^## Section A[^\n]*\n([\s\S]*?)(?=^## Section B)/m);
+  if (a) {
+    const u = { number: 1, notes: historyNotes("English From Zero", clean(a[1].replace(/\n-{3,}\s*$/, ""))), flashcards: [], quiz: [], pastPapers: EMPTY_PAPERS() };
+    u.notes.objectives = u.notes.headings.filter((h) => h.depth === 3).map((h) => h.text).slice(0, 6);
+    units.push(u);
+    home.set("ENG-TOP-ZERO", u);
+  }
+  const b = notesMd.slice(notesMd.search(/^## Section B/m));
+  const chapters = [...b.matchAll(/^### (\d+)\.\s+(.+)$/gm)];
+  chapters.forEach((m, i) => {
+    let body = b.slice(m.index + m[0].length, i + 1 < chapters.length ? chapters[i + 1].index : b.length);
+    const end = body.search(/^## /m);
+    if (end >= 0) body = body.slice(0, end);
+    const meta = metaOf(body);
+    const text = clean(body.replace(/\n-{3,}\s*$/, "").replace(/^### /gm, "## ").replace(/^#### /gm, "### "));
+    const u = { number: units.length + 1, notes: historyNotes(plain(m[2]), text), flashcards: [], quiz: [], pastPapers: EMPTY_PAPERS() };
+    const goal = text.match(/^\*\*Learning objective:\*\*\s*(.+)$/m)?.[1];
+    u.notes.objectives = goal ? [plain(goal)] : [];
+    units.push(u);
+    // "Basic sentence construction" shares ENG-TOP-ZERO with Section A; error correction goes there instead.
+    if (meta.topic_id && !home.has(meta.topic_id)) home.set(meta.topic_id, u);
+    else if (meta.topic_id === "ENG-TOP-ZERO") home.set("ENG-TOP-SENT", u);
+  });
+  const unitOf = (topic) => home.get(topic) ?? home.get(ENGLISH_TOPIC_HOME[topic]) ?? null;
+  const image = (body) => {
+    const rel = body.match(/!\[[^\]]*\]\((?:\.\.\/)?assets\/([^)]+)\)/)?.[1];
+    return rel ? assetImage(rel, "assets", publicRel, sizes) : undefined;
+  };
+
+  for (const { meta, body } of metaBlocks(file("English_Flashcards.md"))) {
+    const u = unitOf(meta.topic_id);
+    const { before, inside } = revealSplit(body);
+    const front = before.match(/^\*\*Front:\*\*\s*([\s\S]+)/m)?.[1];
+    if (!u || !front || !inside) continue;
+    u.flashcards.push({ front: textLines(front), back: textLines(inside) });
+  }
+
+  // Quiz bank and grammar practice: A–D questions (and true/false) are quiz MCQs;
+  // type-the-answer and write-a-sentence items become practice flashcards (answer on the back).
+  for (const name of ["English_Quizzes.md", "English_Grammar_Mastery.md"])
+    for (const { meta, body } of metaBlocks(file(name))) {
+      const u = unitOf(meta.topic_id);
+      if (!u || !meta.type || meta.type === "diagnostic") continue;
+      const { before, inside } = revealSplit(body);
+      // "**ENG-QZ-…** · Beginner · fill blank · 1 mark" or "**ENG-GRM-…** Describe your best friend …"
+      const [first, ...rest] = before.split("\n");
+      const own = first.replace(/^\*\*[^*]+\*\*\s*/, "");
+      const lines = [own.startsWith("·") ? "" : own, ...rest].filter((l) => !/^!\[/.test(l));
+      const options = [];
+      const prompt = [];
+      for (const l of lines) {
+        const o = l.match(/^-\s+([A-D])\.\s+(.*)$/);
+        if (o) options.push({ key: o[1], text: textLines(o[2]) });
+        else if (!options.length) prompt.push(l);
+      }
+      const answer = inside.match(/^\*\*Answer:\*\*\s*([^\n]*)/m)?.[1].trim() ?? "";
+      const why = inside.match(/^\*\*Why:\*\*\s*([\s\S]*)$/m)?.[1].trim() ?? "";
+      const img = image(body);
+      const q = textLines(prompt.join("\n"));
+      if (!q) continue;
+      if (options.length >= 2 && /^[A-D]\b/.test(answer)) {
+        u.quiz.push({ prompt: q, options, answer: answer[0], explanation: textLines(why), difficulty: meta.difficulty || "Medium", ...(img ? { image: img } : {}) });
+      } else if (answer || inside) {
+        u.flashcards.push({ front: q, back: textLines(answer ? [answer, why].filter(Boolean).join("\n") : inside), ...(img ? { image: img } : {}) });
+      }
+    }
+
+  // Past papers (2016, 2017, 2020): Part A tests (official answers by item) and Part B writing tasks (guided model answers).
+  const pp = file("English_Past_Papers.md");
+  const partA = pp.match(/^## Part A[^\n]*\n([\s\S]*?)(?=^## Part B)/m)?.[1] ?? "";
+  for (const t of partA.split(/^(?=#### )/m).filter((s) => s.startsWith("#### "))) {
+    const heading = t.match(/^#### (.+)$/m)[1].trim();
+    const items = metaBlocks(t);
+    const u = items.length && unitOf(items[0].meta.topic_id);
+    if (!u) continue;
+    const year = items[0].meta.year;
+    const answers = [...t.matchAll(/^- \*\*ENG-PP-[^*]+\*\*\s*—\s*(.+)$/gm)].map((m) => textLines(m[1].replace(/\*\*Official:\*\*\s*/, "")));
+    u.pastPapers.structured.push({
+      heading,
+      year,
+      question: textLines(t.match(/^\*Task \(summary\):\*\s*(.+)$/m)?.[1] ?? heading),
+      reference: heading.replace(/^20\d\d\s*·\s*/, ""),
+      marks: "",
+      answer: answers.join("\n"),
+      explanation: englishRefs(textLines((t.match(/^\*Explanation \(StudyBuddy\):\*\s*(.+)$/m)?.[1] ?? "").replace(/\s*\*Practise:\*.*$/, ""))),
+      guidance: textLines(t.match(/^\*Note:\*\s*(.+)$/m)?.[1] ?? ""),
+      status: "",
+      verification: "",
+      alsoRelevant: "",
+    });
+    u.pastPapers.years[year] = (u.pastPapers.years[year] || 0) + 1;
+  }
+  const partB = pp.match(/^## Part B[^\n]*\n([\s\S]*?)(?=^## )/m)?.[1] ?? "";
+  for (const t of partB.split(/^(?=### )/m).filter((s) => s.startsWith("### "))) {
+    const meta = metaOf(t);
+    const u = unitOf(meta.topic_id);
+    if (!u) continue;
+    const title = t.match(/^### (.+)$/m)[1].replace(/^ENG-PP-[\w-]+\s*—\s*/, "").trim();
+    const body = t.replace(/^### .+$/m, "").replace(/<!--[\s\S]*?-->/g, "");
+    const task = body.match(/^\*\*Task \(summary\):\*\*\s*(.+)$/m)?.[1] ?? "";
+    const { inside } = revealSplit(body);
+    const steps = body.split("<details>")[0].replace(/^\*\*Task \(summary\):\*\*.*$/m, "");
+    const after = body.split("</details>")[1] ?? "";
+    u.pastPapers.structured.push({
+      heading: title,
+      year: meta.year,
+      question: textLines(`${title}\n${task}${meta.word_count ? ` (${meta.word_count})` : ""}`),
+      reference: title.replace(/^20\d\d\s*/, ""),
+      marks: meta.marks ? `${meta.marks} marks` : "",
+      answer: textLines(inside.replace(/^>\s?/gm, "")),
+      explanation: englishRefs(textLines(steps)),
+      guidance: englishRefs(textLines(after)),
+      status: "",
+      verification: "",
+      alsoRelevant: "",
+    });
+    u.pastPapers.years[meta.year] = (u.pastPapers.years[meta.year] || 0) + 1;
+  }
+
+  const guides = ENGLISH_GUIDES.filter(([name]) => file(name)).map(([name, slug, title]) =>
+    guideFrom(slug, file(name), clean, /^(?:Contents|Sections|Topics|Limitations)$/, title),
+  );
+  if (pp) guides.unshift(guideFrom("exam", pp, clean, /^(?:Part A|Part B|Other writing|Limitations)/, "The O/L English exam"));
+  return { grades: new Map([[10, units]]), extras: { papers: [], guides } };
+}
+
 
 function readMaths(subject, dir) {
   const file = (prefix) => {
@@ -1420,7 +1893,8 @@ function build() {
     if (!exists(dir)) continue;
     const gradeFiles = layout === "grade-files";
     // Maths and Tamil come as one file per type for the whole subject; their readers return every grade at once.
-    const whole = layout === "maths" ? readMaths(meta, dir) : layout === "tamil" ? readTamil(meta, dir) : null;
+    const readers = { maths: readMaths, tamil: readTamil, science: readScience, english: readEnglish };
+    const whole = readers[layout] ? readers[layout](meta, dir) : null;
     const grades = whole
       ? [...whole.grades.keys()].sort((a, b) => a - b).map(String)
       : fs

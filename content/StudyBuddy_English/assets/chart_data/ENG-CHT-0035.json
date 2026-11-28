@@ -1,0 +1,31 @@
+{
+ "id": "ENG-CHT-0035",
+ "type": "table",
+ "title": "Library visits by grade",
+ "columns": [
+  "Grade",
+  "Term 1",
+  "Term 2",
+  "Term 3"
+ ],
+ "rows": [
+  [
+   "Grade 9",
+   120,
+   140,
+   100
+  ],
+  [
+   "Grade 10",
+   150,
+   130,
+   160
+  ],
+  [
+   "Grade 11",
+   180,
+   200,
+   220
+  ]
+ ]
+}

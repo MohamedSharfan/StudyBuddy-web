@@ -1,0 +1,25 @@
+{
+ "id": "ENG-CHT-0016",
+ "type": "bar",
+ "title": "Daily screen time of students",
+ "x_label": "Screen time",
+ "y_label": "Number of students",
+ "categories": [
+  "Less than 1 hour",
+  "One to two hours",
+  "Two to three hours",
+  "More than 3 hours"
+ ],
+ "series": [
+  {
+   "name": "Students",
+   "values": [
+    15,
+    30,
+    25,
+    10
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "ENG-CHT-0034",
+ "type": "table",
+ "title": "Daily study hours of four students",
+ "columns": [
+  "Student",
+  "Weekdays",
+  "Weekends"
+ ],
+ "rows": [
+  [
+   "Arun",
+   3,
+   5
+  ],
+  [
+   "Fathima",
+   4,
+   4
+  ],
+  [
+   "Dinuka",
+   2,
+   6
+  ],
+  [
+   "Meena",
+   5,
+   3
+  ]
+ ]
+}

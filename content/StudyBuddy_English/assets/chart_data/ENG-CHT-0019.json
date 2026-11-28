@@ -1,0 +1,19 @@
+{
+ "id": "ENG-CHT-0019",
+ "type": "pie",
+ "title": "Waste collected in a school",
+ "categories": [
+  "Paper",
+  "Plastic",
+  "Food waste",
+  "Glass"
+ ],
+ "values": [
+  50,
+  25,
+  20,
+  5
+ ],
+ "unit": "%",
+ "total": 100
+}

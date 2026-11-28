@@ -67,7 +67,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
         </h1>
         <p className="text-sm text-muted mt-1">
           {LOGIN_ENABLED && `${doneCount}/4 steps done · `}
-          {c.minutes} min read · {c.counts.quiz} quiz
+          {c.minutes} min read{c.counts.quiz > 0 && ` · ${c.counts.quiz} quiz`}
           {papers && ` · ${c.counts.mcq + c.counts.structured} past-paper questions`}
           {pictures && ` · ${c.counts.pictures} pictures`}
           {map && " · map practice"}
@@ -75,7 +75,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
       </header>
 
       <div className="mt-4 mb-6 border-b border-line">
-        <DoorTabs base={base} steps={steps} pastPapers={papers} map={map} pictures={pictures} />
+        <DoorTabs base={base} steps={steps} pastPapers={papers} quiz={c.counts.quiz > 0} map={map} pictures={pictures} />
       </div>
       {children}
       <div className="mt-8">

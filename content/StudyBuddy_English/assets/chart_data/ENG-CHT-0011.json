@@ -1,0 +1,27 @@
+{
+ "id": "ENG-CHT-0011",
+ "type": "bar",
+ "title": "Vegetables sold at a market stall",
+ "x_label": "Vegetable",
+ "y_label": "Amount sold (kg)",
+ "categories": [
+  "Beans",
+  "Carrots",
+  "Cabbage",
+  "Leeks",
+  "Pumpkin"
+ ],
+ "series": [
+  {
+   "name": "kg",
+   "values": [
+    45,
+    60,
+    30,
+    25,
+    50
+   ]
+  }
+ ],
+ "orientation": "horizontal"
+}

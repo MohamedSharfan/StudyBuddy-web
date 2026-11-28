@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" width="560" height="520" role="img" aria-label="OMR answer grid">
+<rect width="560" height="520" fill="#fff"/>
+<text x="280" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">StudyBuddy Mock — Paper I answer grid (40)</text>
+<text x="40" y="65" font-family="sans-serif" font-size="12"> 1</text>
+<circle id="q1-o1" cx="80" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q1-o2" cx="120" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q1-o3" cx="160" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q1-o4" cx="200" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="87" font-family="sans-serif" font-size="12"> 2</text>
+<circle id="q2-o1" cx="80" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q2-o2" cx="120" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q2-o3" cx="160" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q2-o4" cx="200" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="109" font-family="sans-serif" font-size="12"> 3</text>
+<circle id="q3-o1" cx="80" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q3-o2" cx="120" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q3-o3" cx="160" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q3-o4" cx="200" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="131" font-family="sans-serif" font-size="12"> 4</text>
+<circle id="q4-o1" cx="80" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q4-o2" cx="120" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q4-o3" cx="160" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q4-o4" cx="200" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="153" font-family="sans-serif" font-size="12"> 5</text>
+<circle id="q5-o1" cx="80" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q5-o2" cx="120" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q5-o3" cx="160" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q5-o4" cx="200" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="175" font-family="sans-serif" font-size="12"> 6</text>
+<circle id="q6-o1" cx="80" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q6-o2" cx="120" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q6-o3" cx="160" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q6-o4" cx="200" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="197" font-family="sans-serif" font-size="12"> 7</text>
+<circle id="q7-o1" cx="80" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q7-o2" cx="120" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q7-o3" cx="160" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q7-o4" cx="200" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="219" font-family="sans-serif" font-size="12"> 8</text>
+<circle id="q8-o1" cx="80" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q8-o2" cx="120" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q8-o3" cx="160" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q8-o4" cx="200" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="241" font-family="sans-serif" font-size="12"> 9</text>
+<circle id="q9-o1" cx="80" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q9-o2" cx="120" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q9-o3" cx="160" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q9-o4" cx="200" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="263" font-family="sans-serif" font-size="12">10</text>
+<circle id="q10-o1" cx="80" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q10-o2" cx="120" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q10-o3" cx="160" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q10-o4" cx="200" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="285" font-family="sans-serif" font-size="12">11</text>
+<circle id="q11-o1" cx="80" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q11-o2" cx="120" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q11-o3" cx="160" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q11-o4" cx="200" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="307" font-family="sans-serif" font-size="12">12</text>
+<circle id="q12-o1" cx="80" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q12-o2" cx="120" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q12-o3" cx="160" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q12-o4" cx="200" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="329" font-family="sans-serif" font-size="12">13</text>
+<circle id="q13-o1" cx="80" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q13-o2" cx="120" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q13-o3" cx="160" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q13-o4" cx="200" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="351" font-family="sans-serif" font-size="12">14</text>
+<circle id="q14-o1" cx="80" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q14-o2" cx="120" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q14-o3" cx="160" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q14-o4" cx="200" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="373" font-family="sans-serif" font-size="12">15</text>
+<circle id="q15-o1" cx="80" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q15-o2" cx="120" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q15-o3" cx="160" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q15-o4" cx="200" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="395" font-family="sans-serif" font-size="12">16</text>
+<circle id="q16-o1" cx="80" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q16-o2" cx="120" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q16-o3" cx="160" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q16-o4" cx="200" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="417" font-family="sans-serif" font-size="12">17</text>
+<circle id="q17-o1" cx="80" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q17-o2" cx="120" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q17-o3" cx="160" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q17-o4" cx="200" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="439" font-family="sans-serif" font-size="12">18</text>
+<circle id="q18-o1" cx="80" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q18-o2" cx="120" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q18-o3" cx="160" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q18-o4" cx="200" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="461" font-family="sans-serif" font-size="12">19</text>
+<circle id="q19-o1" cx="80" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q19-o2" cx="120" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q19-o3" cx="160" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q19-o4" cx="200" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="40" y="483" font-family="sans-serif" font-size="12">20</text>
+<circle id="q20-o1" cx="80" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="80" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q20-o2" cx="120" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="120" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q20-o3" cx="160" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="160" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q20-o4" cx="200" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="200" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="65" font-family="sans-serif" font-size="12">21</text>
+<circle id="q21-o1" cx="350" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q21-o2" cx="390" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q21-o3" cx="430" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q21-o4" cx="470" cy="60" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="64" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="87" font-family="sans-serif" font-size="12">22</text>
+<circle id="q22-o1" cx="350" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q22-o2" cx="390" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q22-o3" cx="430" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q22-o4" cx="470" cy="82" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="86" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="109" font-family="sans-serif" font-size="12">23</text>
+<circle id="q23-o1" cx="350" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q23-o2" cx="390" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q23-o3" cx="430" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q23-o4" cx="470" cy="104" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="108" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="131" font-family="sans-serif" font-size="12">24</text>
+<circle id="q24-o1" cx="350" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q24-o2" cx="390" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q24-o3" cx="430" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q24-o4" cx="470" cy="126" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="130" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="153" font-family="sans-serif" font-size="12">25</text>
+<circle id="q25-o1" cx="350" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q25-o2" cx="390" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q25-o3" cx="430" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q25-o4" cx="470" cy="148" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="152" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="175" font-family="sans-serif" font-size="12">26</text>
+<circle id="q26-o1" cx="350" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q26-o2" cx="390" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q26-o3" cx="430" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q26-o4" cx="470" cy="170" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="174" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="197" font-family="sans-serif" font-size="12">27</text>
+<circle id="q27-o1" cx="350" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q27-o2" cx="390" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q27-o3" cx="430" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q27-o4" cx="470" cy="192" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="196" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="219" font-family="sans-serif" font-size="12">28</text>
+<circle id="q28-o1" cx="350" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q28-o2" cx="390" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q28-o3" cx="430" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q28-o4" cx="470" cy="214" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="218" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="241" font-family="sans-serif" font-size="12">29</text>
+<circle id="q29-o1" cx="350" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q29-o2" cx="390" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q29-o3" cx="430" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q29-o4" cx="470" cy="236" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="240" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="263" font-family="sans-serif" font-size="12">30</text>
+<circle id="q30-o1" cx="350" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q30-o2" cx="390" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q30-o3" cx="430" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q30-o4" cx="470" cy="258" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="262" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="285" font-family="sans-serif" font-size="12">31</text>
+<circle id="q31-o1" cx="350" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q31-o2" cx="390" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q31-o3" cx="430" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q31-o4" cx="470" cy="280" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="284" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="307" font-family="sans-serif" font-size="12">32</text>
+<circle id="q32-o1" cx="350" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q32-o2" cx="390" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q32-o3" cx="430" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q32-o4" cx="470" cy="302" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="306" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="329" font-family="sans-serif" font-size="12">33</text>
+<circle id="q33-o1" cx="350" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q33-o2" cx="390" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q33-o3" cx="430" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q33-o4" cx="470" cy="324" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="328" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="351" font-family="sans-serif" font-size="12">34</text>
+<circle id="q34-o1" cx="350" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q34-o2" cx="390" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q34-o3" cx="430" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q34-o4" cx="470" cy="346" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="350" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="373" font-family="sans-serif" font-size="12">35</text>
+<circle id="q35-o1" cx="350" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q35-o2" cx="390" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q35-o3" cx="430" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q35-o4" cx="470" cy="368" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="372" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="395" font-family="sans-serif" font-size="12">36</text>
+<circle id="q36-o1" cx="350" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q36-o2" cx="390" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q36-o3" cx="430" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q36-o4" cx="470" cy="390" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="394" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="417" font-family="sans-serif" font-size="12">37</text>
+<circle id="q37-o1" cx="350" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q37-o2" cx="390" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q37-o3" cx="430" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q37-o4" cx="470" cy="412" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="416" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="439" font-family="sans-serif" font-size="12">38</text>
+<circle id="q38-o1" cx="350" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q38-o2" cx="390" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q38-o3" cx="430" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q38-o4" cx="470" cy="434" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="438" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="461" font-family="sans-serif" font-size="12">39</text>
+<circle id="q39-o1" cx="350" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q39-o2" cx="390" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q39-o3" cx="430" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q39-o4" cx="470" cy="456" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="460" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+<text x="310" y="483" font-family="sans-serif" font-size="12">40</text>
+<circle id="q40-o1" cx="350" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="350" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">1</text>
+<circle id="q40-o2" cx="390" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="390" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">2</text>
+<circle id="q40-o3" cx="430" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="430" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">3</text>
+<circle id="q40-o4" cx="470" cy="478" r="8" fill="none" stroke="#1e3a8a"/><text x="470" y="482" text-anchor="middle" font-family="sans-serif" font-size="9">4</text>
+</svg>

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T14:44:14.668Z",
+ "generatedAt": "2026-11-28T15:20:28.777Z",
  "subjects": [
   {
    "id": "islam-ol",
@@ -6579,26 +6579,26 @@
       "sections": [
        "ஆண்டிடை வினா அமைப்பு அணி",
        "வினாத்தாள் வாரியான வழிசெலுத்தல்",
-       "முழுமையின் பின்னங்கள் — பல கட்டச் சொற்கணக்கு",
-       "கூட்டுத் தள உரு — சுற்றளவும் பரப்பும்",
-       "அன்றாட நிதிக் கணிப்புகள்",
-       "அட்டவணையிலிருந்து தரவு வகைகுறித்தல்",
-       "இரு கட்ட நிகழ்தகவு: நெய்யரியும் மரமும்",
-       "தூர–நேர வரைபு",
-       "நிதித் தெரிவுகளை ஒப்பிடல்",
-       "இருபடிச் சார்பு வரைபு",
-       "அட்சரகணிதத் திறன்களுடன் ஒருங்கமை சமன்பாடுகள்",
-       "இருபடிச் சமன்பாட்டை அமைத்துத் தீர்த்தல்",
-       "திசைகோள், ஏற்றம், திரிகோணகணிதம்",
-       "திண்மங்களுக்கிடையே கனவளவு மாற்றம்",
-       "கூட்டமாக்கிய தரவின் இடை",
-       "சூழலில் விருத்திகள்",
-       "அளவுகோல்–கவராய அமைப்புகள்",
-       "கேத்திரகணித நிறுவல் — முக்கோணிகள், இணைகரங்கள், பரப்புகள்",
-       "வட்டத் தேற்ற நிறுவல்",
-       "சூழலில் திரிகோணகணிதம்",
-       "நிகழ்தகவுடன் வென் வரிப்படங்கள்",
-       "திண்மங்கள்: மடக்கையுடன் கனவளவு",
+       "P1B-FRAC — முழுமையின் பின்னங்கள் — பல கட்டச் சொற்கணக்கு",
+       "P1B-MENS — கூட்டுத் தள உரு — சுற்றளவும் பரப்பும்",
+       "P1B-FIN — அன்றாட நிதிக் கணிப்புகள்",
+       "P1B-STAT — அட்டவணையிலிருந்து தரவு வகைகுறித்தல்",
+       "P1B-PROB — இரு கட்ட நிகழ்தகவு: நெய்யரியும் மரமும்",
+       "P1B-GRAPH — தூர–நேர வரைபு",
+       "P2A-FIN — நிதித் தெரிவுகளை ஒப்பிடல்",
+       "P2A-QGRAPH — இருபடிச் சார்பு வரைபு",
+       "P2A-ALG — அட்சரகணிதத் திறன்களுடன் ஒருங்கமை சமன்பாடுகள்",
+       "P2A-QEQ — இருபடிச் சமன்பாட்டை அமைத்துத் தீர்த்தல்",
+       "P2A-TRIG — திசைகோள், ஏற்றம், திரிகோணகணிதம்",
+       "P2A-MENS — திண்மங்களுக்கிடையே கனவளவு மாற்றம்",
+       "P2A-MEAN — கூட்டமாக்கிய தரவின் இடை",
+       "P2B-PROG — சூழலில் விருத்திகள்",
+       "P2B-CONS — அளவுகோல்–கவராய அமைப்புகள்",
+       "P2B-PGEO — கேத்திரகணித நிறுவல் — முக்கோணிகள், இணைகரங்கள், பரப்புகள்",
+       "P2B-PCIR — வட்டத் தேற்ற நிறுவல்",
+       "P2B-TRIG — சூழலில் திரிகோணகணிதம்",
+       "P2B-VENN — நிகழ்தகவுடன் வென் வரிப்படங்கள்",
+       "P2B-VOL — திண்மங்கள்: மடக்கையுடன் கனவளவு",
        "வினாத்தாள் I பகுதி A குறுவினா அமைப்புகள்",
        "வரம்புகளும் மீளாய்வுக் குறிப்புகளும்"
       ]
@@ -8098,26 +8098,26 @@
       "sections": [
        "Cross-year question-pattern matrix",
        "Paper-wise navigation",
-       "Fractions of a whole — multi-stage word problem",
-       "Composite plane figure — perimeter and area",
-       "Everyday financial calculations",
-       "Data representation from a table",
-       "Two-stage probability: grid and tree",
-       "Distance–time graph",
-       "Comparing financial options",
-       "Quadratic function graph",
-       "Simultaneous equations with algebra skills",
-       "Forming and solving a quadratic equation",
-       "Bearings, elevation and trigonometry",
-       "Volume transfer between solids",
-       "Mean of grouped data",
-       "Progressions in context",
-       "Ruler-and-compass constructions",
-       "Geometry proof — triangles, parallelograms, areas",
-       "Circle theorem proof",
-       "Trigonometry in context",
-       "Venn diagrams with probability",
-       "Solids: volume with logarithms",
+       "P1B-FRAC — Fractions of a whole — multi-stage word problem",
+       "P1B-MENS — Composite plane figure — perimeter and area",
+       "P1B-FIN — Everyday financial calculations",
+       "P1B-STAT — Data representation from a table",
+       "P1B-PROB — Two-stage probability: grid and tree",
+       "P1B-GRAPH — Distance–time graph",
+       "P2A-FIN — Comparing financial options",
+       "P2A-QGRAPH — Quadratic function graph",
+       "P2A-ALG — Simultaneous equations with algebra skills",
+       "P2A-QEQ — Forming and solving a quadratic equation",
+       "P2A-TRIG — Bearings, elevation and trigonometry",
+       "P2A-MENS — Volume transfer between solids",
+       "P2A-MEAN — Mean of grouped data",
+       "P2B-PROG — Progressions in context",
+       "P2B-CONS — Ruler-and-compass constructions",
+       "P2B-PGEO — Geometry proof — triangles, parallelograms, areas",
+       "P2B-PCIR — Circle theorem proof",
+       "P2B-TRIG — Trigonometry in context",
+       "P2B-VENN — Venn diagrams with probability",
+       "P2B-VOL — Solids: volume with logarithms",
        "Paper I Part A short-question patterns"
       ]
      },
@@ -9280,6 +9280,3089 @@
        "பகுதி AA – குற்றாலக் குறவஞ்சி: பாடல்கள் 3, 4, 5 மற்றும் முழுப் பாடப்பகுதிக்கான வினா–விடை",
        "பகுதி AB – தத்தைவிடு தூது: பாடநூல் பாடல்கள் (1, 10–13, 16, 27, 29, 33) மற்றும் தேர்வுக் குறிப்புகள்",
        "பகுதி Z – தேர்வில் இலக்கியம் எங்கிருந்து வருகிறது? (பாடத்திட்டம் தொடர்பான சான்று)"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-ol",
+   "name": "Science",
+   "nameLocal": "விஞ்ஞானம்",
+   "level": "O/L",
+   "streams": [],
+   "icon": "atom",
+   "medium": "Tamil",
+   "tagline": "Grade 10 & 11 · Tamil medium",
+   "color": "#8B5CF6",
+   "freeChapters": 1,
+   "lang": "ta",
+   "pastPaperNote": "Exam topics from the 2019 O/L Science papers, sorted by chapter. Each one comes with a practice question of the same type; the original wording isn't reproduced.",
+   "relatedHeading": "தொடர்புடைய பிற வினாக்கள்",
+   "grades": [
+    {
+     "grade": 10,
+     "chapters": [
+      {
+       "id": "science-ol-10-01",
+       "grade": 10,
+       "number": 1,
+       "title": "உயிரின இரசாயன அடிப்படை (Chemical basis of life)",
+       "objectives": [
+        "உயிர்ப் பதார்த்தங்களிலுள்ள முக்கிய மூலகங்களைக் கூறுதல்",
+        "காபோவைதரேற்று, புரதம், இலிப்பிட்டு, கருவமிலம் ஆகியவற்றின் தொழில்களை விளக்குதல்",
+        "நொதியங்களின் இயல்புகளை விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 16,
+        "quiz": 26,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": true
+      },
+      {
+       "id": "science-ol-10-02",
+       "grade": 10,
+       "number": 2,
+       "title": "நேர்கோட்டு இயக்கம் (Motion in a straight line)",
+       "objectives": [
+        "எண்ணிக் கணியங்களையும் காவிக் கணியங்களையும் வேறுபடுத்துதல்",
+        "கதி, வேகம், ஆர்முடுகலைக் கணித்தல்",
+        "இடப்பெயர்ச்சி–நேர, வேக–நேர வரைபுகளை விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-03",
+       "grade": 10,
+       "number": 3,
+       "title": "சடப்பொருள்களின் கட்டமைப்பு (Structure of matter)",
+       "objectives": [
+        "உப அணுத் துணிக்கைகளின் இயல்புகளைக் கூறுதல்",
+        "அணுவெண், திணிவெண், சமதானிகளை விளக்குதல்",
+        "இலத்திரன் நிலையமைப்பை எழுதுதல்",
+        "ஆவர்த்தன அட்டவணையின் போக்குகளை விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 28,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-04",
+       "grade": 10,
+       "number": 4,
+       "title": "நியூற்றனின் இயக்க விதிகள் (Newton's laws of motion)",
+       "objectives": [
+        "சடத்துவத்தை விளக்குதல்",
+        "F = ma ஐப் பயன்படுத்துதல்",
+        "உந்தத்தைக் கணித்தல்",
+        "தாக்கம்–மறுதாக்கச் சோடிகளை இனங்காணுதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 27,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-05",
+       "grade": 10,
+       "number": 5,
+       "title": "உராய்வு (Friction)",
+       "objectives": [
+        "நிலையியல், எல்லை, இயக்க உராய்வுகளை வேறுபடுத்துதல்",
+        "உராய்வைப் பாதிக்கும் காரணிகளை விளக்குதல்",
+        "உராய்வின் நன்மை தீமைகள், குறைக்கும் முறைகள்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-10-06",
+       "grade": 10,
+       "number": 6,
+       "title": "தாவரக்கலங்களினதும் விலங்குக்கலங்களினதும் கட்டமைப்பும் தொழிற்பாடும் (Structure and functions of plant and animal cells)",
+       "objectives": [
+        "கலப் புன்னங்கங்களை இனங்காணுதல்",
+        "ஒவ்வொரு புன்னங்கத்தின் தொழிலைக் கூறுதல்",
+        "தாவர, விலங்குக் கலங்களை ஒப்பிடுதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 23,
+        "quiz": 28,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-07",
+       "grade": 10,
+       "number": 7,
+       "title": "மூலகங்களினதும் சேர்வைகளினதும் அளவறிதல் (Quantification of elements and compounds)",
+       "objectives": [
+        "சார்பு அணுத்திணிவு, சார்பு மூலக்கூற்றுத் திணிவைக் கணித்தல்",
+        "மூல், அவகாதரோ மாறிலியைப் பயன்படுத்துதல்",
+        "திணிவு–மூல்–துணிக்கை எண் மாற்றங்கள்",
+        "கரைசற் செறிவைக் கணித்தல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 4,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 4
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-08",
+       "grade": 10,
+       "number": 8,
+       "title": "அங்கிகளின் சிறப்பியல்புகள் (Characteristics of living organisms)",
+       "objectives": [
+        "அங்கிகளின் சிறப்பியல்புகளைப் பட்டியலிடுதல்",
+        "இருசொற் பெயரீட்டை விளக்குதல்",
+        "முக்கிய அங்கிக் கூட்டங்களை வகைப்படுத்துதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-09",
+       "grade": 10,
+       "number": 9,
+       "title": "விளையுள் விசை (Resultant force)",
+       "objectives": [
+        "ஒரே கோட்டிலுள்ள விசைகளின் விளையுளைக் கணித்தல்",
+        "செங்குத்தான விசைகளின் விளையுளைக் கணித்தல்",
+        "இணைகர விதியைப் பயன்படுத்துதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-10-10",
+       "grade": 10,
+       "number": 10,
+       "title": "இரசாயனப் பிணைப்புகள் (Chemical bonds)",
+       "objectives": [
+        "அயன் பிணைப்பையும் பங்கீட்டுவலுப் பிணைப்பையும் விளக்குதல்",
+        "புள்ளி–குறுக்கு வரைபடங்களை வரைதல்",
+        "முனைவுப் பிணைப்புகளை மின்னெதிர்த்தன்மையால் விளக்குதல்",
+        "பிணைப்பு வகைக்கும் இயல்புகளுக்குமான தொடர்பு"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-11",
+       "grade": 10,
+       "number": 11,
+       "title": "விசையின் திரும்பல் விளைவு (Turning effect of a force)",
+       "objectives": [
+        "விசையின் திருப்பத்தைக் கணித்தல்",
+        "திருப்பக் கொள்கையைப் பயன்படுத்துதல்",
+        "இணையை (couple) விளக்குதல்",
+        "நெம்புகோல் வகைகள்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-10-12",
+       "grade": 10,
+       "number": 12,
+       "title": "விசைகளின் சமநிலை (Equilibrium of forces)",
+       "objectives": [
+        "இரு விசைச் சமநிலை நிபந்தனைகள்",
+        "மூன்று விசைச் சமநிலை (ஒருங்கமை விசைகள்)",
+        "ஈர்ப்பு மையமும் உறுதிநிலையும்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-10-13",
+       "grade": 10,
+       "number": 13,
+       "title": "உயிர்க்கோளம் (Biosphere)",
+       "objectives": [
+        "சூழற்றொகுதியின் கூறுகளை விளக்குதல்",
+        "உணவுச் சங்கிலி, உணவு வலை அமைத்தல்",
+        "சக்திப் பாய்ச்சலையும் போசணைச் சக்கரங்களையும் விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-14",
+       "grade": 10,
+       "number": 14,
+       "title": "உயிரின் தொடர்ச்சி (Continuity of life)",
+       "objectives": [
+        "இழையுருப்பிரிவையும் ஒடுக்கற்பிரிவையும் ஒப்பிடுதல்",
+        "இலிங்கமில், இலிங்க இனப்பெருக்கத்தை விளக்குதல்",
+        "பூவின் பகுதிகளையும் மகரந்தச் சேர்க்கையையும் விளக்குதல்",
+        "மனித இனப்பெருக்கத் தொகுதியை விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 5
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-15",
+       "grade": 10,
+       "number": 15,
+       "title": "நீர்நிலையியல் அமுக்கமும் அதன் பிரயோகங்களும் (Hydrostatic pressure and its applications)",
+       "objectives": [
+        "அமுக்கத்தைக் கணித்தல் (P = F/A)",
+        "திரவ அமுக்கம் P = hρg",
+        "பஸ்காலின் விதி, நீரியல் இயந்திரங்கள்",
+        "வளிமண்டல அமுக்கம், மிதப்பு"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-16",
+       "grade": 10,
+       "number": 16,
+       "title": "சடப்பொருள்களில் ஏற்படும் மாற்றம் (Changes in matter)",
+       "objectives": [
+        "பௌதிக, இரசாயன மாற்றங்களை வேறுபடுத்துதல்",
+        "தாக்க வகைகளை இனங்காணுதல்",
+        "தாக்கத்திறன் தொடரைப் பயன்படுத்துதல்",
+        "இரும்புப் பிரித்தெடுப்பை விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 30,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-17",
+       "grade": 10,
+       "number": 17,
+       "title": "தாக்கவீதம் (Rate of reactions)",
+       "objectives": [
+        "தாக்கவீதத்தை வரையறுத்து அளத்தல்",
+        "வெப்பநிலை, செறிவு, மேற்பரப்பளவு, ஊக்கி ஆகியவற்றின் விளைவை விளக்குதல்",
+        "வரைபுகளிலிருந்து வீதத்தை விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-10-18",
+       "grade": 10,
+       "number": 18,
+       "title": "வேலை, சக்தி, வலு (Work, energy and power)",
+       "objectives": [
+        "வேலை, இயக்கசக்தி, அழுத்தசக்தியைக் கணித்தல்",
+        "சக்திக் காப்பு விதியைப் பயன்படுத்துதல்",
+        "வலு, வினைத்திறனைக் கணித்தல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 27,
+        "mcq": 0,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-19",
+       "grade": 10,
+       "number": 19,
+       "title": "ஓட்ட மின்னியல் (Current electricity)",
+       "objectives": [
+        "மின்னோட்டம், அழுத்த வேறுபாடு, தடையை வரையறுத்தல்",
+        "ஓமின் விதியைப் பயன்படுத்துதல்",
+        "தொடர், சமாந்தரத் தடைகளைக் கணித்தல்",
+        "அம்பியர்மானி, வோல்ற்மானியை இணைத்தல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 25,
+        "quiz": 27,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-10-20",
+       "grade": 10,
+       "number": 20,
+       "title": "தலைமுறையுரிமை (Inheritance)",
+       "objectives": [
+        "ஆட்சியுடைய, பின்னடைவான இயல்புகளை விளக்குதல்",
+        "ஒற்றைக் கலப்புப் பிறப்பைப் புனெற் சதுரத்தால் காட்டுதல்",
+        "இலிங்கம் தீர்மானிக்கப்படுதலை விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 27,
+        "mcq": 0,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      }
+     ]
+    },
+    {
+     "grade": 11,
+     "chapters": [
+      {
+       "id": "science-ol-11-01",
+       "grade": 11,
+       "number": 1,
+       "title": "தாவர இழையங்களும் விலங்கு இழையங்களும் (Living tissues)",
+       "objectives": [
+        "தாவர இழையங்களை வகைப்படுத்துதல்",
+        "விலங்கு இழையங்களின் வகைகளையும் தொழில்களையும் விளக்குதல்",
+        "இழையங்களை அவற்றின் இருப்பிடத்துடன் தொடர்புபடுத்துதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": true
+      },
+      {
+       "id": "science-ol-11-02",
+       "grade": 11,
+       "number": 2,
+       "title": "ஒளித்தொகுப்பு (Photosynthesis)",
+       "objectives": [
+        "ஒளித்தொகுப்புச் சமன்பாட்டை எழுதுதல்",
+        "பாதிக்கும் காரணிகளை விளக்குதல்",
+        "இலையின் இசைவாக்கங்களை விளக்குதல்",
+        "ஒளித்தொகுப்புப் பரிசோதனைகளைச் செய்தல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 27,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-03",
+       "grade": 11,
+       "number": 3,
+       "title": "கலவை (Mixtures)",
+       "objectives": [
+        "சீரான, சீரற்ற கலவைகளை வேறுபடுத்துதல்",
+        "கரைசற் செறிவைப் பல முறைகளில் கணித்தல்",
+        "பொருத்தமான பிரித்தெடுப்பு முறையைத் தெரிதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 3,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 5
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-04",
+       "grade": 11,
+       "number": 4,
+       "title": "அலைகளும் அவற்றின் பயன்பாடுகளும் (Waves and their applications)",
+       "objectives": [
+        "குறுக்கலைகளையும் நெட்டாங்கு அலைகளையும் வேறுபடுத்துதல்",
+        "அலைநீளம், மீடிறன், வீச்சம், அலைவேகம்",
+        "ஒலியின் இயல்புகள்",
+        "மின்காந்த நிறமாலையும் பயன்பாடுகளும்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-05",
+       "grade": 11,
+       "number": 5,
+       "title": "கேத்திரகணித ஒளியியல் (Geometrical optics)",
+       "objectives": [
+        "தெறிப்பு விதிகள்",
+        "முறிவும் முறிவுச் சுட்டியும்",
+        "முழு அகத்தெறிப்பு",
+        "குவிவு, குழிவு வில்லைகளின் கதிர் வரிப்படங்கள்",
+        "கண் குறைபாடுகள்"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 27,
+        "quiz": 28,
+        "mcq": 0,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-06",
+       "grade": 11,
+       "number": 6,
+       "title": "மனித உடற் செயன்முறைகள் (Biological processes in the human body)",
+       "objectives": [
+        "சமிபாட்டுத் தொகுதியையும் நொதியங்களையும் விளக்குதல்",
+        "சுவாசத் தொகுதியையும் வாயுப் பரிமாற்றத்தையும் விளக்குதல்",
+        "இதயம், குருதிச் சுற்றோட்டத்தை விளக்குதல்",
+        "சிறுநீரகத்தின் தொழிலையும் நரம்பு, ஓமோன் ஒருங்கிணைப்பையும் விளக்குதல்"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 32,
+        "quiz": 26,
+        "mcq": 4,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 7
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-07",
+       "grade": 11,
+       "number": 7,
+       "title": "அமிலம், மூலம், உப்பு (Acids, bases and salts)",
+       "objectives": [
+        "அமிலம், மூலத்தை வரையறுத்தல்",
+        "வன்/மென் அமிலங்களை வேறுபடுத்துதல்",
+        "pH, காட்டிகளைப் பயன்படுத்துதல்",
+        "நடுநிலையாக்கம், உப்புத் தயாரிப்பு"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-08",
+       "grade": 11,
+       "number": 8,
+       "title": "இரசாயனத் தாக்கங்களின் வெப்ப விளைவு (Heat changes associated with chemical reactions)",
+       "objectives": [
+        "புறவெப்ப, அகவெப்பத் தாக்கங்களை வேறுபடுத்துதல்",
+        "சக்தி மட்ட வரிப்படங்களை வரைதல்",
+        "தாக்க வெப்பத்தைக் கணித்தல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-09",
+       "grade": 11,
+       "number": 9,
+       "title": "வெப்பம் (Heat)",
+       "objectives": [
+        "வெப்பம், வெப்பநிலையை வேறுபடுத்துதல்",
+        "Q = mcθ, Q = mL ஐப் பயன்படுத்துதல்",
+        "நிலை மாற்றங்களை விளக்குதல்",
+        "கடத்தல், மேற்காவுகை, கதிர்ப்பு"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 23,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-10",
+       "grade": 11,
+       "number": 10,
+       "title": "மின் சாதனங்களின் வலுவும் சக்தியும் (Power and energy of electric appliances)",
+       "objectives": [
+        "P = VI, E = Pt ஐப் பயன்படுத்துதல்",
+        "kWh ஐயும் மின் கட்டணத்தையும் கணித்தல்",
+        "சாதனங்களின் வினைத்திறனை ஒப்பிடுதல்",
+        "வீட்டு மின் பாதுகாப்பு"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-11",
+       "grade": 11,
+       "number": 11,
+       "title": "இலத்திரனியல் (Electronics)",
+       "objectives": [
+        "அரைக்கடத்திகளையும் மாசூட்டலையும் விளக்குதல்",
+        "இருவாயியின் முற்சார்பு, பின்சார்பு",
+        "திருத்தல் (rectification)",
+        "திரான்சிஸ்டரை ஆளியாகவும் விரியலாக்கியாகவும் பயன்படுத்தல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 22,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-12",
+       "grade": 11,
+       "number": 12,
+       "title": "மின்னிரசாயனம் (Electrochemistry)",
+       "objectives": [
+        "எளிய மின்னிரசாயனக் கலத்தை விளக்குதல்",
+        "மின்பகுப்பில் மின்வாய்த் தாக்கங்களை எழுதுதல்",
+        "மின்முலாமிடல், உலோகப் பிரித்தெடுப்பு",
+        "அரிப்பையும் அதன் தடுப்பையும் விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 23,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-13",
+       "grade": 11,
+       "number": 13,
+       "title": "மின் காந்தவியலும் தூண்டலும் (Electromagnetism and electromagnetic induction)",
+       "objectives": [
+        "காந்தப் புலக் கோடுகளை வரைதல்",
+        "மின்னோட்டத்தின் காந்த விளைவு — வலக்கைப் பிடி விதி",
+        "கடத்தியில் விசை — பிளெமிங்கின் இடக்கை விதி, மோட்டர்",
+        "மின்காந்தத் தூண்டல் — பிறப்பாக்கி, நிலைமாற்றி"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 25,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-14",
+       "grade": 11,
+       "number": 14,
+       "title": "ஐதரோகாபன்களும் அவற்றின் பெறுதிகளும் (Hydrocarbons and their derivatives)",
+       "objectives": [
+        "அல்கேன், அல்கீன், அல்கைன் தொடர்களை வேறுபடுத்துதல்",
+        "எளிய சேர்வைகளைப் பெயரிடுதல்",
+        "தகனம், கூட்டல் தாக்கங்களை எழுதுதல்",
+        "பல்பகுதியங்களையும் அவற்றின் சூழல் தாக்கத்தையும் விளக்குதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 4
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-11-15",
+       "grade": 11,
+       "number": 15,
+       "title": "உயிர்க் கோளம் (Biosphere (Grade 11))",
+       "objectives": [
+        "மாசடைதலின் வகைகளையும் விளைவுகளையும் விளக்குதல்",
+        "பச்சை வீட்டு விளைவு, ஓசோன் படை தேய்வு, அமில மழையை விளக்குதல்",
+        "நிலைபேறான அபிவிருத்தி முறைகளை முன்மொழிதல்"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 5
+       },
+       "free": false
+      }
+     ]
+    }
+   ],
+   "extras": {
+    "papers": [],
+    "guides": [
+     {
+      "slug": "calculations",
+      "title": "விஞ்ஞானக் கணிப்புத் தேர்ச்சி",
+      "sections": [
+       "எட்டுப் படி முறை",
+       "சராசரிக் கதி (Average speed)",
+       "ஆர்முடுகல் (Acceleration)",
+       "நியூற்றனின் இரண்டாம் விதி",
+       "நிறையும் உந்தமும்",
+       "விளையுள் விசை",
+       "விசையின் திருப்பம்",
+       "அமுக்கம், திரவ அமுக்கம், பஸ்கால்",
+       "வேலை, சக்தி, வலு, வினைத்திறன்",
+       "ஓமின் விதியும் தடைச் சேர்க்கைகளும்",
+       "மின்வலு, சக்தி, கட்டணம்",
+       "தன்வெப்பக் கொள்ளளவும் மறைவெப்பமும்",
+       "அலைச் சமன்பாடு",
+       "முறிவுச் சுட்டியும் வில்லைகளும்",
+       "நிலைமாற்றி",
+       "வெப்பநிலை அளவுத்திட்ட மாற்றம்",
+       "மூல், மூலர்த் திணிவு, துணிக்கைகள்",
+       "கரைசற் செறிவு, அடர்த்தி",
+       "தாக்க வெப்பம்",
+       "சராசரித் தாக்கவீதம்",
+       "மென்டல் விகிதங்கள்",
+       "உணவுச் சங்கிலியில் சக்திக் கடத்தல்",
+       "நுணுக்குக்காட்டி உருப்பெருக்கம்",
+       "வரையறைகள் (Limitations)"
+      ]
+     },
+     {
+      "slug": "diagrams",
+      "title": "விஞ்ஞான வரிப்படத் தேர்ச்சி",
+      "sections": [
+       "தாவரக் கலம் (Plant cell)",
+       "விலங்குக் கலம் (Animal cell)",
+       "இலையின் குறுக்குவெட்டு (Leaf cross-section)",
+       "மனித இதயம் (திட்டப் படம்) (Human heart (schematic))",
+       "சமிபாட்டுத் தொகுதி (திட்டப் படம்) (Digestive system (schematic))",
+       "சுவாசத் தொகுதி (Respiratory system)",
+       "நெப்பிரோன் (திட்டப் படம்) (Nephron (schematic))",
+       "பூவின் நெடுக்குவெட்டு (Flower L.S.)",
+       "குளச் சூழல் உணவுவலை (மாதிரி) (Pond food web (example))",
+       "புனெற் சதுரம்: Tt × Tt (Punnett square: Tt × Tt)",
+       "மனிதக் கண் (திட்டப் படம்) (Human eye (schematic))",
+       "சோடியம் அணுவின் இலத்திரன் நிலையமைப்பு (2,8,1) (Sodium atom electron arrangement (2,8,1))",
+       "மின்பகுப்புக் கலம் (Electrolytic cell)",
+       "ஐதரசன் தயாரிப்பு — நீரின் கீழ்முக இடப்பெயர்ச்சி (Preparation of hydrogen — collection over water)",
+       "காய்ச்சிவடித்தல் (Distillation)",
+       "ஊதுலை (திட்டப் படம்) (Blast furnace (schematic))",
+       "எளிய மின்கலம் (Zn–Cu) (Simple cell (Zn–Cu))",
+       "தொடர்ச் சுற்று (அம்பியர்மானி, வோல்ற்மானி) (Series circuit with ammeter and voltmeter)",
+       "சமாந்தரச் சுற்று (Parallel circuit)",
+       "குவிவு வில்லை: பொருள் 2F க்கு அப்பால் (Convex lens: object beyond 2F)",
+       "சட்டக் காந்தத்தின் காந்தப் புலக் கோடுகள் (Magnetic field lines of a bar magnet)",
+       "குறுக்கலை (Transverse wave)",
+       "மேசையில் இழுக்கப்படும் பெட்டியின் விசை வரிப்படம் (Free-body diagram: box pulled on a table)",
+       "நிலைமாற்றி (Transformer)",
+       "பொது அறிவிப்புத் தொகுதி (கட்டத் தொகுதி வரிப்படம்) (Public address system (block diagram))",
+       "npn திரான்சிஸ்டர் குறியீடு (npn transistor symbol)",
+       "ஆழத்துடன் திரவ அமுக்கம் (Liquid pressure increases with depth)",
+       "திருப்பக் கொள்கை — சீசோ (Principle of moments — see-saw)",
+       "வரிச்சுருளும் மின்காந்தமும் (Solenoid / electromagnet)",
+       "வேக–நேர வரைபு (Velocity–time graph)",
+       "நீரின் வெப்பமாக்கல் வளைகோடு (Heating curve of water)",
+       "தாக்கவீதம்: வாயுக் கனவளவு–நேரம் (Rate: gas volume vs time)",
+       "ஓமின் விதி: V–I வரைபு (Ohm's law: V–I graph)",
+       "புறவெப்பத் தாக்கச் சக்தி மட்ட வரிப்படம் (Exothermic energy level diagram)",
+       "இலையில் மாப்பொருள் சோதனை (Testing a leaf for starch)",
+       "ஒளித்தொகுப்பில் O₂ வெளியேற்றம் (Oxygen released in photosynthesis)",
+       "தன்வெப்பக் கொள்ளளவு அளவிடல் (உலோகக் குற்றி) (Measuring specific heat capacity (metal block))",
+       "குவிவு வில்லையின் குவியத் தூரம் (தூரப் பொருள் முறை) (Focal length of a convex lens (distant object))",
+       "வரையறைகள் (Limitations)"
+      ]
+     },
+     {
+      "slug": "equations",
+      "title": "இரசாயனச் சமன்பாட்டுத் தேர்ச்சி",
+      "sections": [
+       "ஆறு படிச் சமன்செய்தல் முறை",
+       "மக்னீசியம் ஒட்சிசனில் எரிதல்",
+       "ஐதரசன் எரிதல்",
+       "காபன் முற்றாக எரிதல்",
+       "கந்தகம் எரிதல்",
+       "இரும்பு ஒட்சியேற்றம்",
+       "சோடியம் குளோரைட்டு உருவாதல்",
+       "நீறாத சுண்ணாம்பு நீற்றல்",
+       "கல்சியம் காபனேற்றுப் பிரிகை (2019 வினாத்தாள் II வி3B)",
+       "ஐதரசன் பேரொட்சைட்டுப் பிரிகை",
+       "பொற்றாசியம் குளோரேற்றுப் பிரிகை",
+       "செப்புக் காபனேற்றுப் பிரிகை",
+       "சோடியம் இருகாபனேற்றுப் பிரிகை",
+       "நாகம் + ஐதரோகுளோரிக்கமிலம் (H₂ தயாரிப்பு)",
+       "மக்னீசியம் + HCl",
+       "நாகம் + ஐதான சல்பூரிக்கமிலம்",
+       "இரும்பு செம்பை இடம்பெயர்த்தல்",
+       "நாகம் செம்பை இடம்பெயர்த்தல்",
+       "சோடியம் + நீர்",
+       "மக்னீசியம் + சுடுநீர்",
+       "அலசன் இடப்பெயர்ச்சி",
+       "குளோரைட்டுச் சோதனை",
+       "சல்பேற்றுச் சோதனை",
+       "ஈய அயடைட்டு வீழ்படிவு",
+       "செப்பு ஐதரொட்சைட்டு",
+       "அமிலம் + மூலம்",
+       "சல்பூரிக்கமிலம் + NaOH",
+       "இரைப்பை அமிலம் நடுநிலையாக்கல் (2019 வினாத்தாள் II வி6A)",
+       "நைத்திரிக்கமிலம் + KOH",
+       "சுண்ணக்கல் + HCl (2019 வினாத்தாள் II வி3B)",
+       "சோடியம் காபனேற்று + HCl",
+       "அப்பச்சோடா + வினாகிரி",
+       "செப்புச் சல்பேற்றுத் தயாரிப்பு",
+       "CO₂ சோதனை",
+       "மெதேன் முற்றாக எரிதல் (உயிர்வாயு — 2019 வினாத்தாள் II வி1)",
+       "எதேன் எரிதல்",
+       "புரொப்பேன் எரிதல்",
+       "எதனோல் எரிதல்",
+       "எதீன் ஐதரசனேற்றம்",
+       "நிரம்பாத் தன்மைச் சோதனை",
+       "குளுக்கோசு நொதித்தல்",
+       "ஒளித்தொகுப்பு மொத்தச் சமன்பாடு",
+       "காற்றுச் சுவாசம்",
+       "ஊதுலையில் இரும்புப் பிரித்தெடுப்பு",
+       "கசடு உருவாதல் (2019 வினாத்தாள் I வி34)",
+       "காபனால் தாழ்த்தல்",
+       "உருகிய NaCl மின்பகுப்பு (2019 வினாத்தாள் II வி9A)",
+       "நீர் மின்பகுப்பு",
+       "அமோனியா தொகுப்பு",
+       "அமோனியா சோதனை",
+       "சல்பர் மூவொட்சைட்டு உருவாதல்",
+       "பகுதி B — குணகங்களை நிரப்புக",
+       "பகுதி C — விடுபட்ட விளைவு / தாக்கி",
+       "பகுதி D — பிழையான சமன்செய்தலைத் திருத்துக",
+       "பகுதி E — வலுவளவிலிருந்து சூத்திரம் அமைத்தல்",
+       "பகுதி F — அவதானிப்புப் பொருத்தல்",
+       "பகுதி G — வாயுச் சோதனைகள்",
+       "பகுதி H — அயன் / அரைச் சமன்பாடுகள் (அணுக்களும் ஏற்றங்களும் சரிபார்க்கப்பட்டன)",
+       "வரையறைகள் (Limitations)"
+      ]
+     },
+     {
+      "slug": "experiments",
+      "title": "செய்முறைப் பரிசோதனைகள்",
+      "sections": [
+       "உணவில் மாப்பொருள், வெல்லம், புரதம், இலிப்பிட்டு சோதனைகள் (Food tests)",
+       "நுணுக்குக்காட்டியில் வெங்காயத் தோல் கலங்கள் (Onion epidermal cells under the microscope)",
+       "ஒளித்தொகுப்புக்கு ஒளி அவசியம் (மாப்பொருள் சோதனை) (Light is needed for photosynthesis)",
+       "ஒளிச்செறிவும் ஒளித்தொகுப்பு வீதமும் (Hydrilla) (Light intensity and rate of photosynthesis)",
+       "அமிலேசு நொதியத்தின் செயற்பாட்டில் வெப்பநிலையின் விளைவு (Effect of temperature on amylase)",
+       "உட்சுவாச, வெளிச்சுவாச வளியில் CO₂ ஒப்பீடு (CO₂ in inhaled vs exhaled air)",
+       "வித்து முளைத்தலுக்கான நிபந்தனைகள் (Conditions for seed germination)",
+       "சுவாலைச் சோதனை (Flame test)",
+       "வெப்பநிலையும் தாக்கவீதமும் (சோடியம் தயோசல்பேற்று + HCl) (Temperature and rate (thiosulfate–acid))",
+       "பரப்பளவும் தாக்கவீதமும் (CaCO₃ + HCl) (Surface area and rate)",
+       "நடுநிலையாக்கல் — காட்டி பயன்படுத்தல் (Neutralisation with an indicator)",
+       "ஐதரசன் தயாரிப்பும் சோதனையும் (Preparation and test of hydrogen)",
+       "காய்ச்சிவடித்தலால் உப்பு நீரிலிருந்து தூய நீர் (Distillation of salt water)",
+       "காகித நிறப்பகுப்பு (மை நிறமிகள்) (Paper chromatography of inks)",
+       "செப்புச் சல்பேற்றுக் கரைசல் மின்பகுப்பு / செப்பு முலாமிடல் (Copper plating by electrolysis)",
+       "இரும்பு துருப்பிடித்தலுக்கான நிபந்தனைகள் (Conditions for rusting)",
+       "நடுநிலையாக்கலின் வெப்ப மாற்றம் (Temperature change in neutralisation)",
+       "டிக்கர் நாடா / அளவுகோலால் சராசரிக் கதி, ஆர்முடுகல் (Measuring speed and acceleration)",
+       "எல்லை உராய்வும் செவ்வன் மறுதாக்கமும் (Limiting friction vs normal reaction)",
+       "திருப்பக் கொள்கையைச் சரிபார்த்தல் (மீற்றர் கோல்) (Verifying the principle of moments)",
+       "ஆழத்துடன் திரவ அமுக்கம் (Liquid pressure and depth)",
+       "ஓமின் விதி (Ohm's law)",
+       "கம்பியின் நீளமும் தடையும் (Resistance and length of a wire)",
+       "உலோகக் குற்றியின் தன்வெப்பக் கொள்ளளவு (Specific heat capacity of a metal block)",
+       "குவிவு வில்லையின் குவியத் தூரம் (அண்ணளவு) (Approximate focal length of a convex lens)",
+       "மின்காந்தத் தூண்டல் (காந்தம் + சுருள்) (Electromagnetic induction)",
+       "வரையறைகள் (Limitations)"
+      ]
+     },
+     {
+      "slug": "mock-exams",
+      "title": "மாதிரிப் பரீட்சைகள் (Mock Exams)",
+      "sections": [
+       "மாதிரிப் பரீட்சை 1 · வினாத்தாள் I — 1 மணிநேரம்",
+       "மாதிரிப் பரீட்சை 1 · வினாத்தாள் II — 3 மணிநேரம் (+10 நிமிட வாசிப்பு)",
+       "மாதிரிப் பரீட்சை 1 — விடைச் சாவியும் புள்ளித் திட்டமும்",
+       "மாதிரிப் பரீட்சை 2 · வினாத்தாள் I — 1 மணிநேரம்",
+       "மாதிரிப் பரீட்சை 2 · வினாத்தாள் II — 3 மணிநேரம் (+10 நிமிட வாசிப்பு)",
+       "மாதிரிப் பரீட்சை 2 — விடைச் சாவியும் புள்ளித் திட்டமும்",
+       "மாதிரிப் பரீட்சை 3 · வினாத்தாள் I — 1 மணிநேரம்",
+       "மாதிரிப் பரீட்சை 3 · வினாத்தாள் II — 3 மணிநேரம் (+10 நிமிட வாசிப்பு)",
+       "மாதிரிப் பரீட்சை 3 — விடைச் சாவியும் புள்ளித் திட்டமும்",
+       "மாதிரிப் பரீட்சை 4 · வினாத்தாள் I — 1 மணிநேரம்",
+       "மாதிரிப் பரீட்சை 4 · வினாத்தாள் II — 3 மணிநேரம் (+10 நிமிட வாசிப்பு)",
+       "மாதிரிப் பரீட்சை 4 — விடைச் சாவியும் புள்ளித் திட்டமும்",
+       "மாதிரிப் பரீட்சை 5 · வினாத்தாள் I — 1 மணிநேரம்",
+       "மாதிரிப் பரீட்சை 5 · வினாத்தாள் II — 3 மணிநேரம் (+10 நிமிட வாசிப்பு)",
+       "மாதிரிப் பரீட்சை 5 — விடைச் சாவியும் புள்ளித் திட்டமும்",
+       "மாதிரிப் பரீட்சை 5 · வரையறைகள் (Limitations)"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "science-ol-en",
+   "name": "Science",
+   "nameLocal": "",
+   "level": "O/L",
+   "streams": [],
+   "icon": "atom",
+   "medium": "English",
+   "tagline": "Grade 10 & 11 · English medium",
+   "color": "#8B5CF6",
+   "freeChapters": 1,
+   "lang": "en",
+   "pastPaperNote": "Exam topics from the 2019 O/L Science papers, sorted by chapter. Each one comes with a practice question of the same type; the original wording isn't reproduced.",
+   "relatedHeading": "Related questions in other chapters",
+   "grades": [
+    {
+     "grade": 10,
+     "chapters": [
+      {
+       "id": "science-ol-en-10-01",
+       "grade": 10,
+       "number": 1,
+       "title": "Chemical basis of life",
+       "objectives": [
+        "State the main elements in living matter",
+        "Explain the functions of carbohydrates, proteins, lipids and nucleic acids",
+        "Explain the properties of enzymes"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 16,
+        "quiz": 26,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": true
+      },
+      {
+       "id": "science-ol-en-10-02",
+       "grade": 10,
+       "number": 2,
+       "title": "Motion in a straight line",
+       "objectives": [
+        "Distinguish scalar and vector quantities",
+        "Calculate speed, velocity and acceleration",
+        "Interpret displacement–time and velocity–time graphs"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-03",
+       "grade": 10,
+       "number": 3,
+       "title": "Structure of matter",
+       "objectives": [
+        "State the properties of subatomic particles",
+        "Explain atomic number, mass number and isotopes",
+        "Write electronic configurations",
+        "Explain trends in the periodic table"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 28,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-04",
+       "grade": 10,
+       "number": 4,
+       "title": "Newton's laws of motion",
+       "objectives": [
+        "Explain inertia",
+        "Use F = ma",
+        "Calculate momentum",
+        "Identify action–reaction pairs"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 27,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-05",
+       "grade": 10,
+       "number": 5,
+       "title": "Friction",
+       "objectives": [
+        "Distinguish static, limiting and kinetic friction",
+        "Explain the factors affecting friction",
+        "Advantages and disadvantages of friction, ways of reducing it"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-06",
+       "grade": 10,
+       "number": 6,
+       "title": "Structure and functions of plant and animal cells",
+       "objectives": [
+        "Identify cell organelles",
+        "State the function of each organelle",
+        "Compare plant and animal cells"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 23,
+        "quiz": 28,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-07",
+       "grade": 10,
+       "number": 7,
+       "title": "Quantification of elements and compounds",
+       "objectives": [
+        "Calculate relative atomic mass and relative molecular mass",
+        "Use the mole and the Avogadro constant",
+        "Convert between mass, moles and number of particles",
+        "Calculate solution concentration"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 4,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 4
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-08",
+       "grade": 10,
+       "number": 8,
+       "title": "Characteristics of living organisms",
+       "objectives": [
+        "List the characteristics of organisms",
+        "Explain binomial nomenclature",
+        "Classify the main groups of organisms"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-09",
+       "grade": 10,
+       "number": 9,
+       "title": "Resultant force",
+       "objectives": [
+        "Calculate the resultant of forces in one line",
+        "Calculate the resultant of perpendicular forces",
+        "Use the parallelogram rule"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-10",
+       "grade": 10,
+       "number": 10,
+       "title": "Chemical bonds",
+       "objectives": [
+        "Explain ionic and covalent bonding",
+        "Draw dot-and-cross diagrams",
+        "Explain polar bonds using electronegativity",
+        "Relationship between bond type and properties"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-11",
+       "grade": 10,
+       "number": 11,
+       "title": "Turning effect of a force",
+       "objectives": [
+        "Calculate the moment of a force",
+        "Use the principle of moments",
+        "Explain a couple",
+        "Types of lever"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-12",
+       "grade": 10,
+       "number": 12,
+       "title": "Equilibrium of forces",
+       "objectives": [
+        "Conditions for equilibrium of two forces",
+        "Equilibrium of three forces (concurrent forces)",
+        "Centre of gravity and stability"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-13",
+       "grade": 10,
+       "number": 13,
+       "title": "Biosphere",
+       "objectives": [
+        "Explain the components of an ecosystem",
+        "Construct food chains and food webs",
+        "Explain energy flow and nutrient cycles"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-14",
+       "grade": 10,
+       "number": 14,
+       "title": "Continuity of life",
+       "objectives": [
+        "Compare mitosis and meiosis",
+        "Explain asexual and sexual reproduction",
+        "Explain the parts of a flower and pollination",
+        "Explain the human reproductive system"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 5
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-15",
+       "grade": 10,
+       "number": 15,
+       "title": "Hydrostatic pressure and its applications",
+       "objectives": [
+        "Calculate pressure (P = F/A)",
+        "Liquid pressure P = hρg",
+        "Pascal's law, hydraulic machines",
+        "Atmospheric pressure, flotation"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-16",
+       "grade": 10,
+       "number": 16,
+       "title": "Changes in matter",
+       "objectives": [
+        "Distinguish physical and chemical changes",
+        "Identify types of reaction",
+        "Use the reactivity series",
+        "Explain the extraction of iron"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 30,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-17",
+       "grade": 10,
+       "number": 17,
+       "title": "Rate of reactions",
+       "objectives": [
+        "Define and measure the rate of reaction",
+        "Explain the effect of temperature, concentration, surface area and catalysts",
+        "Interpret rate from graphs"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-18",
+       "grade": 10,
+       "number": 18,
+       "title": "Work, energy and power",
+       "objectives": [
+        "Calculate work, kinetic energy and potential energy",
+        "Use the law of conservation of energy",
+        "Calculate power and efficiency"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 27,
+        "mcq": 0,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-19",
+       "grade": 10,
+       "number": 19,
+       "title": "Current electricity",
+       "objectives": [
+        "Define current, potential difference and resistance",
+        "Use Ohm's law",
+        "Calculate series and parallel resistances",
+        "Connect an ammeter and a voltmeter"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 25,
+        "quiz": 27,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-10-20",
+       "grade": 10,
+       "number": 20,
+       "title": "Inheritance",
+       "objectives": [
+        "Explain dominant and recessive characteristics",
+        "Show a monohybrid cross with a Punnett square",
+        "Explain sex determination"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 27,
+        "mcq": 0,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      }
+     ]
+    },
+    {
+     "grade": 11,
+     "chapters": [
+      {
+       "id": "science-ol-en-11-01",
+       "grade": 11,
+       "number": 1,
+       "title": "Living tissues",
+       "objectives": [
+        "Classify plant tissues",
+        "Explain the types and functions of animal tissues",
+        "Relate tissues to their locations"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": true
+      },
+      {
+       "id": "science-ol-en-11-02",
+       "grade": 11,
+       "number": 2,
+       "title": "Photosynthesis",
+       "objectives": [
+        "Write the equation for photosynthesis",
+        "Explain the factors affecting it",
+        "Explain the adaptations of the leaf",
+        "Carry out photosynthesis experiments"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 27,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-03",
+       "grade": 11,
+       "number": 3,
+       "title": "Mixtures",
+       "objectives": [
+        "Distinguish homogeneous and heterogeneous mixtures",
+        "Calculate solution concentration in several ways",
+        "Choose a suitable separation method"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 3,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 5
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-04",
+       "grade": 11,
+       "number": 4,
+       "title": "Waves and their applications",
+       "objectives": [
+        "Distinguish transverse and longitudinal waves",
+        "Wavelength, frequency, amplitude, wave speed",
+        "Properties of sound",
+        "The electromagnetic spectrum and its uses"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-05",
+       "grade": 11,
+       "number": 5,
+       "title": "Geometrical optics",
+       "objectives": [
+        "Laws of reflection",
+        "Refraction and refractive index",
+        "Total internal reflection",
+        "Ray diagrams of convex and concave lenses",
+        "Defects of the eye"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 27,
+        "quiz": 28,
+        "mcq": 0,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-06",
+       "grade": 11,
+       "number": 6,
+       "title": "Biological processes in the human body",
+       "objectives": [
+        "Explain the digestive system and enzymes",
+        "Explain the respiratory system and gas exchange",
+        "Explain the heart and blood circulation",
+        "Explain the function of the kidney and nervous and hormonal coordination"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 32,
+        "quiz": 26,
+        "mcq": 4,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 7
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-07",
+       "grade": 11,
+       "number": 7,
+       "title": "Acids, bases and salts",
+       "objectives": [
+        "Define acid and base",
+        "Distinguish strong and weak acids",
+        "Use pH and indicators",
+        "Neutralisation, preparation of salts"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 19,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-08",
+       "grade": 11,
+       "number": 8,
+       "title": "Heat changes associated with chemical reactions",
+       "objectives": [
+        "Distinguish exothermic and endothermic reactions",
+        "Draw energy level diagrams",
+        "Calculate the heat of reaction"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 18,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 1
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-09",
+       "grade": 11,
+       "number": 9,
+       "title": "Heat",
+       "objectives": [
+        "Distinguish heat and temperature",
+        "Use Q = mcθ and Q = mL",
+        "Explain changes of state",
+        "Conduction, convection, radiation"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 23,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-10",
+       "grade": 11,
+       "number": 10,
+       "title": "Power and energy of electric appliances",
+       "objectives": [
+        "Use P = VI and E = Pt",
+        "Calculate kWh and electricity bills",
+        "Compare the efficiency of appliances",
+        "Electrical safety at home"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-11",
+       "grade": 11,
+       "number": 11,
+       "title": "Electronics",
+       "objectives": [
+        "Explain semiconductors and doping",
+        "Forward and reverse bias of a diode",
+        "Rectification",
+        "Using a transistor as a switch and an amplifier"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 22,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 3
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-12",
+       "grade": 11,
+       "number": 12,
+       "title": "Electrochemistry",
+       "objectives": [
+        "Explain a simple electrochemical cell",
+        "Write electrode reactions in electrolysis",
+        "Electroplating, extraction of metals",
+        "Explain corrosion and its prevention"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 23,
+        "quiz": 25,
+        "mcq": 0,
+        "structured": 2,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-13",
+       "grade": 11,
+       "number": 13,
+       "title": "Electromagnetism and electromagnetic induction",
+       "objectives": [
+        "Draw magnetic field lines",
+        "Magnetic effect of current — right-hand grip rule",
+        "Force on a conductor — Fleming's left-hand rule, motor",
+        "Electromagnetic induction — generator, transformer"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 25,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 2
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-14",
+       "grade": 11,
+       "number": 14,
+       "title": "Hydrocarbons and their derivatives",
+       "objectives": [
+        "Distinguish the alkane, alkene and alkyne series",
+        "Name simple compounds",
+        "Write combustion and addition reactions",
+        "Explain polymers and their environmental impact"
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 1,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 4
+       },
+       "free": false
+      },
+      {
+       "id": "science-ol-en-11-15",
+       "grade": 11,
+       "number": 15,
+       "title": "Biosphere (Grade 11)",
+       "objectives": [
+        "Explain the types and effects of pollution",
+        "Explain the greenhouse effect, ozone depletion and acid rain",
+        "Propose methods of sustainable development"
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 15,
+        "quiz": 25,
+        "mcq": 2,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2019": 5
+       },
+       "free": false
+      }
+     ]
+    }
+   ],
+   "extras": {
+    "papers": [],
+    "guides": [
+     {
+      "slug": "calculations",
+      "title": "Science Calculation Mastery",
+      "sections": [
+       "The eight-step method",
+       "Average speed",
+       "Acceleration",
+       "Newton's second law",
+       "Weight and momentum",
+       "Resultant force",
+       "Moment of a force",
+       "Pressure, liquid pressure, Pascal",
+       "Work, energy, power, efficiency",
+       "Ohm's law and combinations of resistors",
+       "Electric power, energy, cost",
+       "Specific heat capacity and latent heat",
+       "Wave equation",
+       "Refractive index and lenses",
+       "Transformer",
+       "Converting temperature scales",
+       "Moles, molar mass, particles",
+       "Solution concentration, density",
+       "Heat of reaction",
+       "Average rate of reaction",
+       "Mendelian ratios",
+       "Energy transfer in a food chain",
+       "Microscope magnification",
+       "Limitations"
+      ]
+     },
+     {
+      "slug": "diagrams",
+      "title": "Science Diagram Mastery",
+      "sections": [
+       "Plant cell",
+       "Animal cell",
+       "Cross-section of a leaf",
+       "Human heart (schematic)",
+       "Digestive system (schematic)",
+       "Respiratory system",
+       "Nephron (schematic)",
+       "Longitudinal section of a flower",
+       "Pond food web (model)",
+       "Punnett square: Tt × Tt",
+       "Human eye (schematic)",
+       "Electronic configuration of a sodium atom (2,8,1)",
+       "Electrolytic cell",
+       "Preparing hydrogen — downward displacement of water",
+       "Distillation",
+       "Blast furnace (schematic)",
+       "Simple cell (Zn–Cu)",
+       "Series circuit (ammeter, voltmeter)",
+       "Parallel circuit",
+       "Convex lens: object beyond 2F",
+       "Magnetic field lines of a bar magnet",
+       "Transverse wave",
+       "Force diagram of a box pulled along a table",
+       "Transformer",
+       "Public address system (block diagram)",
+       "npn transistor symbol",
+       "Liquid pressure with depth",
+       "Principle of moments — see-saw",
+       "Solenoid and electromagnet",
+       "Velocity–time graph",
+       "Heating curve of water",
+       "Rate of reaction: gas volume–time",
+       "Ohm's law: V–I graph",
+       "Energy level diagram of an exothermic reaction",
+       "Testing a leaf for starch",
+       "O₂ released in photosynthesis",
+       "Measuring specific heat capacity (metal block)",
+       "Focal length of a convex lens (distant object method)",
+       "Limitations"
+      ]
+     },
+     {
+      "slug": "equations",
+      "title": "Chemical Equation Mastery",
+      "sections": [
+       "Six-step balancing method",
+       "Magnesium burning in oxygen",
+       "Hydrogen burning",
+       "Complete combustion of carbon",
+       "Sulfur burning",
+       "Oxidation of iron",
+       "Formation of sodium chloride",
+       "Slaking of quicklime",
+       "Decomposition of calcium carbonate (2019 Paper II Q3B)",
+       "Decomposition of hydrogen peroxide",
+       "Decomposition of potassium chlorate",
+       "Decomposition of copper carbonate",
+       "Decomposition of sodium bicarbonate",
+       "Zinc + hydrochloric acid (preparing H₂)",
+       "Magnesium + HCl",
+       "Zinc + dilute sulfuric acid",
+       "Iron displacing copper",
+       "Zinc displacing copper",
+       "Sodium + water",
+       "Magnesium + hot water",
+       "Halogen displacement",
+       "Test for chloride",
+       "Test for sulfate",
+       "Lead iodide precipitate",
+       "Copper hydroxide",
+       "Acid + base",
+       "Sulfuric acid + NaOH",
+       "Neutralising stomach acid (2019 Paper II Q6A)",
+       "Nitric acid + KOH",
+       "Limestone + HCl (2019 Paper II Q3B)",
+       "Sodium carbonate + HCl",
+       "Baking soda + vinegar",
+       "Preparing copper sulfate",
+       "Test for CO₂",
+       "Complete combustion of methane (biogas — 2019 Paper II Q1)",
+       "Ethane burning",
+       "Propane burning",
+       "Ethanol burning",
+       "Hydrogenation of ethene",
+       "Test for unsaturation",
+       "Fermentation of glucose",
+       "Overall equation of photosynthesis",
+       "Aerobic respiration",
+       "Extraction of iron in the blast furnace",
+       "Formation of slag (2019 Paper I Q34)",
+       "Reduction by carbon",
+       "Electrolysis of molten NaCl (2019 Paper II Q9A)",
+       "Electrolysis of water",
+       "Synthesis of ammonia",
+       "Test for ammonia",
+       "Formation of sulfur trioxide",
+       "Part B — Fill in the coefficients",
+       "Part C — Missing product / reactant",
+       "Part D — Correct the wrong balancing",
+       "Part E — Building formulae from valencies",
+       "Part F — Matching observations",
+       "Part G — Gas tests",
+       "Part H — Ionic / half-equations (atoms and charges checked)",
+       "Limitations"
+      ]
+     },
+     {
+      "slug": "experiments",
+      "title": "Practical Experiments",
+      "sections": [
+       "Tests for starch, sugar, protein and lipid in food",
+       "Onion skin cells under a microscope",
+       "Light is necessary for photosynthesis (starch test)",
+       "Light intensity and rate of photosynthesis (Hydrilla)",
+       "Effect of temperature on the activity of the enzyme amylase",
+       "Comparing CO₂ in inhaled and exhaled air",
+       "Conditions for seed germination",
+       "Flame test",
+       "Temperature and rate of reaction (sodium thiosulfate + HCl)",
+       "Surface area and rate of reaction (CaCO₃ + HCl)",
+       "Neutralisation — using an indicator",
+       "Preparing and testing hydrogen",
+       "Pure water from salt water by distillation",
+       "Paper chromatography (ink pigments)",
+       "Electrolysis of copper sulfate solution / copper plating",
+       "Conditions for rusting of iron",
+       "Heat change of neutralisation",
+       "Average speed and acceleration with ticker tape / a ruler",
+       "Limiting friction and normal reaction",
+       "Verifying the principle of moments (metre rule)",
+       "Liquid pressure with depth",
+       "Ohm's law",
+       "Length of a wire and resistance",
+       "Specific heat capacity of a metal block",
+       "Focal length of a convex lens (approximate)",
+       "Electromagnetic induction (magnet + coil)",
+       "Limitations"
+      ]
+     },
+     {
+      "slug": "mock-exams",
+      "title": "Mock Exams",
+      "sections": [
+       "Mock Exam 1 · Paper I — 1 hour",
+       "Mock Exam 1 · Paper II — 3 hours (+10 minutes reading)",
+       "Mock Exam 1 — Answer key and marking scheme",
+       "Mock Exam 2 · Paper I — 1 hour",
+       "Mock Exam 2 · Paper II — 3 hours (+10 minutes reading)",
+       "Mock Exam 2 — Answer key and marking scheme",
+       "Mock Exam 3 · Paper I — 1 hour",
+       "Mock Exam 3 · Paper II — 3 hours (+10 minutes reading)",
+       "Mock Exam 3 — Answer key and marking scheme",
+       "Mock Exam 4 · Paper I — 1 hour",
+       "Mock Exam 4 · Paper II — 3 hours (+10 minutes reading)",
+       "Mock Exam 4 — Answer key and marking scheme",
+       "Mock Exam 5 · Paper I — 1 hour",
+       "Mock Exam 5 · Paper II — 3 hours (+10 minutes reading)",
+       "Mock Exam 5 — Answer key and marking scheme",
+       "Mock Exam 5 · Limitations"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "english-ol",
+   "name": "English",
+   "nameLocal": "",
+   "level": "O/L",
+   "streams": [],
+   "icon": "book-a",
+   "medium": "English",
+   "allMediums": true,
+   "tagline": "Grade 10 & 11 · English language",
+   "color": "#8B5CF6",
+   "freeChapters": 1,
+   "lang": "en",
+   "gradeLabels": {
+    "10": "Grade 10 & 11"
+   },
+   "pastPaperNote": "Official answers from the 2016, 2017 and 2020 O/L English marking schemes, with model answers for the writing tasks. The question wording isn't reproduced.",
+   "relatedHeading": "Related questions in other chapters",
+   "grades": [
+    {
+     "grade": 10,
+     "chapters": [
+      {
+       "id": "english-ol-10-01",
+       "grade": 10,
+       "number": 1,
+       "title": "English From Zero",
+       "objectives": [
+        "Level 1 — Subject and verb",
+        "Level 2 — Subject, verb and object",
+        "Level 3 — Adding time and place",
+        "Level 4 — Adding descriptions",
+        "Level 5 — Adding reasons",
+        "Level 6 — Connecting sentences"
+       ],
+       "minutes": 22,
+       "counts": {
+        "flashcards": 78,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": true
+      },
+      {
+       "id": "english-ol-10-02",
+       "grade": 10,
+       "number": 2,
+       "title": "Basic sentence construction",
+       "objectives": [
+        "Build a correct sentence with a subject and a verb, then add more information."
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 129,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-03",
+       "grade": 10,
+       "number": 3,
+       "title": "Parts of speech",
+       "objectives": [
+        "Recognise the eight word classes and use each one correctly."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 2,
+        "quiz": 2,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-04",
+       "grade": 10,
+       "number": 4,
+       "title": "Nouns",
+       "objectives": [
+        "Use singular, plural, countable and uncountable nouns correctly."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 2,
+        "quiz": 30,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-05",
+       "grade": 10,
+       "number": 5,
+       "title": "Pronouns",
+       "objectives": [
+        "Use subject, object and possessive pronouns correctly."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 10,
+        "quiz": 12,
+        "mcq": 0,
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2020": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-06",
+       "grade": 10,
+       "number": 6,
+       "title": "Articles and determiners",
+       "objectives": [
+        "Choose a, an, the or no article."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 26,
+        "quiz": 45,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-07",
+       "grade": 10,
+       "number": 7,
+       "title": "Verbs and auxiliary verbs",
+       "objectives": [
+        "Use main verbs with the helping verbs be, do and have."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 91,
+        "quiz": 119,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-08",
+       "grade": 10,
+       "number": 8,
+       "title": "Adjectives",
+       "objectives": [
+        "Use adjectives in the correct position and form."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 10,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-09",
+       "grade": 10,
+       "number": 9,
+       "title": "Adverbs",
+       "objectives": [
+        "Use adverbs of manner, time, place and frequency."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 12,
+        "quiz": 8,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-10",
+       "grade": 10,
+       "number": 10,
+       "title": "Tenses",
+       "objectives": [
+        "Choose the correct tense from time words and meaning."
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 150,
+        "quiz": 83,
+        "mcq": 0,
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2020": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-11",
+       "grade": 10,
+       "number": 11,
+       "title": "Subject–verb agreement",
+       "objectives": [
+        "Make the verb agree with its subject."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 93,
+        "quiz": 42,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-12",
+       "grade": 10,
+       "number": 12,
+       "title": "Prepositions",
+       "objectives": [
+        "Use prepositions of time, place and movement."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 31,
+        "quiz": 48,
+        "mcq": 0,
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2016": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-13",
+       "grade": 10,
+       "number": 13,
+       "title": "Conjunctions and linking words",
+       "objectives": [
+        "Join ideas with suitable conjunctions and linkers."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 33,
+        "quiz": 20,
+        "mcq": 0,
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2016": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-14",
+       "grade": 10,
+       "number": 14,
+       "title": "Modal verbs",
+       "objectives": [
+        "Use can, could, may, might, must, should, will, would."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 13,
+        "quiz": 14,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-15",
+       "grade": 10,
+       "number": 15,
+       "title": "Active and passive voice",
+       "objectives": [
+        "Change active sentences into the passive and use the passive in writing."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 76,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-16",
+       "grade": 10,
+       "number": 16,
+       "title": "Direct and indirect speech",
+       "objectives": [
+        "Report what someone said."
+       ],
+       "minutes": 4,
+       "counts": {
+        "flashcards": 34,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2016": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-17",
+       "grade": 10,
+       "number": 17,
+       "title": "Question formation",
+       "objectives": [
+        "Make yes/no and wh- questions correctly."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 30,
+        "quiz": 36,
+        "mcq": 0,
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2020": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-18",
+       "grade": 10,
+       "number": 18,
+       "title": "Question tags",
+       "objectives": [
+        "Add correct question tags."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 22,
+        "quiz": 47,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-19",
+       "grade": 10,
+       "number": 19,
+       "title": "Conditional sentences",
+       "objectives": [
+        "Make zero, first and second conditional sentences."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 25,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-20",
+       "grade": 10,
+       "number": 20,
+       "title": "Comparative and superlative forms",
+       "objectives": [
+        "Compare two or more things correctly."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 53,
+        "quiz": 37,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-21",
+       "grade": 10,
+       "number": 21,
+       "title": "Relative clauses",
+       "objectives": [
+        "Join sentences with who, which, that, whose and where."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 8,
+        "quiz": 6,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-22",
+       "grade": 10,
+       "number": 22,
+       "title": "Gerunds and infinitives",
+       "objectives": [
+        "Use verb-ing and to + verb after the right words."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 55,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-23",
+       "grade": 10,
+       "number": 23,
+       "title": "Word formation",
+       "objectives": [
+        "Change a word into the noun, verb, adjective or adverb needed by the sentence."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 104,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 1,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2017": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-24",
+       "grade": 10,
+       "number": 24,
+       "title": "Vocabulary development",
+       "objectives": [
+        "Learn words in topics, families and collocations."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 276,
+        "quiz": 273,
+        "mcq": 0,
+        "structured": 3,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2016": 1,
+        "2017": 1,
+        "2020": 1
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-25",
+       "grade": 10,
+       "number": 25,
+       "title": "Punctuation and capitalisation",
+       "objectives": [
+        "Use capital letters and punctuation marks correctly."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 28,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 0,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {},
+       "free": false
+      },
+      {
+       "id": "english-ol-10-26",
+       "grade": 10,
+       "number": 26,
+       "title": "Reading comprehension techniques",
+       "objectives": [
+        "Find answers quickly and accurately in a text."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 2,
+        "quiz": 0,
+        "mcq": 0,
+        "structured": 10,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2016": 3,
+        "2017": 3,
+        "2020": 4
+       },
+       "free": false
+      },
+      {
+       "id": "english-ol-10-27",
+       "grade": 10,
+       "number": 27,
+       "title": "Introduction to writing skills",
+       "objectives": [
+        "Plan and write short and long answers with correct format."
+       ],
+       "minutes": 3,
+       "counts": {
+        "flashcards": 74,
+        "quiz": 50,
+        "mcq": 0,
+        "structured": 19,
+        "pictures": 0,
+        "paperPictures": 0
+       },
+       "years": {
+        "2016": 5,
+        "2017": 4,
+        "2020": 10
+       },
+       "free": false
+      }
+     ]
+    }
+   ],
+   "extras": {
+    "papers": [],
+    "guides": [
+     {
+      "slug": "exam",
+      "title": "The O/L English exam",
+      "sections": [
+       "Sources analysed",
+       "Examination structure by year",
+       "Official marking rules for writing (2020 scheme)"
+      ]
+     },
+     {
+      "slug": "grammar",
+      "title": "Grammar Mastery",
+      "sections": [
+       "Diagnostic checks",
+       "Sentence construction",
+       "Tenses",
+       "Articles",
+       "Prepositions",
+       "Subject–verb agreement",
+       "Pronouns",
+       "Conjunctions and linking words",
+       "Adjectives",
+       "Adverbs",
+       "Modal verbs",
+       "Active and passive voice",
+       "Direct and indirect speech",
+       "Question formation",
+       "Question tags",
+       "Conditional sentences",
+       "Comparisons",
+       "Word formation",
+       "Sentence transformation",
+       "Error correction",
+       "Punctuation and capitalisation",
+       "Common mistakes of Sri Lankan O/L students",
+       "Mixed grammar challenges"
+      ]
+     },
+     {
+      "slug": "vocabulary",
+      "title": "Vocabulary Mastery",
+      "sections": [
+       "Special section — Vocabulary for weak students",
+       "Theme — School and education",
+       "Theme — Family and friendship",
+       "Theme — Daily routines",
+       "Theme — Sports and games",
+       "Theme — Health",
+       "Theme — Food",
+       "Theme — Travelling and places",
+       "Theme — Technology and communication",
+       "Theme — Environment and nature",
+       "Theme — Work and society",
+       "Theme — Culture and festivals",
+       "Theme — Feelings and personal development",
+       "Theme — Common verbs",
+       "Theme — Home and shopping",
+       "Theme — Weather and time",
+       "Theme — Common adjectives",
+       "Theme — Common adverbs and expressions",
+       "Theme — Places in town",
+       "Theme — Money and shopping",
+       "Theme — Community and citizenship",
+       "Theme — Disasters and safety",
+       "Theme — Arts and entertainment",
+       "Theme — Personal qualities",
+       "Theme — Study and examination words",
+       "Theme — Home and family life",
+       "Theme — Transport and roads",
+       "Irregular verbs",
+       "Synonyms",
+       "Antonyms",
+       "Word families",
+       "Prefixes and suffixes",
+       "Collocations (words that go together)",
+       "Phrasal verbs",
+       "Commonly confused words",
+       "Common spelling mistakes",
+       "Special section — Linking words",
+       "Linking words — when and how",
+       "Examination instruction words",
+       "Special section — Better English expressions",
+       "Better expressions",
+       "Special section — Writing vocabulary"
+      ]
+     },
+     {
+      "slug": "reading",
+      "title": "Reading Mastery",
+      "sections": [
+       "Reading techniques",
+       "Understanding examination instructions",
+       "Meet Kamal",
+       "Meet Nila",
+       "Meet Ahamed",
+       "Meet Tharushi",
+       "Meet Ravi",
+       "Meet Fathima",
+       "Meet Sanjay",
+       "Meet Malini",
+       "Meet Arjun",
+       "Meet Ishara",
+       "Meet Dinesh",
+       "Meet Ayesha",
+       "Meet Kevin",
+       "Meet Priya",
+       "Saman's Sunday",
+       "A rainy day",
+       "Our school garden",
+       "A visit to the zoo",
+       "My grandmother",
+       "The lost puppy",
+       "At the library",
+       "Buying a ticket",
+       "At the doctor's",
+       "Asking the way",
+       "Message for Dad",
+       "Invitation card",
+       "Meet Hasini",
+       "Meet Mohamed",
+       "Meet Lahiru",
+       "Meet Shalini",
+       "Meet Nuwan",
+       "Meet Rukshana",
+       "A playground after school",
+       "At the vegetable market",
+       "At the bus stand",
+       "A family at dinner",
+       "At the railway station",
+       "At the hospital",
+       "A school sports meet",
+       "A park on Sunday",
+       "A classroom lesson",
+       "A beach clean-up",
+       "Blood Donation Camp",
+       "Inter-house Debate",
+       "Beach Clean-up",
+       "Science Exhibition",
+       "Art Competition",
+       "Free Eye Clinic",
+       "Book Fair",
+       "Tree-Planting Day",
+       "Sunrise Tuition Classes",
+       "Green Leaf Restaurant",
+       "Cycle World",
+       "Computer Course For Beginners",
+       "Email 1",
+       "Email 2",
+       "Email 3",
+       "Bus timetable: Colombo to Kandy",
+       "The king coconut",
+       "Dengue fever",
+       "Saving water at home",
+       "Planning a party",
+       "A phone call",
+       "Students turn waste into a garden",
+       "How to wash your hands properly",
+       "Poster: Save Electricity",
+       "Captions from a school magazine",
+       "Email: Change of practice time",
+       "The Sri Lankan elephant",
+       "The girl who saved the library",
+       "Mobile phones in the classroom",
+       "A journey on the hill-country train",
+       "Plastic in our oceans",
+       "The young inventor",
+       "Healthy snacks at school",
+       "A letter from a pen friend",
+       "How to make a paper bag",
+       "Sri Lanka's leopards",
+       "The value of reading",
+       "Matching headings: A school trip",
+       "Matching headings: Keeping fit",
+       "A grandmother's garden",
+       "Why sleep matters",
+       "Complete the table: Three islands",
+       "Match the students to the clubs",
+       "Complete the passage: My first day at a new school",
+       "The fishermen of Mirissa",
+       "An inventor from Kegalle",
+       "Matching headings: A healthy school canteen"
+      ]
+     },
+     {
+      "slug": "writing",
+      "title": "Writing Mastery",
+      "sections": [
+       "Section A — Sentence Builder",
+       "Watch sentences grow",
+       "Sentence-building activities",
+       "Section B — Paragraph Builder",
+       "Section C — Standard writing templates",
+       "Picture description",
+       "Notice",
+       "Message",
+       "Invitation",
+       "Announcement",
+       "Short paragraph",
+       "Informal letter",
+       "Formal letter",
+       "Email",
+       "Bar chart description",
+       "Pie chart description",
+       "Line graph description",
+       "Table description",
+       "Essay",
+       "Article",
+       "Speech",
+       "Story",
+       "Section D — Picture Description Mastery",
+       "Section E — Notices, messages and invitations",
+       "Informal letter format",
+       "Formal letter format",
+       "Reusable letter sentence bank",
+       "Invitation letter (informal)",
+       "Request letter (formal)",
+       "Complaint letter (formal)",
+       "Permission letter (formal)",
+       "Thank-you letter (informal)",
+       "Advice letter (informal)",
+       "Information request letter (formal)",
+       "Letter to a friend (news) (informal)",
+       "Letter to school authorities (formal)",
+       "Letter to an organisation (formal)",
+       "Section G — Bar Chart Description Mastery",
+       "Favourite sports of students",
+       "Favourite fruits of Grade 10 students",
+       "How students travel to school",
+       "Books borrowed from the school library",
+       "Rainfall in a town (2024)",
+       "Favourite school subjects",
+       "Money collected by each class for charity",
+       "Hours spent on activities in a week",
+       "Visitors to a museum",
+       "Favourite types of films",
+       "Vegetables sold at a market stall",
+       "Trees planted by school clubs",
+       "Favourite sports of boys and girls",
+       "Marks of two students in four subjects",
+       "Students using the canteen and bringing lunch",
+       "Daily screen time of students",
+       "Section H — Pie Chart Description Mastery",
+       "Section I — Line Graphs",
+       "Section I — Table Descriptions",
+       "Section J — Writing Sentence Bank",
+       "Section K — Writing Correction and Improvement"
+      ]
+     },
+     {
+      "slug": "essays",
+      "title": "Essay Bank (extended writing)",
+      "sections": [
+       "Section A — Universal construction",
+       "Section B — From idea to sentence to paragraph",
+       "Section D — Speech expressions",
+       "Section E — Article structure",
+       "Section F — Story tools",
+       "Section C — Topics",
+       "The importance of sports (essay)",
+       "Importance of education (essay)",
+       "Environmental protection (essay)",
+       "Social media (essay)",
+       "Mobile phones (essay)",
+       "Technology in our lives (essay)",
+       "Artificial intelligence (essay)",
+       "Healthy lifestyles (essay)",
+       "Friendship (essay)",
+       "Time management (essay)",
+       "Road safety (essay)",
+       "Water conservation (essay)",
+       "Cleanliness (essay)",
+       "Natural disasters (essay)",
+       "Responsible citizenship (essay)",
+       "Helping others (essay)",
+       "Importance of reading (essay)",
+       "My school (essay)",
+       "My favourite sport (essay)",
+       "My best friend (essay)",
+       "My future ambition (essay)",
+       "School life (essay)",
+       "Travelling (essay)",
+       "Sri Lankan culture (essay)",
+       "Pollution (essay)",
+       "Libraries (essay)",
+       "Learning English (essay)",
+       "Plastic pollution (essay)",
+       "My village (essay)",
+       "A visit to a historical place (essay)",
+       "Television and children (essay)",
+       "Volunteer work (essay)",
+       "A rainy day (essay)",
+       "Saving water at school (article)",
+       "The dangers of junk food (article)",
+       "Benefits of gardening (article)",
+       "Kindness to animals (article)",
+       "Online learning (article)",
+       "The value of trees (article)",
+       "Healthy food for students (article)",
+       "Dengue prevention (article)",
+       "Preserving our heritage (article)",
+       "Exam stress and how to manage it (article)",
+       "Teenagers and part-time work (article)",
+       "Road safety (speech)",
+       "Protecting the environment (speech)",
+       "The importance of discipline (speech)",
+       "Say no to drugs (speech)",
+       "Welcome speech at the sports meet (speech)",
+       "Farewell speech for a teacher (speech)",
+       "Importance of English (speech)",
+       "Thank-you speech at the prize-giving (speech)",
+       "Mobile phones and students (speech)",
+       "A day I will never forget (story)",
+       "The honest boy (story)",
+       "Lost in the market (story)",
+       "The helpful stranger (story)",
+       "The flood (story)",
+       "A lesson learned (story)",
+       "The lost dog (story)",
+       "An unexpected visitor (story)",
+       "The power cut (story)",
+       "The bravest thing I ever did (story)",
+       "Dialogues",
+       "Extra practice topics (no model answer)"
       ]
      }
     ]

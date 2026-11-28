@@ -1,0 +1,25 @@
+{
+ "id": "ENG-CHT-0001",
+ "type": "bar",
+ "title": "Favourite sports of students",
+ "x_label": "Sports",
+ "y_label": "Number of students",
+ "categories": [
+  "Cricket",
+  "Football",
+  "Volleyball",
+  "Badminton"
+ ],
+ "series": [
+  {
+   "name": "Students",
+   "values": [
+    40,
+    30,
+    20,
+    10
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

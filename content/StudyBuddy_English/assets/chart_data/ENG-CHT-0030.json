@@ -1,0 +1,25 @@
+{
+ "id": "ENG-CHT-0030",
+ "type": "line",
+ "title": "Mobile phone users in a village",
+ "x_label": "Year",
+ "y_label": "Number of users",
+ "categories": [
+  "2018",
+  "2020",
+  "2022",
+  "2024"
+ ],
+ "series": [
+  {
+   "name": "Users",
+   "values": [
+    200,
+    350,
+    500,
+    650
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

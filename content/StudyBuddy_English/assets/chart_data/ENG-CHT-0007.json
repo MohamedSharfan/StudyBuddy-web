@@ -1,0 +1,25 @@
+{
+ "id": "ENG-CHT-0007",
+ "type": "bar",
+ "title": "Money collected by each class for charity",
+ "x_label": "Class",
+ "y_label": "Amount (Rs.)",
+ "categories": [
+  "10A",
+  "10B",
+  "10C",
+  "10D"
+ ],
+ "series": [
+  {
+   "name": "Money",
+   "values": [
+    4500,
+    6000,
+    3500,
+    5000
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

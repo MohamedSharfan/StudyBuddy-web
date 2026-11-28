@@ -1,0 +1,21 @@
+{
+ "id": "ENG-CHT-0021",
+ "type": "pie",
+ "title": "How students spend their free time",
+ "categories": [
+  "Sports",
+  "Reading",
+  "Watching TV",
+  "Using phones",
+  "Helping parents"
+ ],
+ "values": [
+  30,
+  15,
+  20,
+  25,
+  10
+ ],
+ "unit": "%",
+ "total": 100
+}

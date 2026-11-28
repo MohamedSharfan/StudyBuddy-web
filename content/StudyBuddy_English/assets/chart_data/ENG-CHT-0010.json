@@ -1,0 +1,25 @@
+{
+ "id": "ENG-CHT-0010",
+ "type": "bar",
+ "title": "Favourite types of films",
+ "x_label": "Type of film",
+ "y_label": "Number of students",
+ "categories": [
+  "Comedy",
+  "Action",
+  "Cartoon",
+  "Drama"
+ ],
+ "series": [
+  {
+   "name": "Students",
+   "values": [
+    25,
+    25,
+    30,
+    10
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

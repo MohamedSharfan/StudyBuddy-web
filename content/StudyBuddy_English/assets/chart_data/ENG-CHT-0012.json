@@ -1,0 +1,25 @@
+{
+ "id": "ENG-CHT-0012",
+ "type": "bar",
+ "title": "Trees planted by school clubs",
+ "x_label": "Club",
+ "y_label": "Number of trees",
+ "categories": [
+  "Scouts",
+  "Guides",
+  "Eco Club",
+  "Science Club"
+ ],
+ "series": [
+  {
+   "name": "Trees",
+   "values": [
+    40,
+    35,
+    65,
+    20
+   ]
+  }
+ ],
+ "orientation": "horizontal"
+}

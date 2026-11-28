@@ -1,0 +1,27 @@
+{
+ "id": "ENG-CHT-0003",
+ "type": "bar",
+ "title": "How students travel to school",
+ "x_label": "Method of travel",
+ "y_label": "Number of students",
+ "categories": [
+  "Bus",
+  "Walking",
+  "Bicycle",
+  "Van",
+  "Three-wheeler"
+ ],
+ "series": [
+  {
+   "name": "Students",
+   "values": [
+    120,
+    80,
+    45,
+    30,
+    25
+   ]
+  }
+ ],
+ "orientation": "vertical"
+}

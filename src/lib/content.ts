@@ -4,8 +4,10 @@ import path from "node:path";
 import { chapterId } from "./catalog";
 
 export type QuizOption = { key: string; text: string };
-export type QuizQuestion = { prompt: string; options: QuizOption[]; answer: string; explanation: string; difficulty: string };
-export type Flashcard = { front: string; back: string };
+export type WebImage = { src: string; w: number; h: number };
+/** image: a diagram the question is about (Science, English picture questions). */
+export type QuizQuestion = { prompt: string; options: QuizOption[]; answer: string; explanation: string; difficulty: string; image?: WebImage };
+export type Flashcard = { front: string; back: string; image?: WebImage };
 export type PastMcq = QuizQuestion & {
   year: number | null;
   yearLabel: string;
@@ -15,7 +17,6 @@ export type PastMcq = QuizQuestion & {
   alsoRelevant: string;
   verification: string;
 };
-export type WebImage = { src: string; w: number; h: number };
 export type PastStructured = {
   heading: string;
   year: number | null;
