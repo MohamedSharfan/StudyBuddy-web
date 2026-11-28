@@ -12,8 +12,8 @@ import { canonicalUrl } from "@/lib/seo";
 import { completionSet, getViewer, hasSubjectAccess } from "@/lib/session";
 
 export const metadata = {
-  title: "O/L Subjects · Islam & History · Grade 10 & 11",
-  description: "Browse free Sri Lankan O/L Islam and History for Grade 10 and 11 in Tamil and English medium, with chapter-wise notes, quizzes, past papers and map-marking practice.",
+  title: "O/L Subjects · Islam, History, Maths & Tamil · Grade 10 & 11",
+  description: "Browse free Sri Lankan O/L Islam, History, Mathematics and Tamil for Grade 10 and 11 in Tamil and English medium, with chapter-wise notes, quizzes, past papers and map-marking practice.",
   alternates: { canonical: canonicalUrl("/subjects") },
 };
 

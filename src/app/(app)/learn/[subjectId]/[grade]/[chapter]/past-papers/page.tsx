@@ -3,7 +3,7 @@ import { ExamVault } from "@/components/ExamVault";
 import { LockedPanel } from "@/components/LockedPanel";
 import { Markdown } from "@/components/Markdown";
 import { redirect } from "next/navigation";
-import { chapterHref, hasPastPapers } from "@/lib/catalog";
+import { chapterHref, gradeName, hasPastPapers } from "@/lib/catalog";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
 import { canonicalUrl, chapterSeo } from "@/lib/seo";
 
@@ -31,10 +31,10 @@ export default async function PastPapersPage({ params }: { params: ChapterParams
       <div className="grid lg:grid-cols-[1fr_360px] gap-5 items-start">
         <div className="glass p-5 sm:p-6">
           <h2 className="display text-xl font-bold">
-            O/L {subject.name} Grade {c.grade} Chapter {c.number} past-paper questions
+            O/L {subject.name} {gradeName(subject, c.grade)} Chapter {c.number} past-paper questions
           </h2>
           <p className="text-sm text-muted mt-2">
-            {subject.pastPaperNote} Score 80% in the MCQ practice to complete this step.
+            {subject.pastPaperNote} {pp.mcq.length > 0 && "Score 80% in the MCQ practice to complete this step."}
           </p>
         </div>
         <ExamRadar years={c.years} compact />

@@ -1,0 +1,484 @@
+{
+ "P1B-FRAC": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1B-MENS": {
+  "official_years": [
+   "OL2019"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1B-FIN": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1B-STAT": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1B-PROB": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1B-GRAPH": {
+  "official_years": [
+   "OL2018"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": []
+ },
+ "P2A-FIN": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2A-QGRAPH": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2A-ALG": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2A-QEQ": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2A-TRIG": {
+  "official_years": [
+   "OL2019"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2A-MENS": {
+  "official_years": [
+   "OL2018"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": []
+ },
+ "P2A-MEAN": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2B-PROG": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2B-CONS": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2B-PGEO": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2B-PCIR": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2B-TRIG": {
+  "official_years": [
+   "OL2018"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": []
+ },
+ "P2B-VENN": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P2B-VOL": {
+  "official_years": [
+   "OL2019"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-PCT": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 3,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-FACT": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024"
+  ]
+ },
+ "P1A-LOG": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2026"
+  ]
+ },
+ "P1A-RATE": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 4,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-CIRC": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 7,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-MENS": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 4,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-LINE": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-AFRAC": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-QEQ": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024"
+  ]
+ },
+ "P1A-STAT": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-PROG": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024"
+  ]
+ },
+ "P1A-PARA": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024"
+  ]
+ },
+ "P1A-LCM": {
+  "official_years": [
+   "OL2019"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-TRIG": {
+  "official_years": [
+   "OL2019"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-PROB": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-MAT": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2026"
+  ]
+ },
+ "P1A-SET": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 2,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-LOCUS": {
+  "official_years": [
+   "OL2019"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-ANGLE": {
+  "official_years": [
+   "OL2018"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-NUM": {
+  "official_years": [
+   "OL2018"
+  ],
+  "n_official_papers": 1,
+  "n_official_questions": 1,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-EQ": {
+  "official_years": [],
+  "n_official_papers": 0,
+  "n_official_questions": 0,
+  "moe": [
+   "MOE2024",
+   "MOE2026"
+  ]
+ },
+ "P1A-INEQ": {
+  "official_years": [],
+  "n_official_papers": 0,
+  "n_official_questions": 0,
+  "moe": [
+   "MOE2026"
+  ]
+ },
+ "P1A-GEO": {
+  "official_years": [
+   "OL2018",
+   "OL2019"
+  ],
+  "n_official_papers": 2,
+  "n_official_questions": 5,
+  "moe": [
+   "MOE2026"
+  ]
+ }
+}

@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, Lock } from "lucide-react";
 import { AskTeacher } from "@/components/AskTeacher";
 import { DoorTabs } from "@/components/DoorTabs";
 import { FREE_ACCESS, LOGIN_ENABLED } from "@/lib/config";
-import { chapterHref, hasPastPapers } from "@/lib/catalog";
+import { chapterHref, gradeName, hasPastPapers } from "@/lib/catalog";
 import { mapSetsForChapter } from "@/lib/maps/sets";
 import { resolveChapter, type ChapterParams } from "@/lib/chapter";
 import { canonicalUrl, chapterSeo } from "@/lib/seo";
@@ -36,7 +36,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
     <div lang={subject.lang}>
       <div className="flex items-center justify-between gap-3 text-sm">
         <Link href={`/subjects/${subject.id}?grade=${c.grade}`} className="flex items-center gap-1 text-muted hover:text-white font-semibold">
-          <ChevronLeft size={16} /> {subject.name} · Grade {c.grade}
+          <ChevronLeft size={16} /> {subject.name} · {gradeName(subject, c.grade)}
         </Link>
         <div className="flex gap-1">
           {prev && (
@@ -54,7 +54,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
 
       <header className="mt-4">
         <p className="eyebrow">
-          Grade {c.grade} · Chapter {c.number} {c.free && !FREE_ACCESS && <span className="text-gold">· Free</span>}
+          {gradeName(subject, c.grade)} · Chapter {c.number} {c.free && !FREE_ACCESS && <span className="text-gold">· Free</span>}
           {!open && (
             <span className="text-gold">
               {" "}
@@ -79,7 +79,7 @@ export default async function ChapterLayout({ params, children }: { params: Chap
       </div>
       {children}
       <div className="mt-8">
-        <AskTeacher context={`${subject.name} (${subject.medium} medium), Grade ${c.grade} Chapter ${c.number}: ${c.title}`} />
+        <AskTeacher context={`${subject.name} (${subject.medium} medium), ${gradeName(subject, c.grade)} Chapter ${c.number}: ${c.title}`} />
       </div>
     </div>
   );

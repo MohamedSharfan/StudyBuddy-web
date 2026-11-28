@@ -36,6 +36,13 @@ export type SubjectSummary = {
   maps?: boolean;
   /** History: picture study — past-paper picture questions (Part II Q1 (b)) and textbook pictures per grade. */
   pictures?: { papers: number; years: number[]; textbook: Record<string, number> };
+  /** Display names for grades that aren't one school grade, e.g. Tamil: { "10": "Grade 10 & 11" }. */
+  gradeLabels?: Record<string, string>;
+  /** Tamil, Maths: past papers by year and paper, and subject-wide reading guides (full text in generated/extras). */
+  extras?: {
+    papers: { slug: string; title: string; yearLabel: string; mcq: number; structured: number }[];
+    guides: { slug: string; title: string; sections: string[] }[];
+  };
   grades: GradeSummary[];
 };
 
@@ -75,6 +82,11 @@ export function subjectVersions(s: Pick<SubjectSummary, "name" | "level">) {
 /** Does this chapter have past-paper questions? (English-medium History has none yet.) */
 export function hasPastPapers(c: Pick<ChapterSummary, "counts">) {
   return c.counts.mcq + c.counts.structured > 0;
+}
+
+/** "Grade 10", or the subject's own name for it ("Grade 10 & 11" for Tamil). */
+export function gradeName(s: Pick<SubjectSummary, "gradeLabels">, grade: number) {
+  return s.gradeLabels?.[String(grade)] ?? `Grade ${grade}`;
 }
 
 export function getSubject(id: string) {

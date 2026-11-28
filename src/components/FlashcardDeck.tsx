@@ -97,7 +97,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
           {cards.map((c, i) => (
             <div key={i} className="glass p-4">
               <p className="font-bold">{withArabic(c.front)}</p>
-              <p className="text-sm text-muted mt-2 border-t border-line pt-2">{withArabic(c.back)}</p>
+              <p className="text-sm text-muted mt-2 border-t border-line pt-2 whitespace-pre-line">{withArabic(c.back)}</p>
             </div>
           ))}
         </div>
@@ -150,7 +150,7 @@ export function FlashcardDeck({ cards, itemId, done, nextHref }: { cards: Flashc
                 <div className="flip-face flip-back glass p-7 sm:p-10 flex flex-col !border-gold/50">
                   <span className="eyebrow !text-gold">Answer</span>
                   <p className="flex-1 grid place-items-center text-center text-lg sm:text-xl font-semibold leading-relaxed">
-                    <span>{withArabic(cards[current].back)}</span>
+                    <span className="whitespace-pre-line">{withArabic(cards[current].back)}</span>
                   </p>
                   <span className="text-center text-xs text-muted">Did you know it?</span>
                 </div>

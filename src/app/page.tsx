@@ -4,13 +4,13 @@ import { ArrowRight, Check, ChevronLeft, MapPinned, MessageCircle } from "lucide
 import { FreeOffer } from "@/components/FreeOffer";
 import { Icon } from "@/components/ui/Icon";
 import { Logo } from "@/components/ui/Logo";
-import { catalog } from "@/lib/catalog";
+import { catalog, gradeName } from "@/lib/catalog";
 import { FREE_OFFER, MEDIUMS, teacherWhatsAppLink } from "@/lib/config";
 import { OL_UPCOMING } from "@/lib/levels";
 import { getMedium, studyHref } from "@/lib/prefs";
 import { canonicalUrl } from "@/lib/seo";
 
-const SHARE_TEXT = `Free Sri Lankan O/L Islam and History past papers, notes, flashcards, quizzes and map-marking practice for Grade 10 and 11 in Tamil and English medium. ${FREE_OFFER}`;
+const SHARE_TEXT = `Free Sri Lankan O/L Islam, History, Mathematics and Tamil past papers, notes, flashcards, quizzes and map-marking practice for Grade 10 and 11 in Tamil and English medium. ${FREE_OFFER}`;
 
 // One entry per live subject (Islam, History, …), with its Tamil and English versions.
 const LIVE = [...new Set(catalog.subjects.filter((s) => s.level === "O/L").map((s) => s.name))].map((name) => {
@@ -20,11 +20,11 @@ const LIVE = [...new Set(catalog.subjects.filter((s) => s.level === "O/L").map((
 
 // Also used for link previews when the site is shared on WhatsApp / Facebook.
 export const metadata = {
-  title: { absolute: "O/L Islam & History Past Papers, Notes & Quizzes in Sri Lanka | StudyBuddy" },
+  title: { absolute: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes in Sri Lanka | StudyBuddy" },
   description: SHARE_TEXT,
   alternates: { canonical: canonicalUrl("/") },
-  openGraph: { type: "website", siteName: "StudyBuddy", title: "O/L Islam & History Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, url: canonicalUrl("/"), locale: "en_LK", images: ["/logo.jpg"] },
-  twitter: { card: "summary_large_image", title: "O/L Islam & History Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, images: ["/logo.jpg"] },
+  openGraph: { type: "website", siteName: "StudyBuddy", title: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, url: canonicalUrl("/"), locale: "en_LK", images: ["/logo.jpg"] },
+  twitter: { card: "summary_large_image", title: "O/L Islam, History, Maths & Tamil Past Papers, Notes & Quizzes | StudyBuddy", description: SHARE_TEXT, images: ["/logo.jpg"] },
 };
 
 /**
@@ -51,12 +51,12 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
         <div className="mt-4 sm:mt-10">
           <FreeOffer />
           <h1 className="display text-[1.9rem] sm:text-4xl font-bold leading-tight mt-5">
-            {pickMedium ? "Choose your medium" : "Free O/L Islam & History past papers, notes and quizzes"}
+            {pickMedium ? "Choose your medium" : "Free O/L Islam, History, Maths & Tamil past papers, notes and quizzes"}
           </h1>
           <p className="text-muted mt-2">
             {pickMedium
               ? "Choose Tamil or English medium for Grade 10 and 11 notes, flashcards, quizzes, past papers and map practice."
-              : "Study Sri Lankan Grade 10 and 11 Islam and History with chapter-wise notes, flashcards, quizzes, past-paper questions from 2016–2025 and map-marking practice."}
+              : "Study Sri Lankan Grade 10 and 11 Islam, History, Mathematics and Tamil with chapter-wise notes, flashcards, quizzes, past-paper questions from 2016–2025 and map-marking practice."}
           </p>
         </div>
 
@@ -115,12 +115,14 @@ export default async function Start({ searchParams }: { searchParams: Promise<{ 
           <section key={subject.name} className="mt-6 glass p-5 sm:p-6">
             <h2 className="display text-xl font-bold">Browse O/L {subject.name} by grade and medium</h2>
             <div className="grid grid-cols-2 gap-2 mt-4">
-              {[10, 11].flatMap((grade) =>
-                subject.versions.map((v) => (
-                  <Link key={`${grade}-${v.id}`} href={`/subjects/${v.id}?grade=${grade}`} className="chip justify-center hover:!text-white">
-                    Grade {grade} · {v.medium} medium
-                  </Link>
-                )),
+              {[...new Set(subject.versions.flatMap((v) => v.grades.map((g) => g.grade)))].sort().flatMap((grade) =>
+                subject.versions
+                  .filter((v) => v.grades.some((g) => g.grade === grade))
+                  .map((v) => (
+                    <Link key={`${grade}-${v.id}`} href={`/subjects/${v.id}?grade=${grade}`} className="chip justify-center hover:!text-white">
+                      {gradeName(v, grade)} · {v.medium} medium
+                    </Link>
+                  )),
               )}
             </div>
             {subject.maps && (

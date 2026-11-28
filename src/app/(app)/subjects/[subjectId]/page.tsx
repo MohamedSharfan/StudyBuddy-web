@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { ChevronRight, Images, Lock, MapPinned } from "lucide-react";
+import { BookMarked, ChevronRight, FileText, Images, Lock, MapPinned } from "lucide-react";
 import { AskTeacher } from "@/components/AskTeacher";
 import { ChapterList } from "@/components/ChapterList";
 import { FreeOffer } from "@/components/FreeOffer";
 import { ProgressRing } from "@/components/ui/ProgressRing";
-import { getSubject, subjectTotals, subjectVersions } from "@/lib/catalog";
+import { getSubject, gradeName, subjectTotals, subjectVersions } from "@/lib/catalog";
 import { LOGIN_ENABLED, MEDIUMS } from "@/lib/config";
 import { PAST_MAP_SETS, TEXTBOOK_MAP_SETS } from "@/lib/maps/sets";
 import { starItems, subjectProgress } from "@/lib/progress";
@@ -80,7 +80,7 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
           )}
         </div>
 
-        <div className="grid grid-cols-2 gap-2 mt-5" role="tablist" aria-label="Grade">
+        {grades.length > 1 && <div className="grid grid-cols-2 gap-2 mt-5" role="tablist" aria-label="Grade">
           {grades.map((g) => (
             <Link
               key={g}
@@ -89,10 +89,10 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
               aria-selected={g === grade}
               className={`text-center py-3 rounded-xl font-bold border ${g === grade ? "bg-electric border-electric text-white" : "border-line text-muted hover:text-white"}`}
             >
-              Grade {g}
+              {gradeName(subject, g)}
             </Link>
           ))}
-        </div>
+        </div>}
 
         <FreeOffer className="mt-4" />
 
@@ -130,6 +130,45 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
           </Link>
         )}
 
+        {subject.extras && subject.extras.papers.length > 0 && (
+          <section id="papers" className="mt-5 scroll-mt-24">
+            <h2 className="font-bold text-lg flex items-center gap-2">
+              <FileText size={18} className="text-gold" /> {en ? "Past papers by year" : "ஆண்டுவாரியான கடந்தகால வினாத்தாள்கள்"}
+            </h2>
+            <div className="grid sm:grid-cols-2 gap-2 mt-3">
+              {subject.extras.papers.map((p) => (
+                <Link key={p.slug} href={`/subjects/${subject.id}/papers/${p.slug}`} className="glass glass-hover flex items-center gap-3 p-3.5">
+                  <span className="chip !text-gold !border-gold/40 flex-none">{p.yearLabel}</span>
+                  <span className="flex-1 min-w-0">
+                    <span className="block font-semibold text-sm leading-snug">{p.title.replace(/\s*[–-]\s*20\d\d.*$/, "")}</span>
+                    <span className="block text-xs text-muted">{p.mcq ? `${p.mcq} MCQs` : `${p.structured} questions`}</span>
+                  </span>
+                  <ChevronRight size={18} className="text-gold flex-none" />
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {subject.extras && subject.extras.guides.length > 0 && (
+          <section id="guides" className="mt-5 scroll-mt-24">
+            <h2 className="font-bold text-lg flex items-center gap-2">
+              <BookMarked size={18} className="text-gold" /> {en ? "Study guides" : "கற்றல் வழிகாட்டிகள்"}
+            </h2>
+            <div className="grid sm:grid-cols-2 gap-2 mt-3">
+              {subject.extras.guides.map((g) => (
+                <Link key={g.slug} href={`/subjects/${subject.id}/guides/${g.slug}`} className="glass glass-hover flex items-center gap-3 p-3.5">
+                  <span className="flex-1 min-w-0">
+                    <span className="block font-semibold leading-snug">{g.title}</span>
+                    <span className="block text-xs text-muted">{g.sections.length} {en ? "sections" : "பகுதிகள்"}</span>
+                  </span>
+                  <ChevronRight size={18} className="text-gold flex-none" />
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
         <p className="text-muted mt-4 mb-3 text-sm">
           {LOGIN_ENABLED ? `${gradeDone} of ${items.length} chapters done` : `${items.length} chapters · tap a chapter to start`}
         </p>
@@ -137,7 +176,7 @@ export default async function SubjectPage({ params, searchParams }: { params: Pr
       </div>
 
       <aside className="space-y-4 lg:sticky lg:top-24">
-        <AskTeacher context={`${subject.name} (${subject.medium} medium), Grade ${grade}`} />
+        <AskTeacher context={`${subject.name} (${subject.medium} medium), ${gradeName(subject, grade)}`} />
         {LOGIN_ENABLED && (
           <div className="glass p-5 flex items-center gap-4">
             <ProgressRing value={prog.percent} size={70}>

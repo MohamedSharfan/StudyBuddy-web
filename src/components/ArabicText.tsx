@@ -1,4 +1,5 @@
 import React from "react";
+import dynamic from "next/dynamic";
 import { Apple, ArrowLeftRight, ArrowRight, BookOpen, Bookmark, Brain, ChartColumn, Circle, CircleAlert, CircleCheck, CircleX, Clock, ClipboardList, Dumbbell, Eye, Gift, GraduationCap, HandHeart, Handshake, Hammer, Heart, Hourglass, Landmark, Library, Lightbulb, ListOrdered, Map, Moon, RefreshCw, School, ScrollText, Scale, Shield, ShoppingCart, Sparkles, Sprout, Star, Swords, Target, TriangleAlert, User, UserRound, Users, Waves, Wheat } from "lucide-react";
 
 // Arabic letters (and harakat) — a run of Arabic words, possibly with spaces between them.
@@ -87,8 +88,12 @@ export function withMarker(text: string): React.ReactNode | null {
   return <>{parts}</>;
 }
 
-/** Wraps Arabic words in <span class="ar-i" lang="ar"> (Arabic font, readable size), for plain strings rendered outside markdown (flashcards, quiz, past papers). */
+// KaTeX is only loaded for text that has maths in it (Mathematics).
+const MathText = dynamic(() => import("./MathText"));
+
+/** Wraps Arabic words in <span class="ar-i" lang="ar"> (Arabic font, readable size), for plain strings rendered outside markdown (flashcards, quiz, past papers). LaTeX ($…$) is typeset. */
 export function withArabic(text: string): React.ReactNode {
+  if (text.includes("$")) return <MathText text={text} />;
   return withMarker(text) ?? arabicText(text);
 }
 

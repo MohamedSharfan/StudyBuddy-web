@@ -1,0 +1,58 @@
+chapter_id,grade,chapter_no,title_en,title_ta,area,notes,flashcards,formulas,practice_F,practice_G,practice_A,verified_past_refs,patterns,visuals
+G10C01,10,1,Perimeter,சுற்றளவு,MEN,yes,12,2,4,4,3,3,P1A-MENS,GEO-COMPOSITE-01;GEO-SECTOR-01
+G10C02,10,2,Square Root,வர்க்கமூலம்,NUM,yes,8,1,4,4,3,2,P1A-NUM,
+G10C03,10,3,Fractions,பின்னங்கள்,NUM,yes,7,1,4,4,3,4,P1B-FRAC,
+G10C04,10,4,Binomial Expressions,ஈருறுப்புக் கோவைகள்,ALG,yes,6,1,4,4,3,0,,
+G10C05,10,5,Congruence of Triangles,முக்கோணிகளின் ஒருங்கிசைவு,GEO,yes,7,1,4,4,1,1,P1A-ANGLE,GEO-ISOS-BISECT-01
+G10C06,10,6,Area,பரப்பளவு,MEN,yes,11,2,4,3,3,4,P1A-MENS;P1B-MENS,GEO-SECTOR-01;GEO-TRAP-SEMI-01
+G10C07,10,7,Factors of Quadratic Expressions,இருபடிக் கோவைகளின் காரணிகள்,ALG,yes,9,2,4,4,3,3,P1A-FACT,
+G10C08,10,8,Triangles I,முக்கோணிகள் I,GEO,yes,9,2,4,4,3,3,P1A-ANGLE,GEO-EXTANGLE-01
+G10C09,10,9,Triangles II,முக்கோணிகள் II,GEO,yes,7,1,4,4,1,1,P1A-ANGLE,GEO-ISOS-BISECT-01
+G10C10,10,10,Inverse Proportions,நேர்மாறு விகிதசமன்,NUM,yes,7,1,4,4,3,1,P1A-RATE,
+G10C11,10,11,Data Representation,தரவுகளை வகைகுறித்தல்,STA,yes,8,1,4,4,3,1,P1A-STAT,STA-PIE-01
+G10C12,10,12,Least Common Multiple of Algebraic Expressions,அட்சரகணிதக் கோவைகளின் பொதுமடங்குகளுட் சிறியது,ALG,yes,6,1,3,4,3,3,P1A-LCM,
+G10C13,10,13,Algebraic Fractions,அட்சரகணிதப் பின்னங்கள்,ALG,yes,6,1,4,4,3,0,,
+G10C14,10,14,Percentages,சதவீதம்,FIN,yes,13,3,4,4,3,0,,
+G10C15,10,15,Equations,சமன்பாடுகள்,ALG,yes,13,3,4,4,3,6,P1A-EQ;P2A-ALG,
+G10C16,10,16,Parallelograms I,இணைகரங்கள் I,GEO,yes,7,1,4,4,1,3,P1A-PARA,GEO-PARA-01
+G10C17,10,17,Parallelograms II,இணைகரங்கள் II,GEO,yes,6,1,4,4,1,2,P2B-PGEO,GEO-PARA-01
+G10C18,10,18,Sets,தொடைகள்,SET,yes,8,1,4,3,3,3,P1A-SET,SET-VENN2-01
+G10C19,10,19,Logarithms I,மடக்கை I,NUM,yes,9,2,4,4,3,3,P1A-LOG,
+G10C20,10,20,Logarithms II,மடக்கை II,NUM,yes,7,1,4,4,3,0,,
+G10C21,10,21,Graphs,வரைபுகள்,GRA,yes,14,3,4,4,3,4,P1A-LINE,GRA-LINE-01;GRA-QUAD-02
+G10C22,10,22,Rate,வீதம்,NUM,yes,10,2,4,4,3,6,P1A-RATE;P1B-GRAPH,
+G10C23,10,23,Formulae,சூத்திரங்கள்,ALG,yes,7,1,4,1,1,0,,
+G10C24,10,24,Arithmetic Progressions,கூட்டல் விருத்தி,ALG,yes,10,2,4,4,3,4,P2B-PROG,
+G10C25,10,25,Algebraic Inequalities,அட்சரகணிதச் சமனிலிகள்,ALG,yes,6,1,4,3,3,1,P1A-INEQ,GRA-NUMLINE-01
+G10C26,10,26,Frequency Distribution,மீடிறன் பரம்பல்,STA,yes,11,2,3,3,3,7,P1A-STAT;P1B-STAT;P2A-MEAN,STA-HIST-01
+G10C27,10,27,Chords of a Circle,வட்டத்தின் நாண்கள்,GEO,yes,7,1,4,4,3,0,,GEO-CHORD-01
+G10C28,10,28,Construction,அமைப்புகள்,GEO,yes,10,3,4,3,1,4,P1A-LOCUS;P2B-CONS,CON-ANGBIS-01;CON-PERPBIS-01
+G10C29,10,29,Surface Area and Volume,மேற்பரப்பளவும் கனவளவும்,MEN,yes,10,2,4,3,3,6,P1A-MENS;P2A-MENS,SOL-CYL-01
+G10C30,10,30,Probability,நிகழ்தகவு,PRO,yes,10,2,4,4,3,4,P1A-PROB,PRO-GRID-01
+G10C31,10,31,Angles in a Circle,வட்டத்தின் கோணங்கள்,GEO,yes,11,3,4,4,3,9,P1A-CIRC,GEO-CIRC-CENTRE-01;GEO-CIRC-SAMESEG-01;GEO-CIRC-SEMI-01
+G10C32,10,32,Scale Diagrams,அளவிடைப் படங்கள்,TRI,yes,11,2,4,4,3,2,P1A-TRIG,TRI-BEARING-01;TRI-ELEV-01
+G11C01,11,1,Real Numbers,மெய்யெண்கள்,NUM,yes,8,2,4,4,3,1,P1A-NUM,
+G11C02,11,2,Indices and Logarithms I,சுட்டிகளும் மடக்கைகளும் I,NUM,yes,6,1,4,4,1,0,,
+G11C03,11,3,Indices and Logarithms II,சுட்டிகளும் மடக்கைகளும் II,NUM,yes,4,0,4,4,3,0,,
+G11C04,11,4,Surface Area of Solids,திண்மங்களின் மேற்பரப்பின் பரப்பளவு,MEN,yes,10,2,4,4,3,0,,SOL-CONE-01;SOL-HEMI-01;SOL-SPHERE-01
+G11C05,11,5,Volume of Solids,திண்மங்களின் கனவளவு,MEN,yes,9,2,4,4,3,3,P2B-VOL,SOL-CONE-01;SOL-SPHERE-01
+G11C06,11,6,Binomial Expressions,ஈருறுப்புக் கோவைகள்,ALG,yes,5,1,3,4,3,0,,
+G11C07,11,7,Algebraic Fractions,அட்சரகணிதப் பின்னங்கள்,ALG,yes,3,0,4,3,3,4,P1A-AFRAC,
+G11C08,11,8,Areas of Plane Figures between Parallel Lines,சமாந்தரக் கோடுகளுக்கிடையே உள்ள தளஉருவங்களின் பரப்பளவு,GEO,yes,7,1,4,4,1,1,P2B-PGEO,GEO-PARALLEL-AREA-01
+G11C09,11,9,Percentage,சதவீதம்,FIN,yes,13,3,4,4,3,11,P1A-PCT;P1B-FIN;P2A-FIN,
+G11C10,11,10,Share Market,பங்குச்சந்தை,FIN,yes,6,1,4,4,3,3,P1B-FIN;P2A-FIN,
+G11C11,11,11,Mid-point Theorem,நடுப்புள்ளித் தேற்றம்,GEO,yes,7,1,4,3,1,2,P1A-GEO;P2B-PGEO,GEO-MIDPT-01
+G11C12,11,12,Graphs,வரைபுகள்,GRA,yes,8,1,4,4,3,4,P2A-QGRAPH,GRA-QUAD-01
+G11C13,11,13,Equations,சமன்பாடுகள்,ALG,yes,7,1,4,4,3,7,P1A-QEQ;P2A-QEQ,
+G11C14,11,14,Equiangular Triangles,இயல்பொத்த முக்கோணிகள்,GEO,yes,7,1,4,3,1,1,P2B-PCIR,GEO-CHORDS-INT-01;GEO-SIMILAR-01
+G11C15,11,15,Data Representation and Prediction,தரவுகளை வகைகுறித்தல்,STA,yes,11,2,4,4,3,4,P1A-STAT;P1B-STAT,STA-OGIVE-01
+G11C16,11,16,Geometric Progressions,பெருக்கல் விருத்தி,ALG,yes,10,2,4,4,3,3,P1A-PROG,
+G11C17,11,17,Pythagoras' Theorem,பைதகரசின் தேற்றம்,GEO,yes,8,1,4,4,3,1,P1A-GEO,GEO-RIGHT-01
+G11C18,11,18,Trigonometry,திரிகோண கணிதம்,TRI,yes,8,1,4,4,3,5,P1A-TRIG;P2A-TRIG;P2B-TRIG,GEO-RIGHT-01;TRI-DEPR-01;TRI-ELEV-01
+G11C19,11,19,Matrices,தாயங்கள்,ALG,yes,9,2,4,4,3,3,P1A-MAT,
+G11C20,11,20,Inequalities,சமனிலிகள்,ALG,yes,7,1,4,1,1,0,,GRA-REGION-01
+G11C21,11,21,Cyclic Quadrilaterals,வட்ட நாற்பக்கல்கள்,GEO,yes,7,1,4,4,3,5,P1A-CIRC;P2B-PCIR,GEO-CYCLIC-01
+G11C22,11,22,Tangents,தொடலிகள்,GEO,yes,9,2,4,4,3,2,P2B-PCIR,GEO-ALTSEG-01;GEO-TANGENT-01;GEO-TANGENT-02
+G11C23,11,23,Constructions,அமைப்புகள்,GEO,yes,10,3,3,1,1,3,P2B-CONS,CON-ANGBIS-01;CON-CIRCUM-01;CON-TANGENT-01
+G11C24,11,24,Sets,தொடைகள்,SET,yes,7,1,1,2,3,5,P1A-SET;P2B-VENN,SET-VENN2-01;SET-VENN3-01
+G11C25,11,25,Probability,நிகழ்தகவு,PRO,yes,10,2,3,4,3,4,P1B-PROB,PRO-TREE-01

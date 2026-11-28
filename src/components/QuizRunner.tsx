@@ -251,9 +251,15 @@ export function QuizRunner({
         {picked && answerVisible && (
           <div className={`mt-6 rounded-2xl p-4 border pop bg-card-2 ${isRight ? "border-gold" : "border-lilac"}`}>
             <p className={`font-extrabold ${isRight ? "text-gold" : "text-lilac"}`}>
-              {isRight ? <><Check size={17} className="inline" /> Correct!</> : <><X size={17} className="inline" /> The answer is {q.answer}{correctOption ? `. ${correctOption.text}` : ""}</>}
+              {isRight ? <><Check size={17} className="inline" /> Correct!</> : <><X size={17} className="inline" /> The answer is {q.answer}{correctOption && <>. {withArabic(correctOption.text)}</>}</>}
             </p>
-            {q.explanation && <p className="text-[0.95rem] text-muted mt-1.5 leading-relaxed">{withArabic(q.explanation)}</p>}
+            {q.explanation &&
+              (q.explanation.includes("\n") ? (
+                // Maths: worked steps and why the other options are wrong, one per line.
+                <RichText text={q.explanation} className="mt-1.5 !text-[0.95rem] !text-muted" />
+              ) : (
+                <p className="text-[0.95rem] text-muted mt-1.5 leading-relaxed">{withArabic(q.explanation)}</p>
+              ))}
             {q.note && <p className="text-xs text-faint mt-2">{q.note}</p>}
           </div>
         )}

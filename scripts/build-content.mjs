@@ -20,6 +20,11 @@ const OUT_CHAPTERS = path.join(ROOT, "generated", "chapters");
 const OUT_CATALOG = path.join(ROOT, "src", "generated", "catalog.json");
 const OUT_GUIDES = path.join(ROOT, "generated", "map-guides");
 const OUT_PICTURES = path.join(ROOT, "generated", "pictures");
+const OUT_EXTRAS = path.join(ROOT, "generated", "extras");
+
+const MATHS_DIR = "StudyBuddy_Mathematics_Complete/StudyBuddy_Mathematics";
+const MATHS_PAPER_NOTE =
+  "Exam questions from the 2018 and 2019 O/L papers and two MOE practice tests, sorted by chapter. Each one comes with a practice question of the same type and a full worked answer.";
 
 // Subjects the site knows about. Add a new folder in /content and an entry here.
 // level is "O/L" or "A/L". For A/L subjects, `streams` limits who sees it
@@ -95,6 +100,61 @@ const SUBJECTS = [
     pastPaperNote:
       "Past-paper questions are English renderings of the Sri Lankan O/L History papers from 2016–2025.",
     relatedHeading: "Related questions in other chapters",
+  },
+  // Mathematics comes as the StudyBuddy Mathematics export: one file per type for both grades (see readMaths()).
+  {
+    id: "maths-ol",
+    dir: MATHS_DIR + "/Tamil_Medium",
+    layout: "maths",
+    name: "Mathematics",
+    nameLocal: "கணிதம்",
+    level: "O/L",
+    streams: [],
+    icon: "sigma",
+    medium: "Tamil",
+    tagline: "Grade 10 & 11 · Tamil medium",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "ta",
+    pastPaperNote: MATHS_PAPER_NOTE,
+    relatedHeading: "தொடர்புடைய பிற வினாக்கள்",
+  },
+  {
+    id: "maths-ol-en",
+    dir: MATHS_DIR + "/English_Medium",
+    layout: "maths",
+    name: "Mathematics",
+    nameLocal: "",
+    level: "O/L",
+    streams: [],
+    icon: "sigma",
+    medium: "English",
+    tagline: "Grade 10 & 11 · English medium",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "en",
+    pastPaperNote: MATHS_PAPER_NOTE,
+    relatedHeading: "Related questions in other chapters",
+  },
+  // Tamil language & literature: one file per type, split into topics (N00–N34), see readTamil().
+  // The topics aren't split by grade, so they are all listed under grade 10, shown as "Grade 10 & 11".
+  {
+    id: "tamil-ol",
+    dir: "tamil-ol",
+    layout: "tamil",
+    name: "Tamil",
+    nameLocal: "தமிழ் மொழியும் இலக்கியமும்",
+    level: "O/L",
+    streams: [],
+    icon: "languages",
+    medium: "Tamil",
+    tagline: "Grade 10 & 11 · Language and literature",
+    color: "#8B5CF6",
+    freeChapters: 1,
+    lang: "ta",
+    gradeLabels: { 10: "Grade 10 & 11" },
+    pastPaperNote: "Past-paper questions are from the Sri Lankan O/L Tamil Language & Literature papers I, II and III (2016–2025).",
+    relatedHeading: "தொடர்புடைய பிற வினாக்கள்",
   },
 ];
 
@@ -822,6 +882,526 @@ function readGradeFiles(subject, gradeDir, grade) {
   return { chapters, mapGuide, paperPictures };
 }
 
+// ── Mathematics (StudyBuddy Mathematics export) ──
+// <dir>/01_Maths_Concept_Notes.md … 09_Maths_Exam_Tricks_and_Strategies.md, one section per chapter: "## G10C01 · …" / "## G10C01 — …".
+// Every item has a "<!-- meta {json} -->" comment, which the parser reads instead of the (Tamil or English) labels.
+// Maths is LaTeX ($…$, $$…$$), rendered with KaTeX on the site. Diagrams are SVGs in Shared_Assets, copied to /public/maths.
+const MATHS_ROOT = path.join(CONTENT, MATHS_DIR);
+const MATHS_PUBLIC = path.join(ROOT, "public", "maths", "diagrams");
+const EMPTY_PAPERS = () => ({ mcq: [], structured: [], related: "", pattern: "", years: {} });
+
+const metaOf = (text) => {
+  const m = text.match(/<!-- meta (\{[\s\S]*?\}) -->/);
+  try {
+    return m ? JSON.parse(m[1]) : {};
+  } catch {
+    return {};
+  }
+};
+
+/** Copies the diagrams to /public once and returns id → { src, w, h, alt }. */
+let mathsDiagrams = null;
+function mathsDiagram(id) {
+  if (!mathsDiagrams) {
+    mathsDiagrams = new Map();
+    const manifestFile = path.join(MATHS_ROOT, "Developer_Resources", "Asset_Manifest.json");
+    const manifest = exists(manifestFile) ? JSON.parse(read(manifestFile)) : [];
+    const desc = new Map(manifest.map((a) => [a.id, a.desc || ""]));
+    const assets = path.join(MATHS_ROOT, "Shared_Assets");
+    if (exists(assets)) {
+      fs.mkdirSync(MATHS_PUBLIC, { recursive: true });
+      for (const group of fs.readdirSync(assets)) {
+        const dir = path.join(assets, group);
+        if (!fs.statSync(dir).isDirectory()) continue;
+        for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".svg"))) {
+          const svg = read(path.join(dir, f));
+          const box = svg.match(/viewBox="[\d.]+ [\d.]+ ([\d.]+) ([\d.]+)"/);
+          const target = path.join(MATHS_PUBLIC, f);
+          if (!exists(target) || read(target) !== svg) fs.writeFileSync(target, svg);
+          const key = f.replace(/\.svg$/, "");
+          mathsDiagrams.set(key, { src: `/maths/diagrams/${f}`, w: box ? Math.round(+box[1]) : 360, h: box ? Math.round(+box[2]) : 300, alt: desc.get(key) || key });
+        }
+      }
+    }
+  }
+  return mathsDiagrams.get(id) ?? null;
+}
+
+const diagramMd = (id) => {
+  const d = mathsDiagram(id);
+  return d ? `![${d.alt.replace(/[[\]]/g, "")}](${d.src}#${d.w}x${d.h})` : "";
+};
+
+/** Markdown from the export, cleaned for the site: no meta comments or internal ids, diagrams as images, no raw HTML. */
+function mathsMarkdown(md) {
+  return md
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^<sub>[\s\S]*?<\/sub>\s*$/gm, "")
+    .replace(/^<br>\*\*[^*]+:\*\*[^\n]*$/gm, "") // "Accepted answer formats · Unit" (for the app's answer checker)
+    .replace(/<br>/g, "  \n")
+    .replace(/<\/?details>|<summary>[^<]*<\/summary>/g, "")
+    // "**Diagram:** `GEO-SECTOR-01` → `Shared_Assets/…svg` (note)" and "![GEO-…](../Shared_Assets/…svg)" → images
+    .replace(/^\*\*[^*\n]+:\*\*[^\n]*Shared_Assets\/[^\n]*$/gm, (line) =>
+      [...line.matchAll(/Shared_Assets\/[\w/]+\/([\w-]+)\.svg/g)].map((m) => diagramMd(m[1])).filter(Boolean).join("\n\n"),
+    )
+    .replace(/^!\[[^\]]*\]\([^)]*Shared_Assets\/[\w/]+\/([\w-]+)\.svg\)\s*$/gm, (_, id) => diagramMd(id))
+    // cross-references to other files and question ids
+    .replace(/\s*→\s*`(?:MQ|QZ|PP)-[^`]+`(?:\s*\([^)]*\))?/g, "")
+    .replace(/^- \*\*[^*\n]*(?:IDs?|அடையாள)[^*\n]*:\*\*[^\n]*$/gm, "")
+    .replace(/^(#{2,4} [^\n]*?)\s+[—–-]\s+(?:MQ|QZ|PP)-[\w-]+\s*$/gm, "$1")
+    .replace(/^(#{2,4}) (?:F|T|C|TR|VIS|P[12][AB])-[\w-]+\s+[—–-]\s+/gm, "$1 ")
+    .replace(/`(?:F|T|C|MQ|QZ|PP|TR|VIS|GEO|GRA|STA|SET|PRO|TRI|SOL|CON|P[12][AB])-[\w-]+`,?[ \t]*/g, "")
+    .replace(/[ \t]*·[ \t]*\*\*[^*\n]+:\*\*[ \t]*$/gm, "") // a label left empty by the id removal
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+/** Splits an export file on its "## G10C01 …" headings: Map("G10C01" → { title, body }). */
+function mathsChapters(md) {
+  const out = new Map();
+  const heads = [...md.matchAll(/^## (G1[01]C\d\d)\b[^\n]*?[—–]\s*(.+)$/gm)];
+  heads.forEach((m, i) => {
+    let body = md.slice(m.index + m[0].length, i + 1 < heads.length ? heads[i + 1].index : md.length);
+    const end = body.search(/^## (?!G1[01]C)/m); // a closing "## Limitations …" section
+    if (end >= 0) body = body.slice(0, end);
+    out.set(m[1], { title: m[2].trim(), body: body.replace(/\n-{3,}\s*$/, "").trim() });
+  });
+  return out;
+}
+
+/** "### F-…" blocks of the formula bank, without their worked examples (those are in the notes). */
+function mathsFormulas(body) {
+  return body
+    .split(/^(?=### )/m)
+    .filter((b) => b.startsWith("### "))
+    .map((b) => b.split(/^#### /m)[0].trim())
+    .join("\n\n");
+}
+
+function mathsFlashcards(body) {
+  const cards = [];
+  for (const block of body.split(/^(?=### FC-)/m)) {
+    const front = block.match(/^\*\*[^*\n]+:\*\*\s*([^\n]+)/m);
+    const back = block.match(/<summary>[^<]*<\/summary>([\s\S]*?)<\/details>/);
+    if (front && back) cards.push({ front: front[1].trim(), back: mathsMarkdown(back[1]).trim() });
+  }
+  return cards;
+}
+
+const cap = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
+
+function mathsQuiz(body) {
+  const questions = [];
+  for (const block of body.split(/^(?=#### QZ-)/m)) {
+    if (!block.startsWith("#### QZ-")) continue;
+    const meta = metaOf(block);
+    const [qText, rest = ""] = block.split("<details>");
+    const lines = qText.split("\n").slice(1).filter((l) => !/^<!--/.test(l));
+    const options = [];
+    const prompt = [];
+    for (const line of lines) {
+      const opt = line.match(/^-\s+\*\*([A-D])\.\*\*\s*(.*)$/);
+      if (opt) options.push({ key: opt[1], text: opt[2].trim() });
+      else if (!options.length && !/Shared_Assets\//.test(line)) prompt.push(line.replace(/^\*\*[^*\n]+:\*\*\s*/, ""));
+    }
+    const reveal = rest.split("</details>")[0].replace(/<summary>[^<]*<\/summary>/, "").trim();
+    const answer = reveal.match(/^\*\*([A-D])\*\*/)?.[1];
+    if (options.length < 2 || !answer) continue;
+    questions.push({
+      prompt: prompt.join("\n").trim(),
+      options,
+      answer,
+      explanation: reveal
+        .replace(/^\*\*[A-D]\*\*[^\n]*\n/, "")
+        .replace(/^\d+\.\s+/gm, "")
+        .replace(/\n{2,}/g, "\n")
+        .trim(),
+      difficulty: cap(meta.difficulty || "medium"),
+    });
+  }
+  return questions;
+}
+
+const MATHS_LABELS = {
+  en: { topic: "Exam topic", practice: "Practice question of the same type", final: "Final answer", mistake: "Common mistake", marks: "marks", paper: "Paper", part: "Part", formulas: "Formula bank" },
+  ta: { topic: "தேர்வுத் தலைப்பு", practice: "அதே வகைப் பயிற்சி வினா", final: "இறுதி விடை", mistake: "பொதுவான தவறு", marks: "புள்ளிகள்", paper: "வினாத்தாள்", part: "பகுதி", formulas: "சூத்திரத் தொகுப்பு" },
+};
+
+/** Past-paper items of one chapter (File 06), each paired with its worked equivalent question from questions_<lang>.json. */
+function mathsPastPapers(body, bank, lang) {
+  const L = MATHS_LABELS[lang];
+  const structured = [];
+  for (const block of body.split(/^(?=### PP-)/m)) {
+    if (!block.startsWith("### PP-")) continue;
+    const meta = metaOf(block);
+    const mqId = block.match(/^#### [^\n]*?(MQ-[\w-]+)\s*$/m)?.[1];
+    const q = mqId && bank.get(mqId);
+    if (!q) continue;
+    const topic = block.match(/^- \*\*[^*\n]*StudyBuddy[^*\n]*:\*\*\s*(.+)$/m)?.[1].replace(/\s*\([^)]*\)\s*$/, "").trim() ?? "";
+    const source = block.match(/^- \*\*[^*\n]+:\*\*\s*([^·\n]+)/m)?.[1].trim() ?? meta.source;
+    const sourceLabel = meta.source_type === "OFFICIAL" ? `O/L ${meta.exam_year}` : source.replace(/\s*\(English medium\).*$/, "");
+    const steps = q.steps.map((s) => `**${s.n}.** ${s.instruction}\n$$${s.working_latex}$$`).join("\n");
+    const final = `**${L.final}:** $${q.final_answer_latex}$${q.unit ? ` ${q.unit}` : ""}`;
+    const image = q.diagram_ref ? mathsDiagram(q.diagram_ref) : null;
+    structured.push({
+      heading: meta.id,
+      year: meta.exam_year ? Number(meta.exam_year) : null,
+      question: [topic && `**${L.topic}:** ${topic}`, `**${L.practice}:**`, q.question].filter(Boolean).join("\n"),
+      reference: `${sourceLabel} · ${L.paper} ${meta.paper} · ${L.part} ${meta.part} · Q${meta.question}`,
+      marks: meta.marks ? `${meta.marks} ${L.marks}` : "",
+      answer: [steps, final, q.mistake && `⚠️ **${L.mistake}:** ${q.mistake}`].filter(Boolean).join("\n\n"),
+      explanation: "",
+      guidance: "",
+      status: "",
+      verification: "",
+      alsoRelevant: "",
+      ...(image ? { image: { src: image.src, w: image.w, h: image.h } } : {}),
+    });
+  }
+  const years = {};
+  for (const q of structured) if (q.year) years[q.year] = (years[q.year] || 0) + 1;
+  return { ...EMPTY_PAPERS(), structured, years };
+}
+
+/** Subject-wide reading (pattern mastery, visual maths, exam tricks): one guide per file, one section per "## " heading. */
+function guideFrom(slug, md, clean, skip = /^$/) {
+  const title = (md.match(/^# (.+)$/m)?.[1] ?? slug).replace(/^.*?(?:·\s*\d+\s+|–\s*)/, "").trim();
+  const heads = [...md.matchAll(/^## (.+)$/gm)];
+  const intro = clean(md.slice(0, heads[0]?.index ?? md.length).replace(/^[\s\S]*?^# .+$/m, "").replace(/^meta:\n(?:- [^\n]*\n)*/m, ""))
+    .replace(/^\*[^*\n]+\*\s*$/m, "")
+    .replace(/^-{3,}\s*$/gm, "")
+    .trim();
+  const sections = [];
+  heads.forEach((m, i) => {
+    const heading = plain(m[1]).trim();
+    if (skip.test(heading)) return;
+    const body = clean(md.slice(m.index + m[0].length, i + 1 < heads.length ? heads[i + 1].index : md.length).replace(/\n-{3,}\s*$/, ""));
+    if (body) sections.push({ slug: String(sections.length + 1), title: heading.replace(/^(?:VIS|P[12][AB]|ESS|WS|GR)-[\w-]+\s+[—–-]\s+/, ""), body });
+  });
+  return { slug, title, intro, sections };
+}
+
+function readMaths(subject, dir) {
+  const file = (prefix) => {
+    const f = fs.readdirSync(dir).find((n) => n.startsWith(prefix));
+    return f ? read(path.join(dir, f)) : "";
+  };
+  const L = MATHS_LABELS[subject.lang];
+  const notes = mathsChapters(file("01_"));
+  const cards = mathsChapters(file("02_"));
+  const formulas = mathsChapters(file("03_"));
+  const quizMd = file("04_");
+  const quiz = mathsChapters(quizMd.slice(Math.max(0, quizMd.indexOf("#### QZ-") - 2000)).replace(/^### (G1[01]C\d\d)/gm, "## $1"));
+  const papers = mathsChapters(file("06_"));
+  const bankFile = path.join(MATHS_ROOT, "Developer_Resources", `questions_${subject.lang}.json`);
+  const bank = new Map((exists(bankFile) ? JSON.parse(read(bankFile)) : []).map((q) => [q.id, q]));
+
+  const grades = new Map();
+  for (const [code, n] of notes) {
+    const grade = Number(code.slice(1, 3));
+    const number = Number(code.slice(4));
+    const formulaBody = formulas.has(code) ? mathsFormulas(formulas.get(code).body) : "";
+    const body = mathsMarkdown(n.body + (formulaBody ? `\n\n---\n\n## ${L.formulas}\n\n${formulaBody}` : ""));
+    const objectives = [];
+    const ideas = body.match(/^### [^\n]+\n+((?:- [^\n]+\n?)+)/m);
+    if (ideas) for (const l of ideas[1].trim().split("\n")) objectives.push(l.replace(/^- /, "").trim());
+    const unit = {
+      number,
+      notes: { ...historyNotes(n.title, body), objectives },
+      flashcards: cards.has(code) ? mathsFlashcards(cards.get(code).body) : [],
+      quiz: quiz.has(code) ? mathsQuiz(quiz.get(code).body) : [],
+      pastPapers: papers.has(code) ? mathsPastPapers(papers.get(code).body, bank, subject.lang) : EMPTY_PAPERS(),
+    };
+    if (!grades.has(grade)) grades.set(grade, []);
+    grades.get(grade).push(unit);
+  }
+  const guides = ["07_", "08_", "09_"]
+    .map((p, i) => [["patterns", "visual", "exam-tips"][i], file(p)])
+    .filter(([, md]) => md)
+    .map(([slug, md]) => guideFrom(slug, md, mathsMarkdown, /^(?:Limitations|வரையறை)/));
+  return { grades, extras: { papers: [], guides } };
+}
+
+// ── Tamil language & literature ──
+// 01_Tamil_Notes.md "## N01 – பேதைமை" · 02 flashcards (tables) · 03 quizzes ("**Q-N01-01** | grade: 10 | unit: N01 …")
+// 04 past papers by year and paper ("## பகுதி 1 – வினாத்தாள் I … – 2019") · 05–08 guides (grammar, essays, writing, literature).
+const TAMIL_GUIDES = [
+  ["05_", "grammar"],
+  ["06_", "essays"],
+  ["07_", "writing"],
+  ["08_", "literature"],
+];
+// Quiz units named after the grammar guide (GR-xx) belong to these topics.
+const TAMIL_GR_TOPIC = { "GR-01": 3, "GR-02": 4, "GR-03": 5, "GR-05": 6, "GR-06": 9, "GR-08": 10, "GR-09": 28, "GR-10": 29, "GR-11": 30, "GR-12": 31, "GR-13": 32, "GR-14": 33 };
+const TAMIL_FILES = {
+  "05_Tamil_Grammar_Mastery.md": "இலக்கணப் பயிற்சி",
+  "06_Tamil_Essay_Bank.md": "கட்டுரைத் தொகுப்பு",
+  "07_Tamil_Writing_Skills.md": "எழுத்துத் திறன்",
+  "08_Tamil_Literature_Mastery.md": "இலக்கியப் பயிற்சி",
+  "01_Tamil_Notes.md": "பாடக் குறிப்புகள்",
+  "04_Tamil_Chapterwise_Past_Papers.md": "கடந்தகால வினாக்கள்",
+};
+
+/** Cleans authoring notes ("File 08 பகுதி B", "id: N01 | grade: 10 …") for students. */
+const tamilClean = (t) =>
+  t
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^id: [^\n]*\|[^\n]*$/gm, "")
+    .replace(/\bSUGGESTED\b/g, "பரிந்துரை விடை")
+    .replace(/\bOFFICIAL_(?:REPORT|KEY)\b/g, "அதிகாரபூர்வ விடை")
+    .replace(/\b0[1-8]_Tamil_[A-Za-z_]+\.md\b/g, (f) => TAMIL_FILES[f] ?? f)
+    .replace(/\bFile 0([1-8])\b/g, (_, n) => Object.values(TAMIL_FILES)[["5", "6", "7", "8", "1", "4"].indexOf(n)] ?? `File 0${n}`)
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+/** "**ID** | key: value | key: value" or "**ID** – prompt" → { id, fields, first }. */
+function tamilHead(line) {
+  const m = line.match(/^\*\*([A-Z][A-Z0-9]*-[^\s*]+)([^*]*)\*\*\s*(.*)$/);
+  if (!m) return null;
+  const fields = {};
+  let first = m[2].replace(/^\s*[–-]\s*/, "").trim();
+  if (m[3].startsWith("|")) {
+    for (const part of m[3].split("|").map((s) => s.trim()).filter(Boolean)) {
+      const kv = part.match(/^([\w_]+):\s*(.*)$/);
+      if (kv) fields[kv[1]] = kv[2].trim();
+    }
+  } else first = [first, m[3].replace(/^[–-]\s*/, "").trim()].filter(Boolean).join(" ");
+  return { id: m[1].trim(), fields, first };
+}
+
+const TAMIL_KEY = /^(question|answer|explanation|marking_guidance|tip|note|status|source|answer_status)(?:\s*\([^)]*\))?:\s*(.*)$/;
+
+/** A "| உப | வினா | … விடை … |" table: one structured question per row. */
+function tamilTableRows(lines) {
+  const rows = lines.filter((l) => l.trim().startsWith("|")).map((l) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim()));
+  if (rows.length < 3 || !/^:?-{2,}/.test(rows[1][0] ?? "")) return [];
+  const head = rows[0];
+  const ans = head.findIndex((h) => /விடை/.test(h));
+  const q = head.findIndex((h, i) => i !== ans && /வினா/.test(h));
+  if (ans < 0 || q < 0) return [];
+  return rows.slice(2).map((r) => ({
+    label: q > 0 ? r[0] : "",
+    question: r[q] ?? "",
+    answer: r[ans] ?? "",
+    note: r.filter((_, i) => i !== ans && i !== q && i !== 0 && r[i]).join(" · "),
+  }));
+}
+
+/** One item's lines → { prompt, options, fields }. "answer: 3 | status: OFFICIAL_KEY" lines carry several fields. */
+function tamilItem(lines) {
+  const fields = {};
+  const prompt = [];
+  let current = null;
+  for (const raw of lines) {
+    const line = raw.trimEnd();
+    const key = line.match(TAMIL_KEY);
+    if (key) {
+      const [first, ...more] = key[2].split(/\s+\|\s+(?=[\w_]+:)/);
+      current = key[1];
+      fields[current] = first.trim();
+      for (const m of more) {
+        const kv = m.match(/^([\w_]+):\s*(.*)$/);
+        if (kv) fields[kv[1]] = kv[2].trim();
+      }
+      continue;
+    }
+    if (current && current !== "question") fields[current] += "\n" + line;
+    else prompt.push(line);
+  }
+  for (const k of Object.keys(fields)) fields[k] = fields[k].trim();
+  let text = [fields.question, prompt.join("\n")].filter(Boolean).join("\n").trim();
+  const options = [];
+  const at = text.search(/\(1\)\s/);
+  if (at >= 0 && /\(2\)\s/.test(text.slice(at))) {
+    for (const o of text.slice(at).matchAll(/\((\d)\)\s*([\s\S]*?)(?=\s*\(\d\)\s|$)/g)) options.push({ key: o[1], text: o[2].replace(/\s+/g, " ").trim() });
+    text = text.slice(0, at).trim();
+  }
+  return { prompt: text, options, fields };
+}
+
+/** Splits a block of Tamil items on their "**ID** | …" heads. Also yields "### heading" chunks (questions described in a heading). */
+function tamilItems(text) {
+  const out = [];
+  let cur = null;
+  for (const line of text.split("\n")) {
+    const head = tamilHead(line);
+    if (head || /^#{3,4} /.test(line) || /^-{3,}\s*$/.test(line)) {
+      if (cur) out.push(cur);
+      cur = head
+        ? { ...head, lines: head.first ? [head.first] : [] }
+        : /^#{3,4} /.test(line)
+          ? { id: "", heading: line.replace(/^#+\s*/, ""), fields: {}, lines: [] }
+          : null;
+      continue;
+    }
+    if (cur) cur.lines.push(line);
+  }
+  if (cur) out.push(cur);
+  return out;
+}
+
+function tamilQuiz(md) {
+  const byUnit = new Map();
+  for (const item of tamilItems(md)) {
+    if (!item.id.startsWith("Q-")) continue;
+    const unit = (item.fields.unit || "").match(/^(N(\d+)|GR-\d+)/);
+    const number = unit ? (unit[2] !== undefined ? Number(unit[2]) : TAMIL_GR_TOPIC[unit[1]]) : undefined;
+    if (number === undefined) continue;
+    const { prompt, options, fields } = tamilItem(item.lines);
+    const answer = (fields.answer || "").match(/\d/)?.[0];
+    if (options.length < 2 || !answer) continue;
+    if (!byUnit.has(number)) byUnit.set(number, []);
+    byUnit.get(number).push({ prompt, options, answer, explanation: fields.explanation || "", difficulty: cap(item.fields.difficulty || "medium") });
+  }
+  return byUnit;
+}
+
+function tamilFlashcards(md) {
+  const byUnit = new Map();
+  for (const row of md.matchAll(/^\|\s*FC-[^|]+\|[^|]*\|\s*N(\d+)\s*\|([^|]*)\|([^|]*)\|([^|]*)\|\s*$/gm)) {
+    const [, n, front, back, note] = row;
+    const number = Number(n);
+    if (!byUnit.has(number)) byUnit.set(number, []);
+    byUnit.get(number).push({ front: front.trim(), back: [back.trim(), note.trim() && `(${note.trim()})`].filter(Boolean).join("\n") });
+  }
+  return byUnit;
+}
+
+/** One paper (a "## பகுதி" section) → { mcq, structured }, each item tagged with its literature work when given. */
+function tamilPaper(body, yearLabel) {
+  const year = yearOf(yearLabel);
+  const mcq = [];
+  const structured = [];
+  for (const item of tamilItems(body)) {
+    const rows = tamilTableRows(item.lines);
+    if (rows.length) {
+      for (const r of rows)
+        structured.push({
+          heading: item.heading || item.id,
+          year,
+          question: tamilClean(`${r.label ? `**${r.label}** ` : ""}${r.question}`),
+          reference: [item.heading || item.id, r.label].filter(Boolean).join(" · "),
+          marks: "",
+          answer: tamilClean([r.answer, r.note && `(${r.note})`].filter(Boolean).join("\n")),
+          explanation: "",
+          guidance: "",
+          status: "",
+          verification: "",
+          alsoRelevant: "",
+          work: /^(மூலம்|பாடப்பகுதி)/.test(r.note) ? "" : r.note.split(/[(:·]/)[0].trim(),
+        });
+      continue;
+    }
+    const { prompt, options, fields } = tamilItem(item.lines);
+    const f = { ...item.fields, ...fields };
+    const reference = [f.paper && `வினாத்தாள் ${f.paper}`, f.official_q_no ? `வினா ${f.official_q_no}` : item.id, f.topic].filter(Boolean).join(" · ");
+    const answer = tamilClean(f.answer || "");
+    if (options.length >= 2 && /^\d/.test(answer)) {
+      const key = answer.match(/^\d/)[0];
+      mcq.push({
+        prompt,
+        options,
+        answer: key,
+        year,
+        yearLabel,
+        reference,
+        answerText: options.find((o) => o.key === key)?.text ?? "",
+        explanation: tamilClean(f.explanation || ""),
+        status: "",
+        alsoRelevant: "",
+        verification: "",
+        work: f.work || "",
+      });
+    } else if (answer && (prompt || item.heading)) {
+      structured.push({
+        heading: item.id || item.heading,
+        year,
+        question: tamilClean([item.heading && `**${item.heading}**`, prompt].filter(Boolean).join("\n")),
+        reference: item.id ? reference : `${yearLabel}`,
+        marks: f.marks ? `${f.marks} புள்ளிகள்` : "",
+        answer: [answer, f.note && `குறிப்பு: ${f.note}`].filter(Boolean).join("\n"),
+        explanation: tamilClean(f.explanation || ""),
+        guidance: tamilClean([f.marking_guidance, f.tip && `உதவிக்குறிப்பு: ${f.tip}`].filter(Boolean).join("\n")),
+        status: "",
+        verification: "",
+        alsoRelevant: "",
+        work: f.work || "",
+      });
+    }
+  }
+  return { mcq, structured };
+}
+
+function readTamil(subject, dir) {
+  const file = (prefix) => {
+    const f = fs.readdirSync(dir).find((n) => n.startsWith(prefix) && n.endsWith(".md"));
+    return f ? read(path.join(dir, f)) : "";
+  };
+  const notes = new Map();
+  const notesMd = file("01_");
+  const heads = [...notesMd.matchAll(/^## N(\d+)\s*[–-]\s*(.+)$/gm)];
+  heads.forEach((m, i) => {
+    let body = notesMd.slice(m.index + m[0].length, i + 1 < heads.length ? heads[i + 1].index : notesMd.length);
+    const end = body.search(/^## (?!N\d)/m);
+    if (end >= 0) body = body.slice(0, end);
+    notes.set(Number(m[1]), { title: plain(m[2]).trim(), body: tamilClean(body.replace(/\n-{3,}\s*$/, "")) });
+  });
+  const cards = tamilFlashcards(file("02_"));
+  const quiz = tamilQuiz(file("03_"));
+
+  // Past papers, one per "## பகுதி N – … – <year>" section.
+  const papersMd = file("04_");
+  const papers = [];
+  const parts = [...papersMd.matchAll(/^## பகுதி (\d+)\s*[–-]\s*(.+)$/gm)];
+  parts.forEach((m, i) => {
+    const body = papersMd.slice(m.index + m[0].length, i + 1 < parts.length ? parts[i + 1].index : papersMd.length);
+    const title = m[2].trim();
+    const yearLabel = title.match(/20\d\d(?:\(20\d\d\))?/)?.[0] ?? "";
+    const paper = tamilPaper(body.split(/^## /m)[0], yearLabel);
+    if (paper.mcq.length + paper.structured.length)
+      papers.push({ slug: `p${m[1].padStart(2, "0")}`, title: title.replace(/\s+\((?!20\d\d\))[^)]*\)\s*$/, ""), yearLabel, year: yearOf(yearLabel), ...paper });
+  });
+  papers.sort((a, b) => (b.year ?? 0) - (a.year ?? 0) || a.slug.localeCompare(b.slug));
+
+  // Literature questions also go to their topic's past-paper tab ("work: குற்றாலக் குறவஞ்சி").
+  const core = (t) => t.replace(/\s*\([^)]*\)/g, "").replace(/[“”"…]/g, "").trim();
+  const topicOf = (work) => {
+    if (!work) return null;
+    const w = core(work);
+    for (const [number, n] of notes) if (number && (core(n.title).startsWith(w) || w.startsWith(core(n.title)))) return number;
+    return null;
+  };
+  const topicPapers = new Map();
+  for (const p of papers)
+    for (const kind of ["mcq", "structured"])
+      for (const q of p[kind]) {
+        const number = topicOf(q.work);
+        if (!number) continue;
+        if (!topicPapers.has(number)) topicPapers.set(number, EMPTY_PAPERS());
+        topicPapers.get(number)[kind].push(q);
+      }
+
+  const units = [...notes.keys()].sort((a, b) => a - b).map((n, i) => {
+    const note = notes.get(n);
+    const pp = topicPapers.get(n) ?? EMPTY_PAPERS();
+    for (const q of [...pp.mcq, ...pp.structured]) if (q.year) pp.years[q.year] = (pp.years[q.year] || 0) + 1;
+    // "What you'll learn": the "### முக்கியக் கருத்துகள்" (key ideas) list of the topic.
+    const ideas = note.body.match(/^###[^\n]*முக்கிய[^\n]*\n+((?:(?:\d+\.|-)\s[^\n]+\n?)+)/m);
+    const objectives = ideas ? ideas[1].trim().split("\n").map((l) => plain(l.replace(/^(?:\d+\.|-)\s+/, ""))) : [];
+    return {
+      number: i + 1,
+      notes: { ...historyNotes(note.title, note.body), objectives },
+      flashcards: cards.get(n) ?? [],
+      quiz: quiz.get(n) ?? [],
+      pastPapers: pp,
+    };
+  });
+  const guides = TAMIL_GUIDES.map(([prefix, slug]) => [slug, file(prefix)])
+    .filter(([, md]) => md)
+    .map(([slug, md]) => guideFrom(slug, md, tamilClean, /^வரையறை/));
+  return { grades: new Map([[10, units]]), extras: { papers, guides } };
+}
+
 function build() {
   fs.mkdirSync(OUT_CHAPTERS, { recursive: true });
   fs.mkdirSync(path.dirname(OUT_CATALOG), { recursive: true });
@@ -832,16 +1412,21 @@ function build() {
 
   fs.mkdirSync(OUT_GUIDES, { recursive: true });
   fs.mkdirSync(OUT_PICTURES, { recursive: true });
+  fs.mkdirSync(OUT_EXTRAS, { recursive: true });
 
   for (const subject of SUBJECTS) {
     const { dir: dirName = subject.id, layout, ...meta } = subject;
     const dir = path.join(CONTENT, dirName);
     if (!exists(dir)) continue;
     const gradeFiles = layout === "grade-files";
-    const grades = fs
-      .readdirSync(dir)
-      .filter((d) => (gradeFiles ? /^grade[ _-]?\d+$/i : /^grade-\d+$/).test(d))
-      .sort();
+    // Maths and Tamil come as one file per type for the whole subject; their readers return every grade at once.
+    const whole = layout === "maths" ? readMaths(meta, dir) : layout === "tamil" ? readTamil(meta, dir) : null;
+    const grades = whole
+      ? [...whole.grades.keys()].sort((a, b) => a - b).map(String)
+      : fs
+          .readdirSync(dir)
+          .filter((d) => (gradeFiles ? /^grade[ _-]?\d+$/i : /^grade-\d+$/).test(d))
+          .sort();
     const subjectEntry = { ...meta, grades: [] };
     const guides = {};
     const pictureBook = { textbook: {}, papers: [] };
@@ -850,7 +1435,9 @@ function build() {
       const grade = Number(g.match(/\d+/)[0]);
       const chapters = [];
       let units;
-      if (gradeFiles) {
+      if (whole) {
+        units = whole.grades.get(grade).sort((a, b) => a.number - b.number);
+      } else if (gradeFiles) {
         const parsed = readGradeFiles({ ...subject, dir: dirName }, g, grade);
         units = parsed.chapters;
         if (parsed.mapGuide) guides[grade] = parsed.mapGuide;
@@ -907,6 +1494,14 @@ function build() {
         totals.structured += pastPapers.structured.length;
       }
       subjectEntry.grades.push({ grade, chapters });
+    }
+    if (whole && (whole.extras.papers.length || whole.extras.guides.length)) {
+      // Year-by-year papers and reading guides: full text in generated/extras, a light index in the catalog.
+      fs.writeFileSync(path.join(OUT_EXTRAS, `${subject.id}.json`), JSON.stringify(whole.extras));
+      subjectEntry.extras = {
+        papers: whole.extras.papers.map((p) => ({ slug: p.slug, title: p.title, yearLabel: p.yearLabel, mcq: p.mcq.length, structured: p.structured.length })),
+        guides: whole.extras.guides.map((g) => ({ slug: g.slug, title: g.title, sections: g.sections.map((s) => s.title) })),
+      };
     }
     catalog.subjects.push(subjectEntry);
     if (Object.keys(guides).length) fs.writeFileSync(path.join(OUT_GUIDES, `${subject.id}.json`), JSON.stringify(guides));

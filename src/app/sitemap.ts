@@ -22,6 +22,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       for (const grade of Object.keys(subject.pictures.textbook))
         entries.push({ url: canonicalUrl(`/subjects/${subject.id}/pictures/grade/${grade}`), changeFrequency: "monthly", priority: 0.6 });
     }
+    for (const p of subject.extras?.papers ?? [])
+      entries.push({ url: canonicalUrl(`/subjects/${subject.id}/papers/${p.slug}`), changeFrequency: "yearly", priority: 0.7 });
+    for (const g of subject.extras?.guides ?? []) {
+      entries.push({ url: canonicalUrl(`/subjects/${subject.id}/guides/${g.slug}`), changeFrequency: "monthly", priority: 0.6 });
+      g.sections.forEach((_, i) =>
+        entries.push({ url: canonicalUrl(`/subjects/${subject.id}/guides/${g.slug}/${i + 1}`), changeFrequency: "monthly", priority: 0.5 }),
+      );
+    }
     for (const grade of subject.grades) {
       entries.push({
         url: canonicalUrl(`/subjects/${subject.id}?grade=${grade.grade}`),

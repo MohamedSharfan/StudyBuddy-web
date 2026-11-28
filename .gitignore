@@ -12,3 +12,6 @@ next-env.d.ts
 
 # History source files (Word catalogues, original scans); the web images are extracted to public/history
 /content/history-sources/
+
+# Tamil source zip; its markdown files are extracted next to it
+/content/tamil-ol/*.zip

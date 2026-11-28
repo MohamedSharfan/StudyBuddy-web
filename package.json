@@ -15,12 +15,15 @@
     "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.57.4",
     "canvas-confetti": "^1.9.3",
+    "katex": "^0.16.22",
     "lucide-react": "^0.544.0",
     "next": "^15.5.28",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
     "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
     "server-only": "^0.0.1"
   },
   "devDependencies": {

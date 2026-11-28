@@ -2,6 +2,9 @@ import Link from "next/link";
 import React from "react";
 import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 import { ARABIC_RUN, isMostlyArabic, MARKERS } from "./ArabicText";
 
 type HastNode = { type: string; tagName?: string; value?: string; properties?: Record<string, unknown>; children?: HastNode[] };
@@ -187,9 +190,15 @@ const components: Components = {
 };
 
 export function Markdown({ children, className = "", size }: { children: string; className?: string; size?: number }) {
+  // Maths notes are LaTeX ($…$, $$…$$), typeset with KaTeX.
+  const math = children.includes("$");
   return (
     <div className={`prose-sb ${className}`} style={size ? ({ "--fs": `${size}rem` } as React.CSSProperties) : undefined}>
-      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeTableLabels, rehypeArabicSpans, rehypeContentMarkers]} components={components}>
+      <ReactMarkdown
+        remarkPlugins={math ? [remarkGfm, [remarkMath, { singleDollarTextMath: true }]] : [remarkGfm]}
+        rehypePlugins={math ? [[rehypeKatex, { throwOnError: false, strict: false }], rehypeTableLabels, rehypeContentMarkers] : [rehypeTableLabels, rehypeArabicSpans, rehypeContentMarkers]}
+        components={components}
+      >
         {children}
       </ReactMarkdown>
     </div>

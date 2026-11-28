@@ -1,6 +1,6 @@
 # StudyBuddy Web
 
-The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L and A/L students. The first live subject is **O/L Islam, Grade 10 & 11**, in the **Tamil** and **English** mediums; more O/L subjects and the A/L streams come next.
+The website for **StudyBuddy** (Play · Learn · Level up). It's the web version of the StudyBuddy app for Sri Lankan O/L and A/L students. Live O/L subjects (Grade 10 & 11): **Islam**, **History** and **Mathematics** in the **Tamil** and **English** mediums, and **Tamil** (language & literature) in the Tamil medium. More O/L subjects and the A/L streams come next.
 
 - At sign-up, students choose **O/L or A/L**. A/L students also pick their **stream** (Physical Science, Biological Science, Commerce, Arts, Technology). Each student only sees subjects for their level, stream and **medium** (students in a medium we don't have yet see every medium). A/L students see a "coming soon" view until their subjects launch.
 - **62 chapters**, each with four steps: **Notes** → **Flashcards** → **Quiz** → **Past papers** (2016–2025)
@@ -37,6 +37,8 @@ The schema lives in [`supabase/migrations/`](supabase/migrations/). Run the file
 1. [`20261025000001_studybuddy_web_init.sql`](supabase/migrations/20261025000001_studybuddy_web_init.sql): tables, security rules and functions
 2. [`20261025000002_levels_and_streams.sql`](supabase/migrations/20261025000002_levels_and_streams.sql): O/L / A/L level and A/L stream on profiles
 3. [`20261030000003_islam_english_medium.sql`](supabase/migrations/20261030000003_islam_english_medium.sql): adds O/L Islam in the English medium
+4. [`20261121000004_history.sql`](supabase/migrations/20261121000004_history.sql): adds O/L History (Tamil and English)
+5. [`20261128000005_maths_and_tamil.sql`](supabase/migrations/20261128000005_maths_and_tamil.sql): adds O/L Mathematics (Tamil and English) and O/L Tamil
 
 All files are safe to run more than once.
 
@@ -134,6 +136,23 @@ public/history/pictures/<ta|en>/<grade>/<id>.webp, public/history/past-papers/<y
 ```
 
 The images come out of the Word catalogues (in the same order as the `###` entries of the matching `Picture_Notes.md`). When they change, put the new `.docx` files in `content/history-sources/` and run `python scripts/extract-history-pictures.py` (needs `pip install pillow`), then `npm run content`.
+
+### Mathematics
+
+Maths is the StudyBuddy Mathematics export, kept as delivered in `content/StudyBuddy_Mathematics_Complete/StudyBuddy_Mathematics/` (re-export into the same folder to update it):
+
+```
+Tamil_Medium/ and English_Medium/   01 Concept Notes · 02 Flashcards · 03 Formula Bank · 04 Quizzes · 06 Chapter-wise Past Papers
+                                    07 Question Patterns · 08 Visual Maths · 09 Exam Tricks (shown as study guides)
+Shared_Assets/                      the SVG diagrams, copied to public/maths/diagrams by the build
+Developer_Resources/questions_<ta|en>.json   worked solutions used for the past-paper questions
+```
+
+Each chapter (`## G10C01 …`, 32 in Grade 10 and 25 in Grade 11) gets Notes (concept notes plus that chapter's formula bank), Flashcards, the MCQ quiz and Past papers. The past-paper tab lists each exam question's topic with a practice question of the same type and a full worked answer, because the export doesn't reproduce the official wording. Maths is LaTeX (`$…$`, `$$…$$`), typeset with KaTeX. File 05 (progressive practice) and the type-in-the-answer quiz items aren't shown yet.
+
+### Tamil (language & literature)
+
+`content/tamil-ol/01_Tamil_Notes.md` … `08_Tamil_Literature_Mastery.md` (extracted from `StudyBuddy_OL_Tamil_Final.zip`, which isn't committed). The topics `N00`–`N34` become chapters 1–35. The files don't split them by grade, so they're one list shown as "Grade 10 & 11". Quiz units named `GR-xx` go to their matching grammar topic. The past papers (file 04) are shown **by year and paper** on the subject page (2016–2025, papers I, II and III), and literature questions also appear in their topic's Past papers tab. Files 05–08 (grammar, essay bank, writing skills, literature) are study guides.
 
 Locked chapters are never sent to the browser. The server checks access before it loads any chapter content.
 

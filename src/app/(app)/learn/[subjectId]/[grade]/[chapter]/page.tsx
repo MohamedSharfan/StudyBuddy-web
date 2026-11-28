@@ -1,3 +1,4 @@
+import { withArabic } from "@/components/ArabicText";
 import Link from "next/link";
 import { BookOpen, Brain, Check, ChevronRight, Images, Layers, Lock, MapPinned, ScrollText } from "lucide-react";
 import { LockedPanel } from "@/components/LockedPanel";
@@ -110,7 +111,7 @@ export default async function ChapterHub({ params }: { params: ChapterParams }) 
           <ul className="mt-4 space-y-2.5">
             {c.objectives.map((o) => (
               <li key={o} className="flex gap-3 text-[0.95rem]">
-                <span className="text-muted">•</span> {o}
+                <span className="text-muted">•</span> <span>{withArabic(o)}</span>
               </li>
             ))}
           </ul>

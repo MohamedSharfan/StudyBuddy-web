@@ -1,0 +1,455 @@
+[
+ {
+  "id": "GEO-SECTOR-01",
+  "path": "Shared_Assets/Geometry/GEO-SECTOR-01.svg",
+  "desc": "Sector OAB, radius r, centre angle θ",
+  "values": {
+   "theta_drawn_deg": 90
+  }
+ },
+ {
+  "id": "GEO-COMPOSITE-01",
+  "path": "Shared_Assets/Geometry/GEO-COMPOSITE-01.svg",
+  "desc": "Rectangle L × 2r with an outward semicircle (dashed side is not part of the perimeter)"
+ },
+ {
+  "id": "GEO-TRAP-SEMI-01",
+  "path": "Shared_Assets/Geometry/GEO-TRAP-SEMI-01.svg",
+  "desc": "Trapezium (parallel sides a, b, height h) with a semicircle of radius r on side b"
+ },
+ {
+  "id": "GEO-ISOS-BISECT-01",
+  "path": "Shared_Assets/Geometry/GEO-ISOS-BISECT-01.svg",
+  "desc": "Isosceles triangle AB = AC; D midpoint of BC; AD ⟂ BC"
+ },
+ {
+  "id": "GEO-EXTANGLE-01",
+  "path": "Shared_Assets/Geometry/GEO-EXTANGLE-01.svg",
+  "desc": "Triangle ABC with BC produced to D; exterior angle ∠ACD"
+ },
+ {
+  "id": "GEO-PARA-01",
+  "path": "Shared_Assets/Geometry/GEO-PARA-01.svg",
+  "desc": "Parallelogram ABCD; diagonals meet at O (AO = OC, BO = OD)"
+ },
+ {
+  "id": "GEO-CHORD-01",
+  "path": "Shared_Assets/Geometry/GEO-CHORD-01.svg",
+  "desc": "Chord AB with OM ⟂ AB, so AM = MB; OA is a radius",
+  "values": {
+   "r": 1,
+   "OM/r": 0.5
+  }
+ },
+ {
+  "id": "GEO-CIRC-CENTRE-01",
+  "path": "Shared_Assets/Geometry/GEO-CIRC-CENTRE-01.svg",
+  "desc": "∠AOB at the centre and ∠ACB on the circumference stand on arc AB (∠AOB = 2∠ACB)"
+ },
+ {
+  "id": "GEO-CIRC-SEMI-01",
+  "path": "Shared_Assets/Geometry/GEO-CIRC-SEMI-01.svg",
+  "desc": "AB is a diameter; ∠ACB = 90°",
+  "values": {
+   "check_angle_C_deg": 90.0
+  }
+ },
+ {
+  "id": "GEO-CIRC-SAMESEG-01",
+  "path": "Shared_Assets/Geometry/GEO-CIRC-SAMESEG-01.svg",
+  "desc": "∠ACB and ∠ADB are in the same segment (both on arc AB)"
+ },
+ {
+  "id": "GEO-CYCLIC-01",
+  "path": "Shared_Assets/Geometry/GEO-CYCLIC-01.svg",
+  "desc": "Cyclic quadrilateral ABCD with BC produced to E (∠DCE = ∠BAD)"
+ },
+ {
+  "id": "GEO-TANGENT-01",
+  "path": "Shared_Assets/Geometry/GEO-TANGENT-01.svg",
+  "desc": "PT is a tangent at T; OT ⟂ PT",
+  "values": {
+   "dot_OT_PT": -0.0
+  }
+ },
+ {
+  "id": "GEO-TANGENT-02",
+  "path": "Shared_Assets/Geometry/GEO-TANGENT-02.svg",
+  "desc": "Tangents PA = PB from external point P",
+  "values": {
+   "PA": 183.303028,
+   "PB": 183.303028
+  }
+ },
+ {
+  "id": "GEO-ALTSEG-01",
+  "path": "Shared_Assets/Geometry/GEO-ALTSEG-01.svg",
+  "desc": "TA tangent at A; ∠TAB equals ∠ACB in the alternate segment"
+ },
+ {
+  "id": "GEO-PARALLEL-AREA-01",
+  "path": "Shared_Assets/Geometry/GEO-PARALLEL-AREA-01.svg",
+  "desc": "ΔABC and ΔDBC on base BC between parallels AD ∥ BC: equal areas"
+ },
+ {
+  "id": "GEO-MIDPT-01",
+  "path": "Shared_Assets/Geometry/GEO-MIDPT-01.svg",
+  "desc": "P, Q midpoints of AB, AC: PQ ∥ BC and PQ = ½BC",
+  "values": {
+   "PQ/BC": 0.5
+  }
+ },
+ {
+  "id": "GEO-SIMILAR-01",
+  "path": "Shared_Assets/Geometry/GEO-SIMILAR-01.svg",
+  "desc": "DE ∥ BC: ΔADE and ΔABC are equiangular",
+  "values": {
+   "AD/AB": 0.55,
+   "DE/BC": 0.55
+  }
+ },
+ {
+  "id": "GEO-CHORDS-INT-01",
+  "path": "Shared_Assets/Geometry/GEO-CHORDS-INT-01.svg",
+  "desc": "Chords AB and CD meet at X",
+  "values": {
+   "AX*XB": 14289.7786,
+   "CX*XD": 14289.7786
+  }
+ },
+ {
+  "id": "GEO-RIGHT-01",
+  "path": "Shared_Assets/Geometry/GEO-RIGHT-01.svg",
+  "desc": "Right-angled triangle, ∠B = 90°, hypotenuse c = AC"
+ },
+ {
+  "id": "SET-VENN2-01",
+  "path": "Shared_Assets/Other_Diagrams/SET-VENN2-01.svg",
+  "desc": "Two-set Venn diagram inside universal set U"
+ },
+ {
+  "id": "SET-VENN3-01",
+  "path": "Shared_Assets/Other_Diagrams/SET-VENN3-01.svg",
+  "desc": "Three-set Venn diagram (M, S, E); centre = all three"
+ },
+ {
+  "id": "PRO-GRID-01",
+  "path": "Shared_Assets/Other_Diagrams/PRO-GRID-01.svg",
+  "desc": "Sample space grid for two dice (36 outcomes); dots mark sum = 7 (6 outcomes)",
+  "values": {
+   "sum7": 6,
+   "total": 36
+  }
+ },
+ {
+  "id": "PRO-TREE-01",
+  "path": "Shared_Assets/Other_Diagrams/PRO-TREE-01.svg",
+  "desc": "Two-stage tree diagram (Red/Blue); multiply along branches"
+ },
+ {
+  "id": "GRA-LINE-01",
+  "path": "Shared_Assets/Graphs/GRA-LINE-01.svg",
+  "desc": "y = 2x + 1: gradient 2 (rise 2 for run 1), y-intercept 1",
+  "table": {
+   "x": [
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3
+   ],
+   "y": [
+    -3,
+    -1,
+    1,
+    3,
+    5,
+    7
+   ]
+  }
+ },
+ {
+  "id": "GRA-QUAD-01",
+  "path": "Shared_Assets/Graphs/GRA-QUAD-01.svg",
+  "desc": "y = x² − 2x − 3: roots x = −1, 3; turning point (1, −4) minimum; axis x = 1",
+  "table": {
+   "x": [
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "y": [
+    5,
+    0,
+    -3,
+    -4,
+    -3,
+    0,
+    5
+   ]
+  }
+ },
+ {
+  "id": "GRA-QUAD-02",
+  "path": "Shared_Assets/Graphs/GRA-QUAD-02.svg",
+  "desc": "y = x² − 4 (minimum (0, −4)) and y = 4 − x² (maximum (0, 4)); both cut the x-axis at ±2",
+  "table": {
+   "x": [
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3
+   ],
+   "y1=x^2-4": [
+    5,
+    0,
+    -3,
+    -4,
+    -3,
+    0,
+    5
+   ],
+   "y2=4-x^2": [
+    -5,
+    0,
+    3,
+    4,
+    3,
+    0,
+    -5
+   ]
+  }
+ },
+ {
+  "id": "GRA-NUMLINE-01",
+  "path": "Shared_Assets/Graphs/GRA-NUMLINE-01.svg",
+  "desc": "−2 ≤ x < 3: filled dot at −2 (included), open dot at 3 (not included)"
+ },
+ {
+  "id": "GRA-REGION-01",
+  "path": "Shared_Assets/Graphs/GRA-REGION-01.svg",
+  "desc": "Region x ≥ 0, y ≥ 0, x + 2y ≤ 8 (shaded); vertices (0,0), (8,0), (0,4)"
+ },
+ {
+  "id": "STA-PIE-01",
+  "path": "Shared_Assets/Statistical_Charts/STA-PIE-01.svg",
+  "desc": "Pie chart with sector angles 90°, 120°, 60°, 90° (total 360°)",
+  "values": {
+   "sum": 360
+  }
+ },
+ {
+  "id": "STA-HIST-01",
+  "path": "Shared_Assets/Statistical_Charts/STA-HIST-01.svg",
+  "desc": "Histogram (classes 0–10 … 40–50, frequencies 3, 7, 12, 5, 3) with frequency polygon through mid-points, closed at 5 below and 55 above",
+  "table": {
+   "class": [
+    "0-10",
+    "10-20",
+    "20-30",
+    "30-40",
+    "40-50"
+   ],
+   "f": [
+    3,
+    7,
+    12,
+    5,
+    3
+   ],
+   "mid": [
+    5,
+    15,
+    25,
+    35,
+    45
+   ]
+  }
+ },
+ {
+  "id": "STA-OGIVE-01",
+  "path": "Shared_Assets/Statistical_Charts/STA-OGIVE-01.svg",
+  "desc": "Cumulative frequency curve (frequencies 4, 8, 16, 8, 4; plotted at upper boundaries); median at c.f. 20 → 25",
+  "table": {
+   "upper": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50
+   ],
+   "cf": [
+    0,
+    4,
+    12,
+    28,
+    36,
+    40
+   ]
+  },
+  "values": {
+   "median": 25
+  }
+ },
+ {
+  "id": "TRI-BEARING-01",
+  "path": "Shared_Assets/Other_Diagrams/TRI-BEARING-01.svg",
+  "desc": "Bearing of B from A is 060° (clockwise from North)"
+ },
+ {
+  "id": "TRI-ELEV-01",
+  "path": "Shared_Assets/Other_Diagrams/TRI-ELEV-01.svg",
+  "desc": "Angle of elevation θ from P to the top T of a tower QT; tan θ = h/d"
+ },
+ {
+  "id": "TRI-DEPR-01",
+  "path": "Shared_Assets/Other_Diagrams/TRI-DEPR-01.svg",
+  "desc": "Angles of depression from T to boats B₁ (far, smaller angle) and B₂ (near) — measured from the horizontal"
+ },
+ {
+  "id": "SOL-CYL-01",
+  "path": "Shared_Assets/Other_Diagrams/SOL-CYL-01.svg",
+  "desc": "Cylinder, radius r, height h"
+ },
+ {
+  "id": "SOL-CONE-01",
+  "path": "Shared_Assets/Other_Diagrams/SOL-CONE-01.svg",
+  "desc": "Right circular cone: radius r, height h, slant height l = √(r² + h²)"
+ },
+ {
+  "id": "SOL-SPHERE-01",
+  "path": "Shared_Assets/Other_Diagrams/SOL-SPHERE-01.svg",
+  "desc": "Sphere of radius r"
+ },
+ {
+  "id": "SOL-HEMI-01",
+  "path": "Shared_Assets/Other_Diagrams/SOL-HEMI-01.svg",
+  "desc": "Solid hemisphere: curved surface 2πr² + flat face πr²"
+ },
+ {
+  "id": "CON-PERPBIS-01",
+  "path": "Shared_Assets/Constructions/CON-PERPBIS-01.svg",
+  "desc": "Perpendicular bisector of AB — stage 3/3",
+  "values": {
+   "AP": 140.0,
+   "BP": 140.0
+  }
+ },
+ {
+  "id": "CON-PERPBIS-01-S1",
+  "path": "Shared_Assets/Constructions/CON-PERPBIS-01-S1.svg",
+  "desc": "Perpendicular bisector of AB — stage 1/3",
+  "values": {
+   "AP": 140.0,
+   "BP": 140.0
+  }
+ },
+ {
+  "id": "CON-PERPBIS-01-S2",
+  "path": "Shared_Assets/Constructions/CON-PERPBIS-01-S2.svg",
+  "desc": "Perpendicular bisector of AB — stage 2/3",
+  "values": {
+   "AP": 140.0,
+   "BP": 140.0
+  }
+ },
+ {
+  "id": "CON-PERPBIS-01-S3",
+  "path": "Shared_Assets/Constructions/CON-PERPBIS-01-S3.svg",
+  "desc": "Perpendicular bisector of AB — stage 3/3",
+  "values": {
+   "AP": 140.0,
+   "BP": 140.0
+  }
+ },
+ {
+  "id": "CON-ANGBIS-01",
+  "path": "Shared_Assets/Constructions/CON-ANGBIS-01.svg",
+  "desc": "Angle bisector of ∠BAC — stage 3/3",
+  "values": {
+   "bisector_angle_deg": 30.0,
+   "half_angle_deg": 30
+  }
+ },
+ {
+  "id": "CON-ANGBIS-01-S1",
+  "path": "Shared_Assets/Constructions/CON-ANGBIS-01-S1.svg",
+  "desc": "Angle bisector of ∠BAC — stage 1/3",
+  "values": {
+   "bisector_angle_deg": 30.0,
+   "half_angle_deg": 30
+  }
+ },
+ {
+  "id": "CON-ANGBIS-01-S2",
+  "path": "Shared_Assets/Constructions/CON-ANGBIS-01-S2.svg",
+  "desc": "Angle bisector of ∠BAC — stage 2/3",
+  "values": {
+   "bisector_angle_deg": 30.0,
+   "half_angle_deg": 30
+  }
+ },
+ {
+  "id": "CON-ANGBIS-01-S3",
+  "path": "Shared_Assets/Constructions/CON-ANGBIS-01-S3.svg",
+  "desc": "Angle bisector of ∠BAC — stage 3/3",
+  "values": {
+   "bisector_angle_deg": 30.0,
+   "half_angle_deg": 30
+  }
+ },
+ {
+  "id": "CON-TANGENT-01",
+  "path": "Shared_Assets/Constructions/CON-TANGENT-01.svg",
+  "desc": "Tangent at A: extend OA and construct the perpendicular at A — stage 2/2"
+ },
+ {
+  "id": "CON-TANGENT-01-S1",
+  "path": "Shared_Assets/Constructions/CON-TANGENT-01-S1.svg",
+  "desc": "Tangent at A: extend OA and construct the perpendicular at A — stage 1/2"
+ },
+ {
+  "id": "CON-TANGENT-01-S2",
+  "path": "Shared_Assets/Constructions/CON-TANGENT-01-S2.svg",
+  "desc": "Tangent at A: extend OA and construct the perpendicular at A — stage 2/2"
+ },
+ {
+  "id": "CON-CIRCUM-01",
+  "path": "Shared_Assets/Constructions/CON-CIRCUM-01.svg",
+  "desc": "Circumcircle: perpendicular bisectors meet at O — stage 2/2",
+  "values": {
+   "OA": 131.008646,
+   "OB": 131.008646,
+   "OC": 131.008646
+  }
+ },
+ {
+  "id": "CON-CIRCUM-01-S1",
+  "path": "Shared_Assets/Constructions/CON-CIRCUM-01-S1.svg",
+  "desc": "Circumcircle: perpendicular bisectors meet at O — stage 1/2",
+  "values": {
+   "OA": 131.008646,
+   "OB": 131.008646,
+   "OC": 131.008646
+  }
+ },
+ {
+  "id": "CON-CIRCUM-01-S2",
+  "path": "Shared_Assets/Constructions/CON-CIRCUM-01-S2.svg",
+  "desc": "Circumcircle: perpendicular bisectors meet at O — stage 2/2",
+  "values": {
+   "OA": 131.008646,
+   "OB": 131.008646,
+   "OC": 131.008646
+  }
+ }
+]
